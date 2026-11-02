@@ -1,0 +1,359 @@
+{
+  "source": "../data/说明文档.md",
+  "sourceSha256": "f8a38234a7c253c86c38867f149bc1ecb3ddac9aea0ff40cace38d41254a9c4d",
+  "version": "v3.0",
+  "cpus": [
+    {
+      "name": "Ryzen 9 9955HX",
+      "benchmark": 56367,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 188,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra 9 290HX Plus",
+      "benchmark": 58058,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 188,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Apple M5 Max 18核",
+      "benchmark": 57706,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 188,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra 7 251HX",
+      "benchmark": 47130,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 189,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra 7 270HX Plus",
+      "benchmark": 48925,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 189,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Apple M5 Pro 15核",
+      "benchmark": 49093,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 189,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra X7 358H",
+      "benchmark": 33540,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 190,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra 7 356H",
+      "benchmark": 34423,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 190,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra X9 388H",
+      "benchmark": 36504,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 190,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Ryzen 7 H 255",
+      "benchmark": 28247,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 191,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Core Ultra 5 225H",
+      "benchmark": 27986,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 191,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    },
+    {
+      "name": "Apple M5 10核",
+      "benchmark": 26738,
+      "metric": "PassMark CPU Mark",
+      "evidenceType": "benchmark_snapshot",
+      "checkedAt": "2026-10-27",
+      "sourceSection": "5B CPU移动端性能梯队",
+      "sourceLine": 191,
+      "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+      "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+    }
+  ],
+  "gpus": [
+    {
+      "name": "RTX 5080 Laptop GPU",
+      "tier": "extreme_mobile",
+      "tierLabel": "极高移动图形性能",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 215,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "RTX 5090 Laptop GPU",
+      "tier": "extreme_mobile",
+      "tierLabel": "极高移动图形性能",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 215,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "RTX 5070 Ti Laptop GPU",
+      "tier": "high_mobile",
+      "tierLabel": "高移动图形性能",
+      "benchmark": 16874,
+      "metric": "3DMark Time Spy Graphics",
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 216,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "RTX 5060 Laptop GPU",
+      "tier": "mainstream_discrete",
+      "tierLabel": "中高移动图形性能",
+      "benchmark": 12052,
+      "metric": "3DMark Time Spy Graphics",
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 217,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "RTX 4060 Laptop GPU",
+      "tier": "mainstream_discrete",
+      "tierLabel": "中高移动图形性能",
+      "benchmark": 10338,
+      "metric": "3DMark Time Spy Graphics",
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 217,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Intel Arc B390",
+      "tier": "overlap",
+      "tierLabel": "较强核显 / 与入门独显接近的交叠区",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 218,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "RTX 4050 Laptop GPU",
+      "tier": "overlap",
+      "tierLabel": "较强核显 / 与入门独显接近的交叠区",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 218,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Radeon 890M",
+      "tier": "mainstream_integrated",
+      "tierLabel": "主流/较强核显",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 219,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Radeon 780M",
+      "tier": "mainstream_integrated",
+      "tierLabel": "主流/较强核显",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 219,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Intel Arc 130V",
+      "tier": "mainstream_integrated",
+      "tierLabel": "主流/较强核显",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 219,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Intel Arc 140V",
+      "tier": "mainstream_integrated",
+      "tierLabel": "主流/较强核显",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 219,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Radeon 740M",
+      "tier": "entry_integrated",
+      "tierLabel": "入门集显或型号不明确",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 220,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    },
+    {
+      "name": "Radeon 840M",
+      "tier": "entry_integrated",
+      "tierLabel": "入门集显或型号不明确",
+      "benchmark": null,
+      "metric": null,
+      "evidenceType": "mobile_qualitative_tier",
+      "checkedAt": "2026-10-28",
+      "sourceSection": "5C GPU移动端性能梯队与比较",
+      "sourceLine": 220,
+      "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+      "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+    }
+  ],
+  "cpuIdentityOnly": [
+    "Core i5-13420H",
+    "Core 5 320",
+    "Core Ultra 5 325",
+    "Ryzen 5 7530U"
+  ],
+  "categories": [
+    {
+      "sections": "1—3",
+      "kind": "hardware_basics",
+      "use": "名称与类型解释，不赋予性能名次"
+    },
+    {
+      "sections": "5A",
+      "kind": "desktop_background",
+      "use": "桌面/历史背景，不给移动端评分"
+    },
+    {
+      "sections": "5B直接比较、5C实测实例",
+      "kind": "specific_comparison",
+      "use": "保留指标、日期和适用条件；优先于宽泛定位"
+    },
+    {
+      "sections": "5B/5C梯队",
+      "kind": "mobile_tier",
+      "use": "仅限完整匹配或明确标示的移动语境推断"
+    },
+    {
+      "sections": "4、6—12",
+      "kind": "limitations_and_workloads",
+      "use": "工作流差异、未知、功耗和数据不足提示"
+    }
+  ],
+  "directComparisons": [
+    {
+      "subjects": [
+        "Core Ultra X7 358H",
+        "Ryzen 7 H 255"
+      ],
+      "context": "5B：PassMark单核/多核快照前者领先；实际软件与整机可改变差距"
+    },
+    {
+      "subjects": [
+        "RTX 5070 Ti Laptop GPU",
+        "RTX 5060 Laptop GPU"
+      ],
+      "context": "5C：同指标Time Spy Graphics前者领先，不能承诺游戏比例"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "mode": "REAL targeted NVIDIA Search, cached REAL AMD Search body, zero model calls",
+  "id": "np-2f271b787d9913fbf15d",
+  "requirements": {
+    "schemaVersion": 2,
+    "budget": [
+      5000,
+      20000
+    ],
+    "os": "不限",
+    "scenarios": [
+      "modeling-3d",
+      "aaa-games"
+    ],
+    "priorities": [],
+    "hardConstraints": {
+      "minRamGb": null,
+      "minSsdGb": null,
+      "maxWeightKg": null,
+      "discreteGpu": false
+    },
+    "unavailableSelections": []
+  },
+  "diagnostics": {
+    "searchAttempts": [
+      {
+        "topic": "gpu",
+        "rawResults": 4,
+        "unsafeUrl": 0,
+        "duplicate": 0,
+        "unrelated": 0,
+        "noBody": 0,
+        "retained": 4,
+        "fetchFailures": 1,
+        "cacheHit": false
+      }
+    ],
+    "searchHttpStatuses": [
+      {
+        "tool": "search",
+        "status": 200
+      }
+    ],
+    "sourceSummaries": [
+      {
+        "id": "S1",
+        "host": "www.nvidia.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 6,
+        "chars": 3000
+      },
+      {
+        "id": "S2",
+        "host": "www.nvidia.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 1,
+        "chars": 3000
+      },
+      {
+        "id": "S3",
+        "host": "www.nvidia.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 1,
+        "chars": 3000
+      },
+      {
+        "id": "S4",
+        "host": "www.nvidia.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 1,
+        "chars": 3000
+      }
+    ]
+  },
+  "research": {
+    "web": {
+      "status": "partial",
+      "sources": [
+        {
+          "id": "S100",
+          "title": "AMD Ryzen™ 9 8945HX - Skip to main content",
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html",
+          "type": "official",
+          "siteName": "www.amd.com",
+          "scope": "hardware",
+          "label": "AMD处理器官方规格（复用本次已查正文）",
+          "reason": "芯片规格，不是本机实测",
+          "queriedAt": "2026-10-31T03:05:20.818Z",
+          "bodyAvailable": true,
+          "fetched": false,
+          "content": "Selected labelled chip specifications (not current laptop measurements):\nAMD Ryzen 9 8945HX | CPU cores: 16\nAMD Ryzen 9 8945HX | Threads: 32\nAMD Ryzen 9 8945HX | Architecture: Zen 4\nAMD Ryzen 9 8945HX | Max boost clock: Up to 5.4 GHz\nAMD Ryzen 9 8945HX | Default TDP: 55W\nAMD Ryzen 9 8945HX | Configurable TDP: 55-75W\n\nn 8000 Series\n- Form Factor\n- Laptops , Desktops\n- Regional Availability\n- Global\n- Former Codename\n- Dragon Range\n- Processor Architecture\n- Zen 4\n- # of CPU Cores\n- 16\n- Multithreading (SMT)\n- Yes\n- # of Threads\n- 32\n- Max. Boost Clock\n- Up to 5.4 GHz\n- Base Clock\n- 2.5 GHz\n- L1 Cache\n- 1024 KB\n- L2 Cache\n- 16 MB\n- L3 Cache\n- 64 MB\n- Default TDP\n- 55W\n- AMD Configurable TDP (cTDP)\n- 55-75W\n- Processor Technology for CPU Cores\n- TSMC 5nm FinFET\n- Processor Technology for I/O Die\n- TSMC 6nm FinFET\n- CPU Compute Die (CCD) Size\n- 71mm²\n- I/O Die (IOD) Size\n- 122mm²\n- Package Die Count\n- 3\n- Unlocked for Overclocking\n- Yes\n- AMD EXPO™ Memory Overclocking Technology\n- Yes\n- Precision Boost Overdrive\n- Yes\n- CPU Socket\n- FL1\n- CPU Boost Technology\n- Precision Boost 2\n- Instruction Set\n- x86-64\n- Supported Extensions\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- Max. Operating Temperature (Tjmax)\n- 100°C\n- Launch Date\n- 4/23/25\n- *OS Support\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® Version\n- PCIe® 5.0\n- Native PCIe® Lanes (Total/Usable)\n- 28 , 28\n- NVMe Support\n- Boot , RAID0 , RAID1 , RAID10\n- System Memory Type\n- DDR5\n- Memory Channels\n- 2\n- Max. Memory\n- 64 GB\n- System Memory Subtype\n- SO-DIMM\n- Max Memory Speed\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- ECC Support\n- No\n\n- Graphics Model\n- AMD Radeon™ 610M\n- Graphics Core Count\n- 2\n- Graphics Frequency\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- Yes\n- Multi-Monitor Support\n- Yes\n- Max Displays\n- 4\n- AMD FreeSync™\n- Yes\n- Wireless Display\n- Miracast\n- AMD SmartShift MAX\n- Yes\n- AMD SmartAccess Memory\n- Available\n\n- Product ID Tray\n- 100-000001848\n\n- AMD Enhanced Virus Protection (NX bit)\n- Yes\n\n### Drivers and Resources\n\n### Community Support\n\nOnline community helping others by sharing valuable knowledge and experiences.\n",
+          "chipFacts": [
+            {
+              "label": "CPU cores",
+              "value": "16",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            },
+            {
+              "label": "Threads",
+              "value": "32",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            },
+            {
+              "label": "Architecture",
+              "value": "Zen 4",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            },
+            {
+              "label": "Max boost clock",
+              "value": "Up to 5.4 GHz",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            },
+            {
+              "label": "Default TDP",
+              "value": "55W",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            },
+            {
+              "label": "Configurable TDP",
+              "value": "55-75W",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            }
+          ],
+          "cpuMatched": true,
+          "gpuMatched": false
+        },
+        {
+          "id": "S1",
+          "title": "Compare NVIDIA GeForce RTX Laptops",
+          "url": "https://www.nvidia.com/en-us/geforce/laptops/compare/?srch_tag=3oxqyaca6jj2fnete5et6yesqxgv626j",
+          "siteName": "NVIDIA",
+          "type": "official",
+          "publishedAt": "2026-09-02T16:00:00+00:00",
+          "queriedAt": "2026-10-31T03:08:59.537Z",
+          "content": "Selected labelled chip specifications (not current laptop measurements):\nNVIDIA GeForce RTX 5060 Laptop GPU | NVIDIA CUDA Cores: 3328\nNVIDIA GeForce RTX 5060 Laptop GPU | Boost Clock (MHz): 1455 - 2497 MHz\nNVIDIA GeForce RTX 5060 Laptop GPU | GPU Subsystem Power (W): 45 - 100 W\nNVIDIA GeForce RTX 5060 Laptop GPU | Standard Memory Configuration: 8 GB GDDR7\nNVIDIA GeForce RTX 5060 Laptop GPU | Memory Interface Width: 128-bit\nNVIDIA GeForce RTX 5060 Laptop GPU | Architecture: Blackwell\n\n GeForce RTX 5060 Laptop GPU | GeForce RTX 5050 Laptop GPU \n---|---|---|---|---|---\nGPU Engine Specs: \nAI TOPS | 1824 | 1334 | 992 | 798 | 572 | 440 \nNVIDIA CUDA Cores | 10496 | 7680 | 5888 | 4608 | 3328 | 2560 \nBoost Clock (MHz) | 1597 - 2160 MHz | 1500 - 2287 MHz | 1447 - 2220 MHz | 1425 - 2347 MHz | 1455 - 2497 MHz | 1500 - 2662 MHz \nGPU Subsystem Power (W) | 95 - 150 W | 80 - 150 W | 60 - 115 W | 50 - 100 W | 45 - 100 W | 35 - 100 W \nMemory Specs: \nStandard Memory Configuration | 24 GB GDDR7 | 16 GB GDDR7 | 12 GB GDDR7 | 12 GB GDDR7\n8 GB GDDR7\n | 8 GB GDDR7 | 8 GB GDDR7 \nMemory Interface Width | 256-bit | 256-bit | 192-bit | 128-bit | 128-bit | 128-bit \nTechnology Support: \nNVIDIA Architecture | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell \nRay Tracing Cores | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation \nTensor Cores | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation \nNVIDIA DLSS | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 \nDLSS 3D-Guided Neural Rendering | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Dynamic Multi Frame Generation | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Frame Generation | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Ray Reconstruction | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Super Resolution | Yes | Yes | Yes | Yes | Yes | Yes \nDLAA | Yes | Yes | Yes | Yes | Yes | Yes \nReflex Frame Warp (Coming Soon) | Yes | Yes | Yes | Yes | Yes | Yes \nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Broadcast | Yes | Yes | Yes | Yes | Yes | Yes \nPCI Express Gen 5 (1) | Yes | Yes | Yes | Yes | Yes | Yes \nResizable BAR | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA App | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA FreeStyle | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA G-SYNC® | Yes | Yes | Yes | Yes | Yes | Yes \nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Omniverse | Yes | Yes | Yes | Yes | Yes | Yes \nRTX Remix | Yes | Yes | Yes | Yes | Yes | Yes \nMicrosoft DirectX® 12 Ultimate | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA GPU Boost™ | Yes | Yes | Yes | Yes | Yes | Yes \nVulkan RT API, OpenGL 4.6 | Yes | Yes | Yes | Yes | Yes | Yes \nHDMI (2) | Yes | Yes | Yes | Yes | Yes | Yes \nDisplayPort (3) | Yes | Yes ",
+          "summary": "DLAA | Yes | Yes | Yes | Yes | - | -\n...\nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes\n...\nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights  | Yes | Yes | Yes | Yes | Yes | Yes\n...\nNVIDIA Omniverse | Yes  | Yes | Yes  | Yes | - | -\n...\n## Compare ",
+          "bodyAvailable": true,
+          "fetched": false,
+          "chipFacts": [
+            {
+              "label": "NVIDIA CUDA Cores",
+              "value": "3328",
+              "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            },
+            {
+              "label": "Boost Clock (MHz)",
+              "value": "1455 - 2497 MHz",
+              "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            },
+            {
+              "label": "GPU Subsystem Power (W)",
+              "value": "45 - 100 W",
+              "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            },
+            {
+              "label": "Standard Memory Configuration",
+              "value": "8 GB GDDR7",
+              "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            },
+            {
+              "label": "Memory Interface Width",
+              "value": "128-bit",
+              "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            },
+            {
+              "label": "Architecture",
+              "value": "Blackwell",
+              "scope": "chip_family",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            }
+          ],
+          "scope": "hardware",
+          "label": "相关芯片资料",
+          "reason": "芯片的一般能力不等于当前整机实测",
+          "cpuMatched": false,
+          "gpuMatched": true
+        }
+      ],
+      "topics": [
+        "gpu"
+      ],
+      "reused": false,
+      "queriedAt": "2026-10-31T03:08:59.537Z",
+      "counts": {
+        "search": 1,
+        "fetch": 1,
+        "cacheHits": 0
+      },
+      "limits": {
+        "sessionSearch": 5,
+        "sessionFetch": 5
+      },
+      "budgetExhausted": false,
+      "reusedCpuEvidence": true
+    },
+    "state": {
+      "totalSearch": 1,
+      "totalFetch": 1,
+      "nextSourceId": 4,
+      "web": {
+        "status": "partial",
+        "sources": [
+          {
+            "id": "S100",
+            "title": "AMD Ryzen™ 9 8945HX - Skip to main content",
+            "url": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html",
+            "type": "official",
+            "siteName": "www.amd.com",
+            "scope": "hardware",
+            "label": "AMD处理器官方规格（复用本次已查正文）",
+            "reason": "芯片规格，不是本机实测",
+            "queriedAt": "2026-10-31T03:05:20.818Z",
+            "bodyAvailable": true,
+            "fetched": false,
+            "content": "Selected labelled chip specifications (not current laptop measurements):\nAMD Ryzen 9 8945HX | CPU cores: 16\nAMD Ryzen 9 8945HX | Threads: 32\nAMD Ryzen 9 8945HX | Architecture: Zen 4\nAMD Ryzen 9 8945HX | Max boost clock: Up to 5.4 GHz\nAMD Ryzen 9 8945HX | Default TDP: 55W\nAMD Ryzen 9 8945HX | Configurable TDP: 55-75W\n\nn 8000 Series\n- Form Factor\n- Laptops , Desktops\n- Regional Availability\n- Global\n- Former Codename\n- Dragon Range\n- Processor Architecture\n- Zen 4\n- # of CPU Cores\n- 16\n- Multithreading (SMT)\n- Yes\n- # of Threads\n- 32\n- Max. Boost Clock\n- Up to 5.4 GHz\n- Base Clock\n- 2.5 GHz\n- L1 Cache\n- 1024 KB\n- L2 Cache\n- 16 MB\n- L3 Cache\n- 64 MB\n- Default TDP\n- 55W\n- AMD Configurable TDP (cTDP)\n- 55-75W\n- Processor Technology for CPU Cores\n- TSMC 5nm FinFET\n- Processor Technology for I/O Die\n- TSMC 6nm FinFET\n- CPU Compute Die (CCD) Size\n- 71mm²\n- I/O Die (IOD) Size\n- 122mm²\n- Package Die Count\n- 3\n- Unlocked for Overclocking\n- Yes\n- AMD EXPO™ Memory Overclocking Technology\n- Yes\n- Precision Boost Overdrive\n- Yes\n- CPU Socket\n- FL1\n- CPU Boost Technology\n- Precision Boost 2\n- Instruction Set\n- x86-64\n- Supported Extensions\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- Max. Operating Temperature (Tjmax)\n- 100°C\n- Launch Date\n- 4/23/25\n- *OS Support\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® Version\n- PCIe® 5.0\n- Native PCIe® Lanes (Total/Usable)\n- 28 , 28\n- NVMe Support\n- Boot , RAID0 , RAID1 , RAID10\n- System Memory Type\n- DDR5\n- Memory Channels\n- 2\n- Max. Memory\n- 64 GB\n- System Memory Subtype\n- SO-DIMM\n- Max Memory Speed\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- ECC Support\n- No\n\n- Graphics Model\n- AMD Radeon™ 610M\n- Graphics Core Count\n- 2\n- Graphics Frequency\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- Yes\n- Multi-Monitor Support\n- Yes\n- Max Displays\n- 4\n- AMD FreeSync™\n- Yes\n- Wireless Display\n- Miracast\n- AMD SmartShift MAX\n- Yes\n- AMD SmartAccess Memory\n- Available\n\n- Product ID Tray\n- 100-000001848\n\n- AMD Enhanced Virus Protection (NX bit)\n- Yes\n\n### Drivers and Resources\n\n### Community Support\n\nOnline community helping others by sharing valuable knowledge and experiences.\n",
+            "chipFacts": [
+              {
+                "label": "CPU cores",
+                "value": "16",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              },
+              {
+                "label": "Threads",
+                "value": "32",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              },
+              {
+                "label": "Architecture",
+                "value": "Zen 4",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              },
+              {
+                "label": "Max boost clock",
+                "value": "Up to 5.4 GHz",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              },
+              {
+                "label": "Default TDP",
+                "value": "55W",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              },
+              {
+                "label": "Configurable TDP",
+                "value": "55-75W",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              }
+            ],
+            "cpuMatched": true,
+            "gpuMatched": false
+          },
+          {
+            "id": "S1",
+            "title": "Compare NVIDIA GeForce RTX Laptops",
+            "url": "https://www.nvidia.com/en-us/geforce/laptops/compare/?srch_tag=3oxqyaca6jj2fnete5et6yesqxgv626j",
+            "siteName": "NVIDIA",
+            "type": "official",
+            "publishedAt": "2026-09-02T16:00:00+00:00",
+            "queriedAt": "2026-10-31T03:08:59.537Z",
+            "content": "Selected labelled chip specifications (not current laptop measurements):\nNVIDIA GeForce RTX 5060 Laptop GPU | NVIDIA CUDA Cores: 3328\nNVIDIA GeForce RTX 5060 Laptop GPU | Boost Clock (MHz): 1455 - 2497 MHz\nNVIDIA GeForce RTX 5060 Laptop GPU | GPU Subsystem Power (W): 45 - 100 W\nNVIDIA GeForce RTX 5060 Laptop GPU | Standard Memory Configuration: 8 GB GDDR7\nNVIDIA GeForce RTX 5060 Laptop GPU | Memory Interface Width: 128-bit\nNVIDIA GeForce RTX 5060 Laptop GPU | Architecture: Blackwell\n\n GeForce RTX 5060 Laptop GPU | GeForce RTX 5050 Laptop GPU \n---|---|---|---|---|---\nGPU Engine Specs: \nAI TOPS | 1824 | 1334 | 992 | 798 | 572 | 440 \nNVIDIA CUDA Cores | 10496 | 7680 | 5888 | 4608 | 3328 | 2560 \nBoost Clock (MHz) | 1597 - 2160 MHz | 1500 - 2287 MHz | 1447 - 2220 MHz | 1425 - 2347 MHz | 1455 - 2497 MHz | 1500 - 2662 MHz \nGPU Subsystem Power (W) | 95 - 150 W | 80 - 150 W | 60 - 115 W | 50 - 100 W | 45 - 100 W | 35 - 100 W \nMemory Specs: \nStandard Memory Configuration | 24 GB GDDR7 | 16 GB GDDR7 | 12 GB GDDR7 | 12 GB GDDR7\n8 GB GDDR7\n | 8 GB GDDR7 | 8 GB GDDR7 \nMemory Interface Width | 256-bit | 256-bit | 192-bit | 128-bit | 128-bit | 128-bit \nTechnology Support: \nNVIDIA Architecture | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell \nRay Tracing Cores | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation \nTensor Cores | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation \nNVIDIA DLSS | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 \nDLSS 3D-Guided Neural Rendering | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Dynamic Multi Frame Generation | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Frame Generation | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Ray Reconstruction | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Super Resolution | Yes | Yes | Yes | Yes | Yes | Yes \nDLAA | Yes | Yes | Yes | Yes | Yes | Yes \nReflex Frame Warp (Coming Soon) | Yes | Yes | Yes | Yes | Yes | Yes \nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Broadcast | Yes | Yes | Yes | Yes | Yes | Yes \nPCI Express Gen 5 (1) | Yes | Yes | Yes | Yes | Yes | Yes \nResizable BAR | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA App | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA FreeStyle | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA G-SYNC® | Yes | Yes | Yes | Yes | Yes | Yes \nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Omniverse | Yes | Yes | Yes | Yes | Yes | Yes \nRTX Remix | Yes | Yes | Yes | Yes | Yes | Yes \nMicrosoft DirectX® 12 Ultimate | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA GPU Boost™ | Yes | Yes | Yes | Yes | Yes | Yes \nVulkan RT API, OpenGL 4.6 | Yes | Yes | Yes | Yes | Yes | Yes \nHDMI (2) | Yes | Yes | Yes | Yes | Yes | Yes \nDisplayPort (3) | Yes | Yes ",
+            "summary": "DLAA | Yes | Yes | Yes | Yes | - | -\n...\nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes\n...\nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights  | Yes | Yes | Yes | Yes | Yes | Yes\n...\nNVIDIA Omniverse | Yes  | Yes | Yes  | Yes | - | -\n...\n## Compare ",
+            "bodyAvailable": true,
+            "fetched": false,
+            "chipFacts": [
+              {
+                "label": "NVIDIA CUDA Cores",
+                "value": "3328",
+                "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              },
+              {
+                "label": "Boost Clock (MHz)",
+                "value": "1455 - 2497 MHz",
+                "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              },
+              {
+                "label": "GPU Subsystem Power (W)",
+                "value": "45 - 100 W",
+                "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              },
+              {
+                "label": "Standard Memory Configuration",
+                "value": "8 GB GDDR7",
+                "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              },
+              {
+                "label": "Memory Interface Width",
+                "value": "128-bit",
+                "scope": "selected_gpu_chip_column_not_current_laptop_tgp",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              },
+              {
+                "label": "Architecture",
+                "value": "Blackwell",
+                "scope": "chip_family",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              }
+            ],
+            "scope": "hardware",
+            "label": "相关芯片资料",
+            "reason": "芯片的一般能力不等于当前整机实测",
+            "cpuMatched": false,
+            "gpuMatched": true
+          }
+        ],
+        "topics": [
+          "gpu"
+        ],
+        "reused": false,
+        "queriedAt": "2026-10-31T03:08:59.537Z",
+        "counts": {
+          "search": 1,
+          "fetch": 1,
+          "cacheHits": 0
+        },
+        "limits": {
+          "sessionSearch": 5,
+          "sessionFetch": 5
+        },
+        "budgetExhausted": false,
+        "reusedCpuEvidence": true
+      },
+      "updated": 1793416139537,
+      "topics": [
+        "gpu"
+      ]
+    }
+  },
+  "rawTools": [
+    {
+      "endpoint": "https://api.deepseek.com/v1/tools/search",
+      "payload": {
+        "query": "NVIDIA GeForce RTX 5060 Laptop GPU 显卡 specifications site:nvidia.com/en-us/geforce/laptops/compare/",
+        "count": 4,
+        "need_content": true
+      },
+      "status": 200,
+      "data": {
+        "results": [
+          {
+            "title": "GeForce RTX 5060 Laptops Available Starting Today, From $1099 - GeForce RTX 5060 Laptops Available Starting Today, From $1099",
+            "site_name": "NVIDIA",
+            "site_icon": "https://cdn.deepseek.com/site-icons/nvidia.com",
+            "authority": 3,
+            "rerank_score": 1.1725882291793823,
+            "date": "2025-06-08T16:00:00+00:00",
+            "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-laptops-available-now/?em-news-527746_en-us&nvweb_e=viGYT6UejidmRmMnRcxKn0CDHIeuepkcO5Pbg1RmDI-66_DTfWDjamlCOVzppcby1QFmGTKeryAl0FM54egBoQ#1",
+            "summary": "# GeForce RTX 5060 Laptops Available Starting Today, From $1099\n\nPowered by NVIDIA Blackwell, GeForce RTX 50 Series laptops bring game-changing capabilities to gamers and creators. Multiply performance with NVIDIA DLSS 4 Multi Frame Generation, generate images at unprecedented speed, power through work, unleash your creativity with NVIDIA Studio apps, and use AI innovations on the go in the thinnest and longest-lasting RTX laptops yet, optimized by our newest Max-Q technologies.\n\nNow, there are even more options for people wanting access to the latest innovations in a mobile form factor with the launch of GeForce RTX 5060 Laptop GPUs available in new models from every major manufacturer, starting at $1099.\n\nThese laptops are as thin as 14.9mm, give gamers double the performance of the previous generation with the power of NVIDIA Blackwell and DLSS 4, and enable 100+ FPS in your favorite games.\n...\nUsing DLSS 4 with Multi Frame Generation and NVIDIA Reflex, GeForce RTX 5060 Laptop GPUs are more than twice the speed of previous-generation laptops, with enhanced image quality and more responsive controls:\n\nWhatever your use case, GeForce RTX 5060 Laptop GPUs are an excellent choice, offering a great balance between power, performance and portability.\n\nLaptops with our latest GPU are as light as 1.46kg, with displays from 14”, and reported battery life of up to 14 hours.\n\nNew models from ASUS, MSI and Razer are also NVIDIA Studio-validated, ensuring Blackwell innovations and GPU acceleration are utilized in apps, and the experience is optimized by NVIDIA Studio Drivers that deliver exceptional stability.\n\nWorking with leading app developers, NVIDIA Studio and GeForce RTX 50 Series Laptop GPUs double creative performance in 3D design, video and generative AI apps. GeForce RTX 50 Series Laptops also support 4:2:2 video editing and encoding in many top video editing applications including DaVinci Resolve and Adobe Premiere Pro. Ninth generation NVIDIA Encoders accelerate encoding and improve the quality of AV1 files, while also offering AV1 Ultra High Quality mode for the highest possible fidelity. Sixth generation NVIDIA Decoders double H.264 decoding speed. Chaos Vantage and D5 Render viewports are also accelerated by DLSS 4 with Multi Frame Generation, enhancing creative workflows for architects, animators and designers.\n\nThese are just a few of the advantages and capabilities of NVIDIA Blackwell GeForce RTX 50 Series Laptop GPUs in 3D design, rendering, video editing, photography, graphic design, broadcasting and architectural visualization apps - head to the NVIDIA Studio software page to see the complete list.\n\n## GeForce RTX 5060 Laptop GPUs Available Starting Today\n\nTo help you pick the perfect laptop for your needs, here’s a look at some of the top models from our OEM partners.\n...\n### ACER Predator Helios Neo 14 AI\n\nGet legendary gaming performance on the ACER Predator Helios Neo 14 AI, delivering ultra-smooth gameplay and future-ready AI. The 14.5” OLED screen boasts a stunning 2.8k WQXGA+ 2880 x 1800 resolution and a 0.2ms response time, ensuring ultra-smooth gameplay and lifelike visuals at every turn. Generate images at unparalleled speed with DLSS 4 and experience cinematic-quality visuals with ray tracing and innovative neural rendering technologies.\n\n### ASUS TUF Gaming A14\n\nASUS’ TUF Gaming A14 is their most compact TUF Gaming laptop ever, at 1.69cm thin, and 1.46kg light. The 2560x1600 165Hz 14” G-SYNC display can lay flat thanks to a 180 degree hinge, and when power runs low ASUS says the battery can be charged to 50% in 30 minutes using 100W USB-C power delivery. Paired with up to 32GB of LPDDR5X 7500MHz memory and up to 4TB of PCIe Gen 4 extendable storage, this next-gen AI PC stands ready to enhance your productivity.\n\n### Alienware 16X Aurora Gaming Laptop\n\nThe new Alienware Aurora offers up to 155 Watts of Total Performance Power for gamers and creators. Boasting a 16” QHD+ 240Hz display with 500 nits peak brightness and 100% DCI-P3 coverage, buyers can view their games and creations in excellent detail.\n\n### GIGABYTE Gaming A16\n\nThe GIGABYTE Gaming A16 is a super slim laptop claiming up to 14 hours of battery life, and featuring a 180 degree lay-flat design and 1...",
+            "snippet": "These laptops are as thin as 14.9mm, give gamers double the performance of the previous generation with the power of NVIDIA Blackwell and DLSS 4, and enable 100+ FPS in your favorite games. ... Laptops with our latest GPU are as light as 1.46kg, with displays from 14”...",
+            "content": "# GeForce RTX 5060 Laptops Available Starting Today, From $1099\n\nPowered by NVIDIA Blackwell, GeForce RTX 50 Series laptops bring game-changing capabilities to gamers and creators. Multiply performance with NVIDIA DLSS 4 Multi Frame Generation, generate images at unprecedented speed, power through work, unleash your creativity with NVIDIA Studio apps, and use AI innovations on the go in the thinnest and longest-lasting RTX laptops yet, optimized by our newest Max-Q technologies.\n\nNow, there are even more options for people wanting access to the latest innovations in a mobile form factor with the launch of GeForce RTX 5060 Laptop GPUs available in new models from every major manufacturer, starting at $1099.\n\nThese laptops are as thin as 14.9mm, give gamers double the performance of the previous generation with the power of NVIDIA Blackwell and DLSS 4, and enable 100+ FPS in your favorite games. Creators can leverage the latest AI advancements to accelerate creative workflows. Students can accelerate performance in apps used in engineering, architecture, computer science, data science, economics, and more. Play, create, and work longer on battery thanks to Blackwell innovations and Max-Q power optimization.\n\nUsing DLSS 4 with Multi Frame Generation and NVIDIA Reflex, GeForce RTX 5060 Laptop GPUs are more than twice the speed of previous-generation laptops, with enhanced image quality and more responsive controls:\n\nWhatever your use case, GeForce RTX 5060 Laptop GPUs are an excellent choice, offering a great balance between power, performance and portability.\n\nLaptops with our latest GPU are as light as 1.46kg, with displays from 14”, and reported battery life of up to 14 hours.\n\nNew models from ASUS, MSI and Razer are also NVIDIA Studio-validated, ensuring Blackwell innovations and GPU acceleration are utilized in apps, and the experience is optimized by NVIDIA Studio Drivers that deliver exceptional stability.\n\nWorking with leading app developers, NVIDIA Studio and GeForce RTX 50 Series Laptop GPUs double creative performance in 3D design, video and generative AI apps. GeForce RTX 50 Series Laptops also support 4:2:2 video editing and encoding in many top video editing applications including DaVinci Resolve and Adobe Premiere Pro. Ninth generation NVIDIA Encoders accelerate encoding and improve the quality of AV1 files, while also offering AV1 Ultra High Quality mode for the highest possible fidelity. Sixth generation NVIDIA Decoders double H.264 decoding speed. Chaos Vantage and D5 Render viewports are also accelerated by DLSS 4 with Multi Frame Generation, enhancing creative workflows for architects, animators and designers.\n\nThese are just a few of the advantages and capabilities of NVIDIA Blackwell GeForce RTX 50 Series Laptop GPUs in 3D design, rendering, video editing, photography, graphic design, broadcasting and architectural visualization apps - head to the NVIDIA Studio software page to see the complete list.\n\n## GeForce RTX 5060 Laptop GPUs Available Starting Today\n\nTo help you pick the perfect laptop for your needs, here’s a look at some of the top models from our OEM partners. Availability is beginning today around the world - keep an eye out as these models and others start arriving soon to retailers near you.\n\n### ACER Predator Helios Neo 14 AI\n\nGet legendary gaming performance on the ACER Predator Helios Neo 14 AI, delivering ultra-smooth gameplay and future-ready AI. The 14.5” OLED screen boasts a stunning 2.8k WQXGA+ 2880 x 1800 resolution and a 0.2ms response time, ensuring ultra-smooth gameplay and lifelike visuals at every turn. Generate images at unparalleled speed with DLSS 4 and experience cinematic-quality visuals with ray tracing and innovative neural rendering technologies.\n\n### ASUS TUF Gaming A14\n\nASUS’ TUF Gaming A14 is their most compact TUF Gaming laptop ever, at 1.69cm thin, and 1.46kg light. The 2560x1600 165Hz 14” G-SYNC display can lay flat thanks to a 180 degree hinge, and when power runs low ASUS says the battery can be charged to 50% in 30 minutes using 100W USB-C power delivery. Paired with up to 32GB of LPDDR5X 7500MHz memory and up to 4TB of PCIe Gen 4 extendable storage, this next-gen AI PC stands ready to enhance your productivity.\n\n### Alienware 16X Aurora Gaming Laptop\n\nThe new Alienware Aurora offers up to 155 Watts of Total Performance Power for gamers and creators. Boasting a 16” QHD+ 240Hz display with 500 nits peak brightness and 100% DCI-P3 coverage, buyers can view their games and creations in excellent detail.\n\n### GIGABYTE Gaming A16\n\nThe GIGABYTE Gaming A16 is a super slim laptop claiming up to 14 hours of battery life, and featuring a 180 degree lay-flat design and 165Hz WQXGA 16\" panel. The A16 also features an Ergonomic Golden Curve keyboard ensuring maximum productivity.\n\n### HP OMEN Transcend 14\n\nThe new HP Omen Transcend 14 is a 1.63kg, 17.78mm all-metal laptop with a 3K-resolution OLED display and cites up to 11.5 hours of battery life, in configurations up to 64GB of LPDDR5 RAM.\n\n### Lenovo Legion Pro 5i\n\nFor aspiring competitive gamers looking to achieve that platinum rank, the Legion Pro 5i features GeForce RTX 50 Series Laptop graphics for elite performance. The Lenovo PureSight OLED Gaming display delivers ultra-clear visuals and lightning-fast response for high FPS play.\n\n### MSI Venture Pro A14 AI+\n\nThe new MSI Venture Pro A14 AI+ AI+ is a sleek laptop with a 2K-resolution OLED display. With upgradable memory for enhanced speed and a spatial array soundsystem, sound your best with this new laptop. It also supports up to 96GB with its 2 slots of DDR5 memory.\n\n### Razer Blade 14\n\nFeaturing a thinner 15.24mm design, the new Razer Blade 14 is 11% smaller than the previous generation with up to 11 hours of battery according to Razer, so you can play, work, or create on the go. The Blade 14 also features a compact chassis precision-milled from a single block of aluminum to push the boundaries of performance and design.\n\n## Even More Models Are On The Way\n\nTo find even more GeForce RTX 50 Series laptops, bookmark the NVIDIA Marketplace, where new releases are tracked, with links to purchase them from retailers in your country.\n\n## GeForce RTX 5060 Family Is Here\n\nWith the launch of the GeForce RTX 5060 Family, DLSS 4 Multi Frame Generation, neural rendering and Blackwell innovations arrive for every gamer. Get fast frame rates, experience immersive ray-traced graphics in the biggest games, unlock new experiences with AI, enhance image quality with DLSS transformer models, and make controls more responsive using Reflex.\n\nThe state of the art continues to evolve, and with a GeForce RTX 50 Series laptop or graphics card, you’re positioned to experience all of the newest innovations in the latest and greatest games.\n\nTo ensure you’re on the cutting edge, upgrade to a GeForce RTX 50 Series laptop or desktop GPU today.\n"
+          },
+          {
+            "title": "Compare NVIDIA GeForce RTX Laptops",
+            "site_name": "NVIDIA",
+            "site_icon": "https://cdn.deepseek.com/site-icons/nvidia.com",
+            "authority": 3,
+            "rerank_score": 0.8075005412101746,
+            "date": "2026-09-02T16:00:00+00:00",
+            "url": "https://www.nvidia.com/en-us/geforce/laptops/compare/?srch_tag=3oxqyaca6jj2fnete5et6yesqxgv626j#1",
+            "summary": "DLAA | Yes | Yes | Yes | Yes | - | -\n...\nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes\n...\nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights  | Yes | Yes | Yes | Yes | Yes | Yes\n...\nNVIDIA Omniverse | Yes  | Yes | Yes  | Yes | - | -\n...\n## Compare 50 Series Specs\n\nGeForce RTX 5090 Laptop GPU | GeForce RTX 5080 Laptop GPU | GeForce RTX 5070 Ti Laptop GPU | GeForce RTX 5070 Laptop GPU | GeForce RTX 5060 Laptop GPU | GeForce RTX 5050 Laptop GPU\n...\nGPU Engine Specs: \nAI TOPS | 1824 | 1334 | 992 | 798 | 572 | 440 \nNVIDIA CUDA Cores | 10496 | 7680 | 5888 | 4608 | 3328 | 2560 \nBoost Clock (MHz) | 1597 - 2160 MHz | 1500 - 2287 MHz | 1447 - 2220 MHz | 1425 - 2347 MHz | 1455 - 2497 MHz | 1500 - 2662 MHz \nGPU Subsystem Power (W) | 95 - 150 W | 80 - 150 W | 60 - 115 W | 50 - 100 W | 45 - 100 W | 35 - 100 W \nMemory Specs: \nStandard Memory Configuration | 24 GB GDDR7 | 16 GB GDDR7 | 12 GB GDDR7 | 12 GB GDDR7\n8 GB GDDR7\n | 8 GB GDDR7 | 8 GB GDDR7 \nMemory Interface Width | 256-bit | 256-bit | 192-bit | 128-bit | 128-bit | 128-bit \nTechnology Support: \nNVIDIA Architecture | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell \nRay Tracing Cores | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation \nTensor Cores | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation \nNVIDIA DLSS | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5\n...\nPCI Express Gen 5 (1) | Yes | Yes | Yes | Yes | Yes | Yes \nResizable BAR | Yes | Yes | Yes | Yes | Yes | Yes\n...\nNVIDIA FreeStyle | Yes | Yes | Yes | Yes | Yes | Yes\n...\nNVIDIA Highlights | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA G-SYNC® | Yes | Yes | Yes | Yes | Yes | Yes\n...\nMicrosoft DirectX® 12 Ultimate | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA GPU Boost™ | Yes | Yes | Yes | Yes | Yes | Yes \nVulkan RT API, OpenGL 4.6 | Yes | Yes | Yes | Yes | Yes | Yes \nHDMI (2) | Yes | Yes | Yes | Yes | Yes | Yes \nDisplayPort (3) | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Encoder | 3x Ninth Generation | 2x Ninth Generation | 1x Ninth Generation | 1x Ninth Generation | 1x Ninth Generation | 1x Ninth Generation \nNVIDIA Decoder | 2x Sixth Generation | 2x Sixth Generation | 1x Sixth Generation | 1x Sixth Generation | 1x Sixth Generation | 1x Sixth Generation \nCUDA Capability | 12.8 | 12.8 | 12.8 | 12.8 | 12.8 | 12.8 \n\n1 - Supports PCI Express Gen 5. Check with the laptop manufacturer about PCI Express configurations on specific laptop models.\n\n2 - Supports up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR as specified in HDMI 2.1b. Check with the laptop manufacturer about...",
+            "snippet": "Reflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes ... Game Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes NVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes ... NVIDIA Omniverse ... | GeForce RTX 5060 Laptop GPU | GeForce RTX 5050 Laptop GPU ... NVIDIA CUDA Cores | ... Boost Clock (MHz) | 1597 - 2160 MHz | 1500 ... Memory Interface Width | 256-bit",
+            "content": "# Compare Gaming Laptops:\n\n## Technologies\n\nRTX 50 Series Laptop GPU | RTX 40 Series Laptop GPU | RTX 30 Series Laptop GPU | RTX 20 Series Laptop GPU | GTX 16 Series | GTX 10 Series \n---|---|---|---|---|---\nNVIDIA Architecture | Architecture Name | Blackwell | Ada Lovelace | Ampere | Turing | Turing | Pascal \nStreaming Multiprocessors  | 2x FP32 | 2x FP32 | 2x FP32 | 1x FP32 | 1x FP32 | 1x FP32 \nRay Tracing Cores  | Gen 4 | Gen 3 | Gen 2  | Gen 1  | - | - \nTensor Cores (AI)  | Gen 5 | Gen 4 | Gen 3  | Gen 2  | - | - \nPlatform  | NVIDIA DLSS | DLSS 5 | DLSS 3 | DLSS 2 | DLSS 2 | - | - \nDLSS 3D-Guided Neural Rendering | Yes | - | - | - | - | - \nDLSS Dynamic Multi Frame Generation | Yes | - | - | - | - | - \nDLSS Frame Generation | Yes | Yes | - | - | - | - \nDLSS Ray Reconstruction | Yes | Yes | Yes | Yes | - | - \nDLSS Super Resolution | Yes | Yes | Yes | Yes | - | - \nDLAA | Yes | Yes | Yes | Yes | - | - \nReflex Frame Warp (Coming Soon) | Yes | Yes | Yes | Yes | - | - \nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Broadcast | Yes  | Yes | Yes | Yes  | - | - \nNVIDIA App | Yes | Yes | Yes | Yes | Yes | Yes \nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights  | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Freestyle  | Yes | Yes | Yes | Yes | Yes | Yes \nVR Ready | Yes  | Yes | Yes  | Yes | GTX 1650 Super or higher | GTX 1060 or higher \nNVIDIA Omniverse | Yes  | Yes | Yes  | Yes | - | - \nRTX Remix | Yes  | Yes | RTX 3060 Laptop GPU or greater | - | - | - \nNVIDIA Smooth Motion | Yes  | - | - | - | - | - \nAdditional Features | PCIe  | Gen 5 | Gen 4 | Gen 4 | Gen 3 | Gen 3 | Gen 3 \nNVIDIA Encoder (NVENC) | Gen 9 | Gen 8 | Gen 7  | Gen 7 | Gen 6  | Gen 6  \nNVIDIA Decoder (NVDEC) | Gen 6 | Gen 5 | Gen 5 | Gen 4 | Gen 4 | Gen 3 \nAV1 Encode | Yes | Yes | - | - | - | - \nAV1 Decode | Yes | Yes | Yes | - | - | - \nCUDA Capability | 12.0 | 8.9 | 8.6 | 7.5 | 7.5 | 6.1 \nDX12 Ultimate | Yes | Yes | Yes | Yes | -  | -  \n\n## Compare 50 Series Specs\n\nGeForce RTX 5090 Laptop GPU | GeForce RTX 5080 Laptop GPU | GeForce RTX 5070 Ti Laptop GPU | GeForce RTX 5070 Laptop GPU | GeForce RTX 5060 Laptop GPU | GeForce RTX 5050 Laptop GPU \n---|---|---|---|---|---\nGPU Engine Specs: \nAI TOPS | 1824 | 1334 | 992 | 798 | 572 | 440 \nNVIDIA CUDA Cores | 10496 | 7680 | 5888 | 4608 | 3328 | 2560 \nBoost Clock (MHz) | 1597 - 2160 MHz | 1500 - 2287 MHz | 1447 - 2220 MHz | 1425 - 2347 MHz | 1455 - 2497 MHz | 1500 - 2662 MHz \nGPU Subsystem Power (W) | 95 - 150 W | 80 - 150 W | 60 - 115 W | 50 - 100 W | 45 - 100 W | 35 - 100 W \nMemory Specs: \nStandard Memory Configuration | 24 GB GDDR7 | 16 GB GDDR7 | 12 GB GDDR7 | 12 GB GDDR7\n8 GB GDDR7\n | 8 GB GDDR7 | 8 GB GDDR7 \nMemory Interface Width | 256-bit | 256-bit | 192-bit | 128-bit | 128-bit | 128-bit \nTechnology Support: \nNVIDIA Architecture | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell | Blackwell \nRay Tracing Cores | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation | Fourth Generation \nTensor Cores | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation | Fifth Generation \nNVIDIA DLSS | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 | DLSS 5 \nDLSS 3D-Guided Neural Rendering | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Dynamic Multi Frame Generation | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Frame Generation | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Ray Reconstruction | Yes | Yes | Yes | Yes | Yes | Yes \nDLSS Super Resolution | Yes | Yes | Yes | Yes | Yes | Yes \nDLAA | Yes | Yes | Yes | Yes | Yes | Yes \nReflex Frame Warp (Coming Soon) | Yes | Yes | Yes | Yes | Yes | Yes \nReflex Low Latency Mode | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Broadcast | Yes | Yes | Yes | Yes | Yes | Yes \nPCI Express Gen 5 (1) | Yes | Yes | Yes | Yes | Yes | Yes \nResizable BAR | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA App | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA FreeStyle | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA G-SYNC® | Yes | Yes | Yes | Yes | Yes | Yes \nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Omniverse | Yes | Yes | Yes | Yes | Yes | Yes \nRTX Remix | Yes | Yes | Yes | Yes | Yes | Yes \nMicrosoft DirectX® 12 Ultimate | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA GPU Boost™ | Yes | Yes | Yes | Yes | Yes | Yes \nVulkan RT API, OpenGL 4.6 | Yes | Yes | Yes | Yes | Yes | Yes \nHDMI (2) | Yes | Yes | Yes | Yes | Yes | Yes \nDisplayPort (3) | Yes | Yes | Yes | Yes | Yes | Yes \nNVIDIA Encoder | 3x Ninth Generation | 2x Ninth Generation | 1x Ninth Generation | 1x Ninth Generation | 1x Ninth Generation | 1x Ninth Generation \nNVIDIA Decoder | 2x Sixth Generation | 2x Sixth Generation | 1x Sixth Generation | 1x Sixth Generation | 1x Sixth Generation | 1x Sixth Generation \nCUDA Capability | 12.8 | 12.8 | 12.8 | 12.8 | 12.8 | 12.8 \n\n1 - Supports PCI Express Gen 5. Check with the laptop manufacturer about PCI Express configurations on specific laptop models.\n\n2 - Supports up to 4K 480Hz or 8K 120Hz with DSC, Gaming VRR, HDR as specified in HDMI 2.1b. Check with the laptop manufacturer about HDMI capabilities on specific laptop models.\n\n3 - DisplayPort 2.1b. Check with the laptop manufacturer about DisplayPort capabilities on specific laptop models.\n\n## GeForce RTX 40 Series\n\nGeForce RTX 4090 Laptop GPU | GeForce RTX 4080 Laptop GPU | GeForce RTX 4070 Laptop GPU | GeForce RTX 4060 Laptop GPU | GeForce RTX 4050 Laptop GPU \n---|---|---|---|---\nGPU Engine Specs: \nAI TOPS | 686 | 542 | 321 | 233 | 194 \nNVIDIA CUDA® Cores | 9728 | 7424 | 4608 | 3072 | 2560 \nBoost Clock (MHz) | 1455 - 2040 MHz | 1350 - 2280 MHz | 1230 - 2175 MHz | 1470 - 2370 MHz | 1605 - 2370 MHz \nGPU Subsystem Power (W) | 80 - 150 W | 60 - 150 W | 35 - 115 W | 35 - 115 W | 35 - 115 W \nMemory Specs: \nStandard Memory Config | 16 GB GDDR6 | 12 GB GDDR6 | 8 GB GDDR6 | 8 GB GDDR6 | 6 GB GDDR6 \nMemory Interface Width | 256-bit | 192-bit | 128-bit | 128-bit | 96-bit \nTechnology Support: \nRay Tracing Cores | 3rd Generation | 3rd Generation | 3rd Generation | 3rd Generation | 3rd Generation \nTensor Cores | 4th Generation | 4th Generation | 4th Generation | 4th Generation | 4th Generation \nNVIDIA Architecture | Ada Lovelace | Ada Lovelace | Ada Lovelace | Ada Lovelace | Ada Lovelace \nMicrosoft DirectX® 12 Ultimate | Yes | Yes | Yes | Yes | Yes \nNVIDIA DLSS | DLSS 3 (Super Resolution + Frame Generation) | DLSS 3 (Super Resolution + Frame Generation) | DLSS 3 (Super Resolution + Frame Generation) | DLSS 3 (Super Resolution + Frame Generation) | DLSS 3 (Super Resolution + Frame Generation) \nNVIDIA Reflex | Yes | Yes | Yes | Yes | Yes \nNVIDIA Broadcast | Yes | Yes | Yes | Yes | Yes \nPCI Express Gen 4 | Yes | Yes | Yes | Yes | Yes \nResizable BAR | Yes | Yes | Yes | Yes | Yes \nNVIDIA® GeForce Experience™ | Yes | Yes | Yes | Yes | Yes \nNVIDIA FreeStyle | Yes | Yes | Yes | Yes | Yes \nNVIDIA ShadowPlay® | Yes | Yes | Yes | Yes | Yes \nNVIDIA Highlights | Yes | Yes | Yes | Yes | Yes \nNVIDIA G-SYNC® | Yes | Yes | Yes | Yes | Yes \nGame Ready Drivers | Yes | Yes | Yes | Yes | Yes \nNVIDIA Studio Drivers | Yes | Yes | Yes | Yes | Yes \nNVIDIA Omniverse | Yes | Yes | Yes | Yes | Yes \nNVIDIA GPU Boost™ | Yes | Yes | Yes | Yes | Yes \nVulkan RT API, OpenGL 4.6 | Yes | Yes | Yes | Yes | Yes \nHDMI1 | Yes | Yes | Yes | Yes | Yes \nDisplayPort2 | Yes | Yes | Yes | Yes | Yes \nNVIDIA Encoder | 2x 8th Generation | 2x 8th Generation | 8th Generation | 8th Generation | 8th Generation \nNVIDIA Decoder | 5th Generation | 5th Generation | 5th Generation | 5th Generation | 5th Generation \nCUDA Capability | 8.9 | 8.9 | 8.9 | 8.9 | 8.9 \n\nCheck with the laptop manufacturer about support for specific NVIDIA technologies.\n\n1 - GPU supports as specified in HDMI 2.1a: up to 4K 240Hz or 8K 60Hz with DSC, Gaming VRR, HDR. GPU implementations can vary, check with the laptop manufacturer about HDMI capabilities on specific laptop models.\n\n2 - DisplayPort 1.4a. Check with the laptop manufacturer about DisplayPort capabilities on specific laptop models."
+          },
+          {
+            "title": "",
+            "site_name": "NVIDIA",
+            "site_icon": "https://cdn.deepseek.com/site-icons/nvidia.com",
+            "authority": 3,
+            "rerank_score": 0.8034799098968506,
+            "date": null,
+            "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-laptops-available-now.md#1",
+            "summary": "# GeForce RTX 5060 Laptops Available Starting Today, From $1099\n\nBy Andrew Burnes on May 19, 2025\n...\nPowered by NVIDIA Blackwell, [GeForce RTX 50 Series laptops](https://www.nvidia.com/en-us/geforce/laptops/50-series.md) bring game-changing capabilities to gamers and creators. Multiply performance with [NVIDIA DLSS 4 Multi Frame Generation](https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations.md), generate images at unprecedented speed, power through work, unleash your creativity with NVIDIA Studio apps, and use AI innovations on the go in the thinnest and longest-lasting RTX laptops yet, optimized by our newest [Max-Q technologies](https://www.nvidia.com/en-us/geforce/gaming-laptops/max-q-technologies.md).\n\nNow, there are even more options for people wanting access to the latest innovations in a mobile form factor with the launch of GeForce RTX 5060 Laptop GPUs available in new models from every major manufacturer, starting at $1099.\n\nThese laptops are as thin as 14.9mm, give gamers double the performance of the previous generation with the power of NVIDIA Blackwell and DLSS 4, and enable 100+ FPS in your favorite games. Creators can leverage the latest AI advancements to accelerate creative workflows. Students can accelerate performance in apps used in engineering, architecture, computer science, data science, economics, and more. Play, create, and work longer on battery thanks to Blackwell innovations and Max-Q power optimization.\n\nUsing [DLSS 4 with Multi Frame Generation](https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations.md) and [NVIDIA Reflex](https://www.nvidia.com/en-us/geforce/technologies/reflex.md), GeForce RTX 5060 Laptop GPUs are more than twice the speed of previous-generation laptops, with enhanced image quality and more responsive controls:\n\nWhatever your use case, GeForce RTX 5060 Laptop GPUs are an excellent choice, offering a great balance between power, performance and portability.\n\nLaptops with our latest GPU are as light as 1.46kg, with displays from 14”, and reported battery life of up to 14 hours.\n\nNew models from ASUS, MSI and Razer are also [NVIDIA Studio](https://www.nvidia.com/en-us/studio.md)-validated, ensuring Blackwell innovations and GPU acceleration are utilized in apps, and the experience is optimized by NVIDIA Studio Drivers that deliver exceptional stability.\n\nWorking with leading app developers, NVIDIA Studio and GeForce RTX 50 Series Laptop GPUs [double creative performance](https://blogs.nvidia.com/blog/generative-ai-studio-ces-geforce-rtx-50-series/) in 3D design, video and generative AI apps. GeForce RTX 50 Series Laptops also support [4:2:2 video editing and encoding](https://blogs.nvidia.com/blog/studio-ai-adobe-premiere-pro-encoder-geforce-rtx-50-series-laptop/) in many top video editing applications including DaVinci Resolve and Adobe Premiere Pro. Ninth generation NVIDIA Encoders accelerate encoding and improve the quality of AV1 files, while also offering AV1 Ultra High Quality mode for the highest possible fidelity. Sixth generation NVIDIA Decoders double H.264 decoding speed. [Chaos Vantage and D5 Render](https://blogs.nvidia.com/blog/studio-ai-geforce-rtx-5070-ti-gpu-dlss/) viewports are also accelerated by DLSS 4 with Multi Frame Generation, enhancing creative workflows for architects, animators and designers.\n\nThese are just a few of the advantages and capabilities of NVIDIA Blackwell GeForce RTX 50 Series Laptop GPUs in 3D design, rendering, video editing, photography, graphic design, broadcasting and architectural visualization apps - head to the [NVIDIA Studio software page](https://www.nvidia.com/en-us/studio/software.md) to see the complete list.\n\n## **GeForce RTX 5060 Laptop GPUs Available Starting Today**\n\nTo help you pick the perfect laptop for your needs, here’s a look at some of the top models from our OEM partners. Availability is beginning today around the world - keep an eye out as these models and others start arriving soon to retailers near you.\n\n### ACER Predator Helios Neo 14 AI\n\nGet legendary gaming performance on the [ACER Predator Helios Neo 1...",
+            "snippet": "These laptops are as thin as 14.9mm, give gamers double the performance of the previous generation with the power of NVIDIA Blackwell and DLSS 4, and enable 100+ FPS in your favorite games.",
+            "content": "# GeForce RTX 5060 Laptops Available Starting Today, From $1099\n\nBy Andrew Burnes on May 19, 2025\n\n[Featured Stories](https://www.nvidia.com/en-us/geforce/tags/?tag=featured-stories)\n[GeForce RTX 50 Series](https://www.nvidia.com/en-us/geforce/tags/?tag=geforce-rtx-50-series)\n[GeForce RTX GPUs](https://www.nvidia.com/en-us/geforce/tags/?tag=geforce-rtx-gpus)\n[GeForce RTX Laptops](https://www.nvidia.com/en-us/geforce/tags/?tag=geforce-rtx-laptops)\n\nPowered by NVIDIA Blackwell, [GeForce RTX 50 Series laptops](https://www.nvidia.com/en-us/geforce/laptops/50-series.md) bring game-changing capabilities to gamers and creators. Multiply performance with [NVIDIA DLSS 4 Multi Frame Generation](https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations.md), generate images at unprecedented speed, power through work, unleash your creativity with NVIDIA Studio apps, and use AI innovations on the go in the thinnest and longest-lasting RTX laptops yet, optimized by our newest [Max-Q technologies](https://www.nvidia.com/en-us/geforce/gaming-laptops/max-q-technologies.md).\n\nNow, there are even more options for people wanting access to the latest innovations in a mobile form factor with the launch of GeForce RTX 5060 Laptop GPUs available in new models from every major manufacturer, starting at $1099.\n\nThese laptops are as thin as 14.9mm, give gamers double the performance of the previous generation with the power of NVIDIA Blackwell and DLSS 4, and enable 100+ FPS in your favorite games. Creators can leverage the latest AI advancements to accelerate creative workflows. Students can accelerate performance in apps used in engineering, architecture, computer science, data science, economics, and more. Play, create, and work longer on battery thanks to Blackwell innovations and Max-Q power optimization.\n\nUsing [DLSS 4 with Multi Frame Generation](https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations.md) and [NVIDIA Reflex](https://www.nvidia.com/en-us/geforce/technologies/reflex.md), GeForce RTX 5060 Laptop GPUs are more than twice the speed of previous-generation laptops, with enhanced image quality and more responsive controls:\n\nWhatever your use case, GeForce RTX 5060 Laptop GPUs are an excellent choice, offering a great balance between power, performance and portability.\n\nLaptops with our latest GPU are as light as 1.46kg, with displays from 14”, and reported battery life of up to 14 hours.\n\nNew models from ASUS, MSI and Razer are also [NVIDIA Studio](https://www.nvidia.com/en-us/studio.md)-validated, ensuring Blackwell innovations and GPU acceleration are utilized in apps, and the experience is optimized by NVIDIA Studio Drivers that deliver exceptional stability.\n\nWorking with leading app developers, NVIDIA Studio and GeForce RTX 50 Series Laptop GPUs [double creative performance](https://blogs.nvidia.com/blog/generative-ai-studio-ces-geforce-rtx-50-series/) in 3D design, video and generative AI apps. GeForce RTX 50 Series Laptops also support [4:2:2 video editing and encoding](https://blogs.nvidia.com/blog/studio-ai-adobe-premiere-pro-encoder-geforce-rtx-50-series-laptop/) in many top video editing applications including DaVinci Resolve and Adobe Premiere Pro. Ninth generation NVIDIA Encoders accelerate encoding and improve the quality of AV1 files, while also offering AV1 Ultra High Quality mode for the highest possible fidelity. Sixth generation NVIDIA Decoders double H.264 decoding speed. [Chaos Vantage and D5 Render](https://blogs.nvidia.com/blog/studio-ai-geforce-rtx-5070-ti-gpu-dlss/) viewports are also accelerated by DLSS 4 with Multi Frame Generation, enhancing creative workflows for architects, animators and designers.\n\nThese are just a few of the advantages and capabilities of NVIDIA Blackwell GeForce RTX 50 Series Laptop GPUs in 3D design, rendering, video editing, photography, graphic design, broadcasting and architectural visualization apps - head to the [NVIDIA Studio software page](https://www.nvidia.com/en-us/studio/software.md) to see the complete list.\n\n## **GeForce RTX 5060 Laptop GPUs Available Starting Today**\n\nTo help you pick the perfect laptop for your needs, here’s a look at some of the top models from our OEM partners. Availability is beginning today around the world - keep an eye out as these models and others start arriving soon to retailers near you.\n\n### ACER Predator Helios Neo 14 AI\n\nGet legendary gaming performance on the [ACER Predator Helios Neo 14 AI](https://www.acer.com/tw-zh/predator/laptops/helios/helios-neo-14-ai), delivering ultra-smooth gameplay and future-ready AI. The 14.5” OLED screen boasts a stunning 2.8k WQXGA+ 2880 x 1800 resolution and a 0.2ms response time, ensuring ultra-smooth gameplay and lifelike visuals at every turn. Generate images at unparalleled speed with DLSS 4 and experience cinematic-quality visuals with ray tracing and innovative neural rendering technologies.\n\n### ASUS TUF Gaming A14\n\n[ASUS’ TUF Gaming A14](https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-a14-2025/) is their most compact TUF Gaming laptop ever, at 1.69cm thin, and 1.46kg light. The 2560x1600 165Hz 14” G-SYNC display can lay flat thanks to a 180 degree hinge, and when power runs low ASUS says the battery can be charged to 50% in 30 minutes using 100W USB-C power delivery. Paired with up to 32GB of LPDDR5X 7500MHz memory and up to 4TB of PCIe Gen 4 extendable storage, this next-gen AI PC stands ready to enhance your productivity.\n\n### Alienware 16X Aurora Gaming Laptop\n\nThe new [Alienware Aurora](https://www.dell.com/en-us/shop/cty/pdp/spd/alienware-aurora-ac16251-gaming-laptop) offers up to 155 Watts of Total Performance Power for gamers and creators. Boasting a 16” QHD+ 240Hz display with 500 nits peak brightness and 100% DCI-P3 coverage, buyers can view their games and creations in excellent detail.\n\n### GIGABYTE Gaming A16\n\nThe [GIGABYTE Gaming A16](https://www.gigabyte.com/Laptop/GIGABYTE-GAMING-A16-GA6H#kf) is a super slim laptop claiming up to 14 hours of battery life, and featuring a 180 degree lay-flat design and 165Hz WQXGA 16\" panel. The A16 also features an Ergonomic Golden Curve keyboard ensuring maximum productivity.\n\n### HP OMEN Transcend 14\n\nThe new [HP Omen Transcend 14](https://www.hp.com/us-en/gaming-pc/laptops.html) is a 1.63kg, 17.78mm all-metal laptop with a 3K-resolution OLED display and cites up to 11.5 hours of battery life, in configurations up to 64GB of LPDDR5 RAM.\n\n### Lenovo Legion Pro 5i\n\nFor aspiring competitive gamers looking to achieve that platinum rank, the [Legion Pro 5i](https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/len101g0040?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOooYOG0Ewa5VQXkEJIohjooJo2y2Rf9Gb-JYYrQo5QDI9uXjsBLQ) features GeForce RTX 50 Series Laptop graphics for elite performance. The Lenovo PureSight OLED Gaming display delivers ultra-clear visuals and lightning-fast response for high FPS play.\n\n### MSI Venture Pro A14 AI+\n\nThe new [MSI Venture Pro A14 AI+](https://www.msi.com/Business-Productivity/Products#?tag=Venture-Series) AI+ is a sleek laptop with a 2K-resolution OLED display. With upgradable memory for enhanced speed and a spatial array soundsystem, sound your best with this new laptop. It also supports up to 96GB with its 2 slots of DDR5 memory.\n\n### Razer Blade 14\n\nFeaturing a thinner 15.24mm design, the new [Razer Blade 14](https://www.razer.com/gaming-laptops/razer-blade-14) is 11% smaller than the previous generation with up to 11 hours of battery according to Razer, so you can play, work, or create on the go. The Blade 14 also features a compact chassis precision-milled from a single block of aluminum to push the boundaries of performance and design.\n\n## **Even More Models Are On The Way**\n\nTo find even more GeForce RTX 50 Series laptops, bookmark the [NVIDIA Marketplace](https://marketplace.nvidia.com/en-us/consumer/gaming-laptops/?locale=en-us&page=1&limit=12&gpu=RTX%205060), where new releases are tracked, with links to purchase them from retailers in your country.\n\n## **GeForce RTX 5060 Family Is Here**\n\nWith the launch of the GeForce RTX 5060 Family, DLSS 4 Multi Frame Generation, neural rendering and Blackwell innovations arrive for every gamer. Get fast frame rates, experience immersive ray-traced graphics in the biggest games, unlock new experiences with AI, enhance image quality with DLSS transformer models, and make controls more responsive using Reflex.\n\nThe state of the art continues to evolve, and with a GeForce RTX 50 Series laptop or graphics card, you’re positioned to experience all of the newest innovations in the latest and greatest games.\n\nTo ensure you’re on the cutting edge, upgrade to a [GeForce RTX 50 Series laptop](https://www.nvidia.com/en-us/geforce/laptops/50-series.md) or [desktop GPU](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series.md) today."
+          },
+          {
+            "title": "Announcing The GeForce RTX 5060 Desktop Family: DLSS 4 Multi Frame Generation, Neural Rendering & Blackwell Innovations For Every Gamer, Starting At $299; Plus RTX 5060 Laptops Available In May - Announcing The GeForce RTX 5060 Desktop Family: DLSS 4 Multi Frame Generation, Neural Rendering & Blackwell Innovations For Ever...",
+            "site_name": "NVIDIA",
+            "site_icon": "https://cdn.deepseek.com/site-icons/nvidia.com",
+            "authority": 3,
+            "rerank_score": 0.6071047186851501,
+            "date": "2025-04-14T16:00:00+00:00",
+            "url": "https://www.nvidia.com/en-us/geforce/news/rtx-5060-desktop-family-laptop-5060-coming-soon/?nvweb_e=482JTzrRN0YL4iBP8qM4UK9EmWUMqWrz5v_uXW7zP7DZPecobr2pIzdAgUUKRXL7slo48mqfXA7no4DyJyNGRg&cjevent=0718e24f1b9411f082b300600a18b8f8#1",
+            "summary": "Plus RTX 5060 Laptops Available In May\n...\n## GeForce RTX 5060 Laptops Arrive This May\n\nThe same features, innovations and advantages of the GeForce RTX 5060 desktop family are coming to laptops this May, when GeForce RTX 5060 laptops arrive on shop shelves, starting at $1099.\n\nThanks to DLSS 4 with Multi Frame Generation and NVIDIA Reflex, GeForce RTX 5060 laptops are more than twice the speed of previous-generation laptops, with enhanced image quality and low latency.\n\nThis massive leap in performance enables you to play ray-traced games with maxed out settings at over 100 FPS, and competitive titles at over 300 FPS. Thanks to Blackwell’s amazing efficiency, and our latest generation of Blackwell Max-Q laptop technologies, you can get an incredible experience in a mobile form factor.\n\nGeForce RTX 5060 laptops are coming from every major OEM starting in May, with a broad range of designs and sizes, as thin as 14.9mm. Check out their websites for further details.",
+            "snippet": "Thanks to DLSS 4 with Multi Frame Generation and NVIDIA Reflex, GeForce RTX 5060 laptops are more than twice the speed of previous-generation laptops ... GeForce RTX 5060 laptops are coming from every major OEM starting in May, with a broad range of designs and sizes, as thin as 14.9mm.",
+            "content": "# Announcing The GeForce RTX 5060 Desktop Family: DLSS 4 Multi Frame Generation, Neural Rendering & Blackwell Innovations For Every Gamer, Starting At $299; Plus RTX 5060 Laptops Available In May\n\nNVIDIA is the world leader in graphics and AI, and our goal with GeForce RTX is and has always been to advance the state-of-the-art in real-time computer graphics. Through new hardware and software innovations, we’re moving the industry forward, enabling developers to craft previously impossible experiences, render immersive worlds with photorealistic graphics, and deliver to gamers better, more realistic, and more enjoyable games.\n\nThe next leap in real-time graphics is being powered by neural rendering, the combination of game-changing AI advancements and cutting-edge graphics technologies. We designed the NVIDIA Blackwell RTX architecture for neural rendering, optimizing and enhancing the hardware to enable new experiences, and accelerate AI, neural shaders, ray tracing, and DLSS.\n\nAlongside the hardware, our engineers craft new software features, SDKs to aid developer integration, and new AI models that leverage the hardware’s capabilities to further enhance our users’ experiences. The DLSS 4 transformer AI model for DLSS Super Resolution and DLSS Ray Reconstruction is one of our latest innovations.\n\nTrained on super hi-res game captures, the transformer DLSS 4 model is able to accelerate performance whilst boosting image quality beyond that of native resolution rendering, as you can see in the Avowed DLSS Super Resolution, and Hogwarts Legacy DLSS Super Resolution and DLSS Ray Reconstruction comparisons below. Text is clearer, clarity is increased, reflections are more accurate and stable (especially in motion), and each game is more temporally stable, with less shimmering and artifacting.\n\nAnd because games run faster with DLSS enabled, PC input latency is reduced, making gameplay more responsive, further enhancing a player’s experience.\n\nDLSS 4’s Multi Frame Generation is one of our new neural rendering technologies, generating up to three additional frames per traditionally rendered frame, working in unison with the complete suite of DLSS technologies to multiply frame rates by up to 8X over traditional brute-force rendering.\n\nMulti Frame Generation is already available in over 100 games and apps, with new integrations launching each week, and DLSS 4’s transformer AI models are available for even more titles, giving GeForce RTX gamers the definitive experience in the most popular and most played games.\n\n## GeForce RTX 5060 Desktop Family - Blackwell RTX Now Starting At $299\n\nStarting April 16th, we’re bringing DLSS 4 and Blackwell’s suite of innovations to every gamer with the launch of the GeForce RTX 5060 desktop family, beginning with the release of the GeForce RTX 5060 Ti. And in May, the GeForce RTX 5060 arrives, with prices starting at $299.\n\nUsing the GeForce RTX 5060 Family’s extra raw horsepower, DLSS 4 with Multi Frame Generation, Super Resolution, and Ray Reconstruction in supported titles, our newest GPUs are twice as fast as the previous generation.\n\nThere are over 50 million GeForce gamers using previous generation 60 Class and 50 Class graphics cards. For them, GeForce RTX 5060 Family graphics cards are a tremendous upgrade, bringing ray tracing and the benefits of DLSS 4.\n\nThe 3 pillars of gaming performance are beautiful image quality, a high frame rate that perceptively feels smooth, and low latency.\n\nDLSS Super Resolution using our new transformer AI model ensures excellent image quality, and the advanced Ray Tracing Cores of the NVIDIA Blackwell RTX architecture allow GeForce RTX 50 Series gamers to be immersed by realistic lighting effects.\n\nDLSS Multi Frame Generation, DLSS Super Resolution, DLSS Ray Reconstruction, and other performance-accelerating technologies exclusive to GeForce RTX GPUs ensure frame rates are as fast and smooth as possible.\n\nAnd NVIDIA Reflex minimizes PC latency in over 130 games, including leading competitive titles such as VALORANT, working in conjunction with our optimized architecture and DLSS-accelerated frame rates to give GeForce RTX gamers the most responsive gameplay of any platform.\n\nBy ensuring image quality, frame rates and latency are optimized, GeForce RTX 5060 Family graphics cards deliver a substantial upgrade to tens of millions of gamers.\n\n## GeForce RTX 5060 Ti Gaming Performance\n\nLet’s take a look at some specific examples. Using DLSS 4’s Multi Frame Generation, Super Resolution and Ray Reconstruction with transformer AI models, and NVIDIA Reflex, Hogwarts Legacy players get a perceptively better than native experience in all 3 areas, with improved image quality, higher, smoother frame rates, and lower latency at 1440p max settings on the GeForce RTX 5060 Ti.\n\nCompared to the previous generation GeForce RTX 4060 Ti, frame rates are doubled and latency is lowered in numerous games, improving smoothness, fluidity, and the feel of the gameplay.\n\nThis trend continues across a range of games on the GeForce RTX 5060 Ti with Multi Frame Generation. And for some examples of performance in games that don’t support Multi Frame Generation, A Plague Tale: Requiem and Delta Force show roughly a 20% improvement with lower latency.\n\n## GeForce RTX 5060 Gaming Performance\n\nArriving in May, the GeForce RTX 5060 boasts the same features, leveraging them to deliver over 100 FPS at 1080p in the most graphically advanced games, and super fast frame rates in multiplayer favorites like Marvel Rivals.\n\nStarting at $299, GeForce RTX 5060 graphics cards offer double the performance of the previous generation GeForce RTX 4060 in games with DLSS 4 Multi Frame Generation, and offer an even larger jump in performance and responsiveness for gamers upgrading from older GPUs such as the GeForce GTX 1660 or GeForce RTX 2060.\n\nThis leap in performance enables gamers to experience higher levels of fidelity, to max out ray tracing in leading titles, and play their favorite titles with more responsive controls.\n\nGeForce RTX 5060 Family graphics cards feature the same hardware innovations as the rest of our GeForce RTX 50 Series GPUs. Leverage the latest Shader Cores, Tensor Cores, Ray Tracing Cores and superfast GDDR7 VRAM for the best experiences in games. Encode and decode video faster with the latest generation, best-in-market hardware that produces superior results than other platforms. And output all visuals to the newest DisplayPort 2.1 UHBR20 displays.\n\nFull specifications for the GeForce RTX 5060 desktop family are available here\n\nPrices for the GeForce RTX 5060 start at $299, compared to the GeForce RTX 3060 and GeForce RTX 2060 which started at $329 and $349 respectively, delivering more features, faster performance, and more responsive gameplay.\n\nThe GeForce RTX 5060 Ti, launching April 16th, is available in 8GB and 16GB configurations, starting at $379 and $429, respectively.\n\nStock-clocked and factory-overclocked models will be available from top add-in card providers such as ASUS, Colorful, Gainward, GALAX, GIGABYTE, INNO3D, KFA2, MSI, Palit, PNY and ZOTAC; as well as from system builders. If you purchase one, download and install our new Game Ready Driver to unleash its full potential on your system.\n\n## GeForce RTX 5060 Laptops Arrive This May\n\nThe same features, innovations and advantages of the GeForce RTX 5060 desktop family are coming to laptops this May, when GeForce RTX 5060 laptops arrive on shop shelves, starting at $1099.\n\nThanks to DLSS 4 with Multi Frame Generation and NVIDIA Reflex, GeForce RTX 5060 laptops are more than twice the speed of previous-generation laptops, with enhanced image quality and low latency.\n\nThis massive leap in performance enables you to play ray-traced games with maxed out settings at over 100 FPS, and competitive titles at over 300 FPS. Thanks to Blackwell’s amazing efficiency, and our latest generation of Blackwell Max-Q laptop technologies, you can get an incredible experience in a mobile form factor.\n\nGeForce RTX 5060 laptops are coming from every major OEM starting in May, with a broad range of designs and sizes, as thin as 14.9mm. Check out their websites for further details.\n\n## GeForce RTX 5060 Family Is Here\n\nWith the launch of the GeForce RTX 5060 Family, DLSS 4 Multi Frame Generation, neural rendering and Blackwell innovations arrive for every gamer. Get the fastest frame rates possible, experience immersive ray-traced graphics in the biggest games, unlock new experiences with NVIDIA ACE digital humans, enhance image quality with DLSS transformer models, and make controls more responsive using Reflex.\n\nThe state of the art continues to evolve, and with a GeForce RTX 50 Series graphics card or laptop, you’re positioned to experience all of the newest innovations in the latest and greatest games.\n\nThe GeForce RTX 5060 Ti launches tomorrow, April 16th, and is followed by the GeForce RTX 5060 and GeForce RTX 5060 laptops in May.\n"
+          }
+        ]
+      }
+    }
+  ],
+  "evidenceReprocessedLocally": true
+}

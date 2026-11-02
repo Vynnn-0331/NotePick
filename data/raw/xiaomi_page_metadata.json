@@ -1,0 +1,37 @@
+{
+  "is_set_enabled": true,
+  "seo_title": "",
+  "seo_keywords": "",
+  "seo_description": "",
+  "m_url": "",
+  "left": [],
+  "right": [
+    {
+      "title": "F码通道",
+      "url": "https://www.mi.com/order/fcode",
+      "m_url": "",
+      "is_new_page": true,
+      "seo_title": "",
+      "seo_keywords": "",
+      "seo_description": ""
+    },
+    {
+      "title": "咨询客服",
+      "url": "https://support.kefu.mi.com/page/index/v2?tag=cn&productId=20864&gid=2230003629",
+      "m_url": "",
+      "is_new_page": true,
+      "seo_title": "",
+      "seo_keywords": "",
+      "seo_description": ""
+    }
+  ],
+  "product_info": {
+    "product_id": "20864",
+    "name": "REDMI Book 16 2025",
+    "price": "5199",
+    "market_price": "5399",
+    "is_enable": true,
+    "is_multi_price": true
+  },
+  "qrcode_list": []
+}

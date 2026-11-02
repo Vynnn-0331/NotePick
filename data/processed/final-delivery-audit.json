@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "changedProtected": [],
+  "protectedFiles": 12,
+  "actualKeyConfigured": true,
+  "secretValuesPrinted": false,
+  "exposedFilePaths": [],
+  "filesScanned": 485,
+  "bundleScanned": 6,
+  "gitMetadataPresent": false,
+  "envIgnoreRules": true,
+  "originalFilesPresent": true
+}

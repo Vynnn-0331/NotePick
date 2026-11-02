@@ -1,0 +1,16 @@
+{
+  "hashes": {
+    "frontend/src/services/filterCatalog.js": "0a3decc3a6235e0a125c442e229f612185bb3bfb70aa63137e267b478f660700",
+    "frontend/src/services/recommendationEngine.js": "8e60391401cc881d152595554dccb7a49c86b3f87abf2255ce1ba23b3b1f5843",
+    "frontend/src/services/hardwareEvidence.js": "fd6948a89070bc01c195a0ab303f51ee6a614dc673229679a1b554f5fc47c0ba",
+    "frontend/src/services/workloadPolicy.js": "c095f6f8281811836c8c476dd215b12259d2150c84ba4bac1711db3e710d7e91",
+    "frontend/src/services/workloadSuitability.js": "14fceff9ac54713246f9ad00fa069771075f1a79e2e7892e50c2cd4c02d611d7",
+    "frontend/src/services/recommendationComparison.js": "e203bee9ec1d4641b83770cf7108ba157e2241b19a5d6175e78364566bedaac2",
+    "frontend/src/services/recommendationCardCopy.js": "e166d5884505d790461a3e47c9048fd120895e4da0dcc7361afa289532d0273d",
+    "frontend/src/data/catalog.json": "7d11ebfd737e2ab6b61ae90443ab6f5a9a0affa2e19b8bc34e34be67b865138a",
+    "frontend/src/data/performanceRuntime.json": "a0674c23b9e7515037ec71880ca369cdb30cb067f97b7d3ca23dfbf1047d419b",
+    "data/reference/performance_reference_unified.json": "27d62d2a7871e69c59e65e651682360af8eef0eef5e6406053b41d7fda42380a",
+    "../data/电脑数据.xlsx": "bbca679a063d289631752fb05b99e0ed85b6734baf0de25dc5c9ebebcbd674b3",
+    "../data/说明文档.md": "f8a38234a7c253c86c38867f149bc1ecb3ddac9aea0ff40cace38d41254a9c4d"
+  }
+}

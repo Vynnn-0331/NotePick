@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import {recommendCatalog} from '../src/services/recommendationEngine.js';
+import {buildRecommendationComparison} from '../src/services/recommendationComparison.js';
+import {buildRecommendationCardCopy} from '../src/services/recommendationCardCopy.js';
+import {defaultRequirements} from '../src/services/requirements.js';
+const root=new URL('../../',import.meta.url),catalog=JSON.parse(fs.readFileSync(new URL('frontend/src/data/catalog.json',root)));
+const input={...defaultRequirements(),budget:[5000,20000],scenarios:['mainstream-games'],priorities:['gpu-power']};
+const matches=recommendCatalog(catalog,input).slice(0,3),comparisons=buildRecommendationComparison(matches,input);
+const cards=matches.map((m,i)=>({id:m.product.id,name:m.product.model,price:m.product.official_price_cny,configuration:{cpu:m.product.cpu_model,gpu:m.product.gpu_model,gpuType:m.product.gpu_type,ram:m.product.ram_gb,ssd:m.product.ssd_gb,screen:m.product.screen_inches,weight:m.product.weight_kg},...buildRecommendationCardCopy(comparisons[i],m,input)}));
+fs.writeFileSync(new URL('data/processed/card_ui_examples.json',root),JSON.stringify({input,cards},null,2)+'\n');
+const md=['# 推荐卡片UI优化：三款真实文案','','需求：主流游戏＋游戏畅玩，预算5000—20000元、系统不限。以下顺序完全沿用原3B，没有换机或补足商品。','','本次仅改变推荐展示：移除三机型AI模块及卡片独立提醒；完整依据与限制仍可主动展开。DeepSeek后端和独立组件未删除，详情原入口仍为说明。'];
+for(const [i,c] of cards.entries())md.push('',`## ${i+1}. ${c.name}`,`参考价：${c.price}元；配置：${JSON.stringify(c.configuration)}`,'',c.description,...c.advantages.flatMap(a=>['',`**${a.title}**`,a.description]),c.neutral??'');
+md.push('','## 保留与验证','','card_ui_baseline.json冻结了修改前111组全部商品ID、数量、顺序及内部效用，并记录27份算法、事实、数据、DeepSeek后端/独立组件文件校验值。新增文案只解释原3C已确认的优势，不产生新优势，不计算排名，不改原始提醒数据。','','AI模拟脚本仅在隔离mock端口5188加载保留组件，不在正式推荐页挂载。正式推荐页另行断言无AI按钮/模块，不能把测试宿主误认为新增业务入口。');
+fs.writeFileSync(new URL('data/processed/card_ui_review.md',root),md.join('\n')+'\n');console.log(JSON.stringify(cards.map(c=>({name:c.name,advantages:c.advantages.map(a=>a.title),neutral:c.neutral})),null,2));

@@ -1,0 +1,193 @@
+{
+  "notice": "真实公开网页证据；仅一款商品，无密钥",
+  "context": {
+    "schema": "notepick-ai-v1",
+    "requirements": {
+      "budgetCny": [
+        5000,
+        12000
+      ],
+      "operatingSystem": "不限",
+      "scenarios": [
+        {
+          "id": "documents",
+          "label": "文档办公",
+          "category": "daily"
+        }
+      ],
+      "preferences": [
+        {
+          "id": "memory",
+          "label": "多开流畅"
+        }
+      ],
+      "hardConstraints": {
+        "minRamGb": null,
+        "minSsdGb": null,
+        "maxWeightKg": null,
+        "discreteGpu": false
+      }
+    },
+    "factsPolicy": "商品配置来自本地可信数据；理由是有条件用途判断，不是实测或软件兼容保证。所有未知保持未知，不得把推荐顺序解读为硬件性能排名。",
+    "commonUnknowns": [
+      "显存和可用统一内存",
+      "当前SKU GPU功耗及持续散热表现",
+      "目标游戏FPS或Blender渲染耗时",
+      "屏幕色域/色准",
+      "电池/续航",
+      "驱动、软件版本、算子和模型可用性",
+      "实时成交价或促销"
+    ],
+    "products": [
+      {
+        "order": 1,
+        "id": "np-0ab4acffee16d2861b53",
+        "name": "小新Pro 16英寸轻薄笔记本电脑",
+        "brand": "联想",
+        "series": "小新",
+        "identity": {
+          "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+          "sku": null
+        },
+        "knownFacts": {
+          "officialReferencePriceCny": 9999,
+          "cpu": "酷睿 Ultra 5 336H",
+          "gpu": null,
+          "gpuType": "集成显卡",
+          "ramGb": 32,
+          "ssdGb": 1024,
+          "weightKg": 1.76,
+          "screenInches": 16,
+          "os": "Windows"
+        },
+        "localReasons": [
+          "符合已设硬性条件",
+          "针对文档办公，结合已知容量、可比用途证据与个人偏好",
+          "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+          "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+          "集显具体型号未记录，保持空值，不从CPU推断",
+          "文档软件版本与系统兼容性需核验"
+        ],
+        "comparison": {
+          "summary": "符合已设硬性条件。32GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fit": null,
+          "advantages": [],
+          "cautions": [
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null
+        },
+        "limitations": [
+          "集显具体型号未记录，保持空值，不从CPU推断",
+          "文档软件版本与系统兼容性需核验"
+        ],
+        "gpuIdentity": {
+          "resolvedModel": null,
+          "mobileConfirmed": false
+        },
+        "potentialComputeBackend": null,
+        "performanceEvidence": {
+          "cpuSingle": {
+            "status": "documented_metric",
+            "conditions": [
+              {
+                "metric": "PassMark Single Thread",
+                "comparisonGroup": "PassMark-V10-single",
+                "samples": 87,
+                "confidence": "medium",
+                "context": "PerformanceTest V10，用户提交结果聚合；单线程与CPU Mark分开比较；不掌握每个样本整机与功耗。",
+                "limitations": "仅比较相同测试、版本、维度及可兼容平台；整机功耗、散热、内存、驱动和软件版本会影响结果。不是当前商品实测，不保证FPS、续航或所有工作负载领先。",
+                "sourceIds": [
+                  "web:pm336"
+                ]
+              }
+            ]
+          },
+          "cpuMulti": {
+            "status": "documented_metric",
+            "conditions": [
+              {
+                "metric": "PassMark CPU Mark",
+                "comparisonGroup": "PassMark-V10-multi",
+                "samples": 87,
+                "confidence": "medium",
+                "context": "PerformanceTest V10，用户提交结果聚合；单线程与CPU Mark分开比较；不掌握每个样本整机与功耗。",
+                "limitations": "仅比较相同测试、版本、维度及可兼容平台；整机功耗、散热、内存、驱动和软件版本会影响结果。不是当前商品实测，不保证FPS、续航或所有工作负载领先。",
+                "sourceIds": [
+                  "web:pm336"
+                ]
+              }
+            ]
+          },
+          "gpuGraph": {
+            "status": "unknown",
+            "conditions": []
+          },
+          "gpuProfessional": {
+            "status": "unknown",
+            "conditions": []
+          }
+        }
+      }
+    ],
+    "analysisScope": "当前详情商品，不代表它符合硬筛选或位于推荐前三；不得改变原推荐结果。",
+    "recommendationIds": [
+      "np-413c27d11a0df17c7146",
+      "np-8142239a836fb8c83da7",
+      "np-828ebbc340c18ec14814"
+    ],
+    "currentProductIsRecommended": false,
+    "recommendationContext": [
+      {
+        "id": "np-413c27d11a0df17c7146",
+        "name": "星耀 14高颜值轻薄本",
+        "officialReferencePriceCny": 7999
+      },
+      {
+        "id": "np-8142239a836fb8c83da7",
+        "name": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+        "officialReferencePriceCny": 9399
+      },
+      {
+        "id": "np-828ebbc340c18ec14814",
+        "name": "无界 14高性能轻薄本",
+        "officialReferencePriceCny": 5299
+      }
+    ],
+    "web": {
+      "status": "partial",
+      "sources": [
+        {
+          "id": "S1",
+          "title": "联想小新Pro16 酷睿 16英寸轻薄笔记本电脑-联想知识库",
+          "url": "https://m.lenovo.com.cn/wiki/product-1057921.html",
+          "siteName": "e88194e683b3e59586e59f8e",
+          "type": "official",
+          "publishedAt": "2026-10-20T16:00:00+00:00",
+          "queriedAt": "2026-10-30T05:48:31.573Z",
+          "content": "# 联想小新Pro16 酷睿 16英寸轻薄笔记本电脑\n¥9,999 \n全新英特尔酷睿标压3代Ultra5-336H丨Windows 11 家庭中文版丨16英寸丨24GB丨1T SSD丨集成显卡\n\n## 详细规格\n\n操作系统 | Windows 11 家庭中文版 \n---|---\n处理器 | 酷睿 Ultra 5 336H \n内存 | 24G DDR5 \n存储 | 1T SSD固态硬盘 \n屏幕尺寸 | 16英寸 \n分辨率 | 2880x1800 120Hz \n接口 | USB-Ax2+USB-Cx2 \n无线网卡 | Wi-Fi \n电源 | 80Wh \n重量 | 约1.76Kg \n\n## 产品详情\n\n全新英特尔酷睿标压3代Ultra5-336H丨Windows 11 家庭中文版丨16英寸丨24GB丨1T SSD丨集成显卡\n\n## 联想小新Pro16 酷睿 16英寸轻薄笔记本电脑介绍\n\n联想小新Pro16 酷睿 16英寸轻薄笔记本电脑是联想品牌旗下的笔记本类产品，适合办公出差、学习创作、游戏娱乐等多场景使用。 产品由联想官方提供正品保障，支持全国联保与官方售后服务。\n\n核心卖点：全新英特尔酷睿标压3代Ultra5-336H丨Windows 11 家庭中文版丨16英寸丨24GB丨1T SSD丨集成显卡\n\n选购建议：选购时建议重点关注处理器、内存容量与显卡配置，结合自身预算与使用场景选择合适型号。如有型号、规格或使用相关疑问，可通过联想官方渠道或乐享AI客服咨询。\n\n参考价格：¥9,999（实际价格请以联想官方渠道为准，可能存在促销活动与会员折扣）。\n\n## 常见问题解答\n\n### 联想小新Pro16 酷睿 16英寸轻薄笔记本电脑的配置是什么？\n\n处理器：酷睿 Ultra 5 336H，内存：24G DDR5，存储：1T SSD固态硬盘，屏幕：16英寸\n\n### 联想小新Pro16 酷睿 16英寸轻薄笔记本电脑适合哪类用户？\n\n联想小新Pro16 酷睿 16英寸轻薄笔记本电脑适合需要高性能计算的用户，详见上方适合人群说明。\n\n### 联想小新Pro16 酷睿 16英寸轻薄笔记本电脑价格是多少？\n\n官方参考价格为¥9,999，实际价格以联想官网为准。",
+          "summary": "# 联想小新Pro16 酷睿 16英寸轻薄笔记本电脑\n¥9,999 \n全新英特尔酷睿标压3代Ultra5-336H丨Windows 11 家庭中文版丨16英寸丨24GB丨1T SSD丨集成显卡\n\n## 详细规格\n\n操作系统 | Windows 11 家庭中文版 \n---|---\n处理器 | 酷睿 Ultra 5 336H \n内存 | 24G DDR5 \n存储 | 1T SSD固态硬盘 \n屏幕尺寸 | 16英寸 \n分辨率 | 2880x1800 120Hz \n接口 | USB-Ax2+USB-Cx2 \n无线网卡 | Wi-Fi \n电源 | 80Wh \n重量 | 约1.76Kg\n...\n联想小新Pro16 酷睿 16英寸轻薄笔记本电脑是联想品牌旗下的笔记本类产品，适合办公出差、学习创作、游戏娱乐等多场景使用。 产品由联想官方提供正品保障，支持全国联保与官方售后服务。\n...\n参考价格：¥9,9",
+          "bodyAvailable": true,
+          "fetched": true,
+          "scope": "series",
+          "label": "同系列资料",
+          "reason": "只能证明系列范围"
+        }
+      ],
+      "topics": [
+        "specs"
+      ],
+      "queriedAt": "2026-10-30T05:48:31.573Z",
+      "counts": {
+        "search": 2,
+        "fetch": 2,
+        "cacheHits": 0
+      },
+      "limits": {
+        "sessionSearch": 5,
+        "sessionFetch": 5
+      },
+      "budgetExhausted": false
+    }
+  }
+}

@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createTavilyTools} from '../tavily.mjs';
+test('Tavily maps trusted results and keeps key server-side',async()=>{let sent;const t=createTavilyTools({tavilyApiKey:'test-key',fetchImpl:async(url,opts)=>{sent={url,opts};return new Response(JSON.stringify({results:[{url:'https://item.jd.com/123456.html',title:'商品',content:'配置'},{url:'http://127.0.0.1/private'}]}));}});const r=await t.search('电脑');assert.equal(r.results.length,1);assert.equal(sent.url,'https://api.tavily.com/search');assert.equal(sent.opts.headers.Authorization,'Bearer test-key');assert(!JSON.stringify(r).includes('test-key'));});
+test('Extract is not given a fabricated price observation time',async()=>{const t=createTavilyTools({fetchImpl:async()=>new Response(JSON.stringify({results:[{url:'https://item.jd.com/123456.html',raw_content:'商品正文'}]}))});const r=await t.fetch('https://item.jd.com/123456.html');assert.equal(r.content,'商品正文');assert.equal(r.priceObservedAt,undefined);});
+test('upstream auth failure remains explicit',async()=>{const t=createTavilyTools({fetchImpl:async()=>new Response('',{status:401})});await assert.rejects(t.search('电脑'),e=>e.code==='SEARCH_UNAVAILABLE');});

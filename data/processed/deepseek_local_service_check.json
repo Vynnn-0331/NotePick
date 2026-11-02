@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "frontend": "http://127.0.0.1:5173/",
+  "backend": "http://127.0.0.1:8787",
+  "configured": false,
+  "realDeepSeekCallMade": false,
+  "requestStatus": 503,
+  "errorCode": "NOT_CONFIGURED",
+  "offlineIdsUnchanged": true,
+  "detailsAvailable": true,
+  "singleCommandStartAndReuseVerified": true,
+  "dataVersionVerified": true
+}

@@ -1,0 +1,15 @@
+const positive=n=>typeof n==='number'&&Number.isFinite(n)&&n>0&&n<=1000000;
+function bounded(promise,signal){if(signal.aborted){Promise.resolve(promise).catch(()=>{});return Promise.reject(signal.reason);}return new Promise((resolve,reject)=>{const stop=()=>reject(signal.reason);signal.addEventListener('abort',stop,{once:true});Promise.resolve(promise).then(resolve,reject).finally(()=>signal.removeEventListener('abort',stop));});}
+export function safeMerchantHref(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:null;}catch{return null;}}
+export async function requestMerchantPrices(productId,{signal,fetchImpl=fetch,timeoutMs=40000}={}){
+ const timeout=AbortSignal.timeout(timeoutMs),combined=signal?AbortSignal.any([signal,timeout]):timeout;
+ try{const response=await bounded(fetchImpl('/api/commerce/prices',{method:'POST',headers:{'Content-Type':'application/json','X-NotePick-Request':'1'},body:JSON.stringify({productId}),signal:combined}),combined);let data;try{data=await bounded(response.json(),combined);}catch(e){if(combined.aborted)throw e;throw Error('价格查询服务未返回有效数据，可前往商家查看或手动输入价格。');}if(!response.ok)throw Error(data.error?.message??'商家价格暂时无法读取，请稍后重试。');if(data.productId!==productId||!Array.isArray(data.quotes))throw Error('价格查询返回的商品不一致，请重新查询。');if(data.quotes.some(q=>!positive(q.price)||!safeMerchantHref(q.sourceUrl)||q.match?.comparable!==true))throw Error('报价资料不完整，请直接前往商家核对。');return {...data,relatedLinks:(data.relatedLinks??[]).filter(l=>safeMerchantHref(l.sourceUrl))};}
+ catch(e){if(signal?.aborted)throw Object.assign(new Error('已取消查询。'),{name:'AbortError'});if(timeout.aborted)throw Error('价格查询超时，可重新查询或直接输入商家价格。');throw new Error(e instanceof TypeError?'无法连接价格查询服务，可直接前往商家查看或输入价格。':e.message);}
+}
+
+// Read-only local browser operations; never sends model credentials or arbitrary URLs.
+export async function requestBrowserPrices(productId,platform,action,{listingId,signal,fetchImpl=fetch,timeoutMs=30000}={}){
+ const deadline=AbortSignal.timeout(timeoutMs),combined=signal?AbortSignal.any([signal,deadline]):deadline;
+ try{const response=await bounded(fetchImpl('/api/commerce/browser-prices',{method:'POST',headers:{'Content-Type':'application/json','X-NotePick-Request':'1'},body:JSON.stringify({productId,platform,action,...(listingId?{listingId}:{})}),signal:combined}),combined);const data=await bounded(response.json(),combined);if(!response.ok)throw Error(data.error?.message??'查价浏览器暂不可用。');if(data.productId!==productId||!Array.isArray(data.quotes)||data.quotes.some(q=>!positive(q.price)||!safeMerchantHref(q.sourceUrl)||q.match?.comparable!==true))throw Error('查价结果与当前配置不一致，请重新核对。');return {...data,relatedLinks:(data.relatedLinks??[]).filter(l=>safeMerchantHref(l.sourceUrl))};}
+ catch(e){if(signal?.aborted)throw Object.assign(Error('已取消查价。'),{name:'AbortError'});if(deadline.aborted)throw Error('查价浏览器响应超时，请完成登录或验证后重试。');throw Error(e instanceof TypeError?'无法连接本机后端，请检查NotePick是否已启动。':e.message);}
+}

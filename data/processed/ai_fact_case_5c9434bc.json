@@ -1,0 +1,46 @@
+{
+  "record": {
+    "time": "2026-10-30T13:38:26.128Z",
+    "event": "ai_request",
+    "requestId": "5c9434bc-7a5a-4b39-a6ea-65b626577e05",
+    "outcome": "INVALID_ANSWER",
+    "stage": "answer_validation",
+    "validationStage": "fact_validation",
+    "validationReason": "unsupported_specification",
+    "validationField": "decision.tradeoffs.1",
+    "researchStatus": "searched",
+    "finishReason": "stop",
+    "searchRequests": 2,
+    "fetchRequests": 2,
+    "durationMs": 16288,
+    "httpStatus": 502,
+    "modelHttpStatus": 200,
+    "modelAttempts": 1,
+    "searchDurationMs": 11553,
+    "modelDurationMs": 4702,
+    "timedOut": false,
+    "searchTimedOut": false,
+    "researchReused": false,
+    "searchHttpStatuses": [
+      {
+        "tool": "search",
+        "status": 200
+      },
+      {
+        "tool": "fetch",
+        "status": 200
+      },
+      {
+        "tool": "fetch",
+        "status": 200
+      },
+      {
+        "tool": "search",
+        "status": 200
+      }
+    ]
+  },
+  "originalAnswerRetained": false,
+  "exactSentenceRecoverable": false,
+  "verdict": "只能确认第二条取舍触发不支持的具体规格规则，无法断言编造还是误判"
+}

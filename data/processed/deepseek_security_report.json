@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "bundleFiles": 3,
+  "buildSentinelChecked": true,
+  "clientCallsLocalBackendOnly": true,
+  "environmentIgnorePatternsPresent": true,
+  "protectedFiles": [
+    {
+      "file": "frontend/src/services/recommendationEngine.js",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/services/hardwareEvidence.js",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/services/workloadPolicy.js",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/services/workloadSuitability.js",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/services/filterCatalog.js",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/services/requirements.js",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/data/catalog.json",
+      "unchanged": true
+    },
+    {
+      "file": "frontend/src/data/performanceRuntime.json",
+      "unchanged": true
+    },
+    {
+      "file": "../data/电脑数据.xlsx",
+      "unchanged": true
+    },
+    {
+      "file": "../data/说明文档.md",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/external_verified.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/hardware_models.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/performance_reference.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/performance_reference_unified.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/product_gpu_mappings.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/research_pending.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/runtime_preservation.json",
+      "unchanged": true
+    },
+    {
+      "file": "data/reference/workload_policy_sources.json",
+      "unchanged": true
+    }
+  ]
+}

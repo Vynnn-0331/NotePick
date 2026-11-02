@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "changedFiles": [
+    "backend/context.mjs",
+    "backend/tests/deepseek.test.mjs",
+    "frontend/src/App.jsx",
+    "frontend/src/pages/ProductDetail.jsx",
+    "frontend/src/components/DeepSeekAnalysis.jsx",
+    "frontend/tests/recommendationCardCopy.test.js",
+    "frontend/scripts/card-ui-smoke.cjs",
+    "frontend/scripts/detail-ai-smoke.mjs",
+    "frontend/DEEPSEEK_INTEGRATION.md",
+    "README.md",
+    "frontend/README.md"
+  ],
+  "frontendTests": 102,
+  "backendTests": 16,
+  "pythonTests": 16,
+  "productionBuild": "passed",
+  "rankingCasesUnchanged": 111,
+  "actualLocalConnection": {
+    "frontend": 5173,
+    "backend": 8787,
+    "configured": false,
+    "missingKeyMessageVerified": true
+  },
+  "realDeepSeekTest": false,
+  "mockBrowserReport": "frontend/test-results/detail-ai-browser-report.json",
+  "existingBrowserChecks": [
+    "aligned cards 390/768/1366",
+    "four pages and 0/1/2/3",
+    "questionnaire persistence",
+    "phase3c 9 cases",
+    "legacy isolated mock regression"
+  ],
+  "secretFile": "backend/.env",
+  "secretFileExists": false,
+  "gitignoreRulesVerified": true,
+  "gitMetadataPresent": false,
+  "bundleContainsKeyVariable": false
+}

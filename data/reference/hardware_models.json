@@ -1,0 +1,2093 @@
+{
+  "schemaVersion": 1,
+  "source": "../data/电脑数据.xlsx",
+  "records": [
+    {
+      "productId": "np-821de32e4bdd2ada742c",
+      "row": 2,
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m58cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-e33a73323a54ac6711ee",
+      "row": 3,
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-f4c1ee85188ec90baf1e",
+      "row": 4,
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-4fd99de1823c181fcdce",
+      "row": 5,
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-d2535e3311d688e48e40",
+      "row": 6,
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-7352ceda9ac3465452e3",
+      "row": 7,
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-526eb2abeaf716bae560",
+      "row": 8,
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-7d2080c7744b051063f3",
+      "row": 9,
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-d0e1ba60a922d9c18614",
+      "row": 10,
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpuId": "cpu-m510cores",
+      "gpuId": "gpu-m510cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-c69717951e2fb376a117",
+      "row": 11,
+      "model": "MacBook Neo",
+      "cpuId": "cpu-a18pro6cores",
+      "gpuId": "gpu-a18pro5cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-95eb7db0f6efc8f033ed",
+      "row": 12,
+      "model": "MacBook Neo",
+      "cpuId": "cpu-a18pro6cores",
+      "gpuId": "gpu-a18pro5cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-899d475a72ffb8a996fa",
+      "row": 13,
+      "model": "MacBook Pro 14英寸（M6）",
+      "cpuId": "cpu-m612cores",
+      "gpuId": "gpu-m612cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-151ad5be2205fbe7dbdf",
+      "row": 14,
+      "model": "MacBook Pro 14英寸（M6）",
+      "cpuId": "cpu-m612cores",
+      "gpuId": "gpu-m612cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-be4d94c12a1eb6f88647",
+      "row": 15,
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "cpuId": "cpu-m5pro15cores",
+      "gpuId": "gpu-m5pro16cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-4ebeb761e90f948e9fcf",
+      "row": 16,
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "cpuId": "cpu-m5pro18cores",
+      "gpuId": "gpu-m5pro20cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-08c2daecd6ee8dc6a5b8",
+      "row": 17,
+      "model": "MacBook Pro 14英寸（M5 Max）",
+      "cpuId": "cpu-m5max18cores",
+      "gpuId": "gpu-m5max32cores-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-d3e1e31773cf48110768",
+      "row": 18,
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "cpuId": "cpu-coreultra7251hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-c4220c0135ddfa2bb409",
+      "row": 19,
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "cpuId": "cpu-coreultra7251hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-c52208f4c76c092d9074",
+      "row": 20,
+      "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+      "cpuId": "cpu-coreultra9290hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-c2382313968cb80e850c",
+      "row": 21,
+      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "cpuId": "cpu-coreultra5226v",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-34bc20704c65751cacbe",
+      "row": 22,
+      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-0ab4acffee16d2861b53",
+      "row": 23,
+      "model": "小新Pro 16英寸轻薄笔记本电脑",
+      "cpuId": "cpu-coreultra5336h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-64f4c6c4151cb692c493",
+      "row": 24,
+      "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-98a879d503c2ee705543",
+      "row": 25,
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-76ec5b7767d02d3791e4",
+      "row": 26,
+      "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+      "cpuId": "cpu-coreultra7356h",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-c621bace4974a1e6ed5d",
+      "row": 27,
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "cpuId": "cpu-core5325",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-df72b0734f62fba28a26",
+      "row": 28,
+      "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-beea8ad82fe3a0577ae4",
+      "row": 29,
+      "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-35041149e93a8cac19f0",
+      "row": 30,
+      "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+      "cpuId": "cpu-coreultra9290hxplus",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-5a16d391c12872a7ebb2",
+      "row": 31,
+      "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+      "cpuId": "cpu-coreultrax9388h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-cef7acfb325f51bb6719",
+      "row": 32,
+      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "cpuId": "cpu-coreultra7251h",
+      "gpuId": "gpu-rtxpro2000blackwell-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-8381329b5f5bb128230b",
+      "row": 33,
+      "model": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本",
+      "cpuId": "cpu-core5210h",
+      "gpuId": "gpu-rtx3050-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-a33093ee7a654bfc61b6",
+      "row": 34,
+      "model": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-599b48414149c64c289e",
+      "row": 35,
+      "model": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑",
+      "cpuId": "cpu-coreultra5325",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-75cf0011539381e70916",
+      "row": 36,
+      "model": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-58030f969a49c68c4ce8",
+      "row": 37,
+      "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+      "cpuId": "cpu-ryzen99955hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-bffbd2f59ef537c7450a",
+      "row": 38,
+      "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
+      "cpuId": "cpu-coreultra9290hxplus",
+      "gpuId": "gpu-rtx5070ti-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-1d12de8f38fb438b7a8d",
+      "row": 39,
+      "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+      "cpuId": "cpu-ryzenai9h465",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-3590e4add87336a2525a",
+      "row": 40,
+      "model": "天选6 Pro 锐龙版 16英寸电竞游戏本",
+      "cpuId": "cpu-ryzen97845hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-7565dde1ec13a38ceadb",
+      "row": 41,
+      "model": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑",
+      "cpuId": "cpu-coreultra7251hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-73cca426fb1187b7bc73",
+      "row": 42,
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "cpuId": "cpu-ryzen9h270",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-8142239a836fb8c83da7",
+      "row": 43,
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "cpuId": "cpu-ryzenai9h465",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-604a8ba4b571b4c0f23f",
+      "row": 44,
+      "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+      "cpuId": "cpu-coreultra7356h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-589358c4159defd0a248",
+      "row": 45,
+      "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+      "cpuId": "cpu-ryzenai9h465",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-e59d270febadb8180cb5",
+      "row": 46,
+      "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+      "cpuId": "cpu-x",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-8cdaaba579d0f7b3dbbd",
+      "row": 47,
+      "model": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑",
+      "cpuId": "cpu-coreultra7356h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-7a935669073161c610e3",
+      "row": 48,
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "cpuId": "cpu-ryzenai5h430",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-eb16f7e0476751f71a5e",
+      "row": 49,
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "cpuId": "cpu-ryzenai7h450",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-87938df60e2c37387209",
+      "row": 50,
+      "model": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-8a2fb115ec6457b33df0",
+      "row": 51,
+      "model": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-0e287e2ffa259909da00",
+      "row": 52,
+      "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+      "cpuId": "cpu-coreultra5225h",
+      "gpuId": "gpu-arc130t-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-18dd17d38c58f7ce6139",
+      "row": 53,
+      "model": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-f6618cb4586314bdef52",
+      "row": 54,
+      "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": "gpu-arcb370-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-9627debb5ff38348e48d",
+      "row": 55,
+      "model": "惠普 (HP)锐14 14英寸商务笔记本电脑",
+      "cpuId": "cpu-ryzen57530u",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-e2c06d6ebd1eee4db546",
+      "row": 56,
+      "model": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-21476c11b3b753efac3b",
+      "row": 57,
+      "model": "惠普 (HP) 战66 14英寸商务笔记本电脑",
+      "cpuId": "cpu-coreultra5336h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-3e202a2ef2c64b505f78",
+      "row": 58,
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "cpuId": "cpu-ryzen99955hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-1d4badb1994428b8016f",
+      "row": 59,
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "cpuId": "cpu-coreultra7251hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-b0385cb9591ca8e41e06",
+      "row": 60,
+      "model": "惠普(HP) 战X 16英寸商务笔记本电脑",
+      "cpuId": "cpu-coreultra5228v",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-39421d33535071ba08a7",
+      "row": 61,
+      "model": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+      "cpuId": "cpu-coreultra5325",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-29b14525020adba21c41",
+      "row": 62,
+      "model": "Hi MateBook 14 锐龙版 24GB 1TB",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-967b2e6eca8c5d9c93f5",
+      "row": 63,
+      "model": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+      "cpuId": "cpu-core7240h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-61bc2c438fe8eff0d49d",
+      "row": 64,
+      "model": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-f45e1beec3054f8940a3",
+      "row": 65,
+      "model": "Dell 14S 笔记本",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-8afd305c5a066905cd94",
+      "row": 66,
+      "model": "Dell 16S 笔记本",
+      "cpuId": "cpu-coreultra5322",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-465708bf7417b7554904",
+      "row": 67,
+      "model": "Dell 14 笔记本",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-56102a8b7bf6c7f5b2e9",
+      "row": 68,
+      "model": "Dell 15 笔记本",
+      "cpuId": "cpu-ryzen5220",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-7a50b813cbde6a77dfc1",
+      "row": 69,
+      "model": "XPS 13 笔记本电脑",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-3624f9018abd6ce52c0a",
+      "row": 70,
+      "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+      "cpuId": "cpu-coreultra7270hxplus",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-940310f173ec86e6650b",
+      "row": 71,
+      "model": "耀世 16 Ultra旗舰游戏本",
+      "cpuId": "cpu-coreultra9290hxplus",
+      "gpuId": "gpu-rtx5070ti-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-c413653373ddd512ed37",
+      "row": 72,
+      "model": "耀世 15 Air轻薄游戏本",
+      "cpuId": "cpu-coreultra7356h",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-673622640e5e11f3f23a",
+      "row": 73,
+      "model": "耀世 18 Pro高端大屏游戏本",
+      "cpuId": "cpu-corei714650hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-f0b4096e75cef9b6d242",
+      "row": 74,
+      "model": "无界 14 SE双通道轻薄本",
+      "cpuId": "cpu-corei513420h",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-828ebbc340c18ec14814",
+      "row": 75,
+      "model": "无界 14高性能轻薄本",
+      "cpuId": "cpu-core5226",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-8baa60b1844621f0ab04",
+      "row": 76,
+      "model": "苍龙 16 Ultra旗舰游戏本",
+      "cpuId": "cpu-ryzen9000hx",
+      "gpuId": "gpu-rtx5070ti-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-2f271b787d9913fbf15d",
+      "row": 77,
+      "model": "苍龙 18 Pro高端大屏游戏本",
+      "cpuId": "cpu-ryzen98945hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "gpuModelMissingIntentional": false,
+      "gpuTypeInExcel": "独显",
+      "gpuTypeInExistingCatalog": "独立显卡"
+    },
+    {
+      "productId": "np-413c27d11a0df17c7146",
+      "row": 78,
+      "model": "星耀 14高颜值轻薄本",
+      "cpuId": "cpu-ryzenai9h365",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    },
+    {
+      "productId": "np-973d6098654f5dd40963",
+      "row": 79,
+      "model": "恒悦E14G2",
+      "cpuId": "cpu-coreultra5226v",
+      "gpuId": null,
+      "gpuModelMissingIntentional": true,
+      "gpuTypeInExcel": "集显",
+      "gpuTypeInExistingCatalog": "集成显卡"
+    }
+  ],
+  "cpuModels": [
+    {
+      "id": "cpu-m510cores",
+      "kind": "cpu",
+      "normalizedKey": "m510cores",
+      "standardName": "Apple M5 10核",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "M5 10核"
+      ],
+      "productIds": [
+        "np-821de32e4bdd2ada742c",
+        "np-e33a73323a54ac6711ee",
+        "np-f4c1ee85188ec90baf1e",
+        "np-4fd99de1823c181fcdce",
+        "np-d2535e3311d688e48e40",
+        "np-7352ceda9ac3465452e3",
+        "np-526eb2abeaf716bae560",
+        "np-7d2080c7744b051063f3",
+        "np-d0e1ba60a922d9c18614"
+      ],
+      "productCount": 9,
+      "observationRefs": [
+        "o-900d7f91ca57"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [
+        "e-ea5693fe9df9"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-a18pro6cores",
+      "kind": "cpu",
+      "normalizedKey": "a18pro6cores",
+      "standardName": "Apple A18 Pro 6核",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "A18 Pro 6核"
+      ],
+      "productIds": [
+        "np-c69717951e2fb376a117",
+        "np-95eb7db0f6efc8f033ed"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-m612cores",
+      "kind": "cpu",
+      "normalizedKey": "m612cores",
+      "standardName": "Apple M6 12核",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "M6 12核"
+      ],
+      "productIds": [
+        "np-899d475a72ffb8a996fa",
+        "np-151ad5be2205fbe7dbdf"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-m5pro15cores",
+      "kind": "cpu",
+      "normalizedKey": "m5pro15cores",
+      "standardName": "Apple M5 Pro 15核",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "M5 Pro 15核"
+      ],
+      "productIds": [
+        "np-be4d94c12a1eb6f88647"
+      ],
+      "productCount": 1,
+      "observationRefs": [
+        "o-6061b455fdeb"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [
+        "e-ea5693fe9df9"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-m5pro18cores",
+      "kind": "cpu",
+      "normalizedKey": "m5pro18cores",
+      "standardName": "Apple M5 Pro 18核",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "M5 Pro 18核"
+      ],
+      "productIds": [
+        "np-4ebeb761e90f948e9fcf"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-ea5693fe9df9"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "识别到Apple M5家族，但此核数配置没有对应CPU基准，不能套用另一核数",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-m5max18cores",
+      "kind": "cpu",
+      "normalizedKey": "m5max18cores",
+      "standardName": "Apple M5 Max 18核",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "M5 Max 18核"
+      ],
+      "productIds": [
+        "np-08c2daecd6ee8dc6a5b8"
+      ],
+      "productCount": 1,
+      "observationRefs": [
+        "o-71c85967353b"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [
+        "e-ea5693fe9df9"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra7251hx",
+      "kind": "cpu",
+      "normalizedKey": "coreultra7251hx",
+      "standardName": "Intel Core Ultra 7 251HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 7 251HX",
+        "Ultra 7 251HX",
+        "酷睿 U7-251HX",
+        "酷睿 Ultra 7-251HX"
+      ],
+      "productIds": [
+        "np-d3e1e31773cf48110768",
+        "np-c4220c0135ddfa2bb409",
+        "np-7565dde1ec13a38ceadb",
+        "np-1d4badb1994428b8016f"
+      ],
+      "productCount": 4,
+      "observationRefs": [
+        "o-13844753730f"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra9290hx",
+      "kind": "cpu",
+      "normalizedKey": "coreultra9290hx",
+      "standardName": "Intel Core Ultra 9 290HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "Ultra 9 290HX"
+      ],
+      "productIds": [
+        "np-c52208f4c76c092d9074"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5226v",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5226v",
+      "standardName": "Intel Core Ultra 5 226V",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 5 226V"
+      ],
+      "productIds": [
+        "np-c2382313968cb80e850c",
+        "np-973d6098654f5dd40963"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-core5320",
+      "kind": "cpu",
+      "normalizedKey": "core5320",
+      "standardName": "Intel Core 5 320",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 5 320",
+        "酷睿 5 320 ",
+        "Intel Core 5 320"
+      ],
+      "productIds": [
+        "np-34bc20704c65751cacbe",
+        "np-64f4c6c4151cb692c493",
+        "np-a33093ee7a654bfc61b6",
+        "np-8a2fb115ec6457b33df0",
+        "np-f45e1beec3054f8940a3",
+        "np-465708bf7417b7554904",
+        "np-7a50b813cbde6a77dfc1"
+      ],
+      "productCount": 7,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-c9023bc1d32a"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "仅基础知识提及型号，没有可比移动端性能数据",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5336h",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5336h",
+      "standardName": "Intel Core Ultra 5 336H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 5 336H"
+      ],
+      "productIds": [
+        "np-0ab4acffee16d2861b53",
+        "np-21476c11b3b753efac3b"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5338h",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5338h",
+      "standardName": "Intel Core Ultra 5 338H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 5 338H"
+      ],
+      "productIds": [
+        "np-98a879d503c2ee705543",
+        "np-f6618cb4586314bdef52"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra7356h",
+      "kind": "cpu",
+      "normalizedKey": "coreultra7356h",
+      "standardName": "Intel Core Ultra 7 356H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 7 356H",
+        "酷睿 Ultra7 356H",
+        "酷睿 U7-356H"
+      ],
+      "productIds": [
+        "np-76ec5b7767d02d3791e4",
+        "np-604a8ba4b571b4c0f23f",
+        "np-8cdaaba579d0f7b3dbbd",
+        "np-c413653373ddd512ed37"
+      ],
+      "productCount": 4,
+      "observationRefs": [
+        "o-317e44c72523"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-core5325",
+      "kind": "cpu",
+      "normalizedKey": "core5325",
+      "standardName": "Intel Core 5 325",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 5 325"
+      ],
+      "productIds": [
+        "np-c621bace4974a1e6ed5d"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultrax7358h",
+      "kind": "cpu",
+      "normalizedKey": "coreultrax7358h",
+      "standardName": "Intel Core Ultra X7 358H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra X7 358H"
+      ],
+      "productIds": [
+        "np-df72b0734f62fba28a26",
+        "np-beea8ad82fe3a0577ae4",
+        "np-75cf0011539381e70916"
+      ],
+      "productCount": 3,
+      "observationRefs": [
+        "o-0d254900b9fe",
+        "o-d92c23835b6a",
+        "o-7d60298130b4"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra9290hxplus",
+      "kind": "cpu",
+      "normalizedKey": "coreultra9290hxplus",
+      "standardName": "Intel Core Ultra 9 290HX Plus",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 9 290HX Plus",
+        "酷睿 U9-290HX Plus",
+        "酷睿 Ultra 9 290 HX Plus"
+      ],
+      "productIds": [
+        "np-35041149e93a8cac19f0",
+        "np-bffbd2f59ef537c7450a",
+        "np-940310f173ec86e6650b"
+      ],
+      "productCount": 3,
+      "observationRefs": [
+        "o-5108fac92a75"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultrax9388h",
+      "kind": "cpu",
+      "normalizedKey": "coreultrax9388h",
+      "standardName": "Intel Core Ultra X9 388H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra X9 388H"
+      ],
+      "productIds": [
+        "np-5a16d391c12872a7ebb2"
+      ],
+      "productCount": 1,
+      "observationRefs": [
+        "o-6109211912df"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra7251h",
+      "kind": "cpu",
+      "normalizedKey": "coreultra7251h",
+      "standardName": "Intel Core Ultra 7 251H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 7 251H"
+      ],
+      "productIds": [
+        "np-cef7acfb325f51bb6719"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-core5210h",
+      "kind": "cpu",
+      "normalizedKey": "core5210h",
+      "standardName": "Intel Core 5 210H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 5 210H"
+      ],
+      "productIds": [
+        "np-8381329b5f5bb128230b"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5325",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5325",
+      "standardName": "Intel Core Ultra 5 325",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra5-325",
+        "酷睿 Ultra 5 325"
+      ],
+      "productIds": [
+        "np-599b48414149c64c289e",
+        "np-39421d33535071ba08a7"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-0650b6296e24"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "仅基础知识提及型号，没有可比移动端性能数据",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen99955hx",
+      "kind": "cpu",
+      "normalizedKey": "ryzen99955hx",
+      "standardName": "AMD Ryzen 9 9955HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 R9-9955HX",
+        "锐龙 9-9955HX"
+      ],
+      "productIds": [
+        "np-58030f969a49c68c4ce8",
+        "np-3e202a2ef2c64b505f78"
+      ],
+      "productCount": 2,
+      "observationRefs": [
+        "o-535a6a723439"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzenai9h465",
+      "kind": "cpu",
+      "normalizedKey": "ryzenai9h465",
+      "standardName": "AMD Ryzen AI 9 H 465",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 AI 9 H 465"
+      ],
+      "productIds": [
+        "np-1d12de8f38fb438b7a8d",
+        "np-8142239a836fb8c83da7",
+        "np-589358c4159defd0a248"
+      ],
+      "productCount": 3,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen97845hx",
+      "kind": "cpu",
+      "normalizedKey": "ryzen97845hx",
+      "standardName": "AMD Ryzen 9 7845HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 R9-7845HX"
+      ],
+      "productIds": [
+        "np-3590e4add87336a2525a"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen9h270",
+      "kind": "cpu",
+      "normalizedKey": "ryzen9h270",
+      "standardName": "AMD Ryzen 9 H 270",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 9 H 270"
+      ],
+      "productIds": [
+        "np-73cca426fb1187b7bc73"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-x",
+      "kind": "cpu",
+      "normalizedKey": "x",
+      "standardName": "骁龙X",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "骁龙X"
+      ],
+      "productIds": [
+        "np-e59d270febadb8180cb5"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzenai5h430",
+      "kind": "cpu",
+      "normalizedKey": "ryzenai5h430",
+      "standardName": "AMD Ryzen AI 5 H 430",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 AI 5 H 430"
+      ],
+      "productIds": [
+        "np-7a935669073161c610e3"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzenai7h450",
+      "kind": "cpu",
+      "normalizedKey": "ryzenai7h450",
+      "standardName": "AMD Ryzen AI 7 H 450",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 AI 7 H 450"
+      ],
+      "productIds": [
+        "np-eb16f7e0476751f71a5e"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen7h255",
+      "kind": "cpu",
+      "normalizedKey": "ryzen7h255",
+      "standardName": "AMD Ryzen 7 H 255",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 7 H 255",
+        "Ryzen 7 H 255"
+      ],
+      "productIds": [
+        "np-87938df60e2c37387209",
+        "np-18dd17d38c58f7ce6139",
+        "np-e2c06d6ebd1eee4db546",
+        "np-29b14525020adba21c41",
+        "np-61bc2c438fe8eff0d49d"
+      ],
+      "productCount": 5,
+      "observationRefs": [
+        "o-515013746f22",
+        "o-0b499690a0c3",
+        "o-371cfba8ff59"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5225h",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5225h",
+      "standardName": "Intel Core Ultra 5 225H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 5 225H"
+      ],
+      "productIds": [
+        "np-0e287e2ffa259909da00"
+      ],
+      "productCount": 1,
+      "observationRefs": [
+        "o-f1d04ce00471"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen57530u",
+      "kind": "cpu",
+      "normalizedKey": "ryzen57530u",
+      "standardName": "AMD Ryzen 5 7530U",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 5 7530U"
+      ],
+      "productIds": [
+        "np-9627debb5ff38348e48d"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-5409eabe49a1"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "仅基础知识提及型号，没有可比移动端性能数据",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5228v",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5228v",
+      "standardName": "Intel Core Ultra 5 228V",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 5 228V"
+      ],
+      "productIds": [
+        "np-b0385cb9591ca8e41e06"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-core7240h",
+      "kind": "cpu",
+      "normalizedKey": "core7240h",
+      "standardName": "Intel Core 7 240H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 7 240H"
+      ],
+      "productIds": [
+        "np-967b2e6eca8c5d9c93f5"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra5322",
+      "kind": "cpu",
+      "normalizedKey": "coreultra5322",
+      "standardName": "Intel Core Ultra 5 322",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 5 322"
+      ],
+      "productIds": [
+        "np-8afd305c5a066905cd94"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen5220",
+      "kind": "cpu",
+      "normalizedKey": "ryzen5220",
+      "standardName": "AMD Ryzen 5 220",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "Ryzen 5 220"
+      ],
+      "productIds": [
+        "np-56102a8b7bf6c7f5b2e9"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-coreultra7270hxplus",
+      "kind": "cpu",
+      "normalizedKey": "coreultra7270hxplus",
+      "standardName": "Intel Core Ultra 7 270HX Plus",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 Ultra 7 270HX Plus"
+      ],
+      "productIds": [
+        "np-3624f9018abd6ce52c0a"
+      ],
+      "productCount": 1,
+      "observationRefs": [
+        "o-53e23581d860"
+      ],
+      "existingMatchStatus": "benchmark",
+      "performanceLevel": "measured_or_compared",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-corei714650hx",
+      "kind": "cpu",
+      "normalizedKey": "corei714650hx",
+      "standardName": "Intel Core i7 14650HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 i7-14650HX"
+      ],
+      "productIds": [
+        "np-673622640e5e11f3f23a"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-corei513420h",
+      "kind": "cpu",
+      "normalizedKey": "corei513420h",
+      "standardName": "Intel Core i5 13420H",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 i5-13420H"
+      ],
+      "productIds": [
+        "np-f0b4096e75cef9b6d242"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-166271047cfb"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "仅基础知识提及型号，没有可比移动端性能数据",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-core5226",
+      "kind": "cpu",
+      "normalizedKey": "core5226",
+      "standardName": "Intel Core 5 226",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "酷睿 5 226"
+      ],
+      "productIds": [
+        "np-828ebbc340c18ec14814"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen9000hx",
+      "kind": "cpu",
+      "normalizedKey": "ryzen9000hx",
+      "standardName": "AMD Ryzen 9000HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 9000HX"
+      ],
+      "productIds": [
+        "np-8baa60b1844621f0ab04"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzen98945hx",
+      "kind": "cpu",
+      "normalizedKey": "ryzen98945hx",
+      "standardName": "AMD Ryzen 9 8945HX",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "R9-8945HX"
+      ],
+      "productIds": [
+        "np-2f271b787d9913fbf15d"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    },
+    {
+      "id": "cpu-ryzenai9h365",
+      "kind": "cpu",
+      "normalizedKey": "ryzenai9h365",
+      "standardName": "AMD Ryzen AI 9 H 365",
+      "scope": "exact_name_preserving_suffix_and_cores",
+      "rawAliases": [
+        "锐龙 AI 9 H 365"
+      ],
+      "productIds": [
+        "np-413c27d11a0df17c7146"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+      "classificationInCatalog": null
+    }
+  ],
+  "gpuModels": [
+    {
+      "id": "gpu-m58cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "m58cores",
+      "standardName": "Apple M5 8核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "M5 8核"
+      ],
+      "productIds": [
+        "np-821de32e4bdd2ada742c"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-1ef4a866f7d7"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-m510cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "m510cores",
+      "standardName": "Apple M5 10核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "M5 10核"
+      ],
+      "productIds": [
+        "np-e33a73323a54ac6711ee",
+        "np-f4c1ee85188ec90baf1e",
+        "np-4fd99de1823c181fcdce",
+        "np-d2535e3311d688e48e40",
+        "np-7352ceda9ac3465452e3",
+        "np-526eb2abeaf716bae560",
+        "np-7d2080c7744b051063f3",
+        "np-d0e1ba60a922d9c18614"
+      ],
+      "productCount": 8,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-1ef4a866f7d7"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-a18pro5cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "a18pro5cores",
+      "standardName": "Apple A18 Pro 5核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "A18 Pro 5核"
+      ],
+      "productIds": [
+        "np-c69717951e2fb376a117",
+        "np-95eb7db0f6efc8f033ed"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-m612cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "m612cores",
+      "standardName": "Apple M6 12核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "M6 12核"
+      ],
+      "productIds": [
+        "np-899d475a72ffb8a996fa",
+        "np-151ad5be2205fbe7dbdf"
+      ],
+      "productCount": 2,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [
+        "e-1ef4a866f7d7"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-m5pro16cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "m5pro16cores",
+      "standardName": "Apple M5 Pro 16核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "M5 Pro 16核"
+      ],
+      "productIds": [
+        "np-be4d94c12a1eb6f88647"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-1ef4a866f7d7"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-m5pro20cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "m5pro20cores",
+      "standardName": "Apple M5 Pro 20核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "M5 Pro 20核"
+      ],
+      "productIds": [
+        "np-4ebeb761e90f948e9fcf"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-1ef4a866f7d7"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-m5max32cores-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "m5max32cores",
+      "standardName": "Apple M5 Max 32核 GPU",
+      "scope": "unspecified",
+      "rawAliases": [
+        "M5 Max 32核"
+      ],
+      "productIds": [
+        "np-08c2daecd6ee8dc6a5b8"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "identity_only",
+      "performanceLevel": "identity_only",
+      "identityEvidenceRefs": [
+        "e-1ef4a866f7d7"
+      ],
+      "possibleMobileReference": null,
+      "limitations": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-rtx5060-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "rtx5060",
+      "standardName": "NVIDIA GeForce RTX 5060（桌面/移动版本未明确）",
+      "scope": "unspecified",
+      "rawAliases": [
+        "RTX5060"
+      ],
+      "productIds": [
+        "np-d3e1e31773cf48110768",
+        "np-c4220c0135ddfa2bb409",
+        "np-c52208f4c76c092d9074",
+        "np-76ec5b7767d02d3791e4",
+        "np-35041149e93a8cac19f0",
+        "np-58030f969a49c68c4ce8",
+        "np-1d12de8f38fb438b7a8d",
+        "np-3590e4add87336a2525a",
+        "np-7565dde1ec13a38ceadb",
+        "np-3e202a2ef2c64b505f78",
+        "np-1d4badb1994428b8016f",
+        "np-3624f9018abd6ce52c0a",
+        "np-c413653373ddd512ed37",
+        "np-673622640e5e11f3f23a",
+        "np-2f271b787d9913fbf15d"
+      ],
+      "productCount": 15,
+      "observationRefs": [],
+      "existingMatchStatus": "contextual_tier",
+      "performanceLevel": "conditional_position",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": {
+        "id": "gpu-rtx5060-laptop",
+        "kind": "gpu",
+        "normalizedKey": "rtx5060",
+        "standardName": "NVIDIA GeForce RTX 5060 Laptop GPU",
+        "scope": "laptop"
+      },
+      "limitations": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+      "classificationInCatalog": "独立显卡",
+      "conditionalEvidenceRefs": [
+        "e-b4fc35764e0c",
+        "e-ab00c0fb1242",
+        "e-7436e1c90001"
+      ]
+    },
+    {
+      "id": "gpu-rtxpro2000blackwell-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "rtxpro2000blackwell",
+      "standardName": "RTX Pro 2000 Blackwell",
+      "scope": "unspecified",
+      "rawAliases": [
+        "RTX Pro 2000 Blackwell"
+      ],
+      "productIds": [
+        "np-cef7acfb325f51bb6719"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+      "classificationInCatalog": "独立显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-rtx3050-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "rtx3050",
+      "standardName": "NVIDIA GeForce RTX 3050（桌面/移动版本未明确）",
+      "scope": "unspecified",
+      "rawAliases": [
+        "RTX3050"
+      ],
+      "productIds": [
+        "np-8381329b5f5bb128230b"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+      "classificationInCatalog": "独立显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-rtx5070ti-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "rtx5070ti",
+      "standardName": "NVIDIA GeForce RTX 5070 Ti（桌面/移动版本未明确）",
+      "scope": "unspecified",
+      "rawAliases": [
+        "RTX5070Ti",
+        "RTX5070 Ti"
+      ],
+      "productIds": [
+        "np-bffbd2f59ef537c7450a",
+        "np-940310f173ec86e6650b",
+        "np-8baa60b1844621f0ab04"
+      ],
+      "productCount": 3,
+      "observationRefs": [],
+      "existingMatchStatus": "contextual_tier",
+      "performanceLevel": "conditional_position",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": {
+        "id": "gpu-rtx5070ti-laptop",
+        "kind": "gpu",
+        "normalizedKey": "rtx5070ti",
+        "standardName": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+        "scope": "laptop"
+      },
+      "limitations": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+      "classificationInCatalog": "独立显卡",
+      "conditionalEvidenceRefs": [
+        "e-b4fc35764e0c"
+      ]
+    },
+    {
+      "id": "gpu-arc130t-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "arc130t",
+      "standardName": "Intel Arc 130T",
+      "scope": "unspecified",
+      "rawAliases": [
+        "英特尔锐炫 130T"
+      ],
+      "productIds": [
+        "np-0e287e2ffa259909da00"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    },
+    {
+      "id": "gpu-arcb370-unspecified",
+      "kind": "gpu",
+      "normalizedKey": "arcb370",
+      "standardName": "Intel Arc B370",
+      "scope": "unspecified",
+      "rawAliases": [
+        "英特尔锐炫 B370"
+      ],
+      "productIds": [
+        "np-f6618cb4586314bdef52"
+      ],
+      "productCount": 1,
+      "observationRefs": [],
+      "existingMatchStatus": "unknown",
+      "performanceLevel": "unknown",
+      "identityEvidenceRefs": [],
+      "possibleMobileReference": null,
+      "limitations": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+      "classificationInCatalog": "集成显卡",
+      "conditionalEvidenceRefs": []
+    }
+  ],
+  "missingGpu": {
+    "count": 40,
+    "intentionalIntegrated": 40,
+    "discreteMissing": 0
+  },
+  "note": "rawAliases保留Excel精确原文，包括尾随空白；未明确版本的RTX不合并进Laptop模型。分类沿用既有目录，不修改Excel。",
+  "sourceSha256": "bbca679a063d289631752fb05b99e0ed85b6734baf0de25dc5c9ebebcbd674b3"
+}

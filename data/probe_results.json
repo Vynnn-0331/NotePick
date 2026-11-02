@@ -1,0 +1,26 @@
+[
+  {
+    "source": "huawei_catalog",
+    "url": "https://consumer.huawei.com/cn/laptops/",
+    "status": 200,
+    "size": 169103
+  },
+  {
+    "source": "huawei_terms",
+    "url": "https://consumer.huawei.com/cn/legal/terms-of-use/",
+    "status": 200,
+    "size": 140524
+  },
+  {
+    "source": "dell_catalog",
+    "url": "https://www.dell.com/zh-cn/shop/笔记本/scr/laptop",
+    "status": 403,
+    "size": 471
+  },
+  {
+    "source": "hp_catalog",
+    "url": "https://www.hp.com/cn-zh/shop/",
+    "status": 503,
+    "size": 391
+  }
+]

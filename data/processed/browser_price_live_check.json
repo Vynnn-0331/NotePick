@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-31T13:03:44.428Z",
+  "mode": "REAL browser; not a quote success test",
+  "productId": "np-0ab4acffee16d2861b53",
+  "steps": [
+    {
+      "action": "login",
+      "ok": true,
+      "requiresManual": true,
+      "links": 0,
+      "quotes": 0,
+      "notice": "请在打开的查价浏览器中自行登录或完成验证，然后搜索当前机型。"
+    },
+    {
+      "action": "search",
+      "ok": true,
+      "requiresManual": false,
+      "links": 0,
+      "quotes": 0,
+      "notice": "请在查价浏览器打开商品、选择配置后读取。"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "mode": "REAL merchant price probe, zero chat/model calls",
+  "time": "2026-10-31T03:58:47.792Z",
+  "budgets": {
+    "search": 4,
+    "fetch": 3,
+    "official": 1
+  },
+  "cases": [
+    {
+      "id": "np-0ab4acffee16d2861b53",
+      "name": "小新Pro 16英寸轻薄笔记本电脑",
+      "configured": true,
+      "result": {
+        "kind": "prices",
+        "productId": "np-0ab4acffee16d2861b53",
+        "queriedAt": "2026-10-31T03:58:33.573Z",
+        "quotes": [],
+        "relatedLinks": [
+          {
+            "id": "815b178dc292cadc",
+            "platform": "品牌商城",
+            "name": "联想Lenovo小新Pro16 AI超能本16英寸笔记本电脑-联想知识库",
+            "brand": "联想",
+            "cpu": null,
+            "gpu": null,
+            "ramGb": 32,
+            "ssdGb": null,
+            "skuCode": null,
+            "sourceUrl": "https://www.lenovo.com.cn/wiki-c/product-doc-47442.html",
+            "queriedAt": "2026-10-31T03:58:33.573Z",
+            "match": {
+              "status": "possible",
+              "comparable": false,
+              "checks": {
+                "brand": true,
+                "model": true,
+                "cpu": null,
+                "gpu": true,
+                "ram": true,
+                "ssd": null
+              },
+              "scope": "series",
+              "missing": [
+                "cpu",
+                "ssd",
+                "单一销售配置"
+              ],
+              "conflicts": [],
+              "reason": "配置尚未全部确认，不能参与最低价比较"
+            },
+            "price": null,
+            "reason": "配置待确认，价格需前往商家查看"
+          }
+        ],
+        "lowestComparablePrice": null,
+        "failures": [],
+        "counts": {
+          "search": 2,
+          "fetch": 3,
+          "official": 0,
+          "rawResults": 8,
+          "unsafeUrl": 0,
+          "duplicate": 0,
+          "nonProduct": 3,
+          "bodyUnavailable": 0,
+          "mismatch": 4,
+          "possible": 1,
+          "exact": 0,
+          "quotes": 0,
+          "historical": 0,
+          "priceRejected": 1
+        },
+        "notice": "未取得可核实的当前报价，可查看商家页面或输入价格",
+        "diagnostics": {
+          "stages": [
+            {
+              "stage": "search",
+              "status": 200,
+              "results": 5
+            },
+            {
+              "stage": "fetch",
+              "host": "www.lenovo.com.cn",
+              "status": 200
+            },
+            {
+              "stage": "fetch",
+              "host": "club.lenovo.com.cn",
+              "status": 200
+            },
+            {
+              "stage": "search",
+              "status": 200,
+              "results": 3
+            },
+            {
+              "stage": "fetch",
+              "host": "item.jd.com",
+              "status": 200
+            }
+          ],
+          "matchFailures": {
+            "model": 3,
+            "cpu": 1,
+            "ram": 1,
+            "ssd": 1
+          }
+        },
+        "unavailableQuotes": 1
+      },
+      "cacheWorks": true
+    },
+    {
+      "id": "np-413c27d11a0df17c7146",
+      "name": "星耀 14高颜值轻薄本",
+      "configured": true,
+      "result": {
+        "kind": "prices",
+        "productId": "np-413c27d11a0df17c7146",
+        "queriedAt": "2026-10-31T03:58:46.822Z",
+        "quotes": [],
+        "relatedLinks": [],
+        "lowestComparablePrice": null,
+        "failures": [],
+        "counts": {
+          "search": 2,
+          "fetch": 0,
+          "official": 1,
+          "rawResults": 0,
+          "unsafeUrl": 0,
+          "duplicate": 0,
+          "nonProduct": 0,
+          "bodyUnavailable": 0,
+          "mismatch": 1,
+          "possible": 0,
+          "exact": 0,
+          "quotes": 0,
+          "historical": 0,
+          "priceRejected": 0
+        },
+        "notice": "未取得可核实的当前报价，可查看商家页面或输入价格",
+        "diagnostics": {
+          "stages": [
+            {
+              "stage": "official",
+              "host": "mall.mechrevo.com",
+              "status": 200,
+              "results": 1
+            },
+            {
+              "stage": "search",
+              "status": 200,
+              "results": 0
+            },
+            {
+              "stage": "search",
+              "status": 200,
+              "results": 0
+            }
+          ],
+          "matchFailures": {
+            "cpu": 1
+          }
+        },
+        "unavailableQuotes": 0
+      },
+      "cacheWorks": true
+    }
+  ],
+  "traces": [
+    {
+      "stage": "search",
+      "url": "https://api.deepseek.com/v1/tools/search",
+      "productId": "np-0ab4acffee16d2861b53",
+      "query": "联想 小新Pro 16英寸 酷睿 Ultra 5 336H 32GB 1TB SSD site:lenovo.com.cn",
+      "status": 200,
+      "results": [
+        {
+          "title": "联想Lenovo小新Pro16 AI超能本16英寸笔记本电脑-联想知识库",
+          "url": "https://www.lenovo.com.cn/wiki-c/product-doc-47442.html",
+          "bodyChars": 1963,
+          "summaryChars": 1578,
+          "parsedPrice": 5299,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": true,
+              "ram": true,
+              "ssd": false
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、SSD尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "6dfbcd2d0fb3f80f08592637470c5515cf75a1fb514806f9b9cd22b5080d8689"
+        },
+        {
+          "title": "开始使用",
+          "url": "https://chinakb.lenovo.com.cn/chinakb/prod-api/file/downloadFile?key=uniko/FILE/bff6b32e9a361503a929b6b4fe6ff7af-1748501905498.pdf&name=小新Pro 14 IMH9 、小新Pro 14 AHP9、小新Pro 16 IMH9 和小新Pro 16 AHP9 设置指南-20250529.pdf#1#1#1",
+          "bodyChars": 3945,
+          "summaryChars": 94,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": false,
+              "ram": false,
+              "ssd": false
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、GPU、内存、SSD尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "f0547fd6d2e9b414616981283abaca85e4250fc6b598a9e3d13f929c98fe1594"
+        },
+        {
+          "title": "小新PRO16 225H款，不是GT 有没有极客模式_联想电脑管家-联想社区",
+          "url": "https://club.lenovo.com.cn/archiver/tid-9487025.html",
+          "bodyChars": 345,
+          "summaryChars": 308,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": false,
+              "ram": true,
+              "ssd": true
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、GPU尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "15db0ad1f909b3585df79d8d115dfca609b7ece0eb681a7b98b3e70fc0f2b846"
+        },
+        {
+          "title": "联想笔记本续航能力对比信息获取渠道完全梳理（2026年10月版）-联想知识库",
+          "url": "https://www.lenovo.com.cn/wiki/article-50187.html",
+          "bodyChars": 4585,
+          "summaryChars": 413,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": false,
+              "ram": false,
+              "ssd": false
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、GPU、内存、SSD尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "cccacd8eae66ea6043ee99d914cc29ff81b173f6d70ea99070eba8dd37e2b549"
+        },
+        {
+          "title": "联想笔记本评测信息从哪儿找？一份靠谱渠道的完整梳理-联想知识库",
+          "url": "https://www.lenovo.com.cn/wiki/article-50222.html",
+          "bodyChars": 4163,
+          "summaryChars": 332,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": false,
+              "cpu": false,
+              "gpu": false,
+              "ram": true,
+              "ssd": true
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "related",
+            "reason": "机型、CPU、GPU尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "51cae60a31b2b41a2e9df6cb818861ac5094b8f89c53423b7fc3b99ec58e2b52"
+        }
+      ],
+      "durationMs": 400
+    },
+    {
+      "stage": "fetch",
+      "url": "https://api.deepseek.com/v1/tools/fetch",
+      "productId": "np-0ab4acffee16d2861b53",
+      "status": 200,
+      "page": {
+        "title": "联想Lenovo小新Pro16 AI超能本16英寸笔记本电脑-联想知识库",
+        "chars": 1963,
+        "loginOrAccessMarker": false
+      },
+      "durationMs": 4152
+    },
+    {
+      "stage": "fetch",
+      "url": "https://api.deepseek.com/v1/tools/fetch",
+      "productId": "np-0ab4acffee16d2861b53",
+      "status": 200,
+      "page": {
+        "title": "小新PRO16 225H款，不是GT 有没有极客模式_联想电脑管家-联想社区",
+        "chars": 345,
+        "loginOrAccessMarker": false
+      },
+      "durationMs": 3135
+    },
+    {
+      "stage": "search",
+      "url": "https://api.deepseek.com/v1/tools/search",
+      "productId": "np-0ab4acffee16d2861b53",
+      "query": "联想 小新Pro 16英寸 酷睿 Ultra 5 336H 32GB 1TB SSD site:item.jd.com OR site:detail.tmall.com",
+      "status": 200,
+      "results": [
+        {
+          "title": "【联想（Lenovo）小新Pro16 2023和ThinkPadThinkBook 15哪个好】联想（Lenovo）小新Pro16 2023和ThinkPadThinkBook 15有什么区别-商品比较-京东商城",
+          "url": "https://item.jd.com/compare/10026649194959-100016053734-0-0.html",
+          "bodyChars": 768,
+          "summaryChars": 653,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": false,
+              "ram": false,
+              "ssd": false
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、GPU、内存、SSD尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "1154eb8147c1e7b2e7857f9629d9e47f7a1be82ef9ccb2590af4c47415affa5d"
+        },
+        {
+          "title": "【联想小新Pro16 2022和ThinkPadThinkBook 14哪个好】联想小新Pro16 2022和ThinkPadThinkBook 14有什么区别-商品比较-京东商城",
+          "url": "https://item.jd.com/compare/100020877528-100009087895-0-0.html",
+          "bodyChars": 577,
+          "summaryChars": 466,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": false,
+              "ram": false,
+              "ssd": false
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、GPU、内存、SSD尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "06a9996873d2f5c5c3477437721ef3c573e63a593f3c1b919f138bb1deda7b6d"
+        },
+        {
+          "title": "【联想小新Pro16】联想（Lenovo）小新Pro16超能本2023酷睿版 16英寸轻薄笔记本电脑 升级 i5-13500H 16G 2T 2.5K 鸽子灰 WIN11【行情 报价 价格 评测】-京东",
+          "url": "https://item.jd.com/100058363980.html",
+          "bodyChars": 1406,
+          "summaryChars": 1051,
+          "parsedPrice": null,
+          "legacyMatch": {
+            "checks": {
+              "brand": true,
+              "model": true,
+              "cpu": false,
+              "gpu": true,
+              "ram": false,
+              "ssd": false
+            },
+            "comparable": false,
+            "status": "配置待确认",
+            "scope": "series",
+            "reason": "CPU、内存、SSD尚未匹配；不参与最低价比较"
+          },
+          "bodyHash": "2320b9260dceeed2b8f3716de8e007609376ec0e8894058a6a3412be40b32cc6"
+        }
+      ],
+      "durationMs": 300
+    },
+    {
+      "stage": "fetch",
+      "url": "https://api.deepseek.com/v1/tools/fetch",
+      "productId": "np-0ab4acffee16d2861b53",
+      "status": 200,
+      "page": {
+        "title": "京东-欢迎登录",
+        "chars": 2508,
+        "loginOrAccessMarker": false
+      },
+      "durationMs": 5227
+    },
+    {
+      "stage": "official",
+      "url": "https://mall.mechrevo.com/portal-api/product/detail/101",
+      "productId": "np-413c27d11a0df17c7146",
+      "status": 200,
+      "page": {
+        "code": 200,
+        "name": "星耀 14高颜值轻薄本",
+        "skus": [
+          {
+            "skuCode": "P2529DCE726AA14C0EBB750352ADCA325D",
+            "skuName": "AI 9 H 365/32/1TB/2.8K OLED/FP/白",
+            "price": 6999,
+            "stock": 2,
+            "parameters": [
+              {
+                "groupName": "参数",
+                "title": "内存频率",
+                "value": "暂无"
+              },
+              {
+                "groupName": "参数",
+                "title": "硬盘容量",
+                "value": "1TB"
+              },
+              {
+                "groupName": "参数",
+                "title": "处理器(CPU)",
+                "value": "锐龙AI300系列"
+              },
+              {
+                "groupName": "参数",
+                "title": "系统",
+                "value": "Windows 11"
+              },
+              {
+                "groupName": "参数",
+                "title": "内存容量",
+                "value": "32GB"
+              },
+              {
+                "groupName": "参数",
+                "title": "显卡",
+                "value": "AMD核显"
+              }
+            ]
+          }
+        ]
+      },
+      "durationMs": 162
+    },
+    {
+      "stage": "search",
+      "url": "https://api.deepseek.com/v1/tools/search",
+      "productId": "np-413c27d11a0df17c7146",
+      "query": "机械革命 星耀 14高颜值 锐龙 AI 9 H 365 32GB 1TB SSD site:mall.mechrevo.com",
+      "status": 200,
+      "results": [],
+      "durationMs": 162
+    },
+    {
+      "stage": "search",
+      "url": "https://api.deepseek.com/v1/tools/search",
+      "productId": "np-413c27d11a0df17c7146",
+      "query": "机械革命 星耀 14高颜值 锐龙 AI 9 H 365 32GB 1TB SSD site:item.jd.com OR site:detail.tmall.com",
+      "status": 200,
+      "results": [],
+      "durationMs": 637
+    }
+  ]
+}

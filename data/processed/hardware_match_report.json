@@ -1,0 +1,2772 @@
+{
+  "knowledgeVersion": {
+    "version": "v3.0",
+    "source": "../data/说明文档.md",
+    "sha256": "f8a38234a7c253c86c38867f149bc1ecb3ddac9aea0ff40cace38d41254a9c4d"
+  },
+  "cpu": {
+    "total": 78,
+    "nonempty": 78,
+    "uniqueRawNames": 52,
+    "statusCounts": {
+      "benchmark": 35,
+      "unknown": 31,
+      "identity_only": 12
+    },
+    "strictPerformanceMatches": 35,
+    "strictPerformanceCoverage": 44.87,
+    "conditionalMobileTierMatches": 0,
+    "conditionalMobileTierCoverage": 0,
+    "conditionalCoverageAmongNonempty": 0,
+    "unmatchedOrAmbiguous": [
+      {
+        "raw": "A18 Pro 6核",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 2,
+        "ids": [
+          "np-c69717951e2fb376a117",
+          "np-95eb7db0f6efc8f033ed"
+        ]
+      },
+      {
+        "raw": "M6 12核",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 2,
+        "ids": [
+          "np-899d475a72ffb8a996fa",
+          "np-151ad5be2205fbe7dbdf"
+        ]
+      },
+      {
+        "raw": "M5 Pro 18核",
+        "status": "identity_only",
+        "reason": "识别到Apple M5家族，但此核数配置没有对应CPU基准，不能套用另一核数",
+        "count": 1,
+        "ids": [
+          "np-4ebeb761e90f948e9fcf"
+        ]
+      },
+      {
+        "raw": "Ultra 9 290HX",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-c52208f4c76c092d9074"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 5 226V",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 2,
+        "ids": [
+          "np-c2382313968cb80e850c",
+          "np-973d6098654f5dd40963"
+        ]
+      },
+      {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "count": 6,
+        "ids": [
+          "np-34bc20704c65751cacbe",
+          "np-64f4c6c4151cb692c493",
+          "np-a33093ee7a654bfc61b6",
+          "np-8a2fb115ec6457b33df0",
+          "np-f45e1beec3054f8940a3",
+          "np-465708bf7417b7554904"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 5 336H",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 2,
+        "ids": [
+          "np-0ab4acffee16d2861b53",
+          "np-21476c11b3b753efac3b"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 5 338H",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 2,
+        "ids": [
+          "np-98a879d503c2ee705543",
+          "np-f6618cb4586314bdef52"
+        ]
+      },
+      {
+        "raw": "酷睿 5 325",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-c621bace4974a1e6ed5d"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 7 251H",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-cef7acfb325f51bb6719"
+        ]
+      },
+      {
+        "raw": "酷睿 5 210H",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-8381329b5f5bb128230b"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra5-325",
+        "status": "identity_only",
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "count": 1,
+        "ids": [
+          "np-599b48414149c64c289e"
+        ]
+      },
+      {
+        "raw": "锐龙 AI 9 H 465",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 3,
+        "ids": [
+          "np-1d12de8f38fb438b7a8d",
+          "np-8142239a836fb8c83da7",
+          "np-589358c4159defd0a248"
+        ]
+      },
+      {
+        "raw": "锐龙 R9-7845HX",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-3590e4add87336a2525a"
+        ]
+      },
+      {
+        "raw": "锐龙 9 H 270",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-73cca426fb1187b7bc73"
+        ]
+      },
+      {
+        "raw": "骁龙X",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-e59d270febadb8180cb5"
+        ]
+      },
+      {
+        "raw": "锐龙 AI 5 H 430",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-7a935669073161c610e3"
+        ]
+      },
+      {
+        "raw": "锐龙 AI 7 H 450",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-eb16f7e0476751f71a5e"
+        ]
+      },
+      {
+        "raw": "锐龙 5 7530U",
+        "status": "identity_only",
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "count": 1,
+        "ids": [
+          "np-9627debb5ff38348e48d"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 5 228V",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-b0385cb9591ca8e41e06"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 5 325",
+        "status": "identity_only",
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "count": 1,
+        "ids": [
+          "np-39421d33535071ba08a7"
+        ]
+      },
+      {
+        "raw": "酷睿 7 240H",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-967b2e6eca8c5d9c93f5"
+        ]
+      },
+      {
+        "raw": "酷睿 Ultra 5 322",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-8afd305c5a066905cd94"
+        ]
+      },
+      {
+        "raw": "Ryzen 5 220",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-56102a8b7bf6c7f5b2e9"
+        ]
+      },
+      {
+        "raw": "Intel Core 5 320",
+        "status": "identity_only",
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "count": 1,
+        "ids": [
+          "np-7a50b813cbde6a77dfc1"
+        ]
+      },
+      {
+        "raw": "酷睿 i7-14650HX",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-673622640e5e11f3f23a"
+        ]
+      },
+      {
+        "raw": "酷睿 i5-13420H",
+        "status": "identity_only",
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "count": 1,
+        "ids": [
+          "np-f0b4096e75cef9b6d242"
+        ]
+      },
+      {
+        "raw": "酷睿 5 226",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-828ebbc340c18ec14814"
+        ]
+      },
+      {
+        "raw": "锐龙 9000HX",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-8baa60b1844621f0ab04"
+        ]
+      },
+      {
+        "raw": "R9-8945HX",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-2f271b787d9913fbf15d"
+        ]
+      },
+      {
+        "raw": "锐龙 AI 9 H 365",
+        "status": "unknown",
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分",
+        "count": 1,
+        "ids": [
+          "np-413c27d11a0df17c7146"
+        ]
+      }
+    ]
+  },
+  "gpu": {
+    "total": 78,
+    "nonempty": 38,
+    "uniqueRawNames": 14,
+    "statusCounts": {
+      "identity_only": 12,
+      "unknown": 48,
+      "contextual_tier": 18
+    },
+    "strictPerformanceMatches": 0,
+    "strictPerformanceCoverage": 0,
+    "conditionalMobileTierMatches": 18,
+    "conditionalMobileTierCoverage": 23.08,
+    "conditionalCoverageAmongNonempty": 47.37,
+    "unmatchedOrAmbiguous": [
+      {
+        "raw": "M5 8核",
+        "status": "identity_only",
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "count": 1,
+        "ids": [
+          "np-821de32e4bdd2ada742c"
+        ]
+      },
+      {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "count": 8,
+        "ids": [
+          "np-e33a73323a54ac6711ee",
+          "np-f4c1ee85188ec90baf1e",
+          "np-4fd99de1823c181fcdce",
+          "np-d2535e3311d688e48e40",
+          "np-7352ceda9ac3465452e3",
+          "np-526eb2abeaf716bae560",
+          "np-7d2080c7744b051063f3",
+          "np-d0e1ba60a922d9c18614"
+        ]
+      },
+      {
+        "raw": "A18 Pro 5核",
+        "status": "unknown",
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+        "count": 2,
+        "ids": [
+          "np-c69717951e2fb376a117",
+          "np-95eb7db0f6efc8f033ed"
+        ]
+      },
+      {
+        "raw": "M6 12核",
+        "status": "unknown",
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+        "count": 2,
+        "ids": [
+          "np-899d475a72ffb8a996fa",
+          "np-151ad5be2205fbe7dbdf"
+        ]
+      },
+      {
+        "raw": "M5 Pro 16核",
+        "status": "identity_only",
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "count": 1,
+        "ids": [
+          "np-be4d94c12a1eb6f88647"
+        ]
+      },
+      {
+        "raw": "M5 Pro 20核",
+        "status": "identity_only",
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "count": 1,
+        "ids": [
+          "np-4ebeb761e90f948e9fcf"
+        ]
+      },
+      {
+        "raw": "M5 Max 32核",
+        "status": "identity_only",
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "count": 1,
+        "ids": [
+          "np-08c2daecd6ee8dc6a5b8"
+        ]
+      },
+      {
+        "raw": "RTX5060",
+        "status": "contextual_tier",
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "count": 15,
+        "ids": [
+          "np-d3e1e31773cf48110768",
+          "np-c4220c0135ddfa2bb409",
+          "np-c52208f4c76c092d9074",
+          "np-76ec5b7767d02d3791e4",
+          "np-35041149e93a8cac19f0",
+          "np-58030f969a49c68c4ce8",
+          "np-1d12de8f38fb438b7a8d",
+          "np-3590e4add87336a2525a",
+          "np-7565dde1ec13a38ceadb",
+          "np-3e202a2ef2c64b505f78",
+          "np-1d4badb1994428b8016f",
+          "np-3624f9018abd6ce52c0a",
+          "np-c413653373ddd512ed37",
+          "np-673622640e5e11f3f23a",
+          "np-2f271b787d9913fbf15d"
+        ]
+      },
+      {
+        "raw": "(空型号)",
+        "status": "unknown",
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU",
+        "count": 40,
+        "ids": [
+          "np-c2382313968cb80e850c",
+          "np-34bc20704c65751cacbe",
+          "np-0ab4acffee16d2861b53",
+          "np-64f4c6c4151cb692c493",
+          "np-98a879d503c2ee705543",
+          "np-c621bace4974a1e6ed5d",
+          "np-df72b0734f62fba28a26",
+          "np-beea8ad82fe3a0577ae4",
+          "np-5a16d391c12872a7ebb2",
+          "np-a33093ee7a654bfc61b6",
+          "np-599b48414149c64c289e",
+          "np-75cf0011539381e70916",
+          "np-73cca426fb1187b7bc73",
+          "np-8142239a836fb8c83da7",
+          "np-604a8ba4b571b4c0f23f",
+          "np-589358c4159defd0a248",
+          "np-e59d270febadb8180cb5",
+          "np-8cdaaba579d0f7b3dbbd",
+          "np-7a935669073161c610e3",
+          "np-eb16f7e0476751f71a5e",
+          "np-87938df60e2c37387209",
+          "np-8a2fb115ec6457b33df0",
+          "np-18dd17d38c58f7ce6139",
+          "np-9627debb5ff38348e48d",
+          "np-e2c06d6ebd1eee4db546",
+          "np-21476c11b3b753efac3b",
+          "np-b0385cb9591ca8e41e06",
+          "np-39421d33535071ba08a7",
+          "np-29b14525020adba21c41",
+          "np-967b2e6eca8c5d9c93f5",
+          "np-61bc2c438fe8eff0d49d",
+          "np-f45e1beec3054f8940a3",
+          "np-8afd305c5a066905cd94",
+          "np-465708bf7417b7554904",
+          "np-56102a8b7bf6c7f5b2e9",
+          "np-7a50b813cbde6a77dfc1",
+          "np-f0b4096e75cef9b6d242",
+          "np-828ebbc340c18ec14814",
+          "np-413c27d11a0df17c7146",
+          "np-973d6098654f5dd40963"
+        ]
+      },
+      {
+        "raw": "RTX Pro 2000 Blackwell",
+        "status": "unknown",
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+        "count": 1,
+        "ids": [
+          "np-cef7acfb325f51bb6719"
+        ]
+      },
+      {
+        "raw": "RTX3050",
+        "status": "unknown",
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+        "count": 1,
+        "ids": [
+          "np-8381329b5f5bb128230b"
+        ]
+      },
+      {
+        "raw": "RTX5070Ti",
+        "status": "contextual_tier",
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "count": 1,
+        "ids": [
+          "np-bffbd2f59ef537c7450a"
+        ]
+      },
+      {
+        "raw": "英特尔锐炫 130T",
+        "status": "unknown",
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+        "count": 1,
+        "ids": [
+          "np-0e287e2ffa259909da00"
+        ]
+      },
+      {
+        "raw": "英特尔锐炫 B370",
+        "status": "unknown",
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替",
+        "count": 1,
+        "ids": [
+          "np-f6618cb4586314bdef52"
+        ]
+      },
+      {
+        "raw": "RTX5070 Ti",
+        "status": "contextual_tier",
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "count": 2,
+        "ids": [
+          "np-940310f173ec86e6650b",
+          "np-8baa60b1844621f0ab04"
+        ]
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "np-821de32e4bdd2ada742c",
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 8核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 8核"
+      }
+    },
+    {
+      "id": "np-e33a73323a54ac6711ee",
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-f4c1ee85188ec90baf1e",
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-4fd99de1823c181fcdce",
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-d2535e3311d688e48e40",
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-7352ceda9ac3465452e3",
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-526eb2abeaf716bae560",
+      "model": "MacBook Air 15英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-7d2080c7744b051063f3",
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-d0e1ba60a922d9c18614",
+      "model": "MacBook Air 13英寸 (M5)",
+      "cpu": {
+        "raw": "M5 10核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 10核",
+        "benchmark": 26738,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 10核",
+          "benchmark": 26738,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 10核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 10核"
+      }
+    },
+    {
+      "id": "np-c69717951e2fb376a117",
+      "model": "MacBook Neo",
+      "cpu": {
+        "raw": "A18 Pro 6核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "A18 Pro 5核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-95eb7db0f6efc8f033ed",
+      "model": "MacBook Neo",
+      "cpu": {
+        "raw": "A18 Pro 6核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "A18 Pro 5核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-899d475a72ffb8a996fa",
+      "model": "MacBook Pro 14英寸（M6）",
+      "cpu": {
+        "raw": "M6 12核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "M6 12核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-151ad5be2205fbe7dbdf",
+      "model": "MacBook Pro 14英寸（M6）",
+      "cpu": {
+        "raw": "M6 12核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "M6 12核",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-be4d94c12a1eb6f88647",
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "cpu": {
+        "raw": "M5 Pro 15核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 Pro 15核",
+        "benchmark": 49093,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 Pro 15核",
+          "benchmark": 49093,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 189,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 Pro 16核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 Pro 16核"
+      }
+    },
+    {
+      "id": "np-4ebeb761e90f948e9fcf",
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "cpu": {
+        "raw": "M5 Pro 18核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "识别到Apple M5家族，但此核数配置没有对应CPU基准，不能套用另一核数",
+        "canonicalName": "M5 Pro 18核"
+      },
+      "gpu": {
+        "raw": "M5 Pro 20核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 Pro 20核"
+      }
+    },
+    {
+      "id": "np-08c2daecd6ee8dc6a5b8",
+      "model": "MacBook Pro 14英寸（M5 Max）",
+      "cpu": {
+        "raw": "M5 Max 18核",
+        "status": "benchmark",
+        "canonicalName": "Apple M5 Max 18核",
+        "benchmark": 57706,
+        "tier": null,
+        "evidence": {
+          "name": "Apple M5 Max 18核",
+          "benchmark": 57706,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 188,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "Apple完整型号及核数匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "M5 Max 32核",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "Apple GPU在知识库中未归入可比移动图形梯队，需同软件工作流测试",
+        "canonicalName": "M5 Max 32核"
+      }
+    },
+    {
+      "id": "np-d3e1e31773cf48110768",
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 7 251HX",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 251HX",
+        "benchmark": 47130,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 251HX",
+          "benchmark": 47130,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 189,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-c4220c0135ddfa2bb409",
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "cpu": {
+        "raw": "Ultra 7 251HX",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 251HX",
+        "benchmark": 47130,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 251HX",
+          "benchmark": 47130,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 189,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-c52208f4c76c092d9074",
+      "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+      "cpu": {
+        "raw": "Ultra 9 290HX",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-c2382313968cb80e850c",
+      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 226V",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-34bc20704c65751cacbe",
+      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-0ab4acffee16d2861b53",
+      "model": "小新Pro 16英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 336H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-64f4c6c4151cb692c493",
+      "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-98a879d503c2ee705543",
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 338H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-76ec5b7767d02d3791e4",
+      "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 7 356H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 356H",
+        "benchmark": 34423,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 356H",
+          "benchmark": 34423,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-c621bace4974a1e6ed5d",
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 5 325",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-df72b0734f62fba28a26",
+      "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+      "cpu": {
+        "raw": "酷睿 Ultra X7 358H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra X7 358H",
+        "benchmark": 33540,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra X7 358H",
+          "benchmark": 33540,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-beea8ad82fe3a0577ae4",
+      "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+      "cpu": {
+        "raw": "酷睿 Ultra X7 358H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra X7 358H",
+        "benchmark": 33540,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra X7 358H",
+          "benchmark": 33540,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-35041149e93a8cac19f0",
+      "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+      "cpu": {
+        "raw": "酷睿 Ultra 9 290HX Plus",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 9 290HX Plus",
+        "benchmark": 58058,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 9 290HX Plus",
+          "benchmark": 58058,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 188,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-5a16d391c12872a7ebb2",
+      "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+      "cpu": {
+        "raw": "酷睿 Ultra X9 388H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra X9 388H",
+        "benchmark": 36504,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra X9 388H",
+          "benchmark": 36504,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-cef7acfb325f51bb6719",
+      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "cpu": {
+        "raw": "酷睿 Ultra 7 251H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX Pro 2000 Blackwell",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-8381329b5f5bb128230b",
+      "model": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本",
+      "cpu": {
+        "raw": "酷睿 5 210H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX3050",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-a33093ee7a654bfc61b6",
+      "model": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-599b48414149c64c289e",
+      "model": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra5-325",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core Ultra 5 325"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-75cf0011539381e70916",
+      "model": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra X7 358H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra X7 358H",
+        "benchmark": 33540,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra X7 358H",
+          "benchmark": 33540,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-58030f969a49c68c4ce8",
+      "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 R9-9955HX",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 9 9955HX",
+        "benchmark": 56367,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 9 9955HX",
+          "benchmark": 56367,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 188,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-bffbd2f59ef537c7450a",
+      "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 U9-290HX Plus",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 9 290HX Plus",
+        "benchmark": 58058,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 9 290HX Plus",
+          "benchmark": 58058,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 188,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5070Ti",
+        "canonicalName": "RTX 5070 Ti Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "high_mobile",
+        "evidence": {
+          "name": "RTX 5070 Ti Laptop GPU",
+          "tier": "high_mobile",
+          "tierLabel": "高移动图形性能",
+          "benchmark": 16874,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 216,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-1d12de8f38fb438b7a8d",
+      "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 AI 9 H 465",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-3590e4add87336a2525a",
+      "model": "天选6 Pro 锐龙版 16英寸电竞游戏本",
+      "cpu": {
+        "raw": "锐龙 R9-7845HX",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-7565dde1ec13a38ceadb",
+      "model": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 U7-251HX",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 251HX",
+        "benchmark": 47130,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 251HX",
+          "benchmark": 47130,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 189,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-73cca426fb1187b7bc73",
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 9 H 270",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-8142239a836fb8c83da7",
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 AI 9 H 465",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-604a8ba4b571b4c0f23f",
+      "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra7 356H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 356H",
+        "benchmark": 34423,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 356H",
+          "benchmark": 34423,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-589358c4159defd0a248",
+      "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 AI 9 H 465",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-e59d270febadb8180cb5",
+      "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+      "cpu": {
+        "raw": "骁龙X",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-8cdaaba579d0f7b3dbbd",
+      "model": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 7 356H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 356H",
+        "benchmark": 34423,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 356H",
+          "benchmark": 34423,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-7a935669073161c610e3",
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 AI 5 H 430",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-eb16f7e0476751f71a5e",
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 AI 7 H 450",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-87938df60e2c37387209",
+      "model": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 7 H 255",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 7 H 255",
+        "benchmark": 28247,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 7 H 255",
+          "benchmark": 28247,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-8a2fb115ec6457b33df0",
+      "model": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-0e287e2ffa259909da00",
+      "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 225H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 5 225H",
+        "benchmark": 27986,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 5 225H",
+          "benchmark": 27986,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "英特尔锐炫 130T",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-18dd17d38c58f7ce6139",
+      "model": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 7 H 255",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 7 H 255",
+        "benchmark": 28247,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 7 H 255",
+          "benchmark": 28247,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-f6618cb4586314bdef52",
+      "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 338H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "英特尔锐炫 B370",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "无该GPU的可比移动性能依据；未借用桌面榜或显卡类别代替"
+      }
+    },
+    {
+      "id": "np-9627debb5ff38348e48d",
+      "model": "惠普 (HP)锐14 14英寸商务笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 5 7530U",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Ryzen 5 7530U"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-e2c06d6ebd1eee4db546",
+      "model": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 7 H 255",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 7 H 255",
+        "benchmark": 28247,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 7 H 255",
+          "benchmark": 28247,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-21476c11b3b753efac3b",
+      "model": "惠普 (HP) 战66 14英寸商务笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 336H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-3e202a2ef2c64b505f78",
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "cpu": {
+        "raw": "锐龙 9-9955HX",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 9 9955HX",
+        "benchmark": 56367,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 9 9955HX",
+          "benchmark": 56367,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 188,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-1d4badb1994428b8016f",
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 7-251HX",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 251HX",
+        "benchmark": 47130,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 251HX",
+          "benchmark": 47130,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 189,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-b0385cb9591ca8e41e06",
+      "model": "惠普(HP) 战X 16英寸商务笔记本电脑",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 228V",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-39421d33535071ba08a7",
+      "model": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 325",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core Ultra 5 325"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-29b14525020adba21c41",
+      "model": "Hi MateBook 14 锐龙版 24GB 1TB",
+      "cpu": {
+        "raw": "Ryzen 7 H 255",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 7 H 255",
+        "benchmark": 28247,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 7 H 255",
+          "benchmark": 28247,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-967b2e6eca8c5d9c93f5",
+      "model": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+      "cpu": {
+        "raw": "酷睿 7 240H",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-61bc2c438fe8eff0d49d",
+      "model": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+      "cpu": {
+        "raw": "Ryzen 7 H 255",
+        "status": "benchmark",
+        "canonicalName": "Ryzen 7 H 255",
+        "benchmark": 28247,
+        "tier": null,
+        "evidence": {
+          "name": "Ryzen 7 H 255",
+          "benchmark": 28247,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 191,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-f45e1beec3054f8940a3",
+      "model": "Dell 14S 笔记本",
+      "cpu": {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-8afd305c5a066905cd94",
+      "model": "Dell 16S 笔记本",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 322",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-465708bf7417b7554904",
+      "model": "Dell 14 笔记本",
+      "cpu": {
+        "raw": "酷睿 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-56102a8b7bf6c7f5b2e9",
+      "model": "Dell 15 笔记本",
+      "cpu": {
+        "raw": "Ryzen 5 220",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-7a50b813cbde6a77dfc1",
+      "model": "XPS 13 笔记本电脑",
+      "cpu": {
+        "raw": "Intel Core 5 320",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core 5 320"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-3624f9018abd6ce52c0a",
+      "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+      "cpu": {
+        "raw": "酷睿 Ultra 7 270HX Plus",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 270HX Plus",
+        "benchmark": 48925,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 270HX Plus",
+          "benchmark": 48925,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 189,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-940310f173ec86e6650b",
+      "model": "耀世 16 Ultra旗舰游戏本",
+      "cpu": {
+        "raw": "酷睿 Ultra 9 290 HX Plus",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 9 290HX Plus",
+        "benchmark": 58058,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 9 290HX Plus",
+          "benchmark": 58058,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 188,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5070 Ti",
+        "canonicalName": "RTX 5070 Ti Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "high_mobile",
+        "evidence": {
+          "name": "RTX 5070 Ti Laptop GPU",
+          "tier": "high_mobile",
+          "tierLabel": "高移动图形性能",
+          "benchmark": 16874,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 216,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-c413653373ddd512ed37",
+      "model": "耀世 15 Air轻薄游戏本",
+      "cpu": {
+        "raw": "酷睿 U7-356H",
+        "status": "benchmark",
+        "canonicalName": "Core Ultra 7 356H",
+        "benchmark": 34423,
+        "tier": null,
+        "evidence": {
+          "name": "Core Ultra 7 356H",
+          "benchmark": 34423,
+          "metric": "PassMark CPU Mark",
+          "evidenceType": "benchmark_snapshot",
+          "checkedAt": "2026-10-27",
+          "sourceSection": "5B CPU移动端性能梯队",
+          "sourceLine": 190,
+          "sourceUrl": "https://www.cpubenchmark.net/laptop.html",
+          "limitations": "用户提交汇总、多核吞吐，非单核/编译/游戏/续航实测；整机功耗散热和跨平台环境不同。"
+        },
+        "reason": "完整CPU型号与后缀匹配5B移动端多核基准快照；仅估计通用多核需求满足度"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-673622640e5e11f3f23a",
+      "model": "耀世 18 Pro高端大屏游戏本",
+      "cpu": {
+        "raw": "酷睿 i7-14650HX",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-f0b4096e75cef9b6d242",
+      "model": "无界 14 SE双通道轻薄本",
+      "cpu": {
+        "raw": "酷睿 i5-13420H",
+        "status": "identity_only",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "仅基础知识提及型号，没有可比移动端性能数据",
+        "canonicalName": "Core i5-13420H"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-828ebbc340c18ec14814",
+      "model": "无界 14高性能轻薄本",
+      "cpu": {
+        "raw": "酷睿 5 226",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-8baa60b1844621f0ab04",
+      "model": "苍龙 16 Ultra旗舰游戏本",
+      "cpu": {
+        "raw": "锐龙 9000HX",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX5070 Ti",
+        "canonicalName": "RTX 5070 Ti Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "high_mobile",
+        "evidence": {
+          "name": "RTX 5070 Ti Laptop GPU",
+          "tier": "high_mobile",
+          "tierLabel": "高移动图形性能",
+          "benchmark": 16874,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 216,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-2f271b787d9913fbf15d",
+      "model": "苍龙 18 Pro高端大屏游戏本",
+      "cpu": {
+        "raw": "R9-8945HX",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": "RTX5060",
+        "canonicalName": "RTX 5060 Laptop GPU",
+        "status": "contextual_tier",
+        "benchmark": null,
+        "tier": "mainstream_discrete",
+        "evidence": {
+          "name": "RTX 5060 Laptop GPU",
+          "tier": "mainstream_discrete",
+          "tierLabel": "中高移动图形性能",
+          "benchmark": 12052,
+          "metric": "3DMark Time Spy Graphics",
+          "evidenceType": "mobile_qualitative_tier",
+          "checkedAt": "2026-10-28",
+          "sourceSection": "5C GPU移动端性能梯队与比较",
+          "sourceLine": 217,
+          "sourceUrl": "https://www.notebookcheck.net/Mobile-Graphics-Cards-Benchmark-List.844.0.html",
+          "limitations": "大致定位有交叠；功耗、散热、显存与软件未知，不保证帧率或专业软件表现。"
+        },
+        "reason": "按笔记本目录语境暂作移动版定位，版本和功耗未独立核验；不套用精确跑分",
+        "ambiguous": true,
+        "confidence": "conditional"
+      }
+    },
+    {
+      "id": "np-413c27d11a0df17c7146",
+      "model": "星耀 14高颜值轻薄本",
+      "cpu": {
+        "raw": "锐龙 AI 9 H 365",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    },
+    {
+      "id": "np-973d6098654f5dd40963",
+      "model": "恒悦E14G2",
+      "cpu": {
+        "raw": "酷睿 Ultra 5 226V",
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "知识库未覆盖该完整CPU型号，不按型号数字、价格或品牌赋性能分"
+      },
+      "gpu": {
+        "raw": null,
+        "status": "unknown",
+        "evidence": null,
+        "benchmark": null,
+        "tier": null,
+        "reason": "具体GPU型号未记录；显卡类别不等于性能，未从CPU反推GPU"
+      }
+    }
+  ],
+  "interpretation": "严格性能覆盖只计可评分的完整移动证据；identity_only仅识别名称，contextual_tier是笔记本目录语境下的待核实定位，不冒充精确匹配。空GPU记录不删除。"
+}

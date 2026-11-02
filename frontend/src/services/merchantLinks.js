@@ -1,0 +1,4 @@
+// Explicit search/portal links, never fabricated product/SKU URLs. No network requests on render.
+export function merchantSearchTerm(product){return [product.brand,product.model??product.name].filter(Boolean).join(' ').slice(0,180);}
+const verifiedPortals={Apple:['Apple在线商店','https://www.apple.com.cn/store'],联想:['联想商城','https://www.lenovo.com.cn/'],惠普:['惠普商城','https://www.hpstore.cn/'],华为:['华为商城','https://www.vmall.com/'],机械革命:['机械革命商城','https://mall.mechrevo.com/']};
+export function merchantSearchLinks(product){const query=encodeURIComponent(merchantSearchTerm(product));return [{name:'前往京东搜索',url:'https://search.jd.com/Search?keyword='+query,kind:'search'},{name:'前往天猫搜索',url:'https://list.tmall.com/search_product.htm?q='+query,kind:'search'},...(verifiedPortals[product.brand]?[{name:'前往'+verifiedPortals[product.brand][0]+'查找商品',url:verifiedPortals[product.brand][1],kind:'merchant-home'}]:[])];}

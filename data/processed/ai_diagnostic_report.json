@@ -1,0 +1,44 @@
+{
+  "health": {
+    "frontend": "http://127.0.0.1:5173/api/health",
+    "backend": "http://127.0.0.1:8787/api/health",
+    "trailingSlashAndQuery": "verified 200"
+  },
+  "keyConfigured": true,
+  "realCalls": 1,
+  "realResult": {
+    "httpStatus": 200,
+    "finishReason": "stop",
+    "contentLength": 1261,
+    "jsonParsed": true,
+    "fieldValidation": "passed",
+    "factValidation": "passed"
+  },
+  "historicalFailure": "not reproduced; historical generic error lacked stage and raw content intentionally was not logged",
+  "fixes": [
+    "health trailing slash and query normalization",
+    "whole JSON fence/BOM compatibility",
+    "explicit negated guarantee not treated as positive guarantee",
+    "separate parsing/field/fact/truncation diagnostics without response text or key logs"
+  ],
+  "tests": {
+    "backend": 19,
+    "frontend": 102,
+    "build": "passed",
+    "detailMockBrowser": "passed",
+    "legacyMockBrowser": "passed",
+    "widths": [
+      390,
+      768,
+      1366
+    ],
+    "rankingUnchangedCases": 111
+  },
+  "changedFiles": [
+    "backend/server.mjs",
+    "backend/deepseek.mjs",
+    "backend/tests/deepseek.test.mjs",
+    "frontend/tests/recommendationCardCopy.test.js"
+  ],
+  "noLayoutOrRecommendationChanges": true
+}

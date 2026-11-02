@@ -1,0 +1,34 @@
+[
+  {
+    "name": "京东搜索",
+    "url": "https://search.jd.com/Search?keyword=%E8%81%94%E6%83%B3%20%E5%B0%8F%E6%96%B0Pro16",
+    "status": 200,
+    "finalUrl": "https://cfe.m.jd.com/privatedomain/risk_handler/03101900/?evApi=color-mesh_A_SC_pc_search_java_Search&evExt=&evtype=3&lgid=2193&returnurl=https%3A%2F%2Fsearch.jd.com%2FSearch%3Fkeyword%3D%25E8%2581%2594%25E6%2583%25B3%2520%25E5%25B0%258F%25E6%2596%25B0Pro16&rpid=rp-188537760-10129-1793419365738",
+    "title": "京东验证",
+    "loginOrChallenge": true
+  },
+  {
+    "name": "天猫搜索",
+    "url": "https://list.tmall.com/search_product.htm?q=%E8%81%94%E6%83%B3%20%E5%B0%8F%E6%96%B0Pro16",
+    "status": 200,
+    "finalUrl": "https://s.taobao.com/search?fromTmallRedirect=true&q=%E8%81%94%E6%83%B3%2B%E5%B0%8F%E6%96%B0Pro16&spm=&tab=mall",
+    "title": "",
+    "loginOrChallenge": false
+  },
+  {
+    "name": "联想官网",
+    "url": "https://www.lenovo.com.cn/",
+    "status": 200,
+    "finalUrl": "https://www.lenovo.com.cn/",
+    "title": "联想_lenovo笔记本电脑_平板电脑_手机_台式机_服务器_外设数码_联想官网",
+    "loginOrChallenge": false
+  },
+  {
+    "name": "机械革命商城",
+    "url": "https://mall.mechrevo.com/",
+    "status": 200,
+    "finalUrl": "https://mall.mechrevo.com/",
+    "title": "机械革命商城",
+    "loginOrChallenge": false
+  }
+]

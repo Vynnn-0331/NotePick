@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {normalizeHardwareAnswer} from '../hardwareAnalysis.mjs';
+const context={products:[{id:'np-c4220c0135ddfa2bb409',knownFacts:{cpu:'Ultra 7 251HX',gpu:'RTX5060',ramGb:24,ssdGb:1024}}]};
+test('short Ultra 7 251HX and full Core Ultra 7 251HX mean the same CPU',()=>{for(const cpu of ['Intel Core Ultra 7 251HX','英特尔酷睿 Ultra 7 251HX','Ultra 7 251HX'])assert(normalizeHardwareAnswer('本机搭载'+cpu+'。',context).markdown);assert(normalizeHardwareAnswer(JSON.stringify({cpu_model:'Intel Core Ultra 7 251HX',answer:'按用户用途分析。'}),context).markdown);});
+test('different Ultra model and HX/H suffix still conflict',()=>{for(const cpu of ['Core Ultra 7 255HX','Core Ultra 7 251H','Core Ultra 5 251HX','Core i7-14700HX'])assert.throws(()=>normalizeHardwareAnswer('本机搭载'+cpu+'。',context),e=>e.validationReason==='current_cpu_conflict');});

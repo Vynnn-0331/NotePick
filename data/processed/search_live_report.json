@@ -1,0 +1,44 @@
+{
+  "mode": "REAL API, bounded, no retries",
+  "calls": [
+    {
+      "endpoint": "/v1/tools/search",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/fetch",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/search",
+      "status": 200
+    },
+    {
+      "endpoint": "/chat/completions",
+      "status": 200
+    }
+  ],
+  "modelDisplayed": false,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "联想小新Pro16 酷睿 16英寸轻薄笔记本电脑-联想知识库",
+      "url": "https://m.lenovo.com.cn/wiki/product-1057921.html",
+      "scope": "series",
+      "bodyAvailable": true
+    }
+  ],
+  "finishReason": "stop",
+  "completionKeys": [
+    "productId",
+    "conclusion",
+    "reasons",
+    "tradeoffs",
+    "advice",
+    "citations"
+  ],
+  "error": "INVALID_ANSWER",
+  "validationStage": "fact_validation",
+  "validationReason": "json",
+  "validationField": "decision"
+}

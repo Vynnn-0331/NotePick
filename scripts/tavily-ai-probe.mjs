@@ -1,0 +1,5 @@
+// Independent controlled probe. Never prints keys or raw provider exception data.
+import fs from 'node:fs';import {parseEnv} from 'node:util';import {createTavilyResearchTools} from '../backend/tavilyResearch.mjs';import {SEARCH_URL} from '../backend/search.mjs';
+const file=new URL('../backend/.env',import.meta.url),env=fs.existsSync(file)?parseEnv(fs.readFileSync(file,'utf8')):{},key=process.env.TAVILY_API_KEY||env.TAVILY_API_KEY;
+if(!key?.trim()){console.log(JSON.stringify({status:'SKIPPED',reason:'TAVILY_API_KEY未配置',requests:0}));process.exit(0);}
+const t=createTavilyResearchTools({tavilyApiKey:key});for(const query of ['Intel Core 5 320 specifications','NVIDIA RTX 5060 Laptop GPU specifications']){try{const r=await t.request(SEARCH_URL,{query,count:4},AbortSignal.timeout(10000));console.log(JSON.stringify({query,status:'OK',results:r.results.length,domains:[...new Set(r.results.map(r=>new URL(r.url).hostname))],sources:r.results.map(r=>({title:r.title,url:r.url,contentAvailable:!!r.content}))}));}catch(e){console.log(JSON.stringify({query,status:'FAILED',code:e.code??'SEARCH_UNAVAILABLE'}));break;}}

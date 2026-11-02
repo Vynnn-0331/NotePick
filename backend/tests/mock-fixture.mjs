@@ -1,0 +1,6 @@
+// Clearly labelled fixtures: never selected by production code or environment variables.
+export function mockAnswer(context,followup=false){
+ const label='【接口模拟，非DeepSeek真实回答】';
+ if(followup)return {answer:label+'使用Blender时先区分建模视窗、CPU渲染和GPU渲染。请核对目标版本支持的计算后端、显存或可用统一内存、插件及项目规模。现有资料不能证明具体渲染耗时；若同时运行多个程序，可按项目占用核对内存，不能保证运行指定模型或场景。'};
+ return {needs:label+'你选择了'+context.requirements.scenarios.map(s=>s.label).join('、')+'。多项用途可能有不同瓶颈，先确认最常做的任务，再在预算、容量和携带需求之间取舍。',products:context.products.map(p=>({id:p.id,meaning:label+(p.knownFacts.ramGb==null?'内存资料未知。':`记录为${p.knownFacts.ramGb}GB内存。`)+ '内存是同时运行程序的工作空间；存储用于保留文件，两者不能相互替代。',tradeoff:'若更在意携带，可比较实际重量；若项目较大，可核对内存与存储余量，而不是只看产品名称。',cautions:['显卡实际功耗、显存和目标软件表现仍需核验，不能保证运行特定模型。']})),choice:'【接口模拟】重视费用时比较官网参考价，重视多任务时核对内存；这只是按具体偏好作取舍，不改变系统推荐顺序。',checks:['核对购买页面的完整SKU及对应价格。','确认目标软件版本、计算后端和实际项目需求。','参考价格不是实时成交价。']};
+}

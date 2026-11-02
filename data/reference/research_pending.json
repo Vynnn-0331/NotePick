@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-29",
+  "items": [
+    {
+      "modelId": "cpu-coreultra9290hx",
+      "status": "exact_model_unverified",
+      "reason": "搜索结果主要为290HX Plus；不能为不带Plus型号借用数据。",
+      "url": null,
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-coreultra7251h",
+      "status": "exact_model_unverified",
+      "reason": "未取得251H精确型号原页；不可借用251HX。",
+      "url": null,
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-core5325",
+      "status": "exact_model_unverified",
+      "reason": "发现HP服务手册线索，但未核验原页；不可合并Core Ultra5 325。",
+      "url": "https://www.nfm.com/on/demandware.static/-/Library-Sites-NFMSharedLibrary/default/dwfa8812af/product-pdfs/070/07/70075981-use-and-care-guide.pdf",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-core5226",
+      "status": "exact_model_unverified",
+      "reason": "未取得精确Core5 226证据；不得猜作226V或其他Ultra。",
+      "url": null,
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-x",
+      "status": "incomplete_model",
+      "reason": "仅骁龙X，缺X1/X2及后缀；系列信息不能确定芯片。",
+      "url": null,
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-ryzen9000hx",
+      "status": "incomplete_model",
+      "reason": "Ryzen9000HX属于系列；不可套用9955HX。",
+      "url": null,
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-m612cores",
+      "status": "desktop_only_benchmark",
+      "reason": "已查到M6桌面资料，缺MacBook同配置实测；官方仅可确认身份/用途。",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "gpu-m612cores-unspecified",
+      "status": "desktop_only_benchmark",
+      "reason": "Notebookcheck SteelNomad1515来自Mac mini M6，不计当前笔记本可比覆盖；不保存为可用分值。",
+      "url": "https://www.notebookcheck.net/Apple-M6-12-Core-GPU-Benchmarks-and-Specs.1401995.0.html",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "gpu-m5max32cores-unspecified",
+      "status": "no_benchmark",
+      "reason": "原页可确认32核集成GPU与功能，但没有测试；不借用40核。",
+      "url": "https://www.notebookcheck.net/Apple-M5-Max-32-Core-GPU-Benchmarks-and-Specs.1245829.0.html",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "gpu-rtx3050-unspecified",
+      "status": "variant_unverified",
+      "reason": "只有RTX3050简写；Laptop4GB/6GB/A及功耗未确认，4GB测试仅供候选参考。",
+      "url": "https://store.asus.com.cn/store/goods/detail?productId=42284282751712",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "gpu-rtx5070ti-unspecified",
+      "status": "product_identity_unverified",
+      "reason": "Laptop基准已核验，但3条商品的官方SKU身份仍待确认。",
+      "url": "https://www.notebookcheck.net/GeForce-RTX-5070-Ti-Laptop-vs-RTX-5070-Laptop-The-successors-to-the-RTX-4070-Laptop-in-review.1006203.0.html",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "gpu-rtxpro2000blackwell-unspecified",
+      "status": "product_identity_unverified",
+      "reason": "有Laptop专业视窗基准，商品链接仅联想首页；不借用P16v G3的不同CPU配置。",
+      "url": "https://www.notebookcheck.net/Nvidia-RTX-PRO-2000-Blackwell-Generation-Laptop-Benchmarks-and-Specs.997330.0.html",
+      "usableAsPerformance": false
+    },
+    {
+      "modelId": "cpu-ryzenai5h430",
+      "status": "regional_variant_limit",
+      "reason": "原页说明中国H版密码学功能可能不同，不复制非H数值。",
+      "url": "https://www.notebookcheck.net/AMD-Ryzen-AI-5-430-Processor-Benchmarks-and-Specs.1197827.0.html",
+      "usableAsPerformance": false
+    }
+  ],
+  "accessAttempts": [
+    {
+      "url": "https://www.hpstore.cn/hp-omen-16-inch-gaming-laptop-ap1025ax-dc0f0pa.html",
+      "result": "403 Forbidden",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://www.hpstore.cn/hyperx-omen-16-inch-16-am2129tx-dp3v8pa.html",
+      "result": "403 Forbidden",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://store.asus.com.cn/store/goods/detail?productId=42284282751712",
+      "result": "not accessible",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://store.asus.com.cn/store/goods/detail?productId=42279179560960",
+      "result": "仅JavaScript提示，无配置正文",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://store.asus.com.cn/store/goods/detail?productId=42288938834326",
+      "result": "not accessible",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "result": "首页且请求超时，不能确认配置",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://mall.mechrevo.com/products/89",
+      "result": "0行正文",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://mall.mechrevo.com/products/90",
+      "result": "0行正文",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://mall.mechrevo.com/products/87",
+      "result": "timeout",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://mall.mechrevo.com/products/95",
+      "result": "0行正文",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://mall.mechrevo.com/products/94",
+      "result": "0行正文",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://www.rtings.com/laptop/reviews/apple/macbook-air-13-m5-2026",
+      "result": "型号和配置可读，但基准数值Locked，未提取",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://www.notebookcheck.net/Nvidia-GeForce-RTX-5070-Ti-Laptop-Benchmarks-and-Specs.934945.0.html",
+      "result": "页面过大，改核验同站原创整机测试",
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "url": "https://www.cpubenchmark.net/cpu.php?cpu=Intel+Core+i7-14650HX&id=5844",
+      "result": "超时，改核验Notebookcheck实测",
+      "checkedAt": "2026-10-29"
+    }
+  ]
+}

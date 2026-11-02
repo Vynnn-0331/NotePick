@@ -1,0 +1,952 @@
+{
+  "generatedAt": "2026-11-01T03:25:28.432Z",
+  "files": 61,
+  "matched": 77,
+  "total": 78,
+  "missing": [
+    {
+      "id": "np-cef7acfb325f51bb6719",
+      "brand": "联想",
+      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    }
+  ],
+  "unused": [
+    "MacBook Pro 16.webp"
+  ],
+  "rows": [
+    {
+      "id": "np-821de32e4bdd2ada742c",
+      "brand": "Apple",
+      "model": "MacBook Air 13英寸 (M5)",
+      "screen": 13,
+      "image": "MacBook Air 13.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-e33a73323a54ac6711ee",
+      "brand": "Apple",
+      "model": "MacBook Air 13英寸 (M5)",
+      "screen": 13,
+      "image": "MacBook Air 13.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-f4c1ee85188ec90baf1e",
+      "brand": "Apple",
+      "model": "MacBook Air 13英寸 (M5)",
+      "screen": 13,
+      "image": "MacBook Air 13.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-4fd99de1823c181fcdce",
+      "brand": "Apple",
+      "model": "MacBook Air 15英寸 (M5)",
+      "screen": 15,
+      "image": "MacBook Air 15.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-d2535e3311d688e48e40",
+      "brand": "Apple",
+      "model": "MacBook Air 15英寸 (M5)",
+      "screen": 15,
+      "image": "MacBook Air 15.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-7352ceda9ac3465452e3",
+      "brand": "Apple",
+      "model": "MacBook Air 15英寸 (M5)",
+      "screen": 15,
+      "image": "MacBook Air 15.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-526eb2abeaf716bae560",
+      "brand": "Apple",
+      "model": "MacBook Air 15英寸 (M5)",
+      "screen": 15,
+      "image": "MacBook Air 15.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-7d2080c7744b051063f3",
+      "brand": "Apple",
+      "model": "MacBook Air 13英寸 (M5)",
+      "screen": 13,
+      "image": "MacBook Air 13.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-d0e1ba60a922d9c18614",
+      "brand": "Apple",
+      "model": "MacBook Air 13英寸 (M5)",
+      "screen": 13,
+      "image": "MacBook Air 13.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-c69717951e2fb376a117",
+      "brand": "Apple",
+      "model": "MacBook Neo",
+      "screen": 13,
+      "image": "MacBook Neo.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-95eb7db0f6efc8f033ed",
+      "brand": "Apple",
+      "model": "MacBook Neo",
+      "screen": 13,
+      "image": "MacBook Neo.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-899d475a72ffb8a996fa",
+      "brand": "Apple",
+      "model": "MacBook Pro 14英寸（M6）",
+      "screen": 14,
+      "image": "MacBook Pro 14.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-151ad5be2205fbe7dbdf",
+      "brand": "Apple",
+      "model": "MacBook Pro 14英寸（M6）",
+      "screen": 14,
+      "image": "MacBook Pro 14.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-be4d94c12a1eb6f88647",
+      "brand": "Apple",
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "screen": 14,
+      "image": "MacBook Pro 14.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-4ebeb761e90f948e9fcf",
+      "brand": "Apple",
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "screen": 14,
+      "image": "MacBook Pro 14.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-08c2daecd6ee8dc6a5b8",
+      "brand": "Apple",
+      "model": "MacBook Pro 14英寸（M5 Max）",
+      "screen": 14,
+      "image": "MacBook Pro 14.webp",
+      "matchRule": "MacBook型号+屏幕尺寸"
+    },
+    {
+      "id": "np-d3e1e31773cf48110768",
+      "brand": "联想",
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "screen": 15.3,
+      "image": "拯救者Y7000X 15.3英寸电竞游戏本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c4220c0135ddfa2bb409",
+      "brand": "联想",
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "screen": 15.3,
+      "image": "拯救者Y7000X 15.3英寸电竞游戏本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c52208f4c76c092d9074",
+      "brand": "联想",
+      "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+      "screen": 16,
+      "image": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c2382313968cb80e850c",
+      "brand": "联想",
+      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "screen": 14,
+      "image": "小新Air14 14英寸轻薄笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-34bc20704c65751cacbe",
+      "brand": "联想",
+      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "screen": 13.3,
+      "image": "小新Air13 13.3英寸轻薄笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-0ab4acffee16d2861b53",
+      "brand": "联想",
+      "model": "小新Pro 16英寸轻薄笔记本电脑",
+      "screen": 16,
+      "image": "小新Pro 16英寸轻薄笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-64f4c6c4151cb692c493",
+      "brand": "联想",
+      "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+      "screen": 14,
+      "image": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-98a879d503c2ee705543",
+      "brand": "联想",
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "screen": 14,
+      "image": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-76ec5b7767d02d3791e4",
+      "brand": "联想",
+      "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+      "screen": 16,
+      "image": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c621bace4974a1e6ed5d",
+      "brand": "联想",
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "screen": 14,
+      "image": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-df72b0734f62fba28a26",
+      "brand": "联想",
+      "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+      "screen": 14.5,
+      "image": "ThinkBook-14-plus-2026.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-beea8ad82fe3a0577ae4",
+      "brand": "联想",
+      "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+      "screen": 16,
+      "image": "ThinkBook-16-plus-2026.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-35041149e93a8cac19f0",
+      "brand": "联想",
+      "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+      "screen": 16,
+      "image": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-5a16d391c12872a7ebb2",
+      "brand": "联想",
+      "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+      "screen": 14.5,
+      "image": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-cef7acfb325f51bb6719",
+      "brand": "联想",
+      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8381329b5f5bb128230b",
+      "brand": "华硕",
+      "model": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本",
+      "screen": 16,
+      "image": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-a33093ee7a654bfc61b6",
+      "brand": "华硕",
+      "model": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑",
+      "screen": 16,
+      "image": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-599b48414149c64c289e",
+      "brand": "华硕",
+      "model": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑",
+      "screen": 16,
+      "image": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-75cf0011539381e70916",
+      "brand": "华硕",
+      "model": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑",
+      "screen": 16,
+      "image": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-58030f969a49c68c4ce8",
+      "brand": "华硕",
+      "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+      "screen": 18,
+      "image": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-bffbd2f59ef537c7450a",
+      "brand": "华硕",
+      "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
+      "screen": 18,
+      "image": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-1d12de8f38fb438b7a8d",
+      "brand": "华硕",
+      "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+      "screen": 14,
+      "image": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-3590e4add87336a2525a",
+      "brand": "华硕",
+      "model": "天选6 Pro 锐龙版 16英寸电竞游戏本",
+      "screen": 16,
+      "image": "天选6 Pro 锐龙版 16英寸电竞游戏本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-7565dde1ec13a38ceadb",
+      "brand": "华硕",
+      "model": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑",
+      "screen": 16,
+      "image": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-73cca426fb1187b7bc73",
+      "brand": "华硕",
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "screen": 14,
+      "image": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8142239a836fb8c83da7",
+      "brand": "华硕",
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "screen": 14,
+      "image": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-604a8ba4b571b4c0f23f",
+      "brand": "华硕",
+      "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+      "screen": 14,
+      "image": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-589358c4159defd0a248",
+      "brand": "华硕",
+      "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+      "screen": 16,
+      "image": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-e59d270febadb8180cb5",
+      "brand": "华硕",
+      "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+      "screen": 14,
+      "image": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8cdaaba579d0f7b3dbbd",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-7a935669073161c610e3",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-eb16f7e0476751f71a5e",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-87938df60e2c37387209",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑",
+      "screen": 16,
+      "image": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8a2fb115ec6457b33df0",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-0e287e2ffa259909da00",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-18dd17d38c58f7ce6139",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-f6618cb4586314bdef52",
+      "brand": "惠普",
+      "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+      "screen": 16,
+      "image": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-9627debb5ff38348e48d",
+      "brand": "惠普",
+      "model": "惠普 (HP)锐14 14英寸商务笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP)锐14 14英寸商务笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-e2c06d6ebd1eee4db546",
+      "brand": "惠普",
+      "model": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑",
+      "screen": 16,
+      "image": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-21476c11b3b753efac3b",
+      "brand": "惠普",
+      "model": "惠普 (HP) 战66 14英寸商务笔记本电脑",
+      "screen": 14,
+      "image": "惠普 (HP) 战66 14英寸商务笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-3e202a2ef2c64b505f78",
+      "brand": "惠普",
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "screen": 16,
+      "image": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-1d4badb1994428b8016f",
+      "brand": "惠普",
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "screen": 16,
+      "image": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-b0385cb9591ca8e41e06",
+      "brand": "惠普",
+      "model": "惠普(HP) 战X 16英寸商务笔记本电脑",
+      "screen": 16,
+      "image": "惠普(HP) 战X 16英寸商务笔记本电脑.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-39421d33535071ba08a7",
+      "brand": "华为",
+      "model": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+      "screen": 14.2,
+      "image": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-29b14525020adba21c41",
+      "brand": "华为",
+      "model": "Hi MateBook 14 锐龙版 24GB 1TB",
+      "screen": 14.2,
+      "image": "Hi MateBook 14 锐龙版 24GB 1TB.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-967b2e6eca8c5d9c93f5",
+      "brand": "华为",
+      "model": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+      "screen": 14,
+      "image": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-61bc2c438fe8eff0d49d",
+      "brand": "华为",
+      "model": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+      "screen": 14,
+      "image": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-f45e1beec3054f8940a3",
+      "brand": "戴尔",
+      "model": "Dell 14S 笔记本",
+      "screen": 14,
+      "image": "Dell 14S 笔记本.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8afd305c5a066905cd94",
+      "brand": "戴尔",
+      "model": "Dell 16S 笔记本",
+      "screen": 16,
+      "image": "Dell 16S 笔记本.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-465708bf7417b7554904",
+      "brand": "戴尔",
+      "model": "Dell 14 笔记本",
+      "screen": 14,
+      "image": "Dell 14 笔记本.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-56102a8b7bf6c7f5b2e9",
+      "brand": "戴尔",
+      "model": "Dell 15 笔记本",
+      "screen": 15.3,
+      "image": "Dell 15 笔记本.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-7a50b813cbde6a77dfc1",
+      "brand": "戴尔",
+      "model": "XPS 13 笔记本电脑",
+      "screen": 13.4,
+      "image": "XPS 13 笔记本电脑.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-3624f9018abd6ce52c0a",
+      "brand": "戴尔",
+      "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+      "screen": 18,
+      "image": "Alienware 外星人 18 Area-51 游戏笔记本.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-940310f173ec86e6650b",
+      "brand": "机械革命",
+      "model": "耀世 16 Ultra旗舰游戏本",
+      "screen": 16,
+      "image": "耀世 16 Ultra旗舰游戏本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c413653373ddd512ed37",
+      "brand": "机械革命",
+      "model": "耀世 15 Air轻薄游戏本",
+      "screen": 15.3,
+      "image": "耀世 15 Air轻薄游戏本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-673622640e5e11f3f23a",
+      "brand": "机械革命",
+      "model": "耀世 18 Pro高端大屏游戏本",
+      "screen": 18,
+      "image": "耀世 18 Pro高端大屏游戏本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-f0b4096e75cef9b6d242",
+      "brand": "机械革命",
+      "model": "无界 14 SE双通道轻薄本",
+      "screen": 14,
+      "image": "无界 14 SE双通道轻薄本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-828ebbc340c18ec14814",
+      "brand": "机械革命",
+      "model": "无界 14高性能轻薄本",
+      "screen": 14,
+      "image": "无界 14高性能轻薄本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8baa60b1844621f0ab04",
+      "brand": "机械革命",
+      "model": "苍龙 16 Ultra旗舰游戏本",
+      "screen": 16,
+      "image": "苍龙 16 Ultra旗舰游戏本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-2f271b787d9913fbf15d",
+      "brand": "机械革命",
+      "model": "苍龙 18 Pro高端大屏游戏本",
+      "screen": 18,
+      "image": "苍龙 18 Pro高端大屏游戏本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-413c27d11a0df17c7146",
+      "brand": "机械革命",
+      "model": "星耀 14高颜值轻薄本",
+      "screen": 14,
+      "image": "星耀 14高颜值轻薄本.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-973d6098654f5dd40963",
+      "brand": "机械革命",
+      "model": "恒悦E14G2",
+      "screen": 14,
+      "image": "恒悦E14G2.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    }
+  ],
+  "assets": [
+    {
+      "file": "Alienware 外星人 18 Area-51 游戏笔记本.avif",
+      "bytes": 32037,
+      "sha256": "effc9bf8b9430ff81053dfc793917f2e6b8764c7706d2b97705399a4dbbc12f3"
+    },
+    {
+      "file": "Dell 14 笔记本.avif",
+      "bytes": 9479,
+      "sha256": "fdd23bb37425e6c5ec934e935c6f8fea1abce58c5aec50f6f9ef40b3edb80018"
+    },
+    {
+      "file": "Dell 14S 笔记本.avif",
+      "bytes": 11822,
+      "sha256": "91fe336ad5dc4380b5ddf078d7173d255c373fb29aa2fb19b3cf774ad264bbaf"
+    },
+    {
+      "file": "Dell 15 笔记本.avif",
+      "bytes": 10953,
+      "sha256": "e325125bb2cde3f5a717c5d3a3ca2fb38b7b215b115a724511bedabf750a07c5"
+    },
+    {
+      "file": "Dell 16S 笔记本.avif",
+      "bytes": 19441,
+      "sha256": "023c968badc3286a38653ab8e82281ca6dcee54743203e1c4605dbe6b96714da"
+    },
+    {
+      "file": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金.png",
+      "bytes": 89243,
+      "sha256": "da09a0676c4dbbee9ff171c8327e3ffc9227d381765e4c4215964f01af8a3b74"
+    },
+    {
+      "file": "Hi MateBook 14 锐龙版 24GB 1TB.png",
+      "bytes": 102675,
+      "sha256": "d35f982b98da626aac4a52b54026fb62a6a87b122920f4f2131403f7e1c6cc9a"
+    },
+    {
+      "file": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0.png",
+      "bytes": 102604,
+      "sha256": "39ae9e7664fcd50d023bd76b866479585efe3a8e7808105511b4922942504721"
+    },
+    {
+      "file": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰.png",
+      "bytes": 86362,
+      "sha256": "69e39654d6679b23bc4215c829c6548f0b6909642bd86b5a03ebf0ec2312be55"
+    },
+    {
+      "file": "MacBook Air 13.webp",
+      "bytes": 411808,
+      "sha256": "62cda258c2ee75ccec056ac9c5636baadcc5ebb571a812daaa887eca5a58e106"
+    },
+    {
+      "file": "MacBook Air 15.webp",
+      "bytes": 476790,
+      "sha256": "89ed7ca687241d7c3c6838bc0002edcfabb65d6a41f59d66deaae035f9f3f54c"
+    },
+    {
+      "file": "MacBook Neo.webp",
+      "bytes": 425640,
+      "sha256": "0b2c0372b1ef108cc164246f213d97e02f8f482cdb8280284f2106e163406479"
+    },
+    {
+      "file": "MacBook Pro 14.webp",
+      "bytes": 154190,
+      "sha256": "2dbb5e55dc3e08f22147c5fb953e376dcf069105fd2cf0c48939fb96493d9ff5"
+    },
+    {
+      "file": "MacBook Pro 16.webp",
+      "bytes": 184226,
+      "sha256": "05f4d2dc5b6cea1f782e141de4cd1af8165b1a1c38bd9c002fd60ef29df4530b"
+    },
+    {
+      "file": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑.png",
+      "bytes": 302499,
+      "sha256": "86027039e374facd9c0e24255575ccdc8f70780539fe4537ed3c929e88a8ddda"
+    },
+    {
+      "file": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑.png",
+      "bytes": 1086068,
+      "sha256": "adb6844c0423c4c144a57ae18d6fe64f7bf645c4a82b1fa76b40002f27ad90f8"
+    },
+    {
+      "file": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本.jpg",
+      "bytes": 163896,
+      "sha256": "d729bfea5e36f8711a1f534f14148a891c30242d3f5de0b8be287069b62df2bf"
+    },
+    {
+      "file": "ThinkBook-14-plus-2026.jpg",
+      "bytes": 152842,
+      "sha256": "858c4bf002bbc3717851057c9bdaa0ddeb52383275d840487e1e3c9e921f4f29"
+    },
+    {
+      "file": "ThinkBook-16-plus-2026.jpg",
+      "bytes": 166543,
+      "sha256": "165418797c81320794589b7f75cf0a6cf5618be332343ab4801b86aaeec4dbb6"
+    },
+    {
+      "file": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本.jpg",
+      "bytes": 163612,
+      "sha256": "20f748cadf2b01c0d04de527e1edcbe8117008c6286d291e33de187bd8b66422"
+    },
+    {
+      "file": "XPS 13 笔记本电脑.avif",
+      "bytes": 21854,
+      "sha256": "0c7f4ee3e93becc4e383414eae5504e56da3410046f9e49cad2e657a3c119d85"
+    },
+    {
+      "file": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑.jpg",
+      "bytes": 229434,
+      "sha256": "3fa91554c0df0d13b0545c413624b3efd6e88f71fab965bdccf05d84579c5faf"
+    },
+    {
+      "file": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑.png",
+      "bytes": 328245,
+      "sha256": "85e743a6f8340102d8dfe01eecedee77b19607ac87fb83d179f9f22d29ea6527"
+    },
+    {
+      "file": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑.png",
+      "bytes": 532182,
+      "sha256": "8db8b442f6690cbb2bed11a5d8fa119d1a797399827c51dc5ec0e137269267b7"
+    },
+    {
+      "file": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本.png",
+      "bytes": 1004789,
+      "sha256": "e6d5c5d8ba285f5ef3083ec80e373747de0f1f811a7b9017a5e35f0f114b4dc6"
+    },
+    {
+      "file": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本.png",
+      "bytes": 792989,
+      "sha256": "d2227a616ddb82485d7cc21b9b02ea40a9248b1e22c540994934f91981bb3177"
+    },
+    {
+      "file": "天选6 Pro 锐龙版 16英寸电竞游戏本.png",
+      "bytes": 187595,
+      "sha256": "7cbe137f5b461a57915362f70cbd93c55db4c27859a9551390cd00512518076a"
+    },
+    {
+      "file": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑.png",
+      "bytes": 420906,
+      "sha256": "3a9324a7ccaca636663091164a9db499ccc89476b89d43c29193b0f2a3bb5df7"
+    },
+    {
+      "file": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑.png",
+      "bytes": 451200,
+      "sha256": "c8f2722976f31d5b59c209eb25f36374ad8c00f8d90a95d6ff7d975a32b134aa"
+    },
+    {
+      "file": "小新Air13 13.3英寸轻薄笔记本电脑.jpg",
+      "bytes": 243501,
+      "sha256": "16882194190ce8389adcee57465dda37c6d52c6069e3b8a11b917250986082f3"
+    },
+    {
+      "file": "小新Air14 14英寸轻薄笔记本电脑.jpg",
+      "bytes": 189749,
+      "sha256": "281faa662b0e61683b5f163d4ba33cbf688a6e84a2add9a1a9275f38620e918a"
+    },
+    {
+      "file": "小新Pro 16英寸轻薄笔记本电脑.jpg",
+      "bytes": 89788,
+      "sha256": "7d18e965ed36a8806ceabe0493b9bd45bc558c2f78b3a9cd881d8e7e6e618e3e"
+    },
+    {
+      "file": "恒悦E14G2.png",
+      "bytes": 272101,
+      "sha256": "d292f396a8d6ebc2ac69738a9add00abcc3948e393070e7b9b4824190f9e3b39"
+    },
+    {
+      "file": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑.jpg",
+      "bytes": 719109,
+      "sha256": "d5c667af23eb40a52766a6b949cf7f6cbd5aa028d185e75ec8b4821d95ecdcf7"
+    },
+    {
+      "file": "惠普 (HP) 战66 14英寸商务笔记本电脑.png",
+      "bytes": 532213,
+      "sha256": "c5856fab5d4250998ed7f26770f79f7c1072d67ecc2bc94218433a7fb4845bbb"
+    },
+    {
+      "file": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑.png",
+      "bytes": 173565,
+      "sha256": "40bbb7b1d2b98df7920c612a9ec81c730612ef414de23f9b202ba777fc58c6da"
+    },
+    {
+      "file": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑.png",
+      "bytes": 276962,
+      "sha256": "da08f0daea43965bcc8c0efeb649fe39d332e538941ba9d2042c61ddc596df77"
+    },
+    {
+      "file": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑.jpg",
+      "bytes": 420295,
+      "sha256": "63ddc7403e4b7f7c351c54fe28ea9ae9bb41cc69c893cdaeefe17f453a390261"
+    },
+    {
+      "file": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑.png",
+      "bytes": 1523953,
+      "sha256": "5ddbd9de24ba515c0ef452d36b13f9c3785df41480bbe9202a5bf2bd8aa0da0f"
+    },
+    {
+      "file": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑.png",
+      "bytes": 1572141,
+      "sha256": "be345f8127100e49cfe18ae4caf60bb6086bb6c65ce2f3dbddde0bd0cd698e00"
+    },
+    {
+      "file": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑.png",
+      "bytes": 258209,
+      "sha256": "d7a483c70bcd8e007a6d7cb684122840cef2bdea69cd8ba23e87214610f6e7be"
+    },
+    {
+      "file": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑.png",
+      "bytes": 349660,
+      "sha256": "cb158e782c014d4e94a4a0dc8d8c52eeb5478b1a000330d8c20a9b9834cd5c22"
+    },
+    {
+      "file": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑.png",
+      "bytes": 386729,
+      "sha256": "0c7a2bb71f7d1444c1bf111281e00f720a108c1b262d5c678ce2ac8989fd7d49"
+    },
+    {
+      "file": "惠普 (HP)锐14 14英寸商务笔记本电脑.png",
+      "bytes": 324374,
+      "sha256": "7c467f3e24eab9b4dfc7505477002c66fbb28e36ce261fcd474cc8650edc7a91"
+    },
+    {
+      "file": "惠普(HP) 战X 16英寸商务笔记本电脑.png",
+      "bytes": 265865,
+      "sha256": "df77a220007718e61ba88a6c6b14c781f6a7c5483763492fa75205bfa3b278a0"
+    },
+    {
+      "file": "拯救者Y7000X 15.3英寸电竞游戏本电脑.jpg",
+      "bytes": 425739,
+      "sha256": "12b27cae389663236649971618047ef5ea63a29c7031bdf3445901c74ceea644"
+    },
+    {
+      "file": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑.jpg",
+      "bytes": 124924,
+      "sha256": "7ae6bab289bb4621a096f7c65b9a3b3f5c1011e8531516da5fadafee16e064b9"
+    },
+    {
+      "file": "无界 14 SE双通道轻薄本.png",
+      "bytes": 191950,
+      "sha256": "0b1c4e94539d495c1f14296246c06b32a6bb4ad3f24bebf37fb0c7c8b1e24e36"
+    },
+    {
+      "file": "无界 14高性能轻薄本.png",
+      "bytes": 147070,
+      "sha256": "b55cd70ee7ad457241c4fe494d262999f5f6caea411143a08dcd081f7c0cd782"
+    },
+    {
+      "file": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑.png",
+      "bytes": 341682,
+      "sha256": "cb8201081052b0d3437e62c18fdc619a7ad9cf5a84ee294bbc0502e1d4552c50"
+    },
+    {
+      "file": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑.png",
+      "bytes": 529429,
+      "sha256": "16ee4fb022653eb527e9cdf2f60974c1c7367cbc496ddb5e1c6db98ba21d609e"
+    },
+    {
+      "file": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑.png",
+      "bytes": 1010868,
+      "sha256": "f5b72aacf18ff7f27f73c5e1a6c8370c095ea3e8eeca50c8bd371e91feb3a4ce"
+    },
+    {
+      "file": "星耀 14高颜值轻薄本.png",
+      "bytes": 239567,
+      "sha256": "657855d28f1466f9a8c58c86192a22b1f040cdd135721eb9dd73ccbedd163443"
+    },
+    {
+      "file": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑.png",
+      "bytes": 175093,
+      "sha256": "a285c7e4a6b71c09c9453d9f20136ec12f493378d244800e78f717089e6ed101"
+    },
+    {
+      "file": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑.png",
+      "bytes": 784292,
+      "sha256": "e0052cfc2b666675cb0f14ccc1d8e50d6b02feaec73dd488ecf39e4eca3d1181"
+    },
+    {
+      "file": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑.png",
+      "bytes": 894224,
+      "sha256": "0cc4665588ea42707ec56b08377971c4161bedbe0d6d4270cde137804007e461"
+    },
+    {
+      "file": "耀世 15 Air轻薄游戏本.png",
+      "bytes": 184703,
+      "sha256": "b001a14a616648ba9877c17a18aec746be53d13558be2ea2ec763b2a813fce3b"
+    },
+    {
+      "file": "耀世 16 Ultra旗舰游戏本.png",
+      "bytes": 260811,
+      "sha256": "8e8b7395a66382b4c49e88a783b41795613f96479cab4f5253650a27ca61cffd"
+    },
+    {
+      "file": "耀世 18 Pro高端大屏游戏本.png",
+      "bytes": 286897,
+      "sha256": "e46bb39c354d370daf5327900dbfaea3c75fd2c8cbc0d7f8cf64d72d8ab1958b"
+    },
+    {
+      "file": "苍龙 16 Ultra旗舰游戏本.png",
+      "bytes": 260980,
+      "sha256": "3642b4ed4a3b642e4382c92fdfb2544a1d6abc4a0ac625adec5525c12264f179"
+    },
+    {
+      "file": "苍龙 18 Pro高端大屏游戏本.png",
+      "bytes": 294130,
+      "sha256": "557dab4df9b7c7b99c0f7cc1e1aae908fb7781dfd2753196b749d78f6a7ad1e7"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+﻿商品ID,品牌,完整型号,CPU,内存GB,SSD_GB,建议图片文件名
+np-821de32e4bdd2ada742c,Apple,MacBook Air 13英寸 (M5),M5 10核,16,512,np-821de32e4bdd2ada742c.jpg
+np-e33a73323a54ac6711ee,Apple,MacBook Air 13英寸 (M5),M5 10核,16,512,np-e33a73323a54ac6711ee.jpg
+np-f4c1ee85188ec90baf1e,Apple,MacBook Air 13英寸 (M5),M5 10核,16,1024,np-f4c1ee85188ec90baf1e.jpg
+np-4fd99de1823c181fcdce,Apple,MacBook Air 15英寸 (M5),M5 10核,16,512,np-4fd99de1823c181fcdce.jpg
+np-d2535e3311d688e48e40,Apple,MacBook Air 15英寸 (M5),M5 10核,16,1024,np-d2535e3311d688e48e40.jpg
+np-7352ceda9ac3465452e3,Apple,MacBook Air 15英寸 (M5),M5 10核,32,1024,np-7352ceda9ac3465452e3.jpg
+np-526eb2abeaf716bae560,Apple,MacBook Air 15英寸 (M5),M5 10核,32,512,np-526eb2abeaf716bae560.jpg
+np-7d2080c7744b051063f3,Apple,MacBook Air 13英寸 (M5),M5 10核,32,512,np-7d2080c7744b051063f3.jpg
+np-d0e1ba60a922d9c18614,Apple,MacBook Air 13英寸 (M5),M5 10核,32,1024,np-d0e1ba60a922d9c18614.jpg
+np-c69717951e2fb376a117,Apple,MacBook Neo,A18 Pro 6核,8,256,np-c69717951e2fb376a117.jpg
+np-95eb7db0f6efc8f033ed,Apple,MacBook Neo,A18 Pro 6核,8,512,np-95eb7db0f6efc8f033ed.jpg
+np-899d475a72ffb8a996fa,Apple,MacBook Pro 14英寸（M6）,M6 12核,16,1024,np-899d475a72ffb8a996fa.jpg
+np-151ad5be2205fbe7dbdf,Apple,MacBook Pro 14英寸（M6）,M6 12核,32,1024,np-151ad5be2205fbe7dbdf.jpg
+np-be4d94c12a1eb6f88647,Apple,MacBook Pro 14英寸（M5 Pro）,M5 Pro 15核,24,1024,np-be4d94c12a1eb6f88647.jpg
+np-4ebeb761e90f948e9fcf,Apple,MacBook Pro 14英寸（M5 Pro）,M5 Pro 18核,24,1024,np-4ebeb761e90f948e9fcf.jpg
+np-08c2daecd6ee8dc6a5b8,Apple,MacBook Pro 14英寸（M5 Max）,M5 Max 18核,36,2048,np-08c2daecd6ee8dc6a5b8.jpg
+np-d3e1e31773cf48110768,联想,拯救者Y7000X 15.3英寸电竞游戏本电脑,酷睿 Ultra 7 251HX,16,1024,np-d3e1e31773cf48110768.jpg
+np-c4220c0135ddfa2bb409,联想,拯救者Y7000X 15.3英寸电竞游戏本电脑,Ultra 7 251HX,24,1024,np-c4220c0135ddfa2bb409.jpg
+np-c52208f4c76c092d9074,联想,拯救者Y9000P 16英寸电竞游戏本笔记本电脑,Ultra 9 290HX,32,1024,np-c52208f4c76c092d9074.jpg
+np-c2382313968cb80e850c,联想,小新Air 14英寸轻薄笔记本电脑,酷睿 Ultra 5 226V,16,512,np-c2382313968cb80e850c.jpg
+np-34bc20704c65751cacbe,联想,小新Air 13.3英寸轻薄笔记本电脑,酷睿 5 320,16,512,np-34bc20704c65751cacbe.jpg
+np-0ab4acffee16d2861b53,联想,小新Pro 16英寸轻薄笔记本电脑,酷睿 Ultra 5 336H,32,1024,np-0ab4acffee16d2861b53.jpg
+np-64f4c6c4151cb692c493,联想,来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑,酷睿 5 320,12,1024,np-64f4c6c4151cb692c493.jpg
+np-98a879d503c2ee705543,联想,YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑,酷睿 Ultra 5 338H,32,1024,np-98a879d503c2ee705543.jpg
+np-76ec5b7767d02d3791e4,联想,YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑,酷睿 Ultra 7 356H,32,1024,np-76ec5b7767d02d3791e4.jpg
+np-c621bace4974a1e6ed5d,联想,YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑,酷睿 5 325,16,1024,np-c621bace4974a1e6ed5d.jpg
+np-df72b0734f62fba28a26,联想,ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本,酷睿 Ultra X7 358H,32,1024,np-df72b0734f62fba28a26.jpg
+np-beea8ad82fe3a0577ae4,联想,ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本,酷睿 Ultra X7 358H,32,1024,np-beea8ad82fe3a0577ae4.jpg
+np-35041149e93a8cac19f0,联想,ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本,酷睿 Ultra 9 290HX Plus,32,1024,np-35041149e93a8cac19f0.jpg
+np-5a16d391c12872a7ebb2,联想,ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本,酷睿 Ultra X9 388H,32,1024,np-5a16d391c12872a7ebb2.jpg
+np-cef7acfb325f51bb6719,联想,ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站,酷睿 Ultra 7 251H,32,1024,np-cef7acfb325f51bb6719.jpg
+np-8381329b5f5bb128230b,华硕,华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本,酷睿 5 210H,16,512,np-8381329b5f5bb128230b.jpg
+np-a33093ee7a654bfc61b6,华硕,无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑,酷睿 5 320,16,512,np-a33093ee7a654bfc61b6.jpg
+np-599b48414149c64c289e,华硕,无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑,酷睿 Ultra5-325,16,512,np-599b48414149c64c289e.jpg
+np-75cf0011539381e70916,华硕,无畏Pro16 酷睿X7 AI轻薄本笔记本电脑,酷睿 Ultra X7 358H,32,1024,np-75cf0011539381e70916.jpg
+np-58030f969a49c68c4ce8,华硕,ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑,锐龙 R9-9955HX,16,1024,np-58030f969a49c68c4ce8.jpg
+np-bffbd2f59ef537c7450a,华硕,ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑,酷睿 U9-290HX Plus,32,1024,np-bffbd2f59ef537c7450a.jpg
+np-1d12de8f38fb438b7a8d,华硕,天选Air 2026 14英寸AI全能电竞游戏笔记本电脑,锐龙 AI 9 H 465,32,1024,np-1d12de8f38fb438b7a8d.jpg
+np-3590e4add87336a2525a,华硕,天选6 Pro 锐龙版 16英寸电竞游戏本,锐龙 R9-7845HX,16,512,np-3590e4add87336a2525a.jpg
+np-7565dde1ec13a38ceadb,华硕,天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑,酷睿 U7-251HX,16,1024,np-7565dde1ec13a38ceadb.jpg
+np-73cca426fb1187b7bc73,华硕,华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑,锐龙 9 H 270,16,1024,np-73cca426fb1187b7bc73.jpg
+np-8142239a836fb8c83da7,华硕,华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑,锐龙 AI 9 H 465,32,1024,np-8142239a836fb8c83da7.jpg
+np-604a8ba4b571b4c0f23f,华硕,灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑,酷睿 Ultra7 356H,32,1024,np-604a8ba4b571b4c0f23f.jpg
+np-589358c4159defd0a248,华硕,灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑,锐龙 AI 9 H 465,32,1024,np-589358c4159defd0a248.jpg
+np-e59d270febadb8180cb5,华硕,华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本,骁龙X,16,512,np-e59d270febadb8180cb5.jpg
+np-8cdaaba579d0f7b3dbbd,惠普,惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑,酷睿 Ultra 7 356H,32,1024,np-8cdaaba579d0f7b3dbbd.jpg
+np-7a935669073161c610e3,惠普,惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑,锐龙 AI 5 H 430,16,512,np-7a935669073161c610e3.jpg
+np-eb16f7e0476751f71a5e,惠普,惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑,锐龙 AI 7 H 450,32,1024,np-eb16f7e0476751f71a5e.jpg
+np-87938df60e2c37387209,惠普,惠普 (HP) 星Book 16英寸 AI 笔记本电脑,锐龙 7 H 255,16,512,np-87938df60e2c37387209.jpg
+np-8a2fb115ec6457b33df0,惠普,惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑,酷睿 5 320,16,512,np-8a2fb115ec6457b33df0.jpg
+np-0e287e2ffa259909da00,惠普,惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑,酷睿 Ultra 5 225H,16,512,np-0e287e2ffa259909da00.jpg
+np-18dd17d38c58f7ce6139,惠普,惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑,锐龙 7 H 255,32,1024,np-18dd17d38c58f7ce6139.jpg
+np-f6618cb4586314bdef52,惠普,惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑,酷睿 Ultra 5 338H,32,1024,np-f6618cb4586314bdef52.jpg
+np-9627debb5ff38348e48d,惠普,惠普 (HP)锐14 14英寸商务笔记本电脑,锐龙 5 7530U,8,512,np-9627debb5ff38348e48d.jpg
+np-e2c06d6ebd1eee4db546,惠普,惠普 (HP) 战66 八代 16英寸商务笔记本电脑,锐龙 7 H 255,16,512,np-e2c06d6ebd1eee4db546.jpg
+np-21476c11b3b753efac3b,惠普,惠普 (HP) 战66 14英寸商务笔记本电脑,酷睿 Ultra 5 336H,16,1024,np-21476c11b3b753efac3b.jpg
+np-3e202a2ef2c64b505f78,惠普,惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑,锐龙 9-9955HX,16,1024,np-3e202a2ef2c64b505f78.jpg
+np-1d4badb1994428b8016f,惠普,惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑,酷睿 Ultra 7-251HX,16,1024,np-1d4badb1994428b8016f.jpg
+np-b0385cb9591ca8e41e06,惠普,惠普(HP) 战X 16英寸商务笔记本电脑,酷睿 Ultra 5 228V,32,1024,np-b0385cb9591ca8e41e06.jpg
+np-39421d33535071ba08a7,华为,Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金,酷睿 Ultra 5 325,24,1024,np-39421d33535071ba08a7.jpg
+np-29b14525020adba21c41,华为,Hi MateBook 14 锐龙版 24GB 1TB,Ryzen 7 H 255,24,1024,np-29b14525020adba21c41.jpg
+np-967b2e6eca8c5d9c93f5,华为,Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0,酷睿 7 240H,16,1024,np-967b2e6eca8c5d9c93f5.jpg
+np-61bc2c438fe8eff0d49d,华为,Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰,Ryzen 7 H 255,16,512,np-61bc2c438fe8eff0d49d.jpg
+np-f45e1beec3054f8940a3,戴尔,Dell 14S 笔记本,酷睿 5 320,8,512,np-f45e1beec3054f8940a3.jpg
+np-8afd305c5a066905cd94,戴尔,Dell 16S 笔记本,酷睿 Ultra 5 322,16,1024,np-8afd305c5a066905cd94.jpg
+np-465708bf7417b7554904,戴尔,Dell 14 笔记本,酷睿 5 320,8,512,np-465708bf7417b7554904.jpg
+np-56102a8b7bf6c7f5b2e9,戴尔,Dell 15 笔记本,Ryzen 5 220,8,512,np-56102a8b7bf6c7f5b2e9.jpg
+np-7a50b813cbde6a77dfc1,戴尔,XPS 13 笔记本电脑,Intel Core 5 320,8,512,np-7a50b813cbde6a77dfc1.jpg
+np-3624f9018abd6ce52c0a,戴尔,Alienware 外星人 18 Area-51 游戏笔记本,酷睿 Ultra 7 270HX Plus,32,1024,np-3624f9018abd6ce52c0a.jpg
+np-940310f173ec86e6650b,机械革命,耀世 16 Ultra旗舰游戏本,酷睿 Ultra 9 290 HX Plus,32,1024,np-940310f173ec86e6650b.jpg
+np-c413653373ddd512ed37,机械革命,耀世 15 Air轻薄游戏本,酷睿 U7-356H,32,1024,np-c413653373ddd512ed37.jpg
+np-673622640e5e11f3f23a,机械革命,耀世 18 Pro高端大屏游戏本,酷睿 i7-14650HX,16,1024,np-673622640e5e11f3f23a.jpg
+np-f0b4096e75cef9b6d242,机械革命,无界 14 SE双通道轻薄本,酷睿 i5-13420H,12,1024,np-f0b4096e75cef9b6d242.jpg
+np-828ebbc340c18ec14814,机械革命,无界 14高性能轻薄本,酷睿 5 226,16,1024,np-828ebbc340c18ec14814.jpg
+np-8baa60b1844621f0ab04,机械革命,苍龙 16 Ultra旗舰游戏本,锐龙 9000HX,32,2048,np-8baa60b1844621f0ab04.jpg
+np-2f271b787d9913fbf15d,机械革命,苍龙 18 Pro高端大屏游戏本,R9-8945HX,32,2048,np-2f271b787d9913fbf15d.jpg
+np-413c27d11a0df17c7146,机械革命,星耀 14高颜值轻薄本,锐龙 AI 9 H 365,32,1024,np-413c27d11a0df17c7146.jpg
+np-973d6098654f5dd40963,机械革命,恒悦E14G2,酷睿 Ultra 5 226V,16,512,np-973d6098654f5dd40963.jpg

@@ -1,0 +1,64 @@
+{
+  "status": "implemented_and_tested",
+  "officialDocumentation": "https://api-docs.deepseek.com/zh-cn/guides/search/",
+  "real": {
+    "searchHttp200": 2,
+    "fetchHttp200": 1,
+    "fetchAttempts": 2,
+    "fetchPartialFailure": true,
+    "modelCalls": 1,
+    "modelHttpStatus": 200,
+    "validationInitially": "rejected 24G vs 24GB notation",
+    "validationAfterFix": "passed via offline replay of same real output",
+    "browserDisplay": "same real output displayed with explicit replay label; no further paid calls",
+    "source": "https://m.lenovo.com.cn/wiki/product-1057921.html",
+    "scope": "conflict",
+    "finding": "official page lists 24G DDR5; local product has 32GB; original data untouched"
+  },
+  "limits": {
+    "initialSearch": 2,
+    "initialFetch": 2,
+    "followupSearch": 1,
+    "followupFetch": 1,
+    "sessionSearch": 5,
+    "sessionFetch": 5,
+    "sourceCount": 5,
+    "charsPerSource": 3000,
+    "searchTimeoutMs": 25000,
+    "totalTimeoutMs": 85000,
+    "cacheMinutes": 5,
+    "cacheEntries": 80,
+    "automaticRetries": 0
+  },
+  "tests": {
+    "backend": 41,
+    "frontend": 103,
+    "python": 16,
+    "build": "passed",
+    "rankingCasesUnchanged": 111,
+    "mockBrowser": "passed",
+    "realSavedOutputReplay": "passed",
+    "widths": [
+      390,
+      768,
+      1366
+    ]
+  },
+  "modifiedFiles": [
+    "backend/search.mjs",
+    "backend/webEvidence.mjs",
+    "backend/config.mjs",
+    "backend/context.mjs",
+    "backend/server.mjs",
+    "backend/deepseek.mjs",
+    "backend/prompt.mjs",
+    "backend/tests/search.test.mjs",
+    "frontend/src/components/DeepSeekAnalysis.jsx",
+    "frontend/src/styles.css",
+    "frontend/tests/recommendationCardCopy.test.js",
+    "frontend/scripts/search-ai-smoke.mjs",
+    "frontend/scripts/replay-search-answer.mjs",
+    "frontend/SEARCH_INTEGRATION.md",
+    "frontend/DEEPSEEK_INTEGRATION.md"
+  ]
+}

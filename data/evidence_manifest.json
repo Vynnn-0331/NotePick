@@ -1,0 +1,56 @@
+[
+  {
+    "file": "data/raw/dell_catalog.html",
+    "sha256": "592dfff9e36619ecf229727d3a422b1b8b82fd7477fbfece0063bb9d2440309e",
+    "saved_at": "2026-10-28T10:02:43+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/Dell_robots.txt",
+    "sha256": "cb81ef4605ed2ada775ecbf381969c97e6d4c1509f8fd7904c60c9f61767e60c",
+    "saved_at": "2026-10-28T10:02:16+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/hp_catalog.html",
+    "sha256": "7eaaad003956cc648d43499d7351615912b062e5b7c6c4be63092a2da513683f",
+    "saved_at": "2026-10-28T10:02:51+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/HP_robots.txt",
+    "sha256": "c2a27af1c8cd591f5a429f4deab266b1fca34971997042afd16771a32524cc49",
+    "saved_at": "2026-10-28T10:02:17+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/huawei_catalog.html",
+    "sha256": "d2f7e74e88af53d50f4860efec7a1954e8049285155b02252cc38423357098e1",
+    "saved_at": "2026-10-28T10:02:38+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/Huawei_robots.txt",
+    "sha256": "c275fc5079567bf3d83493c2e109a75f5966c9447186ced9e1a4b437605a7073",
+    "saved_at": "2026-10-28T10:02:15+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/huawei_terms.html",
+    "sha256": "61d5db963b0a46dbc0699fab0cf9708990433413491c0cbc58ef569bd7b53d63",
+    "saved_at": "2026-10-28T10:02:40+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  },
+  {
+    "file": "data/raw/xiaomi_page_metadata.json",
+    "sha256": "aec02324cd28fa985a242f10dd40777536777d1ab9674755a52fabe1e2d83237",
+    "saved_at": "2026-10-28T10:07:23+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML.；GitHub公开副本已移除客服URL中的token参数，哈希为清理后字节"
+  },
+  {
+    "file": "data/evidence/asus_series.json",
+    "sha256": "67d0ef9a071cb4479790e16923800277b8901cc67ef1a495ba2bc5f63c11d39a",
+    "saved_at": "2026-10-28T10:05:58+08:00",
+    "note": "Filesystem save time; not product update time. ASUS JSON is a selected web-tool excerpt, not raw HTML."
+  }
+]

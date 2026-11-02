@@ -1,0 +1,77 @@
+{
+  "mode": "REAL SEARCH, one controlled action",
+  "status": 200,
+  "requirements": {
+    "schemaVersion": 2,
+    "budget": [
+      5000,
+      20000
+    ],
+    "os": "Windows",
+    "scenarios": [
+      "documents"
+    ],
+    "priorities": [
+      "value"
+    ],
+    "hardConstraints": {
+      "minRamGb": null,
+      "minSsdGb": null,
+      "maxWeightKg": null,
+      "discreteGpu": false
+    },
+    "unavailableSelections": []
+  },
+  "result": {
+    "kind": "discover",
+    "queriedAt": "2026-10-30T10:31:10.491Z",
+    "candidates": [],
+    "alternatives": [
+      {
+        "id": "np-973d6098654f5dd40963",
+        "name": "恒悦E14G2",
+        "brand": "机械革命",
+        "cpu": "酷睿 Ultra 5 226V",
+        "gpu": null,
+        "ramGb": 16,
+        "ssdGb": 512,
+        "price": 6999,
+        "reason": "与当前推荐同品牌的其他机型，符合已设硬条件。"
+      },
+      {
+        "id": "np-413c27d11a0df17c7146",
+        "name": "星耀 14高颜值轻薄本",
+        "brand": "机械革命",
+        "cpu": "锐龙 AI 9 H 365",
+        "gpu": null,
+        "ramGb": 32,
+        "ssdGb": 1024,
+        "price": 7999,
+        "reason": "与当前推荐同品牌的其他机型，符合已设硬条件。"
+      },
+      {
+        "id": "np-2f271b787d9913fbf15d",
+        "name": "苍龙 18 Pro高端大屏游戏本",
+        "brand": "机械革命",
+        "cpu": "R9-8945HX",
+        "gpu": "RTX5060",
+        "ramGb": 32,
+        "ssdGb": 2048,
+        "price": 12599,
+        "reason": "与当前推荐同品牌的其他机型，符合已设硬条件。"
+      }
+    ],
+    "excluded": {
+      "duplicate": 1,
+      "insufficient": 5,
+      "hardConditions": 0
+    },
+    "failures": [],
+    "counts": {
+      "search": 2,
+      "fetch": 3
+    },
+    "notice": "独立联网发现，不加入78条数据库或替换本地前三；待确认项不宣称完全符合需求",
+    "isMock": false
+  }
+}

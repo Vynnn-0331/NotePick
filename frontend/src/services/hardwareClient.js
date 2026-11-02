@@ -1,0 +1,4 @@
+export async function requestHardwareReport(productId,requirements,{signal,fetchImpl=fetch}={}){
+ const combined=AbortSignal.any([...(signal?[signal]:[]),AbortSignal.timeout(40000)]);
+ try{const response=await fetchImpl('/api/hardware/analyze',{method:'POST',headers:{'Content-Type':'application/json','X-NotePick-Request':'1'},body:JSON.stringify({productId,requirements}),signal:combined});const data=await response.json();if(!response.ok)throw Error(data.error?.message??'硬件分析暂不可用。');if(data.productId!==productId||data.method!=='local-rules-v1'||!data.cpu||!data.gpu||!Array.isArray(data.sources)||!Array.isArray(data.scenarios))throw Error('硬件分析响应不完整，请重试。');return data;}catch(e){if(signal?.aborted)throw e;throw Error(combined.aborted?'检索等待超时，请重试；离线推荐仍正常。':e instanceof TypeError?'无法连接本地分析服务，请检查启动状态。':e.message);}
+}

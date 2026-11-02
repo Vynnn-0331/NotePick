@@ -1,0 +1,3710 @@
+[
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 8核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 13,
+    "weight_kg": 1.24,
+    "official_price_cny": 9999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-821de32e4bdd2ada742c",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 2,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 13英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 8核",
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 13,
+          "weight_kg": 1.24,
+          "official_price": 9999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 13,
+    "weight_kg": 1.24,
+    "official_price_cny": 10749,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-e33a73323a54ac6711ee",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 3,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 13英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 13,
+          "weight_kg": 1.24,
+          "official_price": 10749,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 13,
+    "weight_kg": 1.24,
+    "official_price_cny": 12249,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-f4c1ee85188ec90baf1e",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 4,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 13英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 13,
+          "weight_kg": 1.24,
+          "official_price": 12249,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 15,
+    "weight_kg": 1.51,
+    "official_price_cny": 11999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-4fd99de1823c181fcdce",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 5,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 15英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 15,
+          "weight_kg": 1.51,
+          "official_price": 11999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 15,
+    "weight_kg": 1.51,
+    "official_price_cny": 14249,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-d2535e3311d688e48e40",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 6,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 15英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 15,
+          "weight_kg": 1.51,
+          "official_price": 14249,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 15,
+    "weight_kg": 1.51,
+    "official_price_cny": 17249,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-7352ceda9ac3465452e3",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 7,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 15英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 15,
+          "weight_kg": 1.51,
+          "official_price": 17249,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 15英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 512,
+    "screen_inches": 15,
+    "weight_kg": 1.51,
+    "official_price_cny": 14999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-526eb2abeaf716bae560",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 8,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 15英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 512,
+          "screen_inches": 15,
+          "weight_kg": 1.51,
+          "official_price": 14999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 512,
+    "screen_inches": 13,
+    "weight_kg": 1.24,
+    "official_price_cny": 12999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-7d2080c7744b051063f3",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 9,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 13英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 512,
+          "screen_inches": 13,
+          "weight_kg": 1.24,
+          "official_price": 12999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "model": "MacBook Air 13英寸 (M5)",
+    "cpu_model": "M5 10核",
+    "gpu_model": "M5 10核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 13,
+    "weight_kg": 1.24,
+    "official_price_cny": 15249,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+    "os": "macOS",
+    "id": "np-d0e1ba60a922d9c18614",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 10,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Air",
+          "model": "MacBook Air 13英寸 (M5)",
+          "os": "macOS",
+          "CPU_model": "M5 10核",
+          "GPU_model": "M5 10核",
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 13,
+          "weight_kg": 1.24,
+          "official_price": 15249,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Neo",
+    "model": "MacBook Neo",
+    "cpu_model": "A18 Pro 6核",
+    "gpu_model": "A18 Pro 5核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 256,
+    "screen_inches": 13,
+    "weight_kg": 1.23,
+    "official_price_cny": 5499,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?",
+    "os": "macOS",
+    "id": "np-c69717951e2fb376a117",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 11,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Neo",
+          "model": "MacBook Neo",
+          "os": "macOS",
+          "CPU_model": "A18 Pro 6核",
+          "GPU_model": "A18 Pro 5核",
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 256,
+          "screen_inches": 13,
+          "weight_kg": 1.23,
+          "official_price": 5499,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Neo",
+    "model": "MacBook Neo",
+    "cpu_model": "A18 Pro 6核",
+    "gpu_model": "A18 Pro 5核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "screen_inches": 13,
+    "weight_kg": 1.23,
+    "official_price_cny": 6299,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?",
+    "os": "macOS",
+    "id": "np-95eb7db0f6efc8f033ed",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 12,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Neo",
+          "model": "MacBook Neo",
+          "os": "macOS",
+          "CPU_model": "A18 Pro 6核",
+          "GPU_model": "A18 Pro 5核",
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 512,
+          "screen_inches": 13,
+          "weight_kg": 1.23,
+          "official_price": 6299,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14英寸（M6）",
+    "cpu_model": "M6 12核",
+    "gpu_model": "M6 12核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.55,
+    "official_price_cny": 15999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+    "os": "macOS",
+    "id": "np-899d475a72ffb8a996fa",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 13,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Pro",
+          "model": "MacBook Pro 14英寸（M6）",
+          "os": "macOS",
+          "CPU_model": "M6 12核",
+          "GPU_model": "M6 12核",
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.55,
+          "official_price": 15999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14英寸（M6）",
+    "cpu_model": "M6 12核",
+    "gpu_model": "M6 12核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.55,
+    "official_price_cny": 18999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+    "os": "macOS",
+    "id": "np-151ad5be2205fbe7dbdf",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 14,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Pro",
+          "model": "MacBook Pro 14英寸（M6）",
+          "os": "macOS",
+          "CPU_model": "M6 12核",
+          "GPU_model": "M6 12核",
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.55,
+          "official_price": 18999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14英寸（M5 Pro）",
+    "cpu_model": "M5 Pro 15核",
+    "gpu_model": "M5 Pro 16核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 24,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.6,
+    "official_price_cny": 19999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+    "os": "macOS",
+    "id": "np-be4d94c12a1eb6f88647",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 15,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Pro",
+          "model": "MacBook Pro 14英寸（M5 Pro）",
+          "os": "macOS",
+          "CPU_model": "M5 Pro 15核",
+          "GPU_model": "M5 Pro 16核",
+          "GPU_Type": "集显",
+          "ram_gb": 24,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.6,
+          "official_price": 19999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14英寸（M5 Pro）",
+    "cpu_model": "M5 Pro 18核",
+    "gpu_model": "M5 Pro 20核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 24,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.6,
+    "official_price_cny": 22249,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+    "os": "macOS",
+    "id": "np-4ebeb761e90f948e9fcf",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 16,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Pro",
+          "model": "MacBook Pro 14英寸（M5 Pro）",
+          "os": "macOS",
+          "CPU_model": "M5 Pro 18核",
+          "GPU_model": "M5 Pro 20核",
+          "GPU_Type": "集显",
+          "ram_gb": 24,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.6,
+          "official_price": 22249,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "model": "MacBook Pro 14英寸（M5 Max）",
+    "cpu_model": "M5 Max 18核",
+    "gpu_model": "M5 Max 32核",
+    "gpu_type": "集成显卡",
+    "ram_gb": 36,
+    "ssd_gb": 2048,
+    "screen_inches": 14,
+    "weight_kg": 1.62,
+    "official_price_cny": 33999,
+    "source_url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+    "os": "macOS",
+    "id": "np-08c2daecd6ee8dc6a5b8",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 17,
+        "raw": {
+          "brand": "Apple",
+          "series": "MacBook Pro",
+          "model": "MacBook Pro 14英寸（M5 Max）",
+          "os": "macOS",
+          "CPU_model": "M5 Max 18核",
+          "GPU_model": "M5 Max 32核",
+          "GPU_Type": "集显",
+          "ram_gb": 36,
+          "ssd_gb": 2048,
+          "screen_inches": 14,
+          "weight_kg": 1.62,
+          "official_price": 33999,
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "拯救者Y7000X",
+    "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+    "cpu_model": "酷睿 Ultra 7 251HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 15.3,
+    "weight_kg": 1.95,
+    "official_price_cny": 14299,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-d3e1e31773cf48110768",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 18,
+        "raw": {
+          "brand": "联想",
+          "series": "拯救者Y7000X",
+          "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 7 251HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 15.3,
+          "weight_kg": 1.95,
+          "official_price": 14299,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "拯救者Y7000X",
+    "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+    "cpu_model": "Ultra 7 251HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 24,
+    "ssd_gb": 1024,
+    "screen_inches": 15.3,
+    "weight_kg": 1.95,
+    "official_price_cny": 14499,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-c4220c0135ddfa2bb409",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 19,
+        "raw": {
+          "brand": "联想",
+          "series": "拯救者Y7000X",
+          "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+          "os": "Windows",
+          "CPU_model": "Ultra 7 251HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 24,
+          "ssd_gb": 1024,
+          "screen_inches": 15.3,
+          "weight_kg": 1.95,
+          "official_price": 14499,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "拯救者Y9000P",
+    "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+    "cpu_model": "Ultra 9 290HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.5,
+    "official_price_cny": 19489,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-c52208f4c76c092d9074",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 20,
+        "raw": {
+          "brand": "联想",
+          "series": "拯救者Y9000P",
+          "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "Ultra 9 290HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.5,
+          "official_price": 19489,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "小新",
+    "model": "小新Air 14英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 226V",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.06,
+    "official_price_cny": 6999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-c2382313968cb80e850c",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 21,
+        "raw": {
+          "brand": "联想",
+          "series": "小新",
+          "model": "小新Air 14英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 226V",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.06,
+          "official_price": 6999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "小新",
+    "model": "小新Air 13.3英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 13.3,
+    "weight_kg": 1.1,
+    "official_price_cny": 5499,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-34bc20704c65751cacbe",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 22,
+        "raw": {
+          "brand": "联想",
+          "series": "小新",
+          "model": "小新Air 13.3英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 320",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 13.3,
+          "weight_kg": 1.1,
+          "official_price": 5499,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "小新",
+    "model": "小新Pro 16英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 336H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.76,
+    "official_price_cny": 9999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-0ab4acffee16d2861b53",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 23,
+        "raw": {
+          "brand": "联想",
+          "series": "小新",
+          "model": "小新Pro 16英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 336H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.76,
+          "official_price": 9999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "来酷Lecoo",
+    "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 12,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 0.99,
+    "official_price_cny": 5199,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-64f4c6c4151cb692c493",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 24,
+        "raw": {
+          "brand": "联想",
+          "series": "来酷Lecoo",
+          "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 320",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 12,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 0.99,
+          "official_price": 5199,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "YOGA",
+    "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 338H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 0.975,
+    "official_price_cny": 14999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-98a879d503c2ee705543",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 25,
+        "raw": {
+          "brand": "联想",
+          "series": "YOGA",
+          "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 338H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 0.975,
+          "official_price": 14999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "YOGA",
+    "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 Ultra 7 356H",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.89,
+    "official_price_cny": 23999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-76ec5b7767d02d3791e4",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 26,
+        "raw": {
+          "brand": "联想",
+          "series": "YOGA",
+          "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 7 356H",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.89,
+          "official_price": 23999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "YOGA",
+    "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+    "cpu_model": "酷睿 5 325",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 0.975,
+    "official_price_cny": 11499,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-c621bace4974a1e6ed5d",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 27,
+        "raw": {
+          "brand": "联想",
+          "series": "YOGA",
+          "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 325",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 0.975,
+          "official_price": 11499,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "ThinkBook",
+    "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+    "cpu_model": "酷睿 Ultra X7 358H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14.5,
+    "weight_kg": 1.5,
+    "official_price_cny": 12999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-df72b0734f62fba28a26",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 28,
+        "raw": {
+          "brand": "联想",
+          "series": "ThinkBook",
+          "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra X7 358H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14.5,
+          "weight_kg": 1.5,
+          "official_price": 12999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "ThinkBook",
+    "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+    "cpu_model": "酷睿 Ultra X7 358H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.75,
+    "official_price_cny": 12999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-beea8ad82fe3a0577ae4",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 29,
+        "raw": {
+          "brand": "联想",
+          "series": "ThinkBook",
+          "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra X7 358H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.75,
+          "official_price": 12999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "ThinkBook",
+    "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+    "cpu_model": "酷睿 Ultra 9 290HX Plus",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.1,
+    "official_price_cny": 18999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-35041149e93a8cac19f0",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 30,
+        "raw": {
+          "brand": "联想",
+          "series": "ThinkBook",
+          "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 9 290HX Plus",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.1,
+          "official_price": 18999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "ThinkPad",
+    "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+    "cpu_model": "酷睿 Ultra X9 388H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14.5,
+    "weight_kg": 1.6,
+    "official_price_cny": 17999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-5a16d391c12872a7ebb2",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 31,
+        "raw": {
+          "brand": "联想",
+          "series": "ThinkPad",
+          "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra X9 388H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14.5,
+          "weight_kg": 1.6,
+          "official_price": 17999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "联想",
+    "series": "ThinkPad",
+    "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+    "cpu_model": "酷睿 Ultra 7 251H",
+    "gpu_model": "RTX Pro 2000 Blackwell",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.1,
+    "official_price_cny": 22999,
+    "source_url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+    "os": "Windows",
+    "id": "np-cef7acfb325f51bb6719",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "homepage_not_configuration",
+        "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      },
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 32,
+        "raw": {
+          "brand": "联想",
+          "series": "ThinkPad",
+          "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 7 251H",
+          "GPU_model": "RTX Pro 2000 Blackwell",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.1,
+          "official_price": 22999,
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "无双",
+    "model": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本",
+    "cpu_model": "酷睿 5 210H",
+    "gpu_model": "RTX3050",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 16,
+    "weight_kg": 1.95,
+    "official_price_cny": 7999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42284282751712",
+    "os": "Windows",
+    "id": "np-8381329b5f5bb128230b",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 33,
+        "raw": {
+          "brand": "华硕",
+          "series": "无双",
+          "model": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 210H",
+          "GPU_model": "RTX3050",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 16,
+          "weight_kg": 1.95,
+          "official_price": 7999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42284282751712"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "无畏",
+    "model": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑",
+    "cpu_model": "酷睿 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 16,
+    "weight_kg": 1.59,
+    "official_price_cny": 5999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42283657465798",
+    "os": "Windows",
+    "id": "np-a33093ee7a654bfc61b6",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 34,
+        "raw": {
+          "brand": "华硕",
+          "series": "无畏",
+          "model": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 320",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 16,
+          "weight_kg": 1.59,
+          "official_price": 5999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42283657465798"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "无畏",
+    "model": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑",
+    "cpu_model": "酷睿 Ultra5-325",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 16,
+    "weight_kg": 1.69,
+    "official_price_cny": 6699,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42281857970485",
+    "os": "Windows",
+    "id": "np-599b48414149c64c289e",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 35,
+        "raw": {
+          "brand": "华硕",
+          "series": "无畏",
+          "model": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra5-325",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 16,
+          "weight_kg": 1.69,
+          "official_price": 6699,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42281857970485"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "无畏",
+    "model": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑",
+    "cpu_model": "酷睿 Ultra X7 358H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.69,
+    "official_price_cny": 11999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42268820524484",
+    "os": "Windows",
+    "id": "np-75cf0011539381e70916",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 36,
+        "raw": {
+          "brand": "华硕",
+          "series": "无畏",
+          "model": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑 ",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra X7 358H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.69,
+          "official_price": 11999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42268820524484"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "ROG魔霸",
+    "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+    "cpu_model": "锐龙 R9-9955HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 18,
+    "weight_kg": 3,
+    "official_price_cny": 17999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42279183209029",
+    "os": "Windows",
+    "id": "np-58030f969a49c68c4ce8",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 37,
+        "raw": {
+          "brand": "华硕",
+          "series": "ROG魔霸",
+          "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 R9-9955HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 18,
+          "weight_kg": 3,
+          "official_price": 17999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42279183209029"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "ROG枪神",
+    "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
+    "cpu_model": "酷睿 U9-290HX Plus",
+    "gpu_model": "RTX5070Ti",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 18,
+    "weight_kg": 3.2,
+    "official_price_cny": 26999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42279179560960",
+    "os": "Windows",
+    "id": "np-bffbd2f59ef537c7450a",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 38,
+        "raw": {
+          "brand": "华硕",
+          "series": "ROG枪神",
+          "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 U9-290HX Plus",
+          "GPU_model": "RTX5070Ti",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 18,
+          "weight_kg": 3.2,
+          "official_price": 26999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42279179560960"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "天选",
+    "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+    "cpu_model": "锐龙 AI 9 H 465",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.46,
+    "official_price_cny": 14799,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42268533436855",
+    "os": "Windows",
+    "id": "np-1d12de8f38fb438b7a8d",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 39,
+        "raw": {
+          "brand": "华硕",
+          "series": "天选",
+          "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 AI 9 H 465",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.46,
+          "official_price": 14799,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42268533436855"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "天选",
+    "model": "天选6 Pro 锐龙版 16英寸电竞游戏本",
+    "cpu_model": "锐龙 R9-7845HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 16,
+    "weight_kg": 2.3,
+    "official_price_cny": 12999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42288938834326",
+    "os": "Windows",
+    "id": "np-3590e4add87336a2525a",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 40,
+        "raw": {
+          "brand": "华硕",
+          "series": "天选",
+          "model": "天选6 Pro 锐龙版 16英寸电竞游戏本",
+          "os": "Windows",
+          "CPU_model": "锐龙 R9-7845HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 16,
+          "weight_kg": 2.3,
+          "official_price": 12999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42288938834326"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "天选",
+    "model": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑",
+    "cpu_model": "酷睿 U7-251HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.25,
+    "official_price_cny": 15999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42278593801373",
+    "os": "Windows",
+    "id": "np-7565dde1ec13a38ceadb",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 41,
+        "raw": {
+          "brand": "华硕",
+          "series": "天选",
+          "model": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 U7-251HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.25,
+          "official_price": 15999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42278593801373"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "a豆",
+    "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+    "cpu_model": "锐龙 9 H 270",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.39,
+    "official_price_cny": 7699,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42288507361107",
+    "os": "Windows",
+    "id": "np-73cca426fb1187b7bc73",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 42,
+        "raw": {
+          "brand": "华硕",
+          "series": "a豆",
+          "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 9 H 270",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.39,
+          "official_price": 7699,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42288507361107"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "a豆",
+    "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+    "cpu_model": "锐龙 AI 9 H 465",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.39,
+    "official_price_cny": 9399,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42268903126989",
+    "os": "Windows",
+    "id": "np-8142239a836fb8c83da7",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 43,
+        "raw": {
+          "brand": "华硕",
+          "series": "a豆",
+          "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 AI 9 H 465",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.39,
+          "official_price": 9399,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42268903126989"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "灵耀",
+    "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+    "cpu_model": "酷睿 Ultra7 356H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.19,
+    "official_price_cny": 12999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971",
+    "os": "Windows",
+    "id": "np-604a8ba4b571b4c0f23f",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 44,
+        "raw": {
+          "brand": "华硕",
+          "series": "灵耀",
+          "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra7 356H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.19,
+          "official_price": 12999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "灵耀",
+    "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+    "cpu_model": "锐龙 AI 9 H 465",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.5,
+    "official_price_cny": 11999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971",
+    "os": "Windows",
+    "id": "np-589358c4159defd0a248",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "kind": "shared_url_different_models",
+        "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 45,
+        "raw": {
+          "brand": "华硕",
+          "series": "灵耀",
+          "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 AI 9 H 465",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.5,
+          "official_price": 11999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华硕",
+    "series": "灵耀",
+    "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+    "cpu_model": "骁龙X",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.1,
+    "official_price_cny": 6999,
+    "source_url": "https://store.asus.com.cn/store/goods/detail?productId=42288259904810",
+    "os": "Windows",
+    "id": "np-e59d270febadb8180cb5",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "cpu_model",
+        "kind": "insufficient_model_specificity",
+        "raw": "骁龙X"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 46,
+        "raw": {
+          "brand": "华硕",
+          "series": "灵耀",
+          "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+          "os": "Windows",
+          "CPU_model": "骁龙X",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.1,
+          "official_price": 6999,
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42288259904810"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK ULTRA",
+    "model": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑",
+    "cpu_model": "酷睿 Ultra 7 356H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.275,
+    "official_price_cny": 16999,
+    "source_url": "https://www.hpstore.cn/book-ultra-ai-14-kd0266tu-d5ek1pa.html?facetref=99c019e18b07ea86",
+    "os": "Windows",
+    "id": "np-8cdaaba579d0f7b3dbbd",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 47,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK ULTRA",
+          "model": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 7 356H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.275,
+          "official_price": 16999,
+          "url": "https://www.hpstore.cn/book-ultra-ai-14-kd0266tu-d5ek1pa.html?facetref=99c019e18b07ea86"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK X",
+    "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+    "cpu_model": "锐龙 AI 5 H 430",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.4,
+    "official_price_cny": 10299,
+    "source_url": "https://www.hpstore.cn/laptops-tablets/personal-laptops/omnibook-x-laptops.html",
+    "os": "Windows",
+    "id": "np-7a935669073161c610e3",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "source_url",
+        "kind": "series_page_not_configuration",
+        "raw": "https://www.hpstore.cn/laptops-tablets/personal-laptops/omnibook-x-laptops.html"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 48,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK X",
+          "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 AI 5 H 430",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.4,
+          "official_price": 10299,
+          "url": "https://www.hpstore.cn/laptops-tablets/personal-laptops/omnibook-x-laptops.html"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK X",
+    "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+    "cpu_model": "锐龙 AI 7 H 450",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.4,
+    "official_price_cny": 15899,
+    "source_url": "https://www.hpstore.cn/book-x-flip-ai-14-kc0003au-d48tnpa.html?facetref=4245cb6bb7d6af73",
+    "os": "Windows",
+    "id": "np-eb16f7e0476751f71a5e",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 49,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK X",
+          "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 AI 7 H 450",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.4,
+          "official_price": 15899,
+          "url": "https://www.hpstore.cn/book-x-flip-ai-14-kc0003au-d48tnpa.html?facetref=4245cb6bb7d6af73"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK",
+    "model": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑",
+    "cpu_model": "锐龙 7 H 255",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 16,
+    "weight_kg": 1.64,
+    "official_price_cny": 8299,
+    "source_url": "https://www.hpstore.cn/book-3-laptop-16-bw0272au-d42cbpa.html#specs",
+    "os": "Windows",
+    "id": "np-87938df60e2c37387209",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 50,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK",
+          "model": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 7 H 255",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 16,
+          "weight_kg": 1.64,
+          "official_price": 8299,
+          "url": "https://www.hpstore.cn/book-3-laptop-16-bw0272au-d42cbpa.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK",
+    "model": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑",
+    "cpu_model": "酷睿 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.16,
+    "official_price_cny": 6999,
+    "source_url": "https://www.hpstore.cn/book-5-ai-14-mh0903tu-e7td3pa.html#overview",
+    "os": "Windows",
+    "id": "np-8a2fb115ec6457b33df0",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 51,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK",
+          "model": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 320 ",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.16,
+          "official_price": 6999,
+          "url": "https://www.hpstore.cn/book-5-ai-14-mh0903tu-e7td3pa.html#overview"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK PRO",
+    "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 225H",
+    "gpu_model": "英特尔锐炫 130T",
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.09,
+    "official_price_cny": 9799,
+    "source_url": "https://www.hpstore.cn/hp-omnibook-7-laptop-ai-14-ku0023tu-dk8g8pa.html#overview",
+    "os": "Windows",
+    "id": "np-0e287e2ffa259909da00",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "gpu_type",
+        "kind": "corrected_classification",
+        "raw": "独显",
+        "value": "集成显卡",
+        "evidence": "https://psref.lenovo.com/Detail/ThinkBook_14_G8_IAL?M=21SJ0070VN",
+        "note": "只修正JSON；原始Excel及raw内容保留"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 52,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK PRO",
+          "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 225H",
+          "GPU_model": "英特尔锐炫 130T",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.09,
+          "official_price": 9799,
+          "url": "https://www.hpstore.cn/hp-omnibook-7-laptop-ai-14-ku0023tu-dk8g8pa.html#overview"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK PRO",
+    "model": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑",
+    "cpu_model": "锐龙 7 H 255",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.541,
+    "official_price_cny": 14999,
+    "source_url": "https://www.hpstore.cn/hp-omnibook-7-14-inch-laptop-ai-pc-ai-kk0045au-d9ty6pa.html#specs",
+    "os": "Windows",
+    "id": "np-18dd17d38c58f7ce6139",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 53,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK PRO",
+          "model": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 7 H 255",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.541,
+          "official_price": 14999,
+          "url": "https://www.hpstore.cn/hp-omnibook-7-14-inch-laptop-ai-pc-ai-kk0045au-d9ty6pa.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "星BOOK PRO",
+    "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 338H",
+    "gpu_model": "英特尔锐炫 B370",
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.95,
+    "official_price_cny": 12299,
+    "source_url": "https://www.hpstore.cn/book-7-ai-16-bh0091tu-d3rf1pa.html#specs",
+    "os": "Windows",
+    "id": "np-f6618cb4586314bdef52",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "gpu_type",
+        "kind": "corrected_classification",
+        "raw": "独显",
+        "value": "集成显卡",
+        "evidence": "https://www.intel.com/content/www/us/en/support/articles/000007420/processors.html",
+        "note": "只修正JSON；原始Excel及raw内容保留"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 54,
+        "raw": {
+          "brand": "惠普",
+          "series": "星BOOK PRO",
+          "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 338H",
+          "GPU_model": "英特尔锐炫 B370",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.95,
+          "official_price": 12299,
+          "url": "https://www.hpstore.cn/book-7-ai-16-bh0091tu-d3rf1pa.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "锐",
+    "model": "惠普 (HP)锐14 14英寸商务笔记本电脑",
+    "cpu_model": "锐龙 5 7530U",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.36,
+    "official_price_cny": 5199,
+    "source_url": "https://www.hpstore.cn/hp-245-14-inch-notebook-pc-7y0y4pc.html#specs",
+    "os": "Windows",
+    "id": "np-9627debb5ff38348e48d",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 55,
+        "raw": {
+          "brand": "惠普",
+          "series": "锐",
+          "model": "惠普 (HP)锐14 14英寸商务笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 5 7530U",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.36,
+          "official_price": 5199,
+          "url": "https://www.hpstore.cn/hp-245-14-inch-notebook-pc-7y0y4pc.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "战66",
+    "model": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑",
+    "cpu_model": "锐龙 7 H 255",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 16,
+    "weight_kg": 1.75,
+    "official_price_cny": 5799,
+    "source_url": "https://www.hpstore.cn/hp-probook-4-g1ah-16-inch-notebook-pc-d89wspc.html?facetref=0c71cc2bae1268c9#specs",
+    "os": "Windows",
+    "id": "np-e2c06d6ebd1eee4db546",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 56,
+        "raw": {
+          "brand": "惠普",
+          "series": "战66",
+          "model": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 7 H 255",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 16,
+          "weight_kg": 1.75,
+          "official_price": 5799,
+          "url": "https://www.hpstore.cn/hp-probook-4-g1ah-16-inch-notebook-pc-d89wspc.html?facetref=0c71cc2bae1268c9#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "战66",
+    "model": "惠普 (HP) 战66 14英寸商务笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 336H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.4,
+    "official_price_cny": 8299,
+    "source_url": "https://www.hpstore.cn/hp-probook-4-g2i-14-inch-notebook-next-gen-ai-pc-d73l3pc.html#overview",
+    "os": "Windows",
+    "id": "np-21476c11b3b753efac3b",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 57,
+        "raw": {
+          "brand": "惠普",
+          "series": "战66",
+          "model": "惠普 (HP) 战66 14英寸商务笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 336H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.4,
+          "official_price": 8299,
+          "url": "https://www.hpstore.cn/hp-probook-4-g2i-14-inch-notebook-next-gen-ai-pc-d73l3pc.html#overview"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "暗影精灵",
+    "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+    "cpu_model": "锐龙 9-9955HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.48,
+    "official_price_cny": 16699,
+    "source_url": "https://www.hpstore.cn/hp-omen-16-inch-gaming-laptop-ap1025ax-dc0f0pa.html#specs",
+    "os": "Windows",
+    "id": "np-3e202a2ef2c64b505f78",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 58,
+        "raw": {
+          "brand": "惠普",
+          "series": "暗影精灵",
+          "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "锐龙 9-9955HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.48,
+          "official_price": 16699,
+          "url": "https://www.hpstore.cn/hp-omen-16-inch-gaming-laptop-ap1025ax-dc0f0pa.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "暗影精灵",
+    "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+    "cpu_model": "酷睿 Ultra 7-251HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.48,
+    "official_price_cny": 16499,
+    "source_url": "https://www.hpstore.cn/hyperx-omen-16-inch-16-am2129tx-dp3v8pa.html#specs",
+    "os": "Windows",
+    "id": "np-1d4badb1994428b8016f",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 59,
+        "raw": {
+          "brand": "惠普",
+          "series": "暗影精灵",
+          "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 7-251HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.48,
+          "official_price": 16499,
+          "url": "https://www.hpstore.cn/hyperx-omen-16-inch-16-am2129tx-dp3v8pa.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "惠普",
+    "series": "战X",
+    "model": "惠普(HP) 战X 16英寸商务笔记本电脑",
+    "cpu_model": "酷睿 Ultra 5 228V",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.77,
+    "official_price_cny": 9499,
+    "source_url": "https://www.hpstore.cn/hp-elitebook-8-g1i-16-inch-notebook-ai-pc-d8jt5pc.html#specs",
+    "os": "Windows",
+    "id": "np-b0385cb9591ca8e41e06",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 60,
+        "raw": {
+          "brand": "惠普",
+          "series": "战X",
+          "model": "惠普(HP) 战X 16英寸商务笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 228V",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.77,
+          "official_price": 9499,
+          "url": "https://www.hpstore.cn/hp-elitebook-8-g1i-16-inch-notebook-ai-pc-d8jt5pc.html#specs"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华为",
+    "series": "Hi MateBook数字系列",
+    "model": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+    "cpu_model": "酷睿 Ultra 5 325",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 24,
+    "ssd_gb": 1024,
+    "screen_inches": 14.2,
+    "weight_kg": 1.33,
+    "official_price_cny": 8199,
+    "source_url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086172100021&sbomCode=2801010203301",
+    "os": "Windows",
+    "id": "np-39421d33535071ba08a7",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 61,
+        "raw": {
+          "brand": "华为",
+          "series": "Hi MateBook数字系列",
+          "model": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 325",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 24,
+          "ssd_gb": 1024,
+          "screen_inches": 14.2,
+          "weight_kg": 1.33,
+          "official_price": 8199,
+          "url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086172100021&sbomCode=2801010203301"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华为",
+    "series": "Hi MateBook数字系列",
+    "model": "Hi MateBook 14 锐龙版 24GB 1TB",
+    "cpu_model": "Ryzen 7 H 255",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 24,
+    "ssd_gb": 1024,
+    "screen_inches": 14.2,
+    "weight_kg": 1.32,
+    "official_price_cny": 7599,
+    "source_url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086362428905&sbomCode=2801010192808",
+    "os": "Windows",
+    "id": "np-29b14525020adba21c41",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 62,
+        "raw": {
+          "brand": "华为",
+          "series": "Hi MateBook数字系列",
+          "model": "Hi MateBook 14 锐龙版 24GB 1TB",
+          "os": "Windows",
+          "CPU_model": "Ryzen 7 H 255",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 24,
+          "ssd_gb": 1024,
+          "screen_inches": 14.2,
+          "weight_kg": 1.32,
+          "official_price": 7599,
+          "url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086362428905&sbomCode=2801010192808"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华为",
+    "series": "Hi MateBook D",
+    "model": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+    "cpu_model": "酷睿 7 240H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.39,
+    "official_price_cny": 5599,
+    "source_url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086926626938&sbomCode=2801010186909",
+    "os": "Windows",
+    "id": "np-967b2e6eca8c5d9c93f5",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 63,
+        "raw": {
+          "brand": "华为",
+          "series": "Hi MateBook D",
+          "model": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+          "os": "Windows",
+          "CPU_model": "酷睿 7 240H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.39,
+          "official_price": 5599,
+          "url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086926626938&sbomCode=2801010186909"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "华为",
+    "series": "Hi MateBook D",
+    "model": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+    "cpu_model": "Ryzen 7 H 255",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.39,
+    "official_price_cny": 5799,
+    "source_url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086533402947&sbomCode=2801010203402",
+    "os": "Windows",
+    "id": "np-61bc2c438fe8eff0d49d",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 64,
+        "raw": {
+          "brand": "华为",
+          "series": "Hi MateBook D",
+          "model": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+          "os": "Windows",
+          "CPU_model": "Ryzen 7 H 255",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.39,
+          "official_price": 5799,
+          "url": "https://item.vmall.com/product/comdetail/index.html?prdId=10086533402947&sbomCode=2801010203402"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "戴尔",
+    "series": "14S",
+    "model": "Dell 14S 笔记本",
+    "cpu_model": "酷睿 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.15,
+    "official_price_cny": 6191.88,
+    "source_url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell14sds14270",
+    "os": "Windows",
+    "id": "np-f45e1beec3054f8940a3",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 65,
+        "raw": {
+          "brand": "戴尔",
+          "series": "14S",
+          "model": "Dell 14S 笔记本",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 320",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.15,
+          "official_price": 6191.88,
+          "url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell14sds14270"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "戴尔",
+    "series": "16S",
+    "model": "Dell 16S 笔记本",
+    "cpu_model": "酷睿 Ultra 5 322",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 1.86,
+    "official_price_cny": 12161.67,
+    "source_url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell16sds16260",
+    "os": "Windows",
+    "id": "np-8afd305c5a066905cd94",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 66,
+        "raw": {
+          "brand": "戴尔",
+          "series": "16S",
+          "model": "Dell 16S 笔记本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 322",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 1.86,
+          "official_price": 12161.67,
+          "url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell16sds16260"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "戴尔",
+    "series": "14",
+    "model": "Dell 14 笔记本",
+    "cpu_model": "酷睿 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.29,
+    "official_price_cny": 6964.8,
+    "source_url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell14d14261",
+    "os": "Windows",
+    "id": "np-465708bf7417b7554904",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 67,
+        "raw": {
+          "brand": "戴尔",
+          "series": 14,
+          "model": "Dell 14 笔记本",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 320",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.29,
+          "official_price": 6964.8,
+          "url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell14d14261"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "戴尔",
+    "series": "15",
+    "model": "Dell 15 笔记本",
+    "cpu_model": "Ryzen 5 220",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "screen_inches": 15.3,
+    "weight_kg": 1.54,
+    "official_price_cny": 6202.14,
+    "source_url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell15d15266",
+    "os": "Windows",
+    "id": "np-56102a8b7bf6c7f5b2e9",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 68,
+        "raw": {
+          "brand": "戴尔",
+          "series": 15,
+          "model": "Dell 15 笔记本",
+          "os": "Windows",
+          "CPU_model": "Ryzen 5 220",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 512,
+          "screen_inches": 15.3,
+          "weight_kg": 1.54,
+          "official_price": 6202.14,
+          "url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell15d15266"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "戴尔",
+    "series": "XPS 13",
+    "model": "XPS 13 笔记本电脑",
+    "cpu_model": "Intel Core 5 320",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 8,
+    "ssd_gb": 512,
+    "screen_inches": 13.4,
+    "weight_kg": 1,
+    "official_price_cny": 9495.39,
+    "source_url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/xps13dx13260/dx13260_reg_03?view=configurations",
+    "os": "Windows",
+    "id": "np-7a50b813cbde6a77dfc1",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 69,
+        "raw": {
+          "brand": "戴尔",
+          "series": "XPS 13",
+          "model": "XPS 13 笔记本电脑",
+          "os": "Windows",
+          "CPU_model": "Intel Core 5 320",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 8,
+          "ssd_gb": 512,
+          "screen_inches": 13.4,
+          "weight_kg": 1,
+          "official_price": 9495.39,
+          "url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/xps13dx13260/dx13260_reg_03?view=configurations"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "戴尔",
+    "series": "Aliencware",
+    "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+    "cpu_model": "酷睿 Ultra 7 270HX Plus",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 18,
+    "weight_kg": 4.34,
+    "official_price_cny": 35478.61,
+    "source_url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/alienware18area51aa18250/aa18250_reg_01?view=configurations",
+    "os": "Windows",
+    "id": "np-3624f9018abd6ce52c0a",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "series",
+        "kind": "possible_typo_preserved",
+        "raw": "Aliencware"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 70,
+        "raw": {
+          "brand": "戴尔",
+          "series": "Aliencware",
+          "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 7 270HX Plus",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 18,
+          "weight_kg": 4.34,
+          "official_price": 35478.61,
+          "url": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/alienware18area51aa18250/aa18250_reg_01?view=configurations"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "耀世",
+    "model": "耀世 16 Ultra旗舰游戏本",
+    "cpu_model": "酷睿 Ultra 9 290 HX Plus",
+    "gpu_model": "RTX5070 Ti",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 16,
+    "weight_kg": 2.7,
+    "official_price_cny": 18499,
+    "source_url": "https://mall.mechrevo.com/products/89",
+    "os": "Windows",
+    "id": "np-940310f173ec86e6650b",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 71,
+        "raw": {
+          "brand": "机械革命",
+          "series": "耀世",
+          "model": "耀世 16 Ultra旗舰游戏本",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 9 290 HX Plus",
+          "GPU_model": "RTX5070 Ti",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 16,
+          "weight_kg": 2.7,
+          "official_price": 18499,
+          "url": "https://mall.mechrevo.com/products/89"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "耀世",
+    "model": "耀世 15 Air轻薄游戏本",
+    "cpu_model": "酷睿 U7-356H",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 15.3,
+    "weight_kg": 1.6,
+    "official_price_cny": 14499,
+    "source_url": "https://mall.mechrevo.com/products/90",
+    "os": "Windows",
+    "id": "np-c413653373ddd512ed37",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 72,
+        "raw": {
+          "brand": "机械革命",
+          "series": "耀世",
+          "model": "耀世 15 Air轻薄游戏本",
+          "os": "Windows",
+          "CPU_model": "酷睿 U7-356H",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 15.3,
+          "weight_kg": 1.6,
+          "official_price": 14499,
+          "url": "https://mall.mechrevo.com/products/90"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "耀世",
+    "model": "耀世 18 Pro高端大屏游戏本",
+    "cpu_model": "酷睿 i7-14650HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 18,
+    "weight_kg": 2.8,
+    "official_price_cny": 13999,
+    "source_url": "https://mall.mechrevo.com/products/87",
+    "os": "Windows",
+    "id": "np-673622640e5e11f3f23a",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 73,
+        "raw": {
+          "brand": "机械革命",
+          "series": "耀世",
+          "model": "耀世 18 Pro高端大屏游戏本",
+          "os": "Windows",
+          "CPU_model": "酷睿 i7-14650HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 18,
+          "weight_kg": 2.8,
+          "official_price": 13999,
+          "url": "https://mall.mechrevo.com/products/87"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "无界",
+    "model": "无界 14 SE双通道轻薄本",
+    "cpu_model": "酷睿 i5-13420H",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 12,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1.1,
+    "official_price_cny": 4999,
+    "source_url": "https://mall.mechrevo.com/products/106",
+    "os": "Windows",
+    "id": "np-f0b4096e75cef9b6d242",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 74,
+        "raw": {
+          "brand": "机械革命",
+          "series": "无界",
+          "model": "无界 14 SE双通道轻薄本",
+          "os": "Windows",
+          "CPU_model": "酷睿 i5-13420H",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 12,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1.1,
+          "official_price": 4999,
+          "url": "https://mall.mechrevo.com/products/106"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "无界",
+    "model": "无界 14高性能轻薄本",
+    "cpu_model": "酷睿 5 226",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1,
+    "official_price_cny": 5299,
+    "source_url": "https://mall.mechrevo.com/products/105",
+    "os": "Windows",
+    "id": "np-828ebbc340c18ec14814",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 75,
+        "raw": {
+          "brand": "机械革命",
+          "series": "无界",
+          "model": "无界 14高性能轻薄本",
+          "os": "Windows",
+          "CPU_model": "酷睿 5 226",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1,
+          "official_price": 5299,
+          "url": "https://mall.mechrevo.com/products/105"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "苍龙",
+    "model": "苍龙 16 Ultra旗舰游戏本",
+    "cpu_model": "锐龙 9000HX",
+    "gpu_model": "RTX5070 Ti",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 2048,
+    "screen_inches": 16,
+    "weight_kg": 2.75,
+    "official_price_cny": 18999,
+    "source_url": "https://mall.mechrevo.com/products/95",
+    "os": "Windows",
+    "id": "np-8baa60b1844621f0ab04",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [
+      {
+        "field": "cpu_model",
+        "kind": "insufficient_model_specificity",
+        "raw": "锐龙 9000HX"
+      }
+    ],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 76,
+        "raw": {
+          "brand": "机械革命",
+          "series": "苍龙",
+          "model": "苍龙 16 Ultra旗舰游戏本",
+          "os": "Windows",
+          "CPU_model": "锐龙 9000HX",
+          "GPU_model": "RTX5070 Ti",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 2048,
+          "screen_inches": 16,
+          "weight_kg": 2.75,
+          "official_price": 18999,
+          "url": "https://mall.mechrevo.com/products/95"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "苍龙",
+    "model": "苍龙 18 Pro高端大屏游戏本",
+    "cpu_model": "R9-8945HX",
+    "gpu_model": "RTX5060",
+    "gpu_type": "独立显卡",
+    "ram_gb": 32,
+    "ssd_gb": 2048,
+    "screen_inches": 18,
+    "weight_kg": 2.2,
+    "official_price_cny": 12599,
+    "source_url": "https://mall.mechrevo.com/products/94",
+    "os": "Windows",
+    "id": "np-2f271b787d9913fbf15d",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 77,
+        "raw": {
+          "brand": "机械革命",
+          "series": "苍龙",
+          "model": "苍龙 18 Pro高端大屏游戏本",
+          "os": "Windows",
+          "CPU_model": "R9-8945HX",
+          "GPU_model": "RTX5060",
+          "GPU_Type": "独显",
+          "ram_gb": 32,
+          "ssd_gb": 2048,
+          "screen_inches": 18,
+          "weight_kg": 2.2,
+          "official_price": 12599,
+          "url": "https://mall.mechrevo.com/products/94"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "星耀",
+    "model": "星耀 14高颜值轻薄本",
+    "cpu_model": "锐龙 AI 9 H 365",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "screen_inches": 14,
+    "weight_kg": 1,
+    "official_price_cny": 7999,
+    "source_url": "https://mall.mechrevo.com/products/101",
+    "os": "Windows",
+    "id": "np-413c27d11a0df17c7146",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 78,
+        "raw": {
+          "brand": "机械革命",
+          "series": "星耀",
+          "model": "星耀 14高颜值轻薄本",
+          "os": "Windows",
+          "CPU_model": "锐龙 AI 9 H 365",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 32,
+          "ssd_gb": 1024,
+          "screen_inches": 14,
+          "weight_kg": 1,
+          "official_price": 7999,
+          "url": "https://mall.mechrevo.com/products/101"
+        }
+      }
+    ]
+  },
+  {
+    "brand": "机械革命",
+    "series": "恒悦",
+    "model": "恒悦E14G2",
+    "cpu_model": "酷睿 Ultra 5 226V",
+    "gpu_model": null,
+    "gpu_type": "集成显卡",
+    "ram_gb": 16,
+    "ssd_gb": 512,
+    "screen_inches": 14,
+    "weight_kg": 1.09,
+    "official_price_cny": 6999,
+    "source_url": "https://mall.mechrevo.com/products/142",
+    "os": "Windows",
+    "id": "np-973d6098654f5dd40963",
+    "image": null,
+    "battery_wh": null,
+    "price_observed_at": null,
+    "verification_status": "导入待核实",
+    "quality_issues": [],
+    "source_records": [
+      {
+        "file": "../data/电脑数据.xlsx",
+        "sheet": "Sheet1",
+        "row": 79,
+        "raw": {
+          "brand": "机械革命",
+          "series": "恒悦",
+          "model": "恒悦E14G2",
+          "os": "Windows",
+          "CPU_model": "酷睿 Ultra 5 226V",
+          "GPU_model": null,
+          "GPU_Type": "集显",
+          "ram_gb": 16,
+          "ssd_gb": 512,
+          "screen_inches": 14,
+          "weight_kg": 1.09,
+          "official_price": 6999,
+          "url": "https://mall.mechrevo.com/products/142"
+        }
+      }
+    ]
+  }
+]

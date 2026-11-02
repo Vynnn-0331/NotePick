@@ -1,0 +1,376 @@
+{
+  "mode": "REAL DeepSeek Search/Fetch, zero model calls",
+  "id": "np-2f271b787d9913fbf15d",
+  "requirements": {
+    "schemaVersion": 2,
+    "budget": [
+      5000,
+      20000
+    ],
+    "os": "不限",
+    "scenarios": [
+      "modeling-3d",
+      "aaa-games"
+    ],
+    "priorities": [],
+    "hardConstraints": {
+      "minRamGb": null,
+      "minSsdGb": null,
+      "maxWeightKg": null,
+      "discreteGpu": false
+    },
+    "unavailableSelections": []
+  },
+  "configured": true,
+  "diagnostics": {
+    "searchAttempts": [
+      {
+        "topic": "cpu",
+        "query": "AMD Ryzen 9 8945HX specifications site:amd.com",
+        "rawResults": 4,
+        "unsafeUrl": 0,
+        "duplicate": 0,
+        "unrelated": 3,
+        "noBody": 0,
+        "retained": 1,
+        "fetchFailures": 1,
+        "cacheHit": false
+      },
+      {
+        "topic": "gpu",
+        "query": "NVIDIA GeForce RTX 5060 Laptop GPU specifications site:nvidia.com",
+        "rawResults": 4,
+        "unsafeUrl": 0,
+        "duplicate": 0,
+        "unrelated": 0,
+        "noBody": 0,
+        "retained": 2,
+        "fetchFailures": 1,
+        "cacheHit": false
+      }
+    ],
+    "searchHttpStatuses": [
+      {
+        "tool": "search",
+        "status": 200
+      },
+      {
+        "tool": "search",
+        "status": 200
+      },
+      {
+        "tool": "fetch",
+        "status": 404
+      }
+    ],
+    "sourceSummaries": [
+      {
+        "id": "S4",
+        "host": "www.amd.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 1,
+        "chars": 1712
+      },
+      {
+        "id": "S5",
+        "host": "nvidianews.nvidia.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 1,
+        "chars": 3000
+      },
+      {
+        "id": "S6",
+        "host": "www.nvidia.com",
+        "scope": "hardware",
+        "bodyAvailable": true,
+        "chipFactCount": 1,
+        "chars": 3000
+      }
+    ]
+  },
+  "research": {
+    "web": {
+      "status": "partial",
+      "sources": [
+        {
+          "id": "S4",
+          "title": "AMD 锐龙 9 8945HX",
+          "url": "https://www.amd.com/zh-cn/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html",
+          "siteName": "AMD",
+          "type": "official",
+          "publishedAt": "2025-04-09T16:00:00+00:00",
+          "queriedAt": "2026-10-31T03:05:20.818Z",
+          "content": "Selected labelled chip specifications (not current laptop measurements):\nAMD Ryzen 9 8945HX | Architecture: - Zen 4\n\n跳至主要内容\n\n# AMD 锐龙 9 8945HX\n\nAMD 锐龙处理器助力打造卓越笔记本电脑\n\n- 名称\n- AMD 锐龙 9 8945HX\n- 产品系列\n- 锐龙\n- 系列\n- 锐龙 8000 系列\n- 外形规格\n- 笔记本电脑 , 台式机\n- 区域供货状况\n- 全局\n- 原代号\n- Dragon Range\n- 处理器架构\n- Zen 4\n- CPU 核心数\n- 16\n- 多线程 (SMT)\n- 是\n- 线程数\n- 32\n- 最高加速时钟频率\n- 最高可达 5.4 GHz\n- 基准时钟频率\n- 2.5 GHz\n- L1 高速缓存\n- 1024 KB\n- L2 高速缓存\n- 16 MB\n- L3 高速缓存\n- 64 MB\n- 默认热设计功耗 (TDP)\n- 55W\n- AMD 可配置热设计功耗 (cTDP)\n- 55-75W\n- CPU 核心的处理器工艺\n- TSMC 5nm FinFET\n- I/O 芯片处理器技术\n- TSMC 6nm FinFET\n- CPU 计算芯片 (CCD) 尺寸\n- 71mm²\n- I/O 芯片 (IOD) 尺寸\n- 122mm²\n- 封装芯片计数\n- 3\n- 不锁频\n- 是\n- AMD EXPO™ Memory Overclocking Technology\n- 是\n- Precision Boost Overdrive\n- 是\n- CPU 平台\n- FL1\n- CPU 加速技术\n- Precision Boost 2\n- 指令集\n- x86-64\n- 支持的扩展\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- 最高工作温度 (Tjmax)\n- 100°C\n- 发布日期\n- 4/23/25\n- *支持的操作系统\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® 版本\n- PCIe® 5.0\n- 原生 PCIe® 通道（总数/可用）\n- 28 , 28\n- NVMe 支持\n- Boot , RAID0 , RAID1 , RAID10\n- 系统内存类型\n- DDR5\n- 内存通道数\n- 2\n- 最大内存\n- 64 GB\n- 系统内存子类型\n- SO-DIMM\n- 最高内存速度\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- 支持 ECC\n- 否\n\n- 显卡型号\n- AMD Radeon™ 610M\n- 显卡核心数\n- 2\n- 显卡频率\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- 是\n- 支持多个显示器\n- 是\n- 最大显示器数量\n- 4\n- AMD FreeSync™\n- 是\n- 无线显示\n- Miracast\n- AMD SmartShift MAX\n- 是\n- AMD 显存智取技术\n- 支持\n\n- Tray 产品 ID\n- 100-000001848\n\n- AMD 增强型病毒防护（NX 位）\n- 是",
+          "summary": "# AMD 锐龙 9 8945HX\n...\n- 名称\n- AMD 锐龙 9 8945HX\n- 产品系列\n- 锐龙\n- 系列\n- 锐龙 8000 系列\n- 外形规格\n- 笔记本电脑 , 台式机\n- 区域供货状况\n- 全局\n- 原代号\n- Dragon Range\n- 处理器架构\n- Zen 4\n- CPU 核心数\n- 16\n- 多线程 (SMT)\n- 是\n- 线程数\n- 32\n- 最高加速时钟频率\n- 最高可达 5.4 GHz\n- 基准时钟频率\n- 2.5 GHz\n- L1 高速缓存\n- 1024 KB\n- L2 高速缓存\n- 16 MB\n- L3 高速缓存\n- 64 MB\n- 默认热设计功耗 (TDP)\n- 55W\n- AMD 可配置热设计功耗 (cTDP)\n- 55-75W\n- CPU 核心的处理器工艺\n- TSMC 5nm FinFET\n- I/O 芯片处理器技术\n- TSMC 6nm",
+          "bodyAvailable": true,
+          "fetched": false,
+          "chipFacts": [
+            {
+              "label": "Architecture",
+              "value": "- Zen 4",
+              "scope": "chip_spec_not_laptop_measurement",
+              "target": "AMD Ryzen 9 8945HX"
+            }
+          ],
+          "scope": "hardware",
+          "label": "相关芯片规格资料",
+          "reason": "芯片规格，不是本机实测；不同桌面/移动版本分别讨论"
+        },
+        {
+          "id": "S5",
+          "title": "NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at \\(\\) 299\\$",
+          "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/67fe58ae3d63325f115ecd52/",
+          "siteName": "nvidianews.nvidia.com",
+          "type": "official",
+          "publishedAt": null,
+          "queriedAt": "2026-10-31T03:05:20.818Z",
+          "content": "Selected labelled chip specifications (not current laptop measurements):\nNVIDIA GeForce RTX 5060 Laptop GPU | Architecture: Blackwell\n\n## NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at \\(\\) 299\\$  \n\n## GeForce RTX 5060 Family Transforms Ordinary PCs Into Next-Generation Gaming Rigs  \n\nNVIDIA today announced the NVIDIA GeForce RTX™ 5060 family of GPUs, including two graphics cards that deliver neural rendering and NVIDIA Blackwell architecture innovations for every gamer — starting at just \\(\\) 299\\$  \n\nThe GeForce RTX 5060 Ti and RTX 5060 graphics cards feature NVIDIA DLSS 4, full ray tracing, neural rendering and NVIDIA Reflex technologies for exceptional performance and image quality.  \n\n\"The RTX 5060 family offers gamers next- generation performance and AI- enhanced visuals starting at \\(\\) 299\\(, said Matt Wuebbling, vice president of GeForce marketing at NVIDIA. \"Powered by the advanced NVIDIA Blackwell architecture and featuring DLSS 4 technology in over 100 games, this new class of GPUs elevates gaming with stunning visuals, high frame rates and quick responsiveness.\"  \n\n## DLSS 4 Now in 100+ Games  \n\nThe GeForce RTX 5060 family includes DLSS 4 capabilities such as Multi Frame Generation and Super Resolution, as well as NVIDIA Reflex to reduce latency. More than 100 games now feature these AI- powered enhancements. Blockbuster titles like Alan Wake 2, Black Myth: Wukong, Cyberpunk 2077 and Hogwarts Legacy boast stunning ray- traced visuals at over 100 frames per second (fps) on maximum settings.  \n\n## Boosting Creative Workflows  \n\nThe RTX 5060 family can also serve as a powerful companion for creators. Equipped with Blackwell FP4 Tensor Cores and ninth- generation NVIDIA NVENC encoders, the GPUs can enhance creative workflows for livestreamers, video editors, 3D artists and others.  \n\n## Introducing GeForce RTX 5060 Laptops  \n\nIn addition, the GeForce RTX 5060 Laptop GPU has arrived, bringing enhanced gaming and creative capabilities to laptops. Built with the Blackwell architecture and DLSS 4, the GPU ensures every gamer and creator can enjoy 144 fps and 8K 4:2:2 color format video editing. GeForce RTX 5060 laptops can deliver double the frame rates and lower latency compared with previous- generation models — and are coming in a broad range of designs and sizes as thin as 14.9 millimeters.  \n\n## Availability  \n\nGeForce RTX 5060 Ti graphics cards, equipped with 16GB or 8GB graphics memory, will be available starting April 16 at \\(\\) 429\\(and\\) \\ \\(379\\) , respectively.  \n\nGeForce RTX 5060 graphics cards will be available starting in May at \\(\\) 299\\$  \n\nStock- clocked and factory- overclocked models will be available from top add- in card providers such as ASUS, Colorful, Gainward, GALAX, GIGABYTE, INNO3D, KFA2, MSI, Palit, PNY and ZOTAC, and in desktops from system builders including Falcon Northwest, Infinirac, MAINGEAR, Mifcom, ORIGIN PC, PC Specialist and Scan Computers.  \n\nLaptops equipped with GeForce RTX 5060 la",
+          "summary": "## Introducing GeForce RTX 5060 Laptops  \n\nIn addition, the GeForce RTX 5060 Laptop GPU has arrived, bringing enhanced gaming and creative capabilities to laptops. Built with the Blackwell architecture and DLSS 4, the GPU ensures every gamer and creator can enjoy 144 fps and 8K 4:2:2 color format video editing. GeForce RTX 5060 laptops can deliver double the frame rates and lower latency compared ",
+          "bodyAvailable": true,
+          "fetched": false,
+          "chipFacts": [
+            {
+              "label": "Architecture",
+              "value": "Blackwell",
+              "scope": "chip_family",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            }
+          ],
+          "scope": "hardware",
+          "label": "相关芯片资料",
+          "reason": "芯片的一般能力不等于当前整机实测"
+        },
+        {
+          "id": "S6",
+          "title": "GeForce RTX 5060 노트북, $1,099부터 만나보세요 - GeForce RTX 5060 노트북, $1,099부터 만나보세요",
+          "url": "https://www.nvidia.com/ko-kr/geforce/news/rtx-5060-laptops-available-now/",
+          "siteName": "NVIDIA",
+          "type": "official",
+          "publishedAt": "2025-06-08T16:00:00+00:00",
+          "queriedAt": "2026-10-31T03:05:20.818Z",
+          "content": "Selected labelled chip specifications (not current laptop measurements):\nNVIDIA GeForce RTX 5060 Laptop GPU | Architecture: Blackwell\n\n# GeForce RTX 5060 노트북, $1,099부터 만나보세요\n\n작성자: Andrew Burnes, 2025년 5월 19일 월요일 |\n\nNVIDIA Blackwell 기반의 GeForce RTX 50 시리즈 노트북은 게이머와 크리에이터에게 게임 체인저의 기능을 사선합니다. NVIDIA DLSS 4 Multi Frame Generation으로 성능을 대폭 향상시키고, 전례 없는 속도로 이미지를 생성해 보세요. 강력한 업무 처리 성능은 물론, NVIDIA Studio 앱으로 창의성을 발휘할 수 있습니다. 최신 Max-Q 기술로 최적화된 가장 얇고 오래 지속되는 RTX 노트북으로, 이동 중에도 AI 혁신을 경험하세요.\n\n이제 모바일 폼 팩터에서 최신 혁신 기술을 경험하고 싶은 분들을 위한 선택의 폭이 대폭 넓어졌습니다. GeForce RTX 5060 노트북 GPU가 탑재된 신규 모델들이 모든 주요 제조사에서 출시되며, 시작 가격은 $1099부터입니다.\n\n이 노트북은 14.9mm의 슬림한 디자인을 자랑하며, NVIDIA Blackwell 및 DLSS 4 기술로 이전 세대에 비해 두 배 향상된 성능을 제공하고 인기 게임에서 100FPS 이상을 구현합니다. 크리에이터는 가장 진보한 AI 기술을 활용하여 창의적인 작업 속도를 더욱 높일 수 있습니다. 학생은 엔지니어링, 아키텍처, 컴퓨터 사이언스, 데이터 사이언스, 경제학 등에 사용되는 앱의 성능을 가속화할 수 있습니다. Blackwell의 혁신적인 기술과 Max-Q 전력 최적화 덕분에 배터리 사용 시간을 늘려 게임, 창작 활동, 업무에 몰두할 수 있습니다.\n\nGeForce RTX 5060 노트북 GPU는 DLSS 4 Multi Frame Generation과 NVIDIA Reflex 기술을 지원하여, 이전 세대 노트북보다 속도가 두 배 이상 빠르며, 향상된 이미지 품질과 반응성 높은 컨트롤 기능을 경험할 수 있습니다.\n\nGeForce RTX 5060 노트북 GPU는 어떤 용도로 사용하든 강력한 기능과 성능, 휴대성이 완벽한 조화를 이루어 탁월한 선택이 될 것입니다.\n\n최신 NVIDIA GPU를 탑재한 노트북은 1.46kg의 가벼운 무게로, 14인치부터 선택 가능한 디스플레이를 갖추고 있으며, 배터리가 최대 14시간까지 지속됩니다.\n\nASUS, MSI, Razer의 최신 모델 또한 NVIDIA Studio 인증을 받았습니다. 이를 통해 다양한 앱에서 Blackwell 혁신 기술과 GPU 가속 성능이 효과적으로 활용되고, 안정성이 뛰어난 NVIDIA Studio 드라이버로 최적화된 경험을 제공합니다.\n\nNVIDIA Studio 및 GeForce RTX 50 시리즈 노트북 GPU는 주요 앱 개발사와 협력하여, 3D 디자인, 비디오, 생성형 AI 앱에서 크리에이티브 성능을 두 배로 높였습니다. 또한 GeForce RTX 50 시리즈 노트북은 DaVinci Resolve와 Adobe Premiere Pro를 포함한 다양한 최고 영상 편집 애플리케이션에서 4:2:2 영상 편집 및 인코딩을 지원합니다. 9세대 NVIDIA Encoder는 인코딩을 가속화하고, AV1 파일의 품질을 향상시키는 동시에 최상의 영상 충실도를 위해 AV1 초고품질 모드를 제공합니다. 6세대 NVIDIA Decoder는 H.264 디코딩 속도를 두 배로 높였습니다. Chaos Vantage 및 D5 Render 뷰포트 또한 DLSS 4 Multi Frame Generation으로 가속화되어 건축가, 애니메이터, 디자이너의 창의적인 작업 과정이 더욱 효율적으로 향상됩니다.\n\n이는 3D 디자인, 렌더링, 비디오 편집, 사진, 그래픽 디자인, 방송, 건축 시각화 앱 등에서 NVIDIA Blackwell GeForce RTX 50 시리즈 노트북 GPU가 제공하는 장점과 기능의 몇 가지 예시일 뿐입니다. 모든 기능을 확인하려면 NVIDIA Studio 소프트웨어 페이지를 참조하세요.\n\n## GeForce RTX 5060 노트북 GPU 출시, 오늘부터 구매 가능\n\n나에게 꼭 맞는 완벽한 노트북을 찾을 수 있도록 OEM 파트너의 주요 모델을 소개합니다. 오늘부터 전 세계 출시가 시작됩니다. 이 모델을 포함한 다양한 제품이 곧 가까운 소매점에 입고될 예정입니다.\n\n### ACER Predator Helios Neo 14 AI\n\n초저지연의 게임 플레이와 미래를 위한 AI를 선사하는 ACER Predator Helios Neo 14 AI의 전설적인 게이밍 성능을 경험해보세요. 끊김 없는 게임 플레이와 차세대 AI 성능을 지원합니다. 14.5인치 OLED 화면은 2.8k WQXGA+ 2880 x 1800 해상도와 0.2ms 응답 시간을 제공하며, 매우 원활한 게임 플레이와 생생한 비주얼을 보장합니다. DLSS 4를 통해 비교할 수 없는 속도로 이미지를 생성하고, 레이 트레이싱과 혁신적인 뉴럴 렌더링 기술로 영화 같은 품질의 비주얼을 경험하세요.\n\n### ASUS TUF Gaming A14\n\nASUS의 TUF Gaming A14는 두께 1.69cm, 무게 1.46kg으로, TUF Gaming 노트북 시리즈 중 가장 작고 가벼운 모델입니다. 2560x1600 165Hz 14인치 G-SYNC 디스플레이는 180도 힌지를 적용하여 완전 평면으로 사용 가능합니다. 또한 배터리 부족 시, 100W USB-C 전원 공급 장치를 사용하여 30분 만에 50%까지 충전할 수 있다고 ASUS는 밝혔습니다. 최대 32GB의 LPDDR5X 7500MHz 메모리와 최대 4TB의 PCIe Gen 4 확장 스토리지가 결합된 이 차세대 AI PC는 생산성을 극대화할 수 있도록 설계되었습니다.\n\n### Alienware 16X Aurora 게이밍 노트북\n\n새로운 Alienware Aurora는 게이머와 크리에이터를 위해 최대 155W의 강력한 성능을 제공합니다. 16인치 QH",
+          "summary": "# GeForce RTX 5060 노트북, $1,099부터 만나보세요\n...\nAndrew Burnes, 2025년 5월 19일 월요일 |\n\nNVIDIA Blackwell 기반의 GeForce RTX 50 시리즈 노트북은 게이머와 크리에이터에게 게임 체인저의 기능을 사선합니다. NVIDIA DLSS 4 Multi Frame Generation으로 성능을 대폭 향상시키고, 전례 없는 속도로 이미지를 생성해 보세요.\n...\n최신 Max-Q 기술로 최적화된 가장 얇고 오래 지속되는 RTX 노트북으로, 이동 중에도 AI 혁신을 경험하세요.\n...\nGeForce RTX 5060 노트북 GPU가 탑재된 신규 모델들이 모든 주요 제조사에서 출시되며, 시작 가격은 $1099부터입니다.\n\n이 노트북은 14.9mm의 슬림한 디",
+          "bodyAvailable": true,
+          "fetched": false,
+          "chipFacts": [
+            {
+              "label": "Architecture",
+              "value": "Blackwell",
+              "scope": "chip_family",
+              "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+            }
+          ],
+          "scope": "hardware",
+          "label": "相关芯片资料",
+          "reason": "芯片的一般能力不等于当前整机实测"
+        }
+      ],
+      "topics": [
+        "specs",
+        "gpu",
+        "software"
+      ],
+      "reused": false,
+      "queriedAt": "2026-10-31T03:05:20.818Z",
+      "counts": {
+        "search": 2,
+        "fetch": 2,
+        "cacheHits": 0
+      },
+      "limits": {
+        "sessionSearch": 5,
+        "sessionFetch": 5
+      },
+      "budgetExhausted": false
+    },
+    "state": {
+      "totalSearch": 2,
+      "totalFetch": 2,
+      "nextSourceId": 6,
+      "web": {
+        "status": "partial",
+        "sources": [
+          {
+            "id": "S4",
+            "title": "AMD 锐龙 9 8945HX",
+            "url": "https://www.amd.com/zh-cn/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html",
+            "siteName": "AMD",
+            "type": "official",
+            "publishedAt": "2025-04-09T16:00:00+00:00",
+            "queriedAt": "2026-10-31T03:05:20.818Z",
+            "content": "Selected labelled chip specifications (not current laptop measurements):\nAMD Ryzen 9 8945HX | Architecture: - Zen 4\n\n跳至主要内容\n\n# AMD 锐龙 9 8945HX\n\nAMD 锐龙处理器助力打造卓越笔记本电脑\n\n- 名称\n- AMD 锐龙 9 8945HX\n- 产品系列\n- 锐龙\n- 系列\n- 锐龙 8000 系列\n- 外形规格\n- 笔记本电脑 , 台式机\n- 区域供货状况\n- 全局\n- 原代号\n- Dragon Range\n- 处理器架构\n- Zen 4\n- CPU 核心数\n- 16\n- 多线程 (SMT)\n- 是\n- 线程数\n- 32\n- 最高加速时钟频率\n- 最高可达 5.4 GHz\n- 基准时钟频率\n- 2.5 GHz\n- L1 高速缓存\n- 1024 KB\n- L2 高速缓存\n- 16 MB\n- L3 高速缓存\n- 64 MB\n- 默认热设计功耗 (TDP)\n- 55W\n- AMD 可配置热设计功耗 (cTDP)\n- 55-75W\n- CPU 核心的处理器工艺\n- TSMC 5nm FinFET\n- I/O 芯片处理器技术\n- TSMC 6nm FinFET\n- CPU 计算芯片 (CCD) 尺寸\n- 71mm²\n- I/O 芯片 (IOD) 尺寸\n- 122mm²\n- 封装芯片计数\n- 3\n- 不锁频\n- 是\n- AMD EXPO™ Memory Overclocking Technology\n- 是\n- Precision Boost Overdrive\n- 是\n- CPU 平台\n- FL1\n- CPU 加速技术\n- Precision Boost 2\n- 指令集\n- x86-64\n- 支持的扩展\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- 最高工作温度 (Tjmax)\n- 100°C\n- 发布日期\n- 4/23/25\n- *支持的操作系统\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® 版本\n- PCIe® 5.0\n- 原生 PCIe® 通道（总数/可用）\n- 28 , 28\n- NVMe 支持\n- Boot , RAID0 , RAID1 , RAID10\n- 系统内存类型\n- DDR5\n- 内存通道数\n- 2\n- 最大内存\n- 64 GB\n- 系统内存子类型\n- SO-DIMM\n- 最高内存速度\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- 支持 ECC\n- 否\n\n- 显卡型号\n- AMD Radeon™ 610M\n- 显卡核心数\n- 2\n- 显卡频率\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- 是\n- 支持多个显示器\n- 是\n- 最大显示器数量\n- 4\n- AMD FreeSync™\n- 是\n- 无线显示\n- Miracast\n- AMD SmartShift MAX\n- 是\n- AMD 显存智取技术\n- 支持\n\n- Tray 产品 ID\n- 100-000001848\n\n- AMD 增强型病毒防护（NX 位）\n- 是",
+            "summary": "# AMD 锐龙 9 8945HX\n...\n- 名称\n- AMD 锐龙 9 8945HX\n- 产品系列\n- 锐龙\n- 系列\n- 锐龙 8000 系列\n- 外形规格\n- 笔记本电脑 , 台式机\n- 区域供货状况\n- 全局\n- 原代号\n- Dragon Range\n- 处理器架构\n- Zen 4\n- CPU 核心数\n- 16\n- 多线程 (SMT)\n- 是\n- 线程数\n- 32\n- 最高加速时钟频率\n- 最高可达 5.4 GHz\n- 基准时钟频率\n- 2.5 GHz\n- L1 高速缓存\n- 1024 KB\n- L2 高速缓存\n- 16 MB\n- L3 高速缓存\n- 64 MB\n- 默认热设计功耗 (TDP)\n- 55W\n- AMD 可配置热设计功耗 (cTDP)\n- 55-75W\n- CPU 核心的处理器工艺\n- TSMC 5nm FinFET\n- I/O 芯片处理器技术\n- TSMC 6nm",
+            "bodyAvailable": true,
+            "fetched": false,
+            "chipFacts": [
+              {
+                "label": "Architecture",
+                "value": "- Zen 4",
+                "scope": "chip_spec_not_laptop_measurement",
+                "target": "AMD Ryzen 9 8945HX"
+              }
+            ],
+            "scope": "hardware",
+            "label": "相关芯片规格资料",
+            "reason": "芯片规格，不是本机实测；不同桌面/移动版本分别讨论"
+          },
+          {
+            "id": "S5",
+            "title": "NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at \\(\\) 299\\$",
+            "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/67fe58ae3d63325f115ecd52/",
+            "siteName": "nvidianews.nvidia.com",
+            "type": "official",
+            "publishedAt": null,
+            "queriedAt": "2026-10-31T03:05:20.818Z",
+            "content": "Selected labelled chip specifications (not current laptop measurements):\nNVIDIA GeForce RTX 5060 Laptop GPU | Architecture: Blackwell\n\n## NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at \\(\\) 299\\$  \n\n## GeForce RTX 5060 Family Transforms Ordinary PCs Into Next-Generation Gaming Rigs  \n\nNVIDIA today announced the NVIDIA GeForce RTX™ 5060 family of GPUs, including two graphics cards that deliver neural rendering and NVIDIA Blackwell architecture innovations for every gamer — starting at just \\(\\) 299\\$  \n\nThe GeForce RTX 5060 Ti and RTX 5060 graphics cards feature NVIDIA DLSS 4, full ray tracing, neural rendering and NVIDIA Reflex technologies for exceptional performance and image quality.  \n\n\"The RTX 5060 family offers gamers next- generation performance and AI- enhanced visuals starting at \\(\\) 299\\(, said Matt Wuebbling, vice president of GeForce marketing at NVIDIA. \"Powered by the advanced NVIDIA Blackwell architecture and featuring DLSS 4 technology in over 100 games, this new class of GPUs elevates gaming with stunning visuals, high frame rates and quick responsiveness.\"  \n\n## DLSS 4 Now in 100+ Games  \n\nThe GeForce RTX 5060 family includes DLSS 4 capabilities such as Multi Frame Generation and Super Resolution, as well as NVIDIA Reflex to reduce latency. More than 100 games now feature these AI- powered enhancements. Blockbuster titles like Alan Wake 2, Black Myth: Wukong, Cyberpunk 2077 and Hogwarts Legacy boast stunning ray- traced visuals at over 100 frames per second (fps) on maximum settings.  \n\n## Boosting Creative Workflows  \n\nThe RTX 5060 family can also serve as a powerful companion for creators. Equipped with Blackwell FP4 Tensor Cores and ninth- generation NVIDIA NVENC encoders, the GPUs can enhance creative workflows for livestreamers, video editors, 3D artists and others.  \n\n## Introducing GeForce RTX 5060 Laptops  \n\nIn addition, the GeForce RTX 5060 Laptop GPU has arrived, bringing enhanced gaming and creative capabilities to laptops. Built with the Blackwell architecture and DLSS 4, the GPU ensures every gamer and creator can enjoy 144 fps and 8K 4:2:2 color format video editing. GeForce RTX 5060 laptops can deliver double the frame rates and lower latency compared with previous- generation models — and are coming in a broad range of designs and sizes as thin as 14.9 millimeters.  \n\n## Availability  \n\nGeForce RTX 5060 Ti graphics cards, equipped with 16GB or 8GB graphics memory, will be available starting April 16 at \\(\\) 429\\(and\\) \\ \\(379\\) , respectively.  \n\nGeForce RTX 5060 graphics cards will be available starting in May at \\(\\) 299\\$  \n\nStock- clocked and factory- overclocked models will be available from top add- in card providers such as ASUS, Colorful, Gainward, GALAX, GIGABYTE, INNO3D, KFA2, MSI, Palit, PNY and ZOTAC, and in desktops from system builders including Falcon Northwest, Infinirac, MAINGEAR, Mifcom, ORIGIN PC, PC Specialist and Scan Computers.  \n\nLaptops equipped with GeForce RTX 5060 la",
+            "summary": "## Introducing GeForce RTX 5060 Laptops  \n\nIn addition, the GeForce RTX 5060 Laptop GPU has arrived, bringing enhanced gaming and creative capabilities to laptops. Built with the Blackwell architecture and DLSS 4, the GPU ensures every gamer and creator can enjoy 144 fps and 8K 4:2:2 color format video editing. GeForce RTX 5060 laptops can deliver double the frame rates and lower latency compared ",
+            "bodyAvailable": true,
+            "fetched": false,
+            "chipFacts": [
+              {
+                "label": "Architecture",
+                "value": "Blackwell",
+                "scope": "chip_family",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              }
+            ],
+            "scope": "hardware",
+            "label": "相关芯片资料",
+            "reason": "芯片的一般能力不等于当前整机实测"
+          },
+          {
+            "id": "S6",
+            "title": "GeForce RTX 5060 노트북, $1,099부터 만나보세요 - GeForce RTX 5060 노트북, $1,099부터 만나보세요",
+            "url": "https://www.nvidia.com/ko-kr/geforce/news/rtx-5060-laptops-available-now/",
+            "siteName": "NVIDIA",
+            "type": "official",
+            "publishedAt": "2025-06-08T16:00:00+00:00",
+            "queriedAt": "2026-10-31T03:05:20.818Z",
+            "content": "Selected labelled chip specifications (not current laptop measurements):\nNVIDIA GeForce RTX 5060 Laptop GPU | Architecture: Blackwell\n\n# GeForce RTX 5060 노트북, $1,099부터 만나보세요\n\n작성자: Andrew Burnes, 2025년 5월 19일 월요일 |\n\nNVIDIA Blackwell 기반의 GeForce RTX 50 시리즈 노트북은 게이머와 크리에이터에게 게임 체인저의 기능을 사선합니다. NVIDIA DLSS 4 Multi Frame Generation으로 성능을 대폭 향상시키고, 전례 없는 속도로 이미지를 생성해 보세요. 강력한 업무 처리 성능은 물론, NVIDIA Studio 앱으로 창의성을 발휘할 수 있습니다. 최신 Max-Q 기술로 최적화된 가장 얇고 오래 지속되는 RTX 노트북으로, 이동 중에도 AI 혁신을 경험하세요.\n\n이제 모바일 폼 팩터에서 최신 혁신 기술을 경험하고 싶은 분들을 위한 선택의 폭이 대폭 넓어졌습니다. GeForce RTX 5060 노트북 GPU가 탑재된 신규 모델들이 모든 주요 제조사에서 출시되며, 시작 가격은 $1099부터입니다.\n\n이 노트북은 14.9mm의 슬림한 디자인을 자랑하며, NVIDIA Blackwell 및 DLSS 4 기술로 이전 세대에 비해 두 배 향상된 성능을 제공하고 인기 게임에서 100FPS 이상을 구현합니다. 크리에이터는 가장 진보한 AI 기술을 활용하여 창의적인 작업 속도를 더욱 높일 수 있습니다. 학생은 엔지니어링, 아키텍처, 컴퓨터 사이언스, 데이터 사이언스, 경제학 등에 사용되는 앱의 성능을 가속화할 수 있습니다. Blackwell의 혁신적인 기술과 Max-Q 전력 최적화 덕분에 배터리 사용 시간을 늘려 게임, 창작 활동, 업무에 몰두할 수 있습니다.\n\nGeForce RTX 5060 노트북 GPU는 DLSS 4 Multi Frame Generation과 NVIDIA Reflex 기술을 지원하여, 이전 세대 노트북보다 속도가 두 배 이상 빠르며, 향상된 이미지 품질과 반응성 높은 컨트롤 기능을 경험할 수 있습니다.\n\nGeForce RTX 5060 노트북 GPU는 어떤 용도로 사용하든 강력한 기능과 성능, 휴대성이 완벽한 조화를 이루어 탁월한 선택이 될 것입니다.\n\n최신 NVIDIA GPU를 탑재한 노트북은 1.46kg의 가벼운 무게로, 14인치부터 선택 가능한 디스플레이를 갖추고 있으며, 배터리가 최대 14시간까지 지속됩니다.\n\nASUS, MSI, Razer의 최신 모델 또한 NVIDIA Studio 인증을 받았습니다. 이를 통해 다양한 앱에서 Blackwell 혁신 기술과 GPU 가속 성능이 효과적으로 활용되고, 안정성이 뛰어난 NVIDIA Studio 드라이버로 최적화된 경험을 제공합니다.\n\nNVIDIA Studio 및 GeForce RTX 50 시리즈 노트북 GPU는 주요 앱 개발사와 협력하여, 3D 디자인, 비디오, 생성형 AI 앱에서 크리에이티브 성능을 두 배로 높였습니다. 또한 GeForce RTX 50 시리즈 노트북은 DaVinci Resolve와 Adobe Premiere Pro를 포함한 다양한 최고 영상 편집 애플리케이션에서 4:2:2 영상 편집 및 인코딩을 지원합니다. 9세대 NVIDIA Encoder는 인코딩을 가속화하고, AV1 파일의 품질을 향상시키는 동시에 최상의 영상 충실도를 위해 AV1 초고품질 모드를 제공합니다. 6세대 NVIDIA Decoder는 H.264 디코딩 속도를 두 배로 높였습니다. Chaos Vantage 및 D5 Render 뷰포트 또한 DLSS 4 Multi Frame Generation으로 가속화되어 건축가, 애니메이터, 디자이너의 창의적인 작업 과정이 더욱 효율적으로 향상됩니다.\n\n이는 3D 디자인, 렌더링, 비디오 편집, 사진, 그래픽 디자인, 방송, 건축 시각화 앱 등에서 NVIDIA Blackwell GeForce RTX 50 시리즈 노트북 GPU가 제공하는 장점과 기능의 몇 가지 예시일 뿐입니다. 모든 기능을 확인하려면 NVIDIA Studio 소프트웨어 페이지를 참조하세요.\n\n## GeForce RTX 5060 노트북 GPU 출시, 오늘부터 구매 가능\n\n나에게 꼭 맞는 완벽한 노트북을 찾을 수 있도록 OEM 파트너의 주요 모델을 소개합니다. 오늘부터 전 세계 출시가 시작됩니다. 이 모델을 포함한 다양한 제품이 곧 가까운 소매점에 입고될 예정입니다.\n\n### ACER Predator Helios Neo 14 AI\n\n초저지연의 게임 플레이와 미래를 위한 AI를 선사하는 ACER Predator Helios Neo 14 AI의 전설적인 게이밍 성능을 경험해보세요. 끊김 없는 게임 플레이와 차세대 AI 성능을 지원합니다. 14.5인치 OLED 화면은 2.8k WQXGA+ 2880 x 1800 해상도와 0.2ms 응답 시간을 제공하며, 매우 원활한 게임 플레이와 생생한 비주얼을 보장합니다. DLSS 4를 통해 비교할 수 없는 속도로 이미지를 생성하고, 레이 트레이싱과 혁신적인 뉴럴 렌더링 기술로 영화 같은 품질의 비주얼을 경험하세요.\n\n### ASUS TUF Gaming A14\n\nASUS의 TUF Gaming A14는 두께 1.69cm, 무게 1.46kg으로, TUF Gaming 노트북 시리즈 중 가장 작고 가벼운 모델입니다. 2560x1600 165Hz 14인치 G-SYNC 디스플레이는 180도 힌지를 적용하여 완전 평면으로 사용 가능합니다. 또한 배터리 부족 시, 100W USB-C 전원 공급 장치를 사용하여 30분 만에 50%까지 충전할 수 있다고 ASUS는 밝혔습니다. 최대 32GB의 LPDDR5X 7500MHz 메모리와 최대 4TB의 PCIe Gen 4 확장 스토리지가 결합된 이 차세대 AI PC는 생산성을 극대화할 수 있도록 설계되었습니다.\n\n### Alienware 16X Aurora 게이밍 노트북\n\n새로운 Alienware Aurora는 게이머와 크리에이터를 위해 최대 155W의 강력한 성능을 제공합니다. 16인치 QH",
+            "summary": "# GeForce RTX 5060 노트북, $1,099부터 만나보세요\n...\nAndrew Burnes, 2025년 5월 19일 월요일 |\n\nNVIDIA Blackwell 기반의 GeForce RTX 50 시리즈 노트북은 게이머와 크리에이터에게 게임 체인저의 기능을 사선합니다. NVIDIA DLSS 4 Multi Frame Generation으로 성능을 대폭 향상시키고, 전례 없는 속도로 이미지를 생성해 보세요.\n...\n최신 Max-Q 기술로 최적화된 가장 얇고 오래 지속되는 RTX 노트북으로, 이동 중에도 AI 혁신을 경험하세요.\n...\nGeForce RTX 5060 노트북 GPU가 탑재된 신규 모델들이 모든 주요 제조사에서 출시되며, 시작 가격은 $1099부터입니다.\n\n이 노트북은 14.9mm의 슬림한 디",
+            "bodyAvailable": true,
+            "fetched": false,
+            "chipFacts": [
+              {
+                "label": "Architecture",
+                "value": "Blackwell",
+                "scope": "chip_family",
+                "target": "NVIDIA GeForce RTX 5060 Laptop GPU"
+              }
+            ],
+            "scope": "hardware",
+            "label": "相关芯片资料",
+            "reason": "芯片的一般能力不等于当前整机实测"
+          }
+        ],
+        "topics": [
+          "specs",
+          "gpu",
+          "software"
+        ],
+        "reused": false,
+        "queriedAt": "2026-10-31T03:05:20.818Z",
+        "counts": {
+          "search": 2,
+          "fetch": 2,
+          "cacheHits": 0
+        },
+        "limits": {
+          "sessionSearch": 5,
+          "sessionFetch": 5
+        },
+        "budgetExhausted": false
+      },
+      "updated": 1793415920818,
+      "topics": [
+        "specs",
+        "gpu",
+        "software"
+      ]
+    }
+  },
+  "rawTools": [
+    {
+      "endpoint": "https://api.deepseek.com/v1/tools/search",
+      "payload": {
+        "query": "AMD Ryzen 9 8945HX specifications site:amd.com",
+        "count": 4,
+        "need_content": true
+      },
+      "status": 200,
+      "results": [
+        {
+          "title": "AMD Ryzen™ 9 8945HX - Ir al contenido principal",
+          "url": "https://www.amd.com/es/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html#1",
+          "content": "Ir al contenido principal\n\n# AMD Ryzen™ 9 8945HX\n\nProcesador AMD Ryzen™ para laptops de primer nivel\n\n- Nombre\n- AMD Ryzen™ 9 8945HX\n- Familia\n- Ryzen\n- Serie\n- Ryzen 8000 Series\n- Formato\n- Laptops , Computadoras de escritorio\n- Disponibilidad regional\n- Global\n- Nombre de código anterior\n- Dragon Range\n- Arquitectura de procesador\n- Zen 4\n- N.º de núcleos de CPU\n- 16\n- Múltiples subprocesos (SMT)\n- Sí\n- N.º de subprocesos\n- 32\n- Reloj turbo máximo\n- Hasta 5.4 GHz\n- Reloj base\n- 2.5 GHz\n- Caché L1\n- 1024 KB\n- Caché L2\n- 16 MB\n- Caché L3\n- 64 MB\n- TDP predeterminada\n- 55W\n- TDP configurable de AMD (cTDP)\n- 55-75W\n- Tecnología de procesador para núcleos de CPU\n- TSMC 5nm FinFET\n- Tecnología de procesador para chip de E/S\n- TSMC 6nm FinFET\n- Tamaño del chip de procesamiento de CPU (CCD)\n- 71mm²\n- Tamaño del chip de E/S (IOD)\n- 122mm²\n- Recuento del chip del paquete\n- 3\n- Desbloqueado para overclocking\n- Sí\n- Tecnología de overclocking de memoria AMD EXPO™\n- Sí\n- Precision Boost Overdrive\n- Sí\n- Socket de CPU\n- FL1\n- CPU-Boost-Technologie\n- Precision Boost 2\n- Conjunto de instrucciones\n- x86-64\n- Extensiones compatibles\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- Temperatura de funcionamiento máxima (Tjmax)\n- 100°C\n- Fecha de lanzamiento\n- 4/23/25\n- * Compatibilidad con SO\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- Versión de PCI Express®\n- PCIe® 5.0\n- Carriles PCIe® nativos (totales/utilizables)\n- 28 , 28\n- Compatibilidad con NVMe\n- Boot , RAID0 , RAID1 , RAID10\n- Tipo de memoria del sistema\n- DDR5\n- Canales de memoria\n- 2\n- Memoria máxima\n- 64 GB\n- Subtipo de memoria del sistema\n- SO-DIMM\n- Velocidad máxima de memoria\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- Compatibilidad con ECC (error correcting code, código de corrección de errores)\n- No\n\n- Modelo de tarjeta gráfica\n- AMD Radeon™ 610M\n- Recuento de núcleos de tarjeta gráfica\n- 2\n- Frecuencia de tarjeta gráfica\n- 2200 MHz\n- Versión de DirectX®\n- 12\n- Versión de DisplayPort™\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- Modo alternativo de DisplayPort™ USB Type-C®\n- Sí\n- Compatibilidad con múltiples monitores\n- Sí\n- Máximo de pantallas\n- 4\n- AMD FreeSync™\n- Sí\n- Pantalla inalámbrica\n- Miracast\n- AMD SmartShift MAX\n- Sí\n- AMD SmartAccess Memory\n- Disponible\n\n- Bandeja de identificación del producto\n- 100-000001848\n\n- Protección contra virus mejorada de AMD (NX bit)\n- Sí\n\n### Controladores y recursos\n\n### Descargas de controladores y software\n\nAccede a controladores, software y notas de la versión más recientes para los productos de AMD.\n\n### Soporte a la comunidad\n\nComunidades en línea que ayudan a los demás, ya que comparten experiencias y conocimientos valiosos.\n\n### Especificaciones de productos\n\nEspecificaciones completas de productos de procesadores y tarjetas gráficas AMD.\n",
+          "summary": "# AMD Ryzen™ 9 8945HX\n\nProcesador AMD Ryzen™ para laptops de primer nivel\n\n- Nombre\n- AMD Ryzen™ 9 8945HX\n- Familia\n- Ryzen\n- Serie\n- Ryzen 8000 Series\n- Formato\n- Laptops , Computadoras de escritorio\n- Disponibilidad regional\n- Global\n- Nombre de código anterior\n- Dragon Range\n- Arquitectura de procesador\n- Zen 4\n- N.º de núcleos de CPU\n- 16\n- Múltiples subprocesos (SMT)\n- Sí\n- N.º de subprocesos"
+        },
+        {
+          "title": "AMD Ryzen™ 9 8945HX",
+          "url": "https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html#1",
+          "content": "Zum Hauptinhalt springen\n\n# AMD Ryzen™ 9 8945HX\n\nAMD Ryzen™ Prozessoren für Premium-Notebooks\n\n- Name\n- AMD Ryzen™ 9 8945HX\n- Familie\n- Ryzen\n- Serie\n- Ryzen 8000 Series\n- Bauform\n- Notebooks , Desktop-PCs\n- Regionale Verfügbarkeit\n- Global\n- Vorheriger Codename\n- Dragon Range\n- Prozessorarchitektur\n- Zen 4\n- Anzahl der CPU-Kerne\n- 16\n- Multithreading (SMT)\n- Ja\n- Anzahl der Threads\n- 32\n- Max. Boost-Taktung\n- Bis zu 5.4 GHz\n- Grundtaktung\n- 2.5 GHz\n- L1-Cache\n- 1024 KB\n- L2-Cache\n- 16 MB\n- L3-Cache\n- 64 MB\n- Standard-TDP\n- 55W\n- Mit AMD konfigurierbares TDP (cTDP)\n- 55-75W\n- Prozessortechnologie für CPU-Kerne\n- TSMC 5nm FinFET\n- Prozessortechnologie für E/A-Die\n- TSMC 6nm FinFET\n- Größe des CPU-Computing-Die (CCD)\n- 71mm²\n- Größe des E/A-Die (IOD)\n- 122mm²\n- Die-Anzahl pro Gehäuse\n- 3\n- Zum Übertakten freigeschaltet\n- Ja\n- AMD EXPO™ Memory Overclocking Technology\n- Ja\n- Precision Boost Overdrive\n- Ja\n- CPU-Sockel\n- FL1\n- CPU-Boost-Technologie\n- Precision Boost 2\n- Anweisungssatz\n- x86-64\n- Unterstützte Erweiterungen\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- Max. Betriebstemperatur (Tjmax)\n- 100°C\n- Erscheinungsdatum\n- 4/23/25\n- *OS-Unterstützung\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® Version\n- PCIe® 5.0\n- Native PCIe®-Lanes (gesamt/nutzbar)\n- 28 , 28\n- NVMe-Support\n- Boot , RAID0 , RAID1 , RAID10\n- Systemspeichertyp\n- DDR5\n- Speicherkanäle\n- 2\n- Max. Speicher\n- 64 GB\n- Subtyp des Systemspeichers\n- SO-DIMM\n- Max. Speichergeschwindigkeit\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- ECC-Unterstützung\n- Nein\n\n- Modell der Grafikeinheit\n- AMD Radeon™ 610M\n- Anzahl der Grafikkerne\n- 2\n- Grafiktaktfrequenz\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- Ja\n- Unterstützung für mehrere Monitore\n- Ja\n- Max. Displays\n- 4\n- AMD FreeSync™\n- Ja\n- Drahtloses Display\n- Miracast\n- AMD SmartShift MAX\n- Ja\n- AMD SmartAccess Memory\n- Verfügbar\n\n- Tray-Produkt-ID\n- 100-000001848\n\n- AMD Enhanced Virenschutz (NX-Bit)\n- Ja\n\n### Treiber und Ressourcen\n\n### Treiber und Software-Downloads\n\nHier finden Sie die neuesten Treiber, Software und Versionshinweise für AMD Produkte.\n\n### Community-Support\n\nOnline-Community hilft anderen durch den Austausch wertvoller Kenntnisse und Erfahrungen.\n\n### Produkt-Spezifikationen\n\nVollständige Produktspezifikationen zu AMD Prozessoren und Grafikkarten.",
+          "summary": "# AMD Ryzen™ 9 8945HX\n\nAMD Ryzen™ Prozessoren für Premium-Notebooks\n\n- Name\n- AMD Ryzen™ 9 8945HX\n- Familie\n- Ryzen\n- Serie\n- Ryzen 8000 Series\n- Bauform\n- Notebooks , Desktop-PCs\n- Regionale Verfügbarkeit\n- Global\n- Vorheriger Codename\n- Dragon Range\n- Prozessorarchitektur\n- Zen 4\n- Anzahl der CPU-Kerne\n- 16\n- Multithreading (SMT)\n- Ja\n- Anzahl der Threads\n- 32\n- Max. Boost-Taktung\n- Bis zu 5.4 G"
+        },
+        {
+          "title": "AMD Ryzen™ 9 8945HX - Skip to main content",
+          "url": "https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html#1",
+          "content": "Skip to main content\n\n# AMD Ryzen™ 9 8945HX\n\nAMD Ryzen™ processor for premium laptops\n\n- Name\n- AMD Ryzen™ 9 8945HX\n- Family\n- Ryzen\n- Series\n- Ryzen 8000 Series\n- Form Factor\n- Laptops , Desktops\n- Regional Availability\n- Global\n- Former Codename\n- Dragon Range\n- Processor Architecture\n- Zen 4\n- # of CPU Cores\n- 16\n- Multithreading (SMT)\n- Yes\n- # of Threads\n- 32\n- Max. Boost Clock\n- Up to 5.4 GHz\n- Base Clock\n- 2.5 GHz\n- L1 Cache\n- 1024 KB\n- L2 Cache\n- 16 MB\n- L3 Cache\n- 64 MB\n- Default TDP\n- 55W\n- AMD Configurable TDP (cTDP)\n- 55-75W\n- Processor Technology for CPU Cores\n- TSMC 5nm FinFET\n- Processor Technology for I/O Die\n- TSMC 6nm FinFET\n- CPU Compute Die (CCD) Size\n- 71mm²\n- I/O Die (IOD) Size\n- 122mm²\n- Package Die Count\n- 3\n- Unlocked for Overclocking\n- Yes\n- AMD EXPO™ Memory Overclocking Technology\n- Yes\n- Precision Boost Overdrive\n- Yes\n- CPU Socket\n- FL1\n- CPU Boost Technology\n- Precision Boost 2\n- Instruction Set\n- x86-64\n- Supported Extensions\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- Max. Operating Temperature (Tjmax)\n- 100°C\n- Launch Date\n- 4/23/25\n- *OS Support\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® Version\n- PCIe® 5.0\n- Native PCIe® Lanes (Total/Usable)\n- 28 , 28\n- NVMe Support\n- Boot , RAID0 , RAID1 , RAID10\n- System Memory Type\n- DDR5\n- Memory Channels\n- 2\n- Max. Memory\n- 64 GB\n- System Memory Subtype\n- SO-DIMM\n- Max Memory Speed\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- ECC Support\n- No\n\n- Graphics Model\n- AMD Radeon™ 610M\n- Graphics Core Count\n- 2\n- Graphics Frequency\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- Yes\n- Multi-Monitor Support\n- Yes\n- Max Displays\n- 4\n- AMD FreeSync™\n- Yes\n- Wireless Display\n- Miracast\n- AMD SmartShift MAX\n- Yes\n- AMD SmartAccess Memory\n- Available\n\n- Product ID Tray\n- 100-000001848\n\n- AMD Enhanced Virus Protection (NX bit)\n- Yes\n\n### Drivers and Resources\n\n### Community Support\n\nOnline community helping others by sharing valuable knowledge and experiences.\n",
+          "summary": "# AMD Ryzen™ 9 8945HX\n\nAMD Ryzen™ processor for premium laptops\n\n- Name\n- AMD Ryzen™ 9 8945HX\n- Family\n- Ryzen\n- Series\n- Ryzen 8000 Series\n- Form Factor\n- Laptops , Desktops\n- Regional Availability\n- Global\n- Former Codename\n- Dragon Range\n- Processor Architecture\n- Zen 4\n- # of CPU Cores\n- 16\n- Multithreading (SMT)\n- Yes\n- # of Threads\n- 32\n- Max. Boost Clock\n- Up to 5.4 GHz\n- Base Clock\n- 2.5 G"
+        },
+        {
+          "title": "AMD 锐龙 9 8945HX",
+          "url": "https://www.amd.com/zh-cn/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html",
+          "content": "跳至主要内容\n\n# AMD 锐龙 9 8945HX\n\nAMD 锐龙处理器助力打造卓越笔记本电脑\n\n- 名称\n- AMD 锐龙 9 8945HX\n- 产品系列\n- 锐龙\n- 系列\n- 锐龙 8000 系列\n- 外形规格\n- 笔记本电脑 , 台式机\n- 区域供货状况\n- 全局\n- 原代号\n- Dragon Range\n- 处理器架构\n- Zen 4\n- CPU 核心数\n- 16\n- 多线程 (SMT)\n- 是\n- 线程数\n- 32\n- 最高加速时钟频率\n- 最高可达 5.4 GHz\n- 基准时钟频率\n- 2.5 GHz\n- L1 高速缓存\n- 1024 KB\n- L2 高速缓存\n- 16 MB\n- L3 高速缓存\n- 64 MB\n- 默认热设计功耗 (TDP)\n- 55W\n- AMD 可配置热设计功耗 (cTDP)\n- 55-75W\n- CPU 核心的处理器工艺\n- TSMC 5nm FinFET\n- I/O 芯片处理器技术\n- TSMC 6nm FinFET\n- CPU 计算芯片 (CCD) 尺寸\n- 71mm²\n- I/O 芯片 (IOD) 尺寸\n- 122mm²\n- 封装芯片计数\n- 3\n- 不锁频\n- 是\n- AMD EXPO™ Memory Overclocking Technology\n- 是\n- Precision Boost Overdrive\n- 是\n- CPU 平台\n- FL1\n- CPU 加速技术\n- Precision Boost 2\n- 指令集\n- x86-64\n- 支持的扩展\n- AES , AMD-V , AVX512 , AVX , AVX2 , FMA3 , MMX-plus , SHA , SSE , SSE2 , SSE3 , SSE4.1 , SSE4.2 , SSE4A , SSSE3 , x86-64\n- 最高工作温度 (Tjmax)\n- 100°C\n- 发布日期\n- 4/23/25\n- *支持的操作系统\n- Windows 11 - 64-Bit Edition , Windows 10 - 64-Bit Edition , RHEL x86 64-Bit , Ubuntu x86 64-Bit\n\n- Native USB 3.2 Gen 2 (10Gbps)\n- 4\n- Native USB 2.0 (480Mbps)\n- 1\n- PCI Express® 版本\n- PCIe® 5.0\n- 原生 PCIe® 通道（总数/可用）\n- 28 , 28\n- NVMe 支持\n- Boot , RAID0 , RAID1 , RAID10\n- 系统内存类型\n- DDR5\n- 内存通道数\n- 2\n- 最大内存\n- 64 GB\n- 系统内存子类型\n- SO-DIMM\n- 最高内存速度\n- 2x1R DDR5-5200 2x2R DDR5-5200\n- 支持 ECC\n- 否\n\n- 显卡型号\n- AMD Radeon™ 610M\n- 显卡核心数\n- 2\n- 显卡频率\n- 2200 MHz\n- DirectX® Version\n- 12\n- DisplayPort™ Version\n- 2.0\n- HDMI® Version\n- 2.1\n- HDCP Version Supported\n- 2.1\n- USB Type-C® DisplayPort™ Alternate Mode\n- 是\n- 支持多个显示器\n- 是\n- 最大显示器数量\n- 4\n- AMD FreeSync™\n- 是\n- 无线显示\n- Miracast\n- AMD SmartShift MAX\n- 是\n- AMD 显存智取技术\n- 支持\n\n- Tray 产品 ID\n- 100-000001848\n\n- AMD 增强型病毒防护（NX 位）\n- 是",
+          "summary": "# AMD 锐龙 9 8945HX\n...\n- 名称\n- AMD 锐龙 9 8945HX\n- 产品系列\n- 锐龙\n- 系列\n- 锐龙 8000 系列\n- 外形规格\n- 笔记本电脑 , 台式机\n- 区域供货状况\n- 全局\n- 原代号\n- Dragon Range\n- 处理器架构\n- Zen 4\n- CPU 核心数\n- 16\n- 多线程 (SMT)\n- 是\n- 线程数\n- 32\n- 最高加速时钟频率\n- 最高可达 5.4 GHz\n- 基准时钟频率\n- 2.5 GHz\n- L1 高速缓存\n- 1024 KB\n- L2 高速缓存\n- 16 MB\n- L3 高速缓存\n- 64 MB\n- 默认热设计功耗 (TDP)\n- 55W\n- AMD 可配置热设计功耗 (cTDP)\n- 55-75W\n- CPU 核心的处理器工艺\n- TSMC 5nm FinFET\n- I/O 芯片处理器技术\n- TSMC 6nm"
+        }
+      ],
+      "durationMs": 324
+    },
+    {
+      "endpoint": "https://api.deepseek.com/v1/tools/search",
+      "payload": {
+        "query": "NVIDIA GeForce RTX 5060 Laptop GPU specifications site:nvidia.com",
+        "count": 4,
+        "need_content": true
+      },
+      "status": 200,
+      "results": [
+        {
+          "title": "NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at \\(\\) 299\\$",
+          "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/67fe58ae3d63325f115ecd52/#1#1#1",
+          "content": "## NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at \\(\\) 299\\$  \n\n## GeForce RTX 5060 Family Transforms Ordinary PCs Into Next-Generation Gaming Rigs  \n\nNVIDIA today announced the NVIDIA GeForce RTX™ 5060 family of GPUs, including two graphics cards that deliver neural rendering and NVIDIA Blackwell architecture innovations for every gamer — starting at just \\(\\) 299\\$  \n\nThe GeForce RTX 5060 Ti and RTX 5060 graphics cards feature NVIDIA DLSS 4, full ray tracing, neural rendering and NVIDIA Reflex technologies for exceptional performance and image quality.  \n\n\"The RTX 5060 family offers gamers next- generation performance and AI- enhanced visuals starting at \\(\\) 299\\(, said Matt Wuebbling, vice president of GeForce marketing at NVIDIA. \"Powered by the advanced NVIDIA Blackwell architecture and featuring DLSS 4 technology in over 100 games, this new class of GPUs elevates gaming with stunning visuals, high frame rates and quick responsiveness.\"  \n\n## DLSS 4 Now in 100+ Games  \n\nThe GeForce RTX 5060 family includes DLSS 4 capabilities such as Multi Frame Generation and Super Resolution, as well as NVIDIA Reflex to reduce latency. More than 100 games now feature these AI- powered enhancements. Blockbuster titles like Alan Wake 2, Black Myth: Wukong, Cyberpunk 2077 and Hogwarts Legacy boast stunning ray- traced visuals at over 100 frames per second (fps) on maximum settings.  \n\n## Boosting Creative Workflows  \n\nThe RTX 5060 family can also serve as a powerful companion for creators. Equipped with Blackwell FP4 Tensor Cores and ninth- generation NVIDIA NVENC encoders, the GPUs can enhance creative workflows for livestreamers, video editors, 3D artists and others.  \n\n## Introducing GeForce RTX 5060 Laptops  \n\nIn addition, the GeForce RTX 5060 Laptop GPU has arrived, bringing enhanced gaming and creative capabilities to laptops. Built with the Blackwell architecture and DLSS 4, the GPU ensures every gamer and creator can enjoy 144 fps and 8K 4:2:2 color format video editing. GeForce RTX 5060 laptops can deliver double the frame rates and lower latency compared with previous- generation models — and are coming in a broad range of designs and sizes as thin as 14.9 millimeters.  \n\n## Availability  \n\nGeForce RTX 5060 Ti graphics cards, equipped with 16GB or 8GB graphics memory, will be available starting April 16 at \\(\\) 429\\(and\\) \\ \\(379\\) , respectively.  \n\nGeForce RTX 5060 graphics cards will be available starting in May at \\(\\) 299\\$  \n\nStock- clocked and factory- overclocked models will be available from top add- in card providers such as ASUS, Colorful, Gainward, GALAX, GIGABYTE, INNO3D, KFA2, MSI, Palit, PNY and ZOTAC, and in desktops from system builders including Falcon Northwest, Infinirac, MAINGEAR, Mifcom, ORIGIN PC, PC Specialist and Scan Computers.  \n\nLaptops equipped with GeForce RTX 5060 laptop GPUs will be available from every major manufacturer beginning in May, starting at \\(\\) 1,099\\$  \n\nFind full specifications and additional details on the NVIDIA GeForce webpage.  \n\n## About NVIDIA  \n\nNVIDIA (NASDAQ: NVDA) is the world leader in accelerated computing.  \n\nCertain statements in this press release including, but not limited to, statements as to: the benefits, impact, performance and availability of NVIDIA's products, services, and technologies; and GeForce RTX 5060 family of GPUs providing an immersive experience for cinematic- quality gaming are forward- looking statements that are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic conditions; our reliance on third parties to manufacture, assemble, package and test our products; the impact of technological development and competition; development of new products and technologies or enhancements to our existing product and technologies; market acceptance of our products or our partners' products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of our products or technologies when integrated into systems; as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10- K and quarterly reports on Form 10- Q. Copies of reports filed with the SEC are posted on the company's website and are available from NVIDIA without charge. These forward- looking\n\nstatements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward- looking statements to reflect future events or circumstances.  \n\n\\(⑤\\) 2025 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo and GeForce RTX are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.  \n\nBenjamin Berraondo  Director of Global PR, GeForce Products  NVIDIA Corporation  +44 7979 384482  bberraondo@nvidia.com\n\n\n",
+          "summary": "## Introducing GeForce RTX 5060 Laptops  \n\nIn addition, the GeForce RTX 5060 Laptop GPU has arrived, bringing enhanced gaming and creative capabilities to laptops. Built with the Blackwell architecture and DLSS 4, the GPU ensures every gamer and creator can enjoy 144 fps and 8K 4:2:2 color format video editing. GeForce RTX 5060 laptops can deliver double the frame rates and lower latency compared "
+        },
+        {
+          "title": "GeForce RTX 5060 노트북, $1,099부터 만나보세요 - GeForce RTX 5060 노트북, $1,099부터 만나보세요",
+          "url": "https://www.nvidia.com/ko-kr/geforce/news/rtx-5060-laptops-available-now/#page-content#1",
+          "content": "# GeForce RTX 5060 노트북, $1,099부터 만나보세요\n\n작성자: Andrew Burnes, 2025년 5월 19일 월요일 |\n\nNVIDIA Blackwell 기반의 GeForce RTX 50 시리즈 노트북은 게이머와 크리에이터에게 게임 체인저의 기능을 사선합니다. NVIDIA DLSS 4 Multi Frame Generation으로 성능을 대폭 향상시키고, 전례 없는 속도로 이미지를 생성해 보세요. 강력한 업무 처리 성능은 물론, NVIDIA Studio 앱으로 창의성을 발휘할 수 있습니다. 최신 Max-Q 기술로 최적화된 가장 얇고 오래 지속되는 RTX 노트북으로, 이동 중에도 AI 혁신을 경험하세요.\n\n이제 모바일 폼 팩터에서 최신 혁신 기술을 경험하고 싶은 분들을 위한 선택의 폭이 대폭 넓어졌습니다. GeForce RTX 5060 노트북 GPU가 탑재된 신규 모델들이 모든 주요 제조사에서 출시되며, 시작 가격은 $1099부터입니다.\n\n이 노트북은 14.9mm의 슬림한 디자인을 자랑하며, NVIDIA Blackwell 및 DLSS 4 기술로 이전 세대에 비해 두 배 향상된 성능을 제공하고 인기 게임에서 100FPS 이상을 구현합니다. 크리에이터는 가장 진보한 AI 기술을 활용하여 창의적인 작업 속도를 더욱 높일 수 있습니다. 학생은 엔지니어링, 아키텍처, 컴퓨터 사이언스, 데이터 사이언스, 경제학 등에 사용되는 앱의 성능을 가속화할 수 있습니다. Blackwell의 혁신적인 기술과 Max-Q 전력 최적화 덕분에 배터리 사용 시간을 늘려 게임, 창작 활동, 업무에 몰두할 수 있습니다.\n\nGeForce RTX 5060 노트북 GPU는 DLSS 4 Multi Frame Generation과 NVIDIA Reflex 기술을 지원하여, 이전 세대 노트북보다 속도가 두 배 이상 빠르며, 향상된 이미지 품질과 반응성 높은 컨트롤 기능을 경험할 수 있습니다.\n\nGeForce RTX 5060 노트북 GPU는 어떤 용도로 사용하든 강력한 기능과 성능, 휴대성이 완벽한 조화를 이루어 탁월한 선택이 될 것입니다.\n\n최신 NVIDIA GPU를 탑재한 노트북은 1.46kg의 가벼운 무게로, 14인치부터 선택 가능한 디스플레이를 갖추고 있으며, 배터리가 최대 14시간까지 지속됩니다.\n\nASUS, MSI, Razer의 최신 모델 또한 NVIDIA Studio 인증을 받았습니다. 이를 통해 다양한 앱에서 Blackwell 혁신 기술과 GPU 가속 성능이 효과적으로 활용되고, 안정성이 뛰어난 NVIDIA Studio 드라이버로 최적화된 경험을 제공합니다.\n\nNVIDIA Studio 및 GeForce RTX 50 시리즈 노트북 GPU는 주요 앱 개발사와 협력하여, 3D 디자인, 비디오, 생성형 AI 앱에서 크리에이티브 성능을 두 배로 높였습니다. 또한 GeForce RTX 50 시리즈 노트북은 DaVinci Resolve와 Adobe Premiere Pro를 포함한 다양한 최고 영상 편집 애플리케이션에서 4:2:2 영상 편집 및 인코딩을 지원합니다. 9세대 NVIDIA Encoder는 인코딩을 가속화하고, AV1 파일의 품질을 향상시키는 동시에 최상의 영상 충실도를 위해 AV1 초고품질 모드를 제공합니다. 6세대 NVIDIA Decoder는 H.264 디코딩 속도를 두 배로 높였습니다. Chaos Vantage 및 D5 Render 뷰포트 또한 DLSS 4 Multi Frame Generation으로 가속화되어 건축가, 애니메이터, 디자이너의 창의적인 작업 과정이 더욱 효율적으로 향상됩니다.\n\n이는 3D 디자인, 렌더링, 비디오 편집, 사진, 그래픽 디자인, 방송, 건축 시각화 앱 등에서 NVIDIA Blackwell GeForce RTX 50 시리즈 노트북 GPU가 제공하는 장점과 기능의 몇 가지 예시일 뿐입니다. 모든 기능을 확인하려면 NVIDIA Studio 소프트웨어 페이지를 참조하세요.\n\n## GeForce RTX 5060 노트북 GPU 출시, 오늘부터 구매 가능\n\n나에게 꼭 맞는 완벽한 노트북을 찾을 수 있도록 OEM 파트너의 주요 모델을 소개합니다. 오늘부터 전 세계 출시가 시작됩니다. 이 모델을 포함한 다양한 제품이 곧 가까운 소매점에 입고될 예정입니다.\n\n### ACER Predator Helios Neo 14 AI\n\n초저지연의 게임 플레이와 미래를 위한 AI를 선사하는 ACER Predator Helios Neo 14 AI의 전설적인 게이밍 성능을 경험해보세요. 끊김 없는 게임 플레이와 차세대 AI 성능을 지원합니다. 14.5인치 OLED 화면은 2.8k WQXGA+ 2880 x 1800 해상도와 0.2ms 응답 시간을 제공하며, 매우 원활한 게임 플레이와 생생한 비주얼을 보장합니다. DLSS 4를 통해 비교할 수 없는 속도로 이미지를 생성하고, 레이 트레이싱과 혁신적인 뉴럴 렌더링 기술로 영화 같은 품질의 비주얼을 경험하세요.\n\n### ASUS TUF Gaming A14\n\nASUS의 TUF Gaming A14는 두께 1.69cm, 무게 1.46kg으로, TUF Gaming 노트북 시리즈 중 가장 작고 가벼운 모델입니다. 2560x1600 165Hz 14인치 G-SYNC 디스플레이는 180도 힌지를 적용하여 완전 평면으로 사용 가능합니다. 또한 배터리 부족 시, 100W USB-C 전원 공급 장치를 사용하여 30분 만에 50%까지 충전할 수 있다고 ASUS는 밝혔습니다. 최대 32GB의 LPDDR5X 7500MHz 메모리와 최대 4TB의 PCIe Gen 4 확장 스토리지가 결합된 이 차세대 AI PC는 생산성을 극대화할 수 있도록 설계되었습니다.\n\n### Alienware 16X Aurora 게이밍 노트북\n\n새로운 Alienware Aurora는 게이머와 크리에이터를 위해 최대 155W의 강력한 성능을 제공합니다. 16인치 QHD+ 240Hz 디스플레이는 500니트의 최대 밝기와 DCI-P3 100% 색 영역을 지원하여, 게임과 창작물을 생생한 디테일로 구현합니다.\n\n### GIGABYTE Gaming A16\n\nGIGABYTE Gaming A16는 최대 14시간 사용 가능한 배터리와 180도 펼침 디자인, 165Hz WQXGA 16인치 패널을 탑재한 초슬림 노트북입니다. 또한 A16는 인체공학적인 골든 커브 키보드로 생산성을 극대화합니다.\n\n### HP OMEN Transcend 14\n\n새로운 HP Omen Transcend 14는 무게 1.63kg, 두께 17.78mm의 올 메탈 바디를 갖춘 노트북으로, 3K 해상도 OLED 디스플레이와 최대 11.5시간 지속되는 배터리, 그리고 최대 64GB LPDDR5 RAM 구성을 지원합니다.\n\n### Lenovo Legion Pro 5i\n\n플래티넘 등급을 목표로 하는 경쟁 지향 게이머를 위해, Legion Pro 5i는 엘리트급 성능을 자랑하는 GeForce RTX 50 시리즈 노트북 그래픽을 탑재했습니다. Lenovo PureSight OLED 게이밍 디스플레이는 선명한 화질과 빠른 응답 속도로 높은 FPS 환경에서도 완벽한 플레이가 가능합니다.\n\n### MSI Venture Pro A14 AI+\n\n새로운 MSI Venture Pro A14 AI+는 2K 해상도 OLED 디스플레이를 갖춘 세련된 디자인의 노트북입니다. 업그레이드 가능한 메모리와 공간형 사운드 시스템으로 최상의 사운드를 경험할 수 있습니다. 또한 2개의 DDR5 메모리 슬롯으로 최대 96GB까지 지원합니다.\n\n### Razer Blade 14\n\n15.24mm로 더 슬림해진 새로운 Razer Blade 14는 이전 세대보다 11% 더 작아졌습니다. 또한 Razer에 따르면 배터리가 최대 11시간까지 지속되어 이동 중에도 게임, 업무 또는 창작 활동을 즐길 수 있습니다. 또한 Blade 14는 단일 알루미늄 블록으로 정밀 가공된 컴팩트한 섀시를 갖추고 있어 성능과 디자인의 새로운 기준을 제시합니다.\n\n## 더 많은 모델 출시 예정\n\n더욱 다양한 GeForce RTX 50 시리즈 노트북을 찾으려면 NVIDIA Marketplace를 즐겨찾기에 추가하세요. 신제품 출시 현황을 추적하고 국내 판매점 구매 링크도 확인할 수 있습니다.\n\n## GeForce RTX 5060 제품군이 출시됩니다\n\nGeForce RTX 5060 제품군이 출시되면서 DLSS 4 Multi Frame Generation, 뉴럴 렌더링 및 Blackwell 혁신이 모든 게이머에게 제공됩니다. 빠른 프레임 레이트로 최고의 게임에서 몰입감 넘치는 레이 트레이싱 그래픽을 즐겨보세요. AI로 새로운 가능성을 열고, DLSS 트랜스포머 모델로 이미지 품질을 높이며, Reflex 기술로 컨트롤 반응성까지 향상시켜 보세요.\n\n첨단 기술은 계속 진화하고 있습니다. GeForce RTX 50 시리즈 노트북이나 그래픽 카드로 최신 게임에서 모든 혁신 기술을 경험할 수 있습니다.\n\n최첨단 기술을 사용하려면, 지금 GeForce RTX 50 시리즈 노트북 또는 데스크톱 GPU로 업그레이드하세요.\n",
+          "summary": "# GeForce RTX 5060 노트북, $1,099부터 만나보세요\n...\nAndrew Burnes, 2025년 5월 19일 월요일 |\n\nNVIDIA Blackwell 기반의 GeForce RTX 50 시리즈 노트북은 게이머와 크리에이터에게 게임 체인저의 기능을 사선합니다. NVIDIA DLSS 4 Multi Frame Generation으로 성능을 대폭 향상시키고, 전례 없는 속도로 이미지를 생성해 보세요.\n...\n최신 Max-Q 기술로 최적화된 가장 얇고 오래 지속되는 RTX 노트북으로, 이동 중에도 AI 혁신을 경험하세요.\n...\nGeForce RTX 5060 노트북 GPU가 탑재된 신규 모델들이 모든 주요 제조사에서 출시되며, 시작 가격은 $1099부터입니다.\n\n이 노트북은 14.9mm의 슬림한 디"
+        },
+        {
+          "title": "Find the Best GPU for Creative Workflows - NVIDIA Studio Laptops and Desktops",
+          "url": "https://www.nvidia.com/en-us/studio/help-me-choose/#1",
+          "content": "NVIDIA Studio Laptops and Desktops\n\n# Choose the Best GPU for Creative Workflows\n\nWhether you’re into editing video, livestreaming, designing in 3D, or more, NVIDIA RTX-powered hardware delivers the speed, reliability and performance your projects demand.\n\nCompare\n\n## Which GPU is Right For You?\n\nMy primary creative field is:\n\nVideo Editing\n\n- Video Editing\n- Livestreaming\n- 3D Rendering\n- Graphic Design\n- Photography\n- Generative AI\n\n- Laptop\n- Desktop\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, 5070 Laptop GPU\n\nVRAM:8 GB\n\nTarget Video Resolution:Up to 4K\n\nAI Effects:Smooth\n\nGenerative AI Performance:Standard\n\nExport Speed:1x\n\n### Advanced\n\nNVIDIA GeForce RTX 5070 Ti Laptop GPU\n\nVRAM:12-16 GB\n\nTarget Video Resolution:Up to 8K\n\nAI Effects:Faster\n\nGenerative AI Performance:Powerful\n\nExport Speed:1x\n\n### Ultimate\n\nNVIDIA GeForce RTX 5080, 5090 Laptop GPU\n\nVRAM:16 GB+\n\nTarget Video Resolution:Up to 12K\n\nAI Effects:Fastest\n\nGenerative AI Performance:Next-Level\n\nExport Speed:2x / 3x\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, 5060 Ti Desktop GPU\n\nVRAM:8 GB\n\nTarget Video Resolution:Up to 4K\n\nAI Effects:Smooth\n\nGenerative AI Performance:Standard\n\nExport Speed:1x\n\n### Advanced\n\nNVIDIA GeForce RTX 5060 Ti 16 GB, 5070\n\nVRAM:12-16 GB\n\nTarget Video Resolution:Up to 8K\n\nAI Effects:Faster\n\nGenerative AI Performance:Powerful\n\nExport Speed:1x\n\n### Ultimate\n\nNVIDIA GeForce RTX 5070 Ti, 5080, 5090 Desktop GPU\n\nVRAM:16 GB+\n\nTarget Video Resolution:Up to 12K\n\nAI Effects:Fastest\n\nGenerative AI Performance:Next-Level\n\nExport Speed:2x / 3x\n\n- Laptop\n- Desktop\n\n### Essential\n\nNVIDIA GeForce RTX 5060, 5070, 5070 Ti Laptop GPU\n\nGaming Resolution:Up to 1080p\n\nAI Effects:Good\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:Good\n\n### Advanced\n\nNVIDIA GeForce RTX 5080 Laptop GPU\n\nGaming Resolution:Up to 1440p\n\nAI Effects:Better\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:Better (2x more streams)\n\n### Ultimate\n\nNVIDIA GeForce RTX 5090 Laptop GPU\n\nGaming Resolution:Up to 4K\n\nAI Effects:Best\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:Best (3x more streams)\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, 5060 Ti, 5060 Ti 16 GB Desktop GPU\n\nGaming Resolution:Up to 1080p\n\nAI Effects:Good\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:Good\n\n### Advanced\n\nNVIDIA GeForce RTX 5070, 5070 Ti Desktop GPU\n\nGaming Resolution:Up to 1440p\n\nAI Effects:Better\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:Better (2x more streams)\n\n### Ultimate\n\nNVIDIA GeForce RTX 5080, 5090 Desktop GPU\n\nGaming Resolution:Up to 4K\n\nAI Effects:Best\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:Best (3x more streams)\n\n- Laptop\n- Desktop\n\n### Essential\n\nNVIDIA GeForce RTX 5060, 5070 Laptop GPU\n\nVRAM:8 GB\n\nScene Size:Medium\n\nRendering Speed (Ray Tracing Cores):1x\n\nDLSS:Yes\n\nGenerative AI Performance:Standard\n\nMulti-App Workflow:Standard\n\n### Advanced\n\nNVIDIA GeForce RTX 5070 Ti, 5080 Laptop GPU\n\nVRAM:12-16 GB\n\nScene Size:Large\n\nRendering Speed (Ray Tracing Cores):1.5x\n\nDLSS:Yes\n\nGenerative AI Performance:Good\n\nMulti-App Workflow:Good\n\n### Ultimate\n\nNVIDIA GeForce RTX 5090 Laptop GPU\n\nVRAM:16 GB+\n\nScene Size:X-Large\n\nRendering Speed (Ray Tracing Cores):2x\n\nDLSS:Yes\n\nGenerative AI Performance:Best\n\nMulti-App Workflow:Best\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, 5060 Ti Desktop GPU\n\nVRAM:8 GB\n\nScene Size:Medium\n\nRendering Speed (Ray Tracing Cores):1x\n\nDLSS:Yes\n\nGenerative AI Performance:Standard\n\nMulti-App Workflow:Standard\n\n### Advanced\n\nNVIDIA GeForce RTX 5060 Ti, 5070, 5070 Ti Desktop GPU\n\nVRAM:12-16 GB\n\nScene Size:Large\n\nRendering Speed (Ray Tracing Cores):1.5x\n\nDLSS:Yes\n\nGenerative AI Performance:Good\n\nMulti-App Workflow:Good\n\n### Ultimate\n\nNVIDIA GeForce RTX 5080, 5090 Desktop GPU\n\nVRAM:16 GB+\n\nScene Size:X-Large\n\nRendering Speed (Ray Tracing Cores):2x\n\nDLSS:Yes\n\nGenerative AI Performance:Best\n\nMulti-App Workflow:Best\n\n- Laptop\n- Desktop\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, or 5070 Laptop GPU\n\nEditing Performance:Great\n\nAI Effects:Good\n\nGenerative AI Performance:Standard\n\n### Advanced\n\nNVIDIA GeForce RTX 5070 Ti or 5080 Laptop GPU\n\nEditing Performance:Great\n\nAI Effects:Better\n\nGenerative AI Performance:Better\n\n### Ultimate\n\nNVIDIA GeForce RTX 5090 Laptop GPU\n\nEditing Performance:Great\n\nAI Effects:Best\n\nGenerative AI Performance:Best\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, or 5060 Ti Desktop GPU\n\nEditing Performance:Great\n\nAI Effects:Good\n\nGenerative AI Performance:Standard\n\n### Advanced\n\nNVIDIA GeForce RTX 5060 Ti 16 GB, or 5070 Ti Desktop GPU\n\nEditing Performance:Great\n\nAI Effects:Better\n\nGenerative AI Performance:Better\n\n### Ultimate\n\nNVIDIA GeForce RTX 5080 or 5090 Desktop GPU\n\nEditing Performance:Great\n\nAI Effects:Best\n\nGenerative AI Performance:Best\n\n- Laptop\n- Desktop\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, or 5070 Laptop GPU\n\nEditing Performance:Great\n\nAI Effects:Good\n\nGenerative AI Edits:Standard\n\n### Advanced\n\nNVIDIA GeForce RTX 5070 Ti or 5080 Laptop GPU\n\nEditing Performance:Great\n\nAI Effects:Better\n\nGenerative AI Edits:Better\n\n### Ultimate\n\nNVIDIA GeForce RTX 5090 Laptop GPU\n\nEditing Performance:Great\n\nAI Effects:Best\n\nGenerative AI Edits:Best\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, or 5060 Ti Desktop GPU\n\nEditing Performance:Great\n\nAI Effects:Good\n\nGenerative AI Edits:Standard\n\n### Advanced\n\nNVIDIA GeForce RTX 5060 Ti 16GB, 5070, or 5070 Ti Desktop GPU\n\nEditing Performance:Great\n\nAI Effects:Better\n\nGenerative AI Edits:Better\n\n### Ultimate\n\nNVIDIA GeForce RTX 5080 or 5090 Desktop GPU\n\nEditing Performance:Great\n\nAI Effects:Best\n\nGenerative AI Edits:Best\n\n- Laptop\n- Desktop\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, or 5070 Laptop GPU\n\nVRAM:8 GB\n\nImage Models:Better\n\nVideo Models:Standard\n\n3D Models:Good\n\n### Advanced\n\nNVIDIA GeForce RTX 5070 Ti or 5080 Laptop GPU\n\nVRAM:12-16 GB\n\nImage Models:Best\n\nVideo Models:Good\n\n3D Models:Better\n\n### Ultimate\n\nNVIDIA GeForce RTX 5090 Laptop GPU\n\nVRAM:16 GB+\n\nImage Models:Best\n\nVideo Models:Best\n\n3D Models:Best\n\n### Essential\n\nNVIDIA GeForce RTX 5050, 5060, or 5060 Ti Desktop GPU\n\nVRAM:8 GB\n\nImage Models:Better\n\nVideo Models:Standard\n\n3D Models:Good\n\n### Advanced\n\nNVIDIA GeForce RTX 5060 Ti 16GB, 5070, or 5070 Ti Desktop GPU\n\nVRAM:12-16 GB\n\nImage Models:Best\n\nVideo Models:Good\n\n3D Models:Better\n\n### Ultimate\n\nNVIDIA GeForce RTX 5080 or 5090 Desktop GPU\n\nVRAM:16 GB+\n\nImage Models:Best\n\nVideo Models:Best\n\n3D Models:Best\n\n## Upgrade Your Studio\n\nNVIDIA’s high-performance GPUs deliver the perfect canvas to dream, design, and deliver.\n\n### Join the NVIDIA Creator Community\n\nCreative tutorials, artist showcases, contests, and exclusive offers.\n\nSign Up for the latest NVIDIA Studio News.\n\n## Get The Latest NVIDIA Studio News\n\nWelcome back. Not you? Log Out\n\nWelcome back. Not you? Clear form\n\nSign up for gaming and entertainment deals, announcements, and more from NVIDIA. Plus creative tips-and-tricks, giveaways, and exclusive discounts.\n\nWe are unable to process your request at this time\n",
+          "summary": "### Essential\n\nNVIDIA GeForce RTX 5050, 5060, 5070 Laptop GPU\n\nVRAM:8 GB\n\nTarget Video Resolution:Up to 4K\n\nAI Effects:Smooth\n\nGenerative AI Performance:Standard\n\nExport Speed:1x\n...\nNVIDIA GeForce RTX 5060, 5070, 5070 Ti Laptop GPU\n\nGaming Resolution:Up to 1080p\n...\nGood\n\nNVIDIA Encoder (NVENC):Great\n\nMulti-Streaming:\n...\nScene Size:Medium\n\nRendering Speed (Ray Tracing Cores):1x\n\nDLSS:Yes\n...\nMul"
+        },
+        {
+          "title": "Vergleichen Sie die Vielfalt von NVIDIA-GPUs für kreative Arbeit",
+          "url": "https://www.nvidia.com/de-de/studio/compare-gpus/#1",
+          "content": "## Welche GPU passt zu Ihnen?\n\n# Studio-Notebooks und -Desktops\n\nEntdecken Sie die ganze Bandbreite an Hochleistungs-Grafikprozessoren, mit denen Sie Ihre kreativen Ideen zum Leben erwecken.\n\n## Laptops\n\n## GPU\n\nGrafik\nArbeitsspeicher\n\n3D-Animation/\nGrafikanimation\n\nVideo\nBearbeitung/Schnitt\n\nFotografie/\nGrafikdesign\n\nBroadcasting\n\nGaming\n\nSTEM\n\nRaytracing\nKerne\n\nKI- und Tensor-\nKerne\n\nEncoder\n\nErweitert\nMulti-App-Arbeit\n\nSoftware\nZertifizierung\n\nEnterprise\nSupport\n\n---|---|---|---|---|---|---|---|---|---|---|---|---|---\n\n## Creative Dabbler\n\nGeForce RTX 5050 | 6 GB | Kleine Modelle | 4K | 1080p | 1080p | Student | 1x 8. Gen. \nNVIDIA RTX A1000 6GB | 6 GB | Kleine Modelle | 4K | 720p | 1080p | Student / Pro | 1x 7. Gen. \nNVIDIA RTX PRO 1000 Blackwell Generation | 8 GB | Medium-Modelle | 4K | 1080p | 1080p | Student / Pro | 1x 9. Gen. \n\n## Creative Maestro\n\nGeForce RTX 5060 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9. Gen. \nGeForce RTX 5070 | 8 GB | Medium-Modelle | 6K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5070 Ti | 12 GB | Large-Modelle | 8K | 1440p | 1440p | Student | 1x 9. Gen. \nNVIDIA RTX PRO 2000 Blackwell Generation | 8 GB | Medium-Modelle | 6K | 1080p | 1440p | Student / Pro | 1x 9. Gen. \nNVIDIA RTX PRO 3000 Blackwell Generation | 12 GB | Large-Modelle | 8K | Pro | 1440p | Student / Pro | 1x 9. Gen. \n\n## Creative Powerhouse\n\nGeForce RTX 5080 | 16 GB | XL-Modelle | 12K | 1440p | 1440p | Student | 2x 9. Gen. \nGeForce RTX 5090 | 24 GB | XL-Modelle | 12K | 1440p | 1440p | Student | 3x 9. Gen. \nNVIDIA RTX PRO 4000 Blackwell Generation | 16 GB | XL-Modelle | 12K | Pro | 1440p | Student / Pro | 2x 9. Gen. \nNVIDIA RTX PRO 5000 Blackwell Generation  | 24 GB | XL-Modelle | 12K | Pro | 1440p | Student / Pro | 3x 9. Gen. \n\n## GPU\n\nGrafik\nArbeitsspeicher\n\n3D-Animation/\nGrafikanimation\n\nVideo\nBearbeitung/Schnitt\n\nFotografie/\nGrafikdesign\n\nBroadcasting\n\nGaming\n\nSTEM\n\nRaytracing\nKerne\n\nKI- und Tensor-\nKerne\n\nEncoder\n\nErweitert\nMulti-App-Arbeit\n\nSoftware\nZertifizierung\n\nEnterprise\nSupport\n\n---|---|---|---|---|---|---|---|---|---|---|---|---|---\n\n## Creative Dabbler\n\nGeForce RTX 5050 | 6 GB | Kleine Modelle | 4K | 1080p | 1080p | Student | 1x 8. Gen. \nNVIDIA RTX A1000 6GB | 6 GB | Kleine Modelle | 4K | 720p | 1080p | Student / Pro | 1x 7. Gen. \nNVIDIA RTX PRO 1000 Blackwell Generation | 8 GB | Medium-Modelle | 4K | 1080p | 1080p | Student / Pro | 1x 9. Gen. \n\n## Creative Maestro\n\nGeForce RTX 5060 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9. Gen. \nGeForce RTX 5070 | 8 GB | Medium-Modelle | 6K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5070 Ti | 12 GB | Large-Modelle | 8K | 1440p | 1440p | Student | 1x 9. Gen. \nNVIDIA RTX PRO 2000 Blackwell Generation | 8 GB | Medium-Modelle | 6K | 1080p | 1440p | Student / Pro | 1x 9. Gen. \nNVIDIA RTX PRO 3000 Blackwell Generation | 12 GB | Large-Modelle | 8K | Pro | 1440p | Student / Pro | 1x 9. Gen. \n\n## Creative Powerhouse\n\nGeForce RTX 5080 | 16 GB | XL-Modelle | 12K | 1440p | 1440p | Student | 2x 9. Gen. \nGeForce RTX 5090 | 24 GB | XL-Modelle | 12K | 1440p | 1440p | Student | 3x 9. Gen. \nNVIDIA RTX PRO 4000 Blackwell Generation | 16 GB | XL-Modelle | 12K | Pro | 1440p | Student / Pro | 2x 9. Gen. \nNVIDIA RTX PRO 5000 Blackwell Generation  | 24 GB | XL-Modelle | 12K | Pro | 1440p | Student / Pro | 3x 9. Gen. \n\nRaytracing-Kerne: für präzise Beleuchtung, Schatten, Reflexionen und Rendering mit höherer Qualität in kürzerer Zeit.\nKI- und Tensor-Kerne: für beschleunigte KI-Vorgänge wie Umstellung auf höhere Auflösung, Fotooptimierung, Farbabstimmung, Face Tagging und Style-Transfer.\nFortschrittliche Multi-App-Workflows: für anspruchsvolle Workflows mit mehreren Kreativ-Apps, von denen jede einzelne eigene dedizierte Systemressourcen erfordert.\nSoftware-Zertifizierung: Software-Anbieter, die Kreativ-Apps entwickeln und testen sowie spezifische Hardware zertifizieren für einen optimalen und einheitlichen Betrieb.\nUnternehmenssupport: spezielle Funktionen und Unterstützung für Unternehmen.\nGrafikspeicher: schneller Arbeitsspeicher für grafikintensive Aufgaben. Mehr Grafikspeicher bedeutet, dass größere, komplexere Aufgaben vom Grafikprozessor ausgeführt werden können.\n\n## Desktop-PCs\n\n## Grafikprozessor\n\nGrafik\nArbeitsspeicher\n\n3D-Animation/\nGrafikanimation\n\nVideo\nBearbeitung/Schnitt\n\nFotografie/\nGrafikdesign\n\nBroadcasting\n\nGaming\n\nSTEM\n\nRaytracing\nRecheneinheiten\n\nKI- und Tensor-\nKerne\n\nEncoder\n\nErweitert\nMulti-App-Arbeit\n\nSoftware\nZertifizierung\n\nEnterprise\nSupport\n\n---|---|---|---|---|---|---|---|---|---|---|---|---|---\n\n## Creative Dabbler\n\nNVIDIA RTX A1000 | 8 GB | Kleine Modelle | 6K | 1080p | 1080p | Student / Pro | 1x 7. Gen. \n\n## Creative Maestro\n\nGeForce RTX 5050 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9. Gen. \nGeForce RTX 5060 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9. Gen. \nGeForce RTX 5060 Ti | 8 GB | Medium-Modelle | 6K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5060 Ti | 16 GB | XL-Modelle | 12K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5070 | 12 GB | Large-Modelle  | 8K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5070 Ti | 16 GB | XL-Modelle | 12K | 4K | 4K | Student | 2x 9. Gen. \nNVIDIA RTX PRO 2000 Blackwell | 16 GB | XL Models | 12K | Pro | 4K | Student / Pro | 1x 9th Gen \nNVIDIA RTX PRO 4000 Blackwell SFF Edition | 24 GB | XL Models | 12K | Pro | 4K | Student / Pro | 2x 9th Gen \nNVIDIA RTX PRO 4000 Blackwell | 24 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 2x 9. Gen. \nNVIDIA RTX PRO 4500 Blackwell | 32 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 2x 9. Gen. \n\n## Creative Powerhouse\n\nGeForce RTX 5080 | 16 GB | XL-Modelle | 12K | 4K | 4K | Student | 2x 9. Gen. \nGeForce RTX 5090 | 32 GB | XL-Modelle | 12K | 4K | 4K | Student | 3x 9. Gen. \nNVIDIA RTX PRO 5000 Blackwell | 48 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 3x 9. Gen. \nNVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition | 96 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 4x 9. Gen. \nNVIDIA RTX PRO 6000 Blackwell Workstation Edition | 96 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 4x 9. Gen. \n\n## Grafikprozessor\n\nGrafik\nArbeitsspeicher\n\n3D-Animation/\nGrafikanimation\n\nVideo\nBearbeitung/Schnitt\n\nFotografie/\nGrafikdesign\n\nBroadcasting\n\nGaming\n\nSTEM\n\nRaytracing\nRecheneinheiten\n\nKI- und Tensor-\nKerne\n\nEncoder\n\nErweitert\nMulti-App-Arbeit\n\nSoftware\nZertifizierung\n\nEnterprise\nSupport\n\n---|---|---|---|---|---|---|---|---|---|---|---|---|---\n\n## Creative Dabbler\n\nNVIDIA RTX A1000 | 8 GB | Kleine Modelle | 6K | 1080p | 1080p | Student / Pro | 1x 7. Gen. \n\n## Creative Maestro\n\nGeForce RTX 5050 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9. Gen. \nGeForce RTX 5060 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9. Gen. \nGeForce RTX 5060 Ti | 8 GB | Medium-Modelle | 6K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5060 Ti | 16 GB | XL-Modelle | 12K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5070 | 12 GB | Large-Modelle  | 8K | 1440p | 1440p | Student | 1x 9. Gen. \nGeForce RTX 5070 Ti | 16 GB | XL-Modelle | 12K | 4K | 4K | Student | 2x 9. Gen. \nNVIDIA RTX PRO 2000 Blackwell | 16 GB | XL Models | 12K | Pro | 4K | Student / Pro | 1x 9th Gen \nNVIDIA RTX PRO 4000 Blackwell SFF Edition | 24 GB | XL Models | 12K | Pro | 4K | Student / Pro | 2x 9th Gen \nNVIDIA RTX PRO 4000 Blackwell | 24 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 2x 9. Gen. \nNVIDIA RTX PRO 4500 Blackwell | 32 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 2x 9. Gen. \n\n## Creative Powerhouse\n\nGeForce RTX 5080 | 16 GB | XL-Modelle | 12K | 4K | 4K | Student | 2x 9. Gen. \nGeForce RTX 5090 | 32 GB | XL-Modelle | 12K | 4K | 4K | Student | 3x 9. Gen. \nNVIDIA RTX PRO 5000 Blackwell | 48 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 3x 9. Gen. \nNVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition | 96 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 4x 9. Gen. \nNVIDIA RTX PRO 6000 Blackwell Workstation Edition | 96 GB | XL-Modelle | 12K | Pro | 4K | Student / Pro | 4x 9. Gen. \n\nRaytracing-Kerne: für präzise Beleuchtung, Schatten, Reflexionen und Rendering mit höherer Qualität in kürzerer Zeit.\nKI- und Tensor-Kerne: für beschleunigte KI-Vorgänge wie Umstellung auf höhere Auflösung, Fotooptimierung, Farbabstimmung, Face Tagging und Style-Transfer.\nFortschrittliche Multi-App-Workflows: für anspruchsvolle Workflows mit mehreren Kreativ-Apps, von denen jede einzelne eigene dedizierte Systemressourcen erfordert.\nSoftware-Zertifizierung: Software-Anbieter, die Kreativ-Apps entwickeln und testen sowie spezifische Hardware zertifizieren für einen optimalen und einheitlichen Betrieb.\nUnternehmenssupport: spezielle Funktionen und Unterstützung für Unternehmen.\nGrafikspeicher: schneller Arbeitsspeicher für grafikintensive Aufgaben. Mehr Grafikspeicher bedeutet, dass größere, komplexere Aufgaben vom Grafikprozessor ausgeführt werden können.\n\n## Für Den Neuesten Newsletter Von NVIDIA Studio Anmelden\n\nGrafikdesign, Fotografie, Videobearbeitung, 3D und vieles mehr.\n\nWelcome back. Not you? Abmelden\n\nWelcome back. Not you? Clear form\n\nMelde dich an, um Tutorials zu kreativen Apps und Neuigkeiten zu den neuesten NVIDIA Studio-Produkten zu erhalten und damit deiner kreativen Arbeit einen Schub zu verleihen. Eine Abmeldung ist jederzeit möglich.\n\nLocation\n\nDeutsch\n\n- Bevorzugte Sprache\n- Chinesisch (vereinfacht)\n- Chinesisch (traditionell)\n- Tschechisch\n- Dänisch\n- Niederländisch\n- English (Australia)\n- Englisch (GB)\n- English (India)\n- English (Malaysia)\n- English (Philippines)\n- Englisch (Singapur)\n- Englisch (US)\n- Finnisch\n- Französisch\n- French (Belgium)\n- Deutsch\n- German (Austria)\n- Indonesisch\n- Italienisch\n- Japanisch\n- Koreanisch\n- Netherlands (Belgium)\n- Norwegisch\n- Polnisch\n- Portugiesisch (Brazil)\n- Spanish (Latin America)\n- Spanish (Spain)\n- Schwedisch\n- Thai\n- Türkisch\n- Vietnamesisch\n\nBundesland/Kanton",
+          "summary": "## Creative Maestro\n\nGeForce RTX 5060 | 8 GB | Medium-Modelle | 6K | 1080p | 1080p | Student | 1x 9."
+        }
+      ],
+      "durationMs": 352
+    },
+    {
+      "endpoint": "https://api.deepseek.com/v1/tools/fetch",
+      "payload": {
+        "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/67fe58ae3d63325f115ecd52/"
+      },
+      "status": 404,
+      "durationMs": 1695
+    }
+  ]
+}

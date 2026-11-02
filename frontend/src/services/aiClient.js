@@ -1,0 +1,15 @@
+const messages={AI_UNREACHABLE:'暂时无法连接本地AI服务，离线推荐仍可正常使用。',CLIENT_TIMEOUT:'等待AI响应超时，请稍后手动重试。',INVALID_RESPONSE:'AI服务返回内容异常，请稍后重试。'};
+function bounded(promise,signal){if(signal.aborted){Promise.resolve(promise).catch(()=>{});return Promise.reject(signal.reason);}return new Promise((resolve,reject)=>{const stop=()=>reject(signal.reason);signal.addEventListener('abort',stop,{once:true});Promise.resolve(promise).then(resolve,reject).finally(()=>signal.removeEventListener('abort',stop));});}
+export async function requestAi(payload,{signal,fetchImpl=fetch,timeoutMs=95000}={}){
+ const timeout=AbortSignal.timeout(timeoutMs),combined=signal?AbortSignal.any([signal,timeout]):timeout;
+ try{
+  combined.throwIfAborted();const response=await bounded(fetchImpl('/api/ai/analyze',{method:'POST',headers:{'Content-Type':'application/json','X-NotePick-Request':'1'},body:JSON.stringify(payload),signal:combined}),combined);
+  let data;try{data=await bounded(response.json(),combined);}catch(e){if(combined.aborted)throw e;throw Object.assign(new Error(messages.AI_UNREACHABLE),{code:'AI_UNREACHABLE'});}
+  if(!response.ok)throw Object.assign(new Error(data.error?.message??messages.AI_UNREACHABLE),{code:data.error?.code??'AI_UNREACHABLE',requestId:data.requestId,stage:data.error?.stage,httpStatus:response.status,validationReason:data.error?.validationReason,canUseLocal:data.error?.canUseLocal===true});
+  const a=data?.answer,initial=!payload.conversationId;
+  const shape=a?.format==='hardware-markdown-v1'?typeof a.markdown==='string'&&!!a.markdown.trim()&&JSON.stringify(a.productIds)===JSON.stringify(payload.productIds):initial?a&&typeof a.needs==='string'&&typeof a.choice==='string'&&Array.isArray(a.checks)&&a.checks.every(s=>typeof s==='string')&&Array.isArray(a.products)&&a.products.length===payload.productIds.length&&a.products.every((p,i)=>p.id===payload.productIds[i]&&typeof p.meaning==='string'&&typeof p.tradeoff==='string'&&Array.isArray(p.cautions)&&p.cautions.every(s=>typeof s==='string')):a&&typeof a.answer==='string';
+  const d=a?.decision;const decisionValid=d===undefined||d&&d.productId===payload.targetProductId&&typeof d.conclusion==='string'&&typeof d.advice==='string'&&Array.isArray(d.reasons)&&d.reasons.every(s=>typeof s==='string')&&Array.isArray(d.tradeoffs)&&d.tradeoffs.every(s=>typeof s==='string');
+  if(!decisionValid||!/^[a-f0-9]{64}$/.test(data?.conversationId??'')||!shape||data.kind!==(initial?'analysis':'followup')||!Number.isInteger(data.remainingFollowups)||data.remainingFollowups<0||data.remainingFollowups>4||JSON.stringify(data.productIds)!==JSON.stringify(payload.productIds))throw Object.assign(new Error(messages.INVALID_RESPONSE),{code:'INVALID_RESPONSE'});
+  return data;
+ }catch(e){if(timeout.aborted)throw Object.assign(new Error(messages.CLIENT_TIMEOUT),{code:'CLIENT_TIMEOUT'});if(signal?.aborted)throw Object.assign(new Error('已取消等待。'),{name:'AbortError'});if(typeof e.code==='string')throw e;throw Object.assign(new Error(timeout.aborted?messages.CLIENT_TIMEOUT:messages.AI_UNREACHABLE),{code:timeout.aborted?'CLIENT_TIMEOUT':'AI_UNREACHABLE'});}
+}

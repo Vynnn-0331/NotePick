@@ -1,0 +1,67 @@
+{
+  "kind": "prices",
+  "productId": "np-413c27d11a0df17c7146",
+  "queriedAt": "2026-10-30T08:35:05.892Z",
+  "quotes": [
+    {
+      "brand": "机械革命",
+      "name": "星耀 14高颜值轻薄本",
+      "cpu": "AI 9 H 365",
+      "gpu": "AMD核显",
+      "gpuType": "集成显卡",
+      "ramGb": 32,
+      "ssdGb": 1024,
+      "weightKg": null,
+      "os": "Windows",
+      "price": 6999,
+      "priceEvidence": "官方公开SKU P2529DCE726AA14C0EBB750352ADCA325D price=6999；stock=2",
+      "priceType": "listed",
+      "multipleConfigurations": false,
+      "priceIssue": null,
+      "sourceUrl": "https://mall.mechrevo.com/products/101",
+      "sourceTitle": "星耀 14高颜值轻薄本",
+      "queriedAt": "2026-10-30T08:35:06.081Z",
+      "excerpt": "星耀 14高颜值轻薄本\nAI 9 H 365/32/1TB/2.8K OLED/FP/白\n型号：机械革命星耀\n认证型号：机械革命星耀\n能效网规格型号：机械革命 星耀14-9CC4U\n最大支持容量：32GB\n内存频率：暂无\n显示端口：HDMI 2.1接口\nUSB-C接口数量：2个\n雷电/USB4接口：暂无\nUSB-A接口数：2个\n键盘：单色背光键盘\n摄像头类型：高清摄像头\n暂无：暂无\n蓝牙连接：支持蓝牙\n无线网卡：双天线Wi-Fi 6\n暂无：暂无\n屏幕尺寸：14英寸\n屏幕分辨率：2560*1600\n屏幕刷新率：120Hz\n屏幕类型：OLED\n屏幕色域：100%sRGB\n硬盘容量：1TB\n扩展性：硬盘扩展\n处理器(CPU)：锐龙AI300系列\n屏幕比例：16:10\n系统：Windows 11\n机身材质：金属+复合材质\n内存容量：32GB\n颜色：白色\n能效等级：一级能效\n显卡：AMD核显\n销售价：6999元",
+      "category": "laptop",
+      "image": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/466624a30fc147a982978e3957706b681787481558252.jpg",
+      "skuCode": "P2529DCE726AA14C0EBB750352ADCA325D",
+      "stock": 2,
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/101",
+      "nationalSubsidyEligible": true,
+      "id": "c4f999ac9fee1215",
+      "platform": "机械革命官网",
+      "match": {
+        "checks": {
+          "brand": true,
+          "model": true,
+          "cpu": true,
+          "gpu": true,
+          "ram": true,
+          "ssd": true
+        },
+        "comparable": true,
+        "status": "配置匹配",
+        "scope": "series",
+        "reason": "已核对数据库中已知的品牌、机型、CPU/GPU类别及容量；购买前仍核对订单SKU"
+      },
+      "eligibility": {
+        "status": "pending",
+        "evidence": [
+          "https://mall.mechrevo.com/portal-api/product/detail/101"
+        ],
+        "reason": "能效、参与商家、杭州活动及个人资格需确认"
+      },
+      "conditions": "网页可见报价，优惠与库存以订单页为准"
+    }
+  ],
+  "lowestComparablePrice": null,
+  "failures": [
+    "搜索或读取失败",
+    "搜索或读取失败"
+  ],
+  "counts": {
+    "search": 2,
+    "fetch": 0
+  },
+  "notice": "只比较匹配配置的可读报价；不代表实时成交或国补资格"
+}

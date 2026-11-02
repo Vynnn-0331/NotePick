@@ -1,0 +1,39 @@
+{
+  "sources": {
+    "photoshop": {
+      "title": "Adobe Photoshop desktop technical requirements",
+      "url": "https://helpx.adobe.com/photoshop/desktop/get-started/technical-requirements-installation/adobe-photoshop-on-desktop-technical-requirements.html",
+      "checkedAt": "2026-10-29",
+      "locator": "27.x RAM recommended / storage",
+      "facts": "Windows与macOS建议16GB或更多内存；建议空闲磁盘空间100GB。不是本项目512GB总容量的官方最低要求。"
+    },
+    "premiere": {
+      "title": "Adobe Premiere technical requirements",
+      "url": "https://helpx.adobe.com/premiere/desktop/get-started/technical-requirements/adobe-premiere-pro-technical-requirements.html",
+      "checkedAt": "2026-10-29",
+      "locator": "26.x Windows memory / macOS memory / GPU",
+      "facts": "Windows建议HD16GB、4K及更高32GB或更多；Apple Silicon建议16GB统一内存。需要分别核验GPU显存与软件加速。"
+    },
+    "pytorch": {
+      "title": "PyTorch Get Started Locally",
+      "url": "https://pytorch.org/get-started/locally/",
+      "checkedAt": "2026-10-29",
+      "locator": "With CUDA / With ROCm / Verification",
+      "facts": "GPU后端须符合具体CUDA/ROCm能力和安装条件，并用运行环境核验；不能凭显卡类别保证模型可运行。"
+    },
+    "mps": {
+      "title": "PyTorch 2.14 MPS backend",
+      "url": "https://docs.pytorch.org/docs/2.14/notes/mps.html",
+      "checkedAt": "2026-10-29",
+      "locator": "MPS availability / macOS version / enabled device",
+      "facts": "MPS依赖启用该后端的构建、macOS版本与可用设备。不能把Apple统一内存容量当作独显专用显存。"
+    }
+  },
+  "planningPolicy": "16/32GB、512/1024GB是面向所选任务的有限规划参考，不是普遍最低要求；未选择的软件、任务规模、SSD剩余空间、显存与后端仍未知；不追加硬过滤。",
+  "pending": [
+    {
+      "url": "https://www.blender.org/download/requirements/",
+      "status": "402 access failure; not treated as verified; modeling RAM32 is project planning reference"
+    }
+  ]
+}

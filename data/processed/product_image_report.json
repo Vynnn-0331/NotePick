@@ -1,0 +1,772 @@
+{
+  "total": 78,
+  "matched": 9,
+  "unmatched": 69,
+  "mode": "official external URLs; no binary redistribution",
+  "records": {
+    "np-821de32e4bdd2ada742c": {
+      "productId": "np-821de32e4bdd2ada742c",
+      "model": "MacBook Air 13英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-e33a73323a54ac6711ee": {
+      "productId": "np-e33a73323a54ac6711ee",
+      "model": "MacBook Air 13英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-f4c1ee85188ec90baf1e": {
+      "productId": "np-f4c1ee85188ec90baf1e",
+      "model": "MacBook Air 13英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-4fd99de1823c181fcdce": {
+      "productId": "np-4fd99de1823c181fcdce",
+      "model": "MacBook Air 15英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-d2535e3311d688e48e40": {
+      "productId": "np-d2535e3311d688e48e40",
+      "model": "MacBook Air 15英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-7352ceda9ac3465452e3": {
+      "productId": "np-7352ceda9ac3465452e3",
+      "model": "MacBook Air 15英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-526eb2abeaf716bae560": {
+      "productId": "np-526eb2abeaf716bae560",
+      "model": "MacBook Air 15英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-7d2080c7744b051063f3": {
+      "productId": "np-7d2080c7744b051063f3",
+      "model": "MacBook Air 13英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-d0e1ba60a922d9c18614": {
+      "productId": "np-d0e1ba60a922d9c18614",
+      "model": "MacBook Air 13英寸 (M5)",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-c69717951e2fb376a117": {
+      "productId": "np-c69717951e2fb376a117",
+      "model": "MacBook Neo",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-95eb7db0f6efc8f033ed": {
+      "productId": "np-95eb7db0f6efc8f033ed",
+      "model": "MacBook Neo",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-899d475a72ffb8a996fa": {
+      "productId": "np-899d475a72ffb8a996fa",
+      "model": "MacBook Pro 14英寸（M6）",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-151ad5be2205fbe7dbdf": {
+      "productId": "np-151ad5be2205fbe7dbdf",
+      "model": "MacBook Pro 14英寸（M6）",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-be4d94c12a1eb6f88647": {
+      "productId": "np-be4d94c12a1eb6f88647",
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-4ebeb761e90f948e9fcf": {
+      "productId": "np-4ebeb761e90f948e9fcf",
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-08c2daecd6ee8dc6a5b8": {
+      "productId": "np-08c2daecd6ee8dc6a5b8",
+      "model": "MacBook Pro 14英寸（M5 Max）",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-d3e1e31773cf48110768": {
+      "productId": "np-d3e1e31773cf48110768",
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-c4220c0135ddfa2bb409": {
+      "productId": "np-c4220c0135ddfa2bb409",
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-c52208f4c76c092d9074": {
+      "productId": "np-c52208f4c76c092d9074",
+      "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-c2382313968cb80e850c": {
+      "productId": "np-c2382313968cb80e850c",
+      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-34bc20704c65751cacbe": {
+      "productId": "np-34bc20704c65751cacbe",
+      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-0ab4acffee16d2861b53": {
+      "productId": "np-0ab4acffee16d2861b53",
+      "model": "小新Pro 16英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-64f4c6c4151cb692c493": {
+      "productId": "np-64f4c6c4151cb692c493",
+      "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-98a879d503c2ee705543": {
+      "productId": "np-98a879d503c2ee705543",
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-76ec5b7767d02d3791e4": {
+      "productId": "np-76ec5b7767d02d3791e4",
+      "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-c621bace4974a1e6ed5d": {
+      "productId": "np-c621bace4974a1e6ed5d",
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-df72b0734f62fba28a26": {
+      "productId": "np-df72b0734f62fba28a26",
+      "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-beea8ad82fe3a0577ae4": {
+      "productId": "np-beea8ad82fe3a0577ae4",
+      "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-35041149e93a8cac19f0": {
+      "productId": "np-35041149e93a8cac19f0",
+      "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-5a16d391c12872a7ebb2": {
+      "productId": "np-5a16d391c12872a7ebb2",
+      "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-cef7acfb325f51bb6719": {
+      "productId": "np-cef7acfb325f51bb6719",
+      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-8381329b5f5bb128230b": {
+      "productId": "np-8381329b5f5bb128230b",
+      "model": "华硕无双Pro16 英特尔酷睿5 RTX独显16英寸高刷护眼屏轻薄笔记本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42284282751712",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-a33093ee7a654bfc61b6": {
+      "productId": "np-a33093ee7a654bfc61b6",
+      "model": "无畏16SE 2026 第3代酷睿AI超轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42283657465798",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-599b48414149c64c289e": {
+      "productId": "np-599b48414149c64c289e",
+      "model": "无畏16 酷睿版 2026 第3代Ultra5 AI超轻薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42281857970485",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-75cf0011539381e70916": {
+      "productId": "np-75cf0011539381e70916",
+      "model": "无畏Pro16 酷睿X7 AI轻薄本笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42268820524484",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-58030f969a49c68c4ce8": {
+      "productId": "np-58030f969a49c68c4ce8",
+      "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42279183209029",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-bffbd2f59ef537c7450a": {
+      "productId": "np-bffbd2f59ef537c7450a",
+      "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42279179560960",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-1d12de8f38fb438b7a8d": {
+      "productId": "np-1d12de8f38fb438b7a8d",
+      "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42268533436855",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-3590e4add87336a2525a": {
+      "productId": "np-3590e4add87336a2525a",
+      "model": "天选6 Pro 锐龙版 16英寸电竞游戏本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42288938834326",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-7565dde1ec13a38ceadb": {
+      "productId": "np-7565dde1ec13a38ceadb",
+      "model": "天选7 Pro 酷睿版 16英寸电竞游戏本笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42278593801373",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-73cca426fb1187b7bc73": {
+      "productId": "np-73cca426fb1187b7bc73",
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42288507361107",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-8142239a836fb8c83da7": {
+      "productId": "np-8142239a836fb8c83da7",
+      "model": "华硕a豆14 Air 2026 高性能AI超轻薄旗舰笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42268903126989",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-604a8ba4b571b4c0f23f": {
+      "productId": "np-604a8ba4b571b4c0f23f",
+      "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-589358c4159defd0a248": {
+      "productId": "np-589358c4159defd0a248",
+      "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-e59d270febadb8180cb5": {
+      "productId": "np-e59d270febadb8180cb5",
+      "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://store.asus.com.cn/store/goods/detail?productId=42288259904810",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-8cdaaba579d0f7b3dbbd": {
+      "productId": "np-8cdaaba579d0f7b3dbbd",
+      "model": "惠普 (HP) 星Book Ultra 14英寸 AI 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/book-ultra-ai-14-kd0266tu-d5ek1pa.html?facetref=99c019e18b07ea86",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-7a935669073161c610e3": {
+      "productId": "np-7a935669073161c610e3",
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/laptops-tablets/personal-laptops/omnibook-x-laptops.html",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-eb16f7e0476751f71a5e": {
+      "productId": "np-eb16f7e0476751f71a5e",
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/book-x-flip-ai-14-kc0003au-d48tnpa.html?facetref=4245cb6bb7d6af73",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-87938df60e2c37387209": {
+      "productId": "np-87938df60e2c37387209",
+      "model": "惠普 (HP) 星Book 16英寸 AI 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/book-3-laptop-16-bw0272au-d42cbpa.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-8a2fb115ec6457b33df0": {
+      "productId": "np-8a2fb115ec6457b33df0",
+      "model": "惠普 (HP) 星Book Air 14英寸 AI 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/book-5-ai-14-mh0903tu-e7td3pa.html#overview",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-0e287e2ffa259909da00": {
+      "productId": "np-0e287e2ffa259909da00",
+      "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-omnibook-7-laptop-ai-14-ku0023tu-dk8g8pa.html#overview",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-18dd17d38c58f7ce6139": {
+      "productId": "np-18dd17d38c58f7ce6139",
+      "model": "惠普 (HP) 星Book Pro 14英寸 AI 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-omnibook-7-14-inch-laptop-ai-pc-ai-kk0045au-d9ty6pa.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-f6618cb4586314bdef52": {
+      "productId": "np-f6618cb4586314bdef52",
+      "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/book-7-ai-16-bh0091tu-d3rf1pa.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-9627debb5ff38348e48d": {
+      "productId": "np-9627debb5ff38348e48d",
+      "model": "惠普 (HP)锐14 14英寸商务笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-245-14-inch-notebook-pc-7y0y4pc.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-e2c06d6ebd1eee4db546": {
+      "productId": "np-e2c06d6ebd1eee4db546",
+      "model": "惠普 (HP) 战66 八代 16英寸商务笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-probook-4-g1ah-16-inch-notebook-pc-d89wspc.html?facetref=0c71cc2bae1268c9#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-21476c11b3b753efac3b": {
+      "productId": "np-21476c11b3b753efac3b",
+      "model": "惠普 (HP) 战66 14英寸商务笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-probook-4-g2i-14-inch-notebook-next-gen-ai-pc-d73l3pc.html#overview",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-3e202a2ef2c64b505f78": {
+      "productId": "np-3e202a2ef2c64b505f78",
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-omen-16-inch-gaming-laptop-ap1025ax-dc0f0pa.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-1d4badb1994428b8016f": {
+      "productId": "np-1d4badb1994428b8016f",
+      "model": "惠普 (HP) HyperX 暗影精灵 PRO 16英寸游戏笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hyperx-omen-16-inch-16-am2129tx-dp3v8pa.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-b0385cb9591ca8e41e06": {
+      "productId": "np-b0385cb9591ca8e41e06",
+      "model": "惠普(HP) 战X 16英寸商务笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.hpstore.cn/hp-elitebook-8-g1i-16-inch-notebook-ai-pc-d8jt5pc.html#specs",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-39421d33535071ba08a7": {
+      "productId": "np-39421d33535071ba08a7",
+      "model": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://item.vmall.com/product/comdetail/index.html?prdId=10086172100021&sbomCode=2801010203301",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-29b14525020adba21c41": {
+      "productId": "np-29b14525020adba21c41",
+      "model": "Hi MateBook 14 锐龙版 24GB 1TB",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://item.vmall.com/product/comdetail/index.html?prdId=10086362428905&sbomCode=2801010192808",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-967b2e6eca8c5d9c93f5": {
+      "productId": "np-967b2e6eca8c5d9c93f5",
+      "model": "Hi MateBook D 14 Core 7 240H 16GB 1TB 深空灰 V2.0",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://item.vmall.com/product/comdetail/index.html?prdId=10086926626938&sbomCode=2801010186909",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-61bc2c438fe8eff0d49d": {
+      "productId": "np-61bc2c438fe8eff0d49d",
+      "model": "Hi MateBook D 14 锐龙版 16GB 512GB 极夜灰",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://item.vmall.com/product/comdetail/index.html?prdId=10086533402947&sbomCode=2801010203402",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-f45e1beec3054f8940a3": {
+      "productId": "np-f45e1beec3054f8940a3",
+      "model": "Dell 14S 笔记本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell14sds14270",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-8afd305c5a066905cd94": {
+      "productId": "np-8afd305c5a066905cd94",
+      "model": "Dell 16S 笔记本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell16sds16260",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-465708bf7417b7554904": {
+      "productId": "np-465708bf7417b7554904",
+      "model": "Dell 14 笔记本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell14d14261",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-56102a8b7bf6c7f5b2e9": {
+      "productId": "np-56102a8b7bf6c7f5b2e9",
+      "model": "Dell 15 笔记本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/dell15d15266",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-7a50b813cbde6a77dfc1": {
+      "productId": "np-7a50b813cbde6a77dfc1",
+      "model": "XPS 13 笔记本电脑",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/xps13dx13260/dx13260_reg_03?view=configurations",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-3624f9018abd6ce52c0a": {
+      "productId": "np-3624f9018abd6ce52c0a",
+      "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+      "status": "unmatched",
+      "url": null,
+      "sourceUrl": "https://www.dell.com/zh-cn/shop/laptop-computers/spd/alienware18area51aa18250/aa18250_reg_01?view=configurations",
+      "reason": "尚未确认同型号/年份的图片及适用使用范围"
+    },
+    "np-940310f173ec86e6650b": {
+      "productId": "np-940310f173ec86e6650b",
+      "model": "耀世 16 Ultra旗舰游戏本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/8b127811604545c98e85ae24c89320bb1788212009036.png",
+      "sourceUrl": "https://mall.mechrevo.com/products/89",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/89",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-c413653373ddd512ed37": {
+      "productId": "np-c413653373ddd512ed37",
+      "model": "耀世 15 Air轻薄游戏本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c60185d479ae4588bf525e5bae7a79001787476780919.png",
+      "sourceUrl": "https://mall.mechrevo.com/products/90",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/90",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-673622640e5e11f3f23a": {
+      "productId": "np-673622640e5e11f3f23a",
+      "model": "耀世 18 Pro高端大屏游戏本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/d2cf1485f85c4f12835bd17be31c73f71788210437356.jpg",
+      "sourceUrl": "https://mall.mechrevo.com/products/87",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/87",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-f0b4096e75cef9b6d242": {
+      "productId": "np-f0b4096e75cef9b6d242",
+      "model": "无界 14 SE双通道轻薄本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/a3256814647f4e8b87de1d1fce469a221787106272723.jpg",
+      "sourceUrl": "https://mall.mechrevo.com/products/106",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/106",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-828ebbc340c18ec14814": {
+      "productId": "np-828ebbc340c18ec14814",
+      "model": "无界 14高性能轻薄本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260825/95244b7a2f9f49d7a112dec8b07e7e831787621054764.jpg",
+      "sourceUrl": "https://mall.mechrevo.com/products/105",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/105",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-8baa60b1844621f0ab04": {
+      "productId": "np-8baa60b1844621f0ab04",
+      "model": "苍龙 16 Ultra旗舰游戏本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260825/258222f0f1a740f3b01dd60dd7352f6e1787655052251.png",
+      "sourceUrl": "https://mall.mechrevo.com/products/95",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/95",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-2f271b787d9913fbf15d": {
+      "productId": "np-2f271b787d9913fbf15d",
+      "model": "苍龙 18 Pro高端大屏游戏本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png",
+      "sourceUrl": "https://mall.mechrevo.com/products/94",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/94",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-413c27d11a0df17c7146": {
+      "productId": "np-413c27d11a0df17c7146",
+      "model": "星耀 14高颜值轻薄本",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/466624a30fc147a982978e3957706b681787481558252.jpg",
+      "sourceUrl": "https://mall.mechrevo.com/products/101",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/101",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    },
+    "np-973d6098654f5dd40963": {
+      "productId": "np-973d6098654f5dd40963",
+      "model": "恒悦E14G2",
+      "status": "official_external",
+      "url": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261027/7006b7eff84745659d5998f5d456597b1793068140414.png",
+      "sourceUrl": "https://mall.mechrevo.com/products/142",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/142",
+      "queriedAt": "2026-10-30T08:16:29.860Z",
+      "attribution": "©机械革命",
+      "usage": "仅个人非商业本机课程信息展示；外链不附图片文件，不授予商业/公开部署或素材再分发许可",
+      "rightsSource": "https://mall.mechrevo.com/footer/legal_terms",
+      "match": "官网product ID及完整机型名一致；同机身不同配置可共享外观图"
+    }
+  },
+  "evidence": [
+    {
+      "id": "np-940310f173ec86e6650b",
+      "sourceUrl": "https://mall.mechrevo.com/products/89",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/89",
+      "name": "耀世 16 Ultra旗舰游戏本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/8b127811604545c98e85ae24c89320bb1788212009036.png",
+      "skuCodes": [
+        "P2979B0384C898442094923469DEADFB11"
+      ]
+    },
+    {
+      "id": "np-c413653373ddd512ed37",
+      "sourceUrl": "https://mall.mechrevo.com/products/90",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/90",
+      "name": "耀世 15 Air轻薄游戏本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c60185d479ae4588bf525e5bae7a79001787476780919.png",
+      "skuCodes": [
+        "P2F4D94016E69346BB9FF3D8F12A22FCAA",
+        "P2D0506449B2464EB2883A33AF8DA9048D"
+      ]
+    },
+    {
+      "id": "np-673622640e5e11f3f23a",
+      "sourceUrl": "https://mall.mechrevo.com/products/87",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/87",
+      "name": "耀世 18 Pro高端大屏游戏本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/d2cf1485f85c4f12835bd17be31c73f71788210437356.jpg",
+      "skuCodes": [
+        "P2912BFF9CD3004019AE7F3B1DF1A97E02"
+      ]
+    },
+    {
+      "id": "np-f0b4096e75cef9b6d242",
+      "sourceUrl": "https://mall.mechrevo.com/products/106",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/106",
+      "name": "无界 14 SE双通道轻薄本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/a3256814647f4e8b87de1d1fce469a221787106272723.jpg",
+      "skuCodes": [
+        "P26E7C599F0E2E4EBEB9F28D9ABCF1B780"
+      ]
+    },
+    {
+      "id": "np-828ebbc340c18ec14814",
+      "sourceUrl": "https://mall.mechrevo.com/products/105",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/105",
+      "name": "无界 14高性能轻薄本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260825/95244b7a2f9f49d7a112dec8b07e7e831787621054764.jpg",
+      "skuCodes": [
+        "P218D5A71E263741719714A933F0685F58"
+      ]
+    },
+    {
+      "id": "np-8baa60b1844621f0ab04",
+      "sourceUrl": "https://mall.mechrevo.com/products/95",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/95",
+      "name": "苍龙 16 Ultra旗舰游戏本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260825/258222f0f1a740f3b01dd60dd7352f6e1787655052251.png",
+      "skuCodes": [
+        "P2CAB547B7FB944FE5B864126F43BE8B69",
+        "P212E14AEE7A1C41A7AE4E32705BBF0570"
+      ]
+    },
+    {
+      "id": "np-2f271b787d9913fbf15d",
+      "sourceUrl": "https://mall.mechrevo.com/products/94",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/94",
+      "name": "苍龙 18 Pro高端大屏游戏本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png",
+      "skuCodes": [
+        "P2E162DA1E269342BCB5AA0018507BF443"
+      ]
+    },
+    {
+      "id": "np-413c27d11a0df17c7146",
+      "sourceUrl": "https://mall.mechrevo.com/products/101",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/101",
+      "name": "星耀 14高颜值轻薄本",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/466624a30fc147a982978e3957706b681787481558252.jpg",
+      "skuCodes": [
+        "P2529DCE726AA14C0EBB750352ADCA325D"
+      ]
+    },
+    {
+      "id": "np-973d6098654f5dd40963",
+      "sourceUrl": "https://mall.mechrevo.com/products/142",
+      "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/142",
+      "name": "恒悦E14G2",
+      "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261027/7006b7eff84745659d5998f5d456597b1793068140414.png",
+      "skuCodes": [
+        "P26D177952E9E4473CAAEED476BE204429",
+        "P29BA1A580F24F4F8DAFA50BFE472F113B"
+      ]
+    }
+  ]
+}

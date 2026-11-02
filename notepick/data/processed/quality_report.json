@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-10-27T23:25:54+08:00",
+  "schema_fields": 40,
+  "template_matches": true,
+  "records": 1,
+  "brands": 1,
+  "sku_records": 1,
+  "priced_records": 0,
+  "price_completeness": 0,
+  "pending_review": 1,
+  "human_verified": 0,
+  "missing_rates": {
+    "brand": 0.0,
+    "model": 0.0,
+    "model_code": 0.0,
+    "cpu_model": 0.0,
+    "gpu_model": 1.0,
+    "ram_gb": 0.0,
+    "ssd_gb": 0.0,
+    "spec_url": 0.0
+  },
+  "configuration_price_validation_passed": false,
+  "same_model_multiple_configurations_validated": false,
+  "errors": [],
+  "limitation": "仅一个真实配置的离线解析通过，价格匹配和同型号多配置验证未通过；不进入批量阶段。"
+}

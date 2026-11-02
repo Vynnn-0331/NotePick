@@ -1,0 +1,17 @@
+[
+  {
+    "brand": "ASUS",
+    "series": "华硕无畏14 2026",
+    "model": "华硕无畏14 2026 (S3450AA)",
+    "model_code": "S3450AA",
+    "record_level": "series",
+    "cpu_brand": "Intel",
+    "cpu_model": "英特尔 酷睿 Ultra 5 325",
+    "gpu_model": "Intel Graphics",
+    "spec_url": "https://www.asus.com.cn/laptops/for-home/vivobook/asus-vivobook-s14-s3450/techspec/",
+    "collected_at": "2026-10-28T10:04:38+08:00",
+    "collection_method": "crawler",
+    "verification_status": "待核实",
+    "notes": "通过浏览工具读取官方规格页的选摘；采集时间为本轮资料整理时工具确认的时间。处理器、屏幕、内存标注视出货而定；存在16GB与32GB内存选项，不拆分为销售SKU，不填写售价。非人工核实记录。"
+  }
+]

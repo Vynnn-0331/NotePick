@@ -1,0 +1,625 @@
+{
+  "responses": [
+    {
+      "url": "https://mall.mechrevo.com/products/94/_payload.json?c69ad6a2-4100-466e-ba4d-65de26357af0",
+      "data": [
+        {
+          "data": 1,
+          "prerenderedAt": -1
+        },
+        [
+          "ShallowReactive",
+          2
+        ],
+        {}
+      ]
+    },
+    {
+      "url": "https://mall.mechrevo.com/portal-api/search/hotWord/list?limit=10",
+      "data": {
+        "code": 200,
+        "message": "操作成功",
+        "data": [
+          {
+            "id": 1,
+            "keyword": "翼龙 16X",
+            "sort": 100,
+            "status": 1,
+            "clickCount": 159,
+            "createTime": "2026-07-10T03:18:59.000+00:00",
+            "updateTime": "2026-10-30T06:36:13.000+00:00"
+          },
+          {
+            "id": 2,
+            "keyword": "耀世 16 Ultra",
+            "sort": 90,
+            "status": 1,
+            "clickCount": 189,
+            "createTime": "2026-07-10T03:18:59.000+00:00",
+            "updateTime": "2026-10-30T06:13:28.000+00:00"
+          },
+          {
+            "id": 3,
+            "keyword": "星耀 15",
+            "sort": 80,
+            "status": 1,
+            "clickCount": 104,
+            "createTime": "2026-07-10T03:18:59.000+00:00",
+            "updateTime": "2026-10-30T06:13:25.000+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mall.mechrevo.com/portal-api/product/channel/subsidy_zone/display-context",
+      "data": {
+        "code": 200,
+        "message": "操作成功",
+        "data": {
+          "visible": false
+        }
+      }
+    },
+    {
+      "url": "https://mall.mechrevo.com/portal-api/navigation/items",
+      "data": {
+        "code": 200,
+        "message": "操作成功",
+        "data": [
+          {
+            "code": "gaming_laptop",
+            "label": "游戏本",
+            "path": "/game",
+            "visible": true,
+            "sort": 1
+          },
+          {
+            "code": "thin_laptop",
+            "label": "轻薄本",
+            "path": "/game?category=light",
+            "visible": true,
+            "sort": 2
+          },
+          {
+            "code": "subsidy_zone",
+            "label": "国补专区",
+            "path": "/subsidy-zone",
+            "visible": true,
+            "sort": 3
+          },
+          {
+            "code": "retail_desktop",
+            "label": "零售台式机",
+            "path": "/game?category=desktop",
+            "visible": true,
+            "sort": 4
+          },
+          {
+            "code": "accessories",
+            "label": "周边配件",
+            "path": "/accessories",
+            "visible": true,
+            "sort": 5
+          },
+          {
+            "code": "service_products",
+            "label": "服务产品",
+            "path": "/service-products",
+            "visible": true,
+            "sort": 6
+          },
+          {
+            "code": "education",
+            "label": "教育优惠",
+            "path": "/education",
+            "visible": false,
+            "sort": 7
+          },
+          {
+            "code": "bto",
+            "label": "BTO定制",
+            "path": "https://bto.mechrevo.com/",
+            "visible": true,
+            "sort": 8
+          },
+          {
+            "code": "enterprise",
+            "label": "企业购",
+            "path": "/enterprise",
+            "visible": false,
+            "sort": 9
+          },
+          {
+            "code": "benefits_mall",
+            "label": "权益商城",
+            "path": "/benefits-mall",
+            "visible": false,
+            "sort": 10
+          },
+          {
+            "code": "trade_in",
+            "label": "以旧换新",
+            "path": "/trade-in",
+            "visible": false,
+            "sort": 11
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mall.mechrevo.com/portal-api/footer/navigation",
+      "data": {
+        "code": 200,
+        "message": "操作成功",
+        "data": [
+          {
+            "configKey": "service_driver_download",
+            "displayGroup": "服务支持",
+            "displayName": "驱动程序下载",
+            "configType": "LINK",
+            "linkType": "EXTERNAL",
+            "linkUrl": "https://www.mechrevo.com/cn/downloads",
+            "openMode": "NEW",
+            "sort": 1
+          },
+          {
+            "configKey": "service_store_locator",
+            "displayGroup": "服务支持",
+            "displayName": "线下门店查询",
+            "configType": "LINK",
+            "linkType": "EXTERNAL",
+            "linkUrl": "https://www.mechrevo.com/cn/stores",
+            "openMode": "NEW",
+            "sort": 3
+          },
+          {
+            "configKey": "service_center",
+            "displayGroup": "服务支持",
+            "displayName": "服务中心查询",
+            "configType": "LINK",
+            "linkType": "EXTERNAL",
+            "linkUrl": "https://www.mechrevo.com/cn/outlets",
+            "openMode": "NEW",
+            "sort": 4
+          },
+          {
+            "configKey": "service_policy",
+            "displayGroup": "服务支持",
+            "displayName": "服务政策条款",
+            "configType": "LINK",
+            "linkType": "EXTERNAL",
+            "linkUrl": "https://www.mechrevo.com/cn/policy",
+            "openMode": "NEW",
+            "sort": 5
+          },
+          {
+            "configKey": "service_online_support",
+            "displayGroup": "服务支持",
+            "displayName": "在线客服支持",
+            "configType": "LINK",
+            "linkType": "EXTERNAL",
+            "linkUrl": "https://800.mechrevo.com/visitors-ui/h5?channelId=6&channelName=H5",
+            "openMode": "NEW",
+            "sort": 6
+          },
+          {
+            "configKey": "brand_about",
+            "displayGroup": "机械革命",
+            "displayName": "关于我们",
+            "configType": "LINK",
+            "linkType": "EXTERNAL",
+            "linkUrl": "https://www.mechrevo.com/cn/story/",
+            "openMode": "NEW",
+            "sort": 7
+          },
+          {
+            "configKey": "legal_privacy",
+            "displayGroup": "底部服务",
+            "displayName": "隐私政策",
+            "configType": "RICH_TEXT",
+            "richText": "<h1>机械革命官方网站隐私政策</h1>\n<div>\n 制定主体：智通智能技术（苏州）有限公司\n</div>\n<h2><span>一、总则</span></h2>\n<p>智通智能技术（苏州）有限公司（以下简称\"我们\"或\"机械革命\"）是机械革命官方网站（网址：www.mechrevo.com，以下简称\"本网站\"）的运营主体。我们深知个人信息对用户（以下简称\"您\"）的重要性，严格遵守《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律法规，坚持\"合法、正当、必要、诚信\"原则处理您的个人信息，致力于保障您的信息安全与合法权益。</p>\n<p>本隐私政策旨在明确我们收集、使用您个人信息的范围、方式及目的，同时说明您享有的个人信息权利及行使路径。请您在访问、使用本网站前，仔细阅读并理解本政策全部内容；若您不同意本政策，应立即停止访问或使用本网站。您访问、使用本网站的行为，视为已接受本政策的约束。</p>\n<h2><span>二、适用范围</span></h2>\n<p>本政策仅适用于我们通过本网站收集、处理您个人信息的行为，包括您访问浏览本网站、注册账号、使用售后报修/活动报名/产品咨询等服务时产生的信息交互。</p>\n<p>本网站可能包含第三方平台链接（如电商旗舰店、售后服务合作方网站、社交媒体账号等），您访问第三方平台时，其信息处理规则由第三方自主制定，需遵循第三方的隐私政策。我们不对第三方的信息收集、使用行为承担责任，也不对此类行为提供担保。</p>\n<h2><span>三、我们收集的个人信息及收集方式</span></h2>\n<p>我们遵循\"最小必要\"原则收集个人信息，仅收集为实现本网站功能、提供服务所必需的信息，不收集与服务无关的信息。具体收集范围及方式如下：</p>\n<h3>（一）访问、浏览本网站时自动收集的信息</h3>\n<p>您无需注册账号即可访问本网站公开内容，在此过程中，我们会自动收集非身份识别信息，用于优化网站体验、保障服务稳定性，具体包括：</p>\n<p><strong>设备信息</strong>：设备型号（如电脑/手机品牌及型号）、操作系统版本（如Windows 11、iOS 17）、浏览器类型及版本（如Chrome 120.0）、设备唯一标识符（如IMEI、MAC地址，仅用于识别异常设备）、设备网络状态（如IP地址、Wi-Fi/移动网络类型、运营商信息）；</p>\n<p><strong>使用行为信息</strong>：访问时间、浏览的页面路径（如\"首页-游戏本系列-极光Pro型号\"）、页面滚动位置；</p>\n<p>上述信息为匿名化或去标识化数据，不直接关联您的真实身份。</p>\n<h3>（二）注册、使用特定服务时主动提供的信息</h3>\n<p>当您注册本网站账号、使用个性化服务（如售后报修、活动报名、产品咨询）时，需根据页面提示主动提供以下个人信息，若您不提供，可能无法使用对应服务：</p>\n<h4>账号注册信息：</h4>\n<p><strong>身份识别信息</strong>：姓名、手机号码（用于账号验证、身份核验，如短信验证码）；</p>\n<p><strong>账户基础信息</strong>：账号名称。</p>\n<h4>售后报修服务信息：</h4>\n<p><strong>产品信息</strong>：机械革命产品序列号（用于验证产品归属及保修期）、购买凭证（如订单编号、发票照片/扫描件，用于核验购买渠道）；</p>\n<p><strong>服务需求信息</strong>：故障描述（文字/图片）、故障发生时间、期望维修方式（上门/寄修）；</p>\n<p><strong>物流信息</strong>：寄修地址、收件人姓名、联系电话（用于维修后产品寄回）。</p>\n<h4>活动参与服务信息：</h4>\n<p>若您参与新品试用、抽奖、线下体验等活动，需提供姓名、手机号码、收货地址（用于活动资格核验、奖品发放/试用产品寄送）；</p>\n<p>若活动需实名认证（如高价值奖品发放），需提供身份证号码（仅用于合规核验，不用于其他目的）。</p>\n<h4>产品咨询服务信息：</h4>\n<p><strong>咨询内容</strong>：产品型号、咨询问题描述（如\"极光Pro是否支持独显直连\"）；</p>\n<p><strong>沟通信息</strong>：若通过在线客服沟通，会留存聊天记录（用于后续问题跟进及服务质量优化）。</p>\n<h3>（三）从第三方获取的信息</h3>\n<p>在符合法律法规及第三方平台规则的前提下，我们可能从合法授权的第三方获取您的个人信息，具体包括：</p>\n<p><strong>电商平台订单信息</strong>：若您通过第三方电商平台（如京东、天猫机械革命旗舰店）购买产品后，在本网站申请售后，我们可能从合作电商平台获取您的订单信息（如购买产品型号、订单时间、支付金额），用于核验售后资格，无需您重复提交；</p>\n<p><strong>物流服务商信息</strong>：若您选择寄修服务，我们会从合作物流服务商（如顺丰、京东物流）获取您的寄修包裹物流状态（如已签收、维修中、已寄出），用于同步售后进度。</p>\n<p>我们仅在获得您明确授权（如第三方账号登录时您点击\"同意授权\"）或符合法律规定的情况下，从第三方获取您的个人信息，并对第三方提供信息的合法性进行核实，确保信息来源合规。</p>\n<h2><span>四、个人信息的使用目的</span></h2>\n<p>我们收集您的个人信息，仅用于以下合法、明确的目的，若超出以下范围使用，将另行获得您的授权：</p>\n<p><strong>保障本网站正常运行</strong>：通过设备信息维护服务器稳定，排查技术故障（如页面加载失败、账号登录异常），确保您能正常访问、浏览本网站；</p>\n<p><strong>提供并优化服务</strong>：</p>\n<ul>\n <li>基于您的手机号，发送账号验证信息、服务通知（如售后进度提醒、活动资格确认、订单状态更新）；</li>\n <li>基于用户使用习惯数据（匿名化处理），优化网站页面设计（如调整热门功能入口位置）、提升加载速度，改善使用体验；</li>\n <li>处理售后及咨询需求：根据您提供的售后信息、咨询内容，为您提供故障排查、维修安排、问题解答等服务，留存聊天记录用于后续跟进；</li>\n <li>开展营销活动：在您同意的前提下，向您推送机械革命新品信息、优惠活动（如促销折扣、限时抢购），推送方式包括短信、邮箱、站内信；若您不想接收此类信息，可通过本政策\"六、您的权利\"中说明的方式取消授权；</li>\n <li>保障信息安全与合规：通过分析设备信息、登录行为，识别异常访问（如异地登录、多次密码错误、批量请求），采取账号冻结、安全提醒等措施，保护您的账号及个人信息安全；</li>\n <li>遵守法律法规要求：根据行政机关、司法机关的合法要求（如法院传票、监管部门指令），提供您的个人信息，配合调查取证或履行法定义务。</li>\n</ul>\n<h2><span>五、个人信息的存储与保护</span></h2>\n<h3>（一）存储方式与期限</h3>\n<p><strong>存储地点</strong>：我们将您的个人信息存储在中华人民共和国境内（不含港澳台地区）的阿里云服务器上，不将个人信息传输至境外。若未来因业务需求需向境外传输，将按照《个人信息保护法》要求，提前获得您的明确授权，并通过数据出境安全评估、签署标准合同等合规方式，保障信息传输安全；</p>\n<p><strong>存储期限</strong>：我们仅在实现本政策所述使用目的的必要期限内存储您的个人信息，超出期限后，将按照法律法规要求，采取删除、匿名化处理（去除身份标识，使其无法关联到具体个人）等方式处理，具体期限如下：</p>\n<ul>\n <li><strong>账号信息</strong>：若您未注销账号，将持续存储账号名称、手机号/邮箱，直至您主动注销账号；</li>\n <li><strong>售后信息</strong>：维修记录、故障描述、寄修地址等，存储至产品保修期结束后1年（用于后续售后查询及纠纷处理）；</li>\n <li><strong>活动信息</strong>：活动参与记录、奖品发放信息，存储至活动结束后3个月（用于应对可能的活动纠纷）；</li>\n <li><strong>咨询记录</strong>：在线客服聊天记录，存储至问题解决后3个月（用于服务质量回溯）；</li>\n <li><strong>匿名化信息</strong>：设备信息、浏览行为等匿名化后的数据，可用于长期分析用户习惯，不受上述期限限制。</li>\n</ul>\n<h3>（二）安全保护措施</h3>\n<p>我们已建立完善的个人信息安全管理制度，采取技术、管理双重措施，保障您的个人信息安全，请您注意：网络传输存在一定安全风险（如第三方非法拦截、设备感染恶意程序），我们无法保证信息传输的绝对安全。请您妥善保管账号密码，不向他人泄露，不使用公共设备登录账号，以降低信息泄露风险；若您发现账号异常，应立即联系我们处理。</p>\n<h2><span>六、个人信息的共享、转让与披露</span></h2>\n<p>我们严格限制个人信息的共享、转让与披露，仅在符合以下条件时进行，且确保每一项处理行为均合法合规：</p>\n<h3>（一）个人信息的共享</h3>\n<p>我们不会向未关联的第三方共享您的个人信息，仅在以下情况下，与合作第三方共享，且会对第三方的信息处理行为进行监督：</p>\n<p><strong>为提供服务所需</strong>：</p>\n<ul>\n <li><strong>物流服务商</strong>：若您参与活动需领取奖品、售后需寄修产品，我们会向物流服务商（如顺丰、京东物流）共享您的姓名、收货地址、联系电话，仅用于物流配送；</li>\n <li><strong>支付机构</strong>：若本网站开通直接支付功能（如购买配件），我们会向合作支付机构（如微信支付、支付宝）共享您的订单金额、支付账号信息，仅用于支付验证及订单结算；</li>\n <li><strong>客服外包服务商</strong>：若委托第三方提供客服服务，会向其共享您的咨询记录、售后信息，仅用于为您提供问题解答及服务跟进。</li>\n</ul>\n<p><strong>为履行法定义务</strong>：根据行政机关、司法机关的合法要求（如法院传票、市场监管部门调查指令），向相关部门共享您的个人信息，且会对要求的合法性进行核验。</p>\n<p><strong>获得您明确授权</strong>：在您同意的前提下，向第三方共享您的个人信息（如您授权我们将咨询需求同步给线下门店，由门店为您提供一对一服务）。</p>\n<p>我们会与共享信息的第三方签订《数据处理协议》，明确其信息使用范围、安全保护义务，要求第三方仅在约定范围内使用您的个人信息，不得超出范围处理；同时定期核查第三方的履行情况，若第三方违反约定，立即终止合作，并要求其删除已获取的个人信息。</p>\n<h3>（二）个人信息的转让</h3>\n<p>我们不会将您的个人信息转让给任何第三方，除非发生以下情况，且转让行为符合法律法规要求：</p>\n<p>发生企业合并、分立、收购、重组、破产清算等情形，您的个人信息将随业务资产一并转让给新主体，我们会在转让前通过本网站公告、站内信等方式通知您，新主体将继续履行本政策约定的信息保护义务；</p>\n<p>获得您的明确书面授权，且受让方承诺遵守与我们相同的信息保护标准。</p>\n<h3>（三）个人信息的披露</h3>\n<p>我们不会披露您的个人信息，除非符合以下条件：</p>\n<p>获得您的明确同意（如您同意将您的产品试用评价及昵称公开展示在本网站\"用户评价\"板块，不披露姓名、手机号等隐私信息）；</p>\n<p>为保护公共利益、他人合法权益或自身合法权益，在合理范围内公开（如曝光通过作弊手段参与活动的用户账号，以维护活动公平性，仅公开账号名称，不公开身份信息）；</p>\n<p>披露的信息已进行匿名化处理，无法关联到具体个人（如发布《机械革命用户使用习惯报告》，仅展示\"85%的游戏本用户关注显卡性能\"等统计数据）。</p>\n<h2><span>七、未成年人信息保护</span></h2>\n<p>我们高度重视未成年人个人信息保护，若您为未满18周岁的未成年人（以下简称\"未成年人\"），需在法定监护人（以下简称\"监护人\"）的陪同下使用本网站，并由监护人协助阅读本政策。</p>\n<h2><span>八、隐私政策的更新与通知</span></h2>\n<p>我们有权根据法律法规更新、监管要求调整、业务发展需求，不定期修订本政策。修订后的政策将通过以下方式通知您：</p>\n<p><strong>公示</strong>：在本网站首页\"隐私政策\"板块更新修订后的内容；</p>\n<p><strong>通知</strong>：若修订内容涉及用户核心权益（如个人信息收集范围扩大、共享规则变更），将额外通过站内信（针对已注册用户）、客服电话短信提醒等方式告知您，确保您知晓修订内容。</p>\n<p>修订后的政策自发布起生效，若您继续使用本网站，视为接受修订后的政策；若您不接受，应立即停止使用本网站。我们建议您定期查阅本政策（如每3个月查阅1次），了解最新的信息保护规则。</p>\n<h2><span>九、联系方式</span></h2>\n<p>若您对本政策有任何疑问，或需要行使个人信息权利、投诉举报，可通过以下方式联系我们：</p>\n<p><strong>客服电话</strong>：400-990-5898（服务时间：周一至周日9:00-21:00，法定节假日除外）；</p>\n<p><strong>在线客服</strong>：登录本网站，点击右下角\"在线客服\"图标，即可实时沟通；</p>\n<p>我们将认真对待您的反馈，及时为您解决问题，保障您的个人信息权益。</p>",
+            "sort": 16
+          },
+          {
+            "configKey": "legal_terms",
+            "displayGroup": "底部服务",
+            "displayName": "使用条款",
+            "configType": "RICH_TEXT",
+            "richText": "<h1>机械革命官方网站使用条款</h1>\n<h2>总则</h2>\n<p><strong>适用范围</strong>：本条款适用于所有访问、浏览、使用机械革命官方网站（www.mechrevo.com，以下简称\"本网站\"）的用户（包括个人及组织，以下简称\"用户\"）。本网站由智通智能技术（苏州）有限公司旗下机械革命品牌运营管理。</p>\n<p><strong>协议生效</strong>：用户使用本网站任何功能或服务，即视为已充分阅读、理解并接受本条款全部内容，以及本网站发布的隐私政策、活动规则等配套文件，与机械革命构成合法有效的合同关系。若用户不同意本条款，应立即停止使用本网站。</p>\n<p><strong>条款变更</strong>：机械革命有权根据法律法规更新、业务发展需求不定期修订本条款，修订后的内容将通过本网站首页公告公示。用户继续使用本网站的，视为接受变更后的条款；若不接受，应终止使用本网站。</p>\n<h2>网站使用规范</h2>\n<h3>用户行为准则</h3>\n<p>用户应遵守《网络安全法》《数据安全法》《个人信息保护法》等法律法规，不得利用本网站从事任何违法活动，包括但不限于：</p>\n<ul>\n <li>发布危害国家安全、泄露国家秘密、破坏民族团结的信息；</li>\n <li>传播淫秽、暴力、赌博等违法或违背公序良俗的内容；</li>\n <li>侮辱、诽谤他人，侵犯第三方名誉权、隐私权、知识产权等合法权益；</li>\n <li>实施任何介入、侵入或损害网络系统及资源、干扰本网站正常运行或窃取他人账户信息等行为。</li>\n</ul>\n<p>您知悉本服务的部份内容可能系由第三方网站所提供，且本服务将可能引导您至第三方网站的服务或网站。您将自行决定是否使用第三方网站的服务或网站，并同意接受其服务或网站所制定的条款与约定，包括但不限于商品价格、商品数量订购确认机制、订购数量上限、商品交付及付款方式等条款。您知悉且同意，您与第三方网站间的所有约定及第三方网站所提供的服务或网站内容概与机械革命无涉。</p>\n<p>禁止使用\"网页爬虫\"\"机器人程序\"等自动工具访问、采集本网站内容，不得实施\"深层链接\"等本网站未授权的访问行为。</p>\n<p>参与本网站活动时，不得提供虚假信息、冒用他人身份，或通过作弊、刷量等不正当手段获取权益，此类行为将导致资格取消。</p>\n<h3>账号使用规则</h3>\n<p>需注册账号使用的服务，用户应提供真实、准确、完整的个人信息，并及时更新。因信息虚假或过时导致的损失，由用户自行承担。</p>\n<p>用户应对账号密码的安全性负责，不得转借、出租账号，否则机械革命有权暂停账号使用以保障安全。</p>\n<h2>知识产权与内容规范</h2>\n<p><strong>机械革命知识产权</strong>：本网站所有内容（包括但不限于文字、图片、视频、产品参数、商标、软件代码等）的知识产权均归机械革命或相关授权方所有。\"机械革命\"及图形商标为智通智能技术（苏州）有限公司注册商标，受法律保护。</p>\n<p><strong>内容使用限制</strong>：用户可下载本网站产品信息用于个人非商业目的，但必须保留完整的版权声明；未经机械革命书面授权，不得用于商业用途，不得修改、传播或二次创作网站内容。</p>\n<p><strong>用户内容授权</strong>：用户上传至本网站的评价、图片等内容，视为授权机械革命及其关联企业在全球范围内无偿、非独占使用，可用于品牌推广、产品宣传等用途，且有权转授权第三方。</p>\n<p><strong>侵权处理</strong>：若用户认为本网站内容涉嫌侵权，可联系机械革命客服提交书面通知，机械革命核实无误后将依法采取删除、断开链接等处理措施；若内容上传者认为不构成侵权，可提交反通知，机械革命将依法复核。</p>\n<h2>产品信息与服务说明</h2>\n<p><strong>信息准确性</strong>：本网站发布的产品参数、功能描述、服务政策等信息，均基于产品发布时的技术标准制作。因产品迭代、地区政策、网络平台差异，本网站发布的产品参数、功能描述、服务政策等信息与实际销售产品可能与网站产品指向的第三方电商平台链接中的产品内容存在差异，具体以实物、销售合同或第三方电商平台链接中的产品内容为准。</p>\n<p><strong>服务可用性</strong>：机械革命尽力保障本网站24小时稳定运行，但不对服务的持续性、无中断性作出明示或默示保证。因系统维护、技术故障、第三方攻击等原因导致服务暂停的，机械革命将及时公告，但不承担赔偿责任。</p>\n<p><strong>第三方链接</strong>：本网站可能包含第三方平台（如电商旗舰店、售后服务合作方）的链接，此类链接仅为用户提供便利。机械革命不对第三方网站的内容、安全性及服务质量负责，用户访问第三方网站的风险自行承担。且本网站发布的产品参数、功能描述可能与第三方电商平台链接中的产品内容存在差异，具体以您进行购买行为的第三方电商平台的产品内容为准。</p>\n<h2>隐私保护</h2>\n<p>机械革命尊重用户隐私，将按照《机械革命隐私政策》处理用户个人信息，包括收集、使用、存储及披露等行为。</p>\n<p>请注意，用户与本网站之间的数据传输存在被拦截的可能性，机械革命无法完全保证网络传输的绝对安全，用户需自行承担相应风险。</p>\n<h2>责任限制与免责</h2>\n<p>本网站以\"现状\"提供服务，机械革命不保证内容的绝对准确、完整，不对用户因使用本网站信息导致的决策失误承担责任。</p>\n<p>因不可抗力（如自然灾害、政府行为）、公共服务故障（如电力、网络中断）或第三方原因导致的服务异常，机械革命不承担违约责任。</p>\n<p>机械革命对用户的全部责任，不超过用户因使用付费服务产生的实际费用总额。不对间接损失（如利润、数据丢失）承担赔偿责任，法律法规另有规定的除外。</p>\n<h2>协议终止</h2>\n<p>用户违反本条款的，机械革命有权在不事先通知的情况下，终止其账号使用权限、屏蔽访问，并追究法律责任。</p>\n<p>机械革命可根据业务调整，提前30日通过网站公告终止部分或全部服务，终止后将停止收集用户信息，并按规定处理已存储数据。</p>\n<h2>法律适用与争议解决</h2>\n<p>本条款适用中华人民共和国法律（不含港澳台地区法律）。</p>\n<p>因本条款产生的争议，双方应友好协商解决；协商不成的，任何一方可向本网站运营地（北京市海淀区）有管辖权的人民法院提起诉讼。</p>\n<h2>其他</h2>\n<p>本条款中的标题仅为阅读便利，不影响条款含义的解释。</p>\n<p>本条款的任何条款被认定为无效或不可执行的，不影响其余条款的效力。</p>\n<p>机械革命的联系方式：客服电话 400-990-5898。</p>",
+            "sort": 17
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://mall.mechrevo.com/portal-api/product/detail/94",
+      "data": {
+        "code": 200,
+        "message": "操作成功",
+        "data": {
+          "product": {
+            "addressRequired": 1,
+            "id": 94,
+            "productCategoryId": 67,
+            "feightTemplateId": 1,
+            "name": "苍龙 18 Pro高端大屏游戏本",
+            "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a8bbc5b184554184837e463e9c8166241787282047769.png",
+            "productSn": "P505F8301CC5748D0B8",
+            "deleteStatus": 0,
+            "publishStatus": 1,
+            "newStatus": 0,
+            "recommandStatus": 0,
+            "verifyStatus": 0,
+            "sort": 0,
+            "sale": 0,
+            "price": 12399,
+            "giftGrowth": 0,
+            "giftPoint": 0,
+            "usePointLimit": 0,
+            "subTitle": "至高 AMD Ryzen 9 8945HX | RTX 5060 | 18英寸",
+            "standardCardMarketing": true,
+            "recommendCardMarketing": true,
+            "recommendCardSubTitle": "· 至高 AMD Ryzen 9 8945HX · RTX 5060 · 18英寸",
+            "standardCardRichText": "<p>至高 AMD Ryzen 9 8945HX | RTX 5060 | 18英寸</p>",
+            "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 8945HX&nbsp;</p>\n<p><strong>· </strong>RTX 5060&nbsp;</p>\n<p><strong>·</strong> 18英寸</p>",
+            "tagNames": [
+              "限时",
+              "赠送延保"
+            ],
+            "originalPrice": 12599,
+            "stock": 0,
+            "lowStock": 0,
+            "previewStatus": 0,
+            "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1bc3e75a78c043deb1914aa0b14aad481787481806984.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/86f1231805ad41ce863c18f43625ec561787481810324.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d80b375a56474863b62b73b7d47250a11787481813468.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/26aa0b001e044e339d11eaf95868fe3b1787481816177.jpg",
+            "promotionType": 0,
+            "detailHtml": "<div>\n <img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/204a3e1bcdcc45a89bd52cd32e76a6051787470039010.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7590829ebe104d6684a43c06148610bb1787470039801.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1be16072d5bf4fe5852a9b82bfb32ab01787470040685.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/dbe32cc00b3041c79ea0ea7870645ced1787470041681.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/67518b976a4540d389b01dfb0340cb331787470042433.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d43403f8cb2e4969ac739cbd5a96e5641787470043044.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/cac911a4722d4af0912cbf2cf84e4dc01787470043694.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/0ebc89cb0c7f4de1b0001d4f583b44911787470044353.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/18f492277e1a48038425819a55d52d991787470044988.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1130b49cf0b84510b4304f6ee5494c1f1787470045405.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c8d0c089fe1045939360bcca3ede20e51787470046111.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1afbea5cf6474bbe80a5ce0d0e5d13c21787470046523.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/0f006bef516b446a86b1eeb706ac42a91787470046945.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/8fe035d35f854665823aad089729b5401787470047179.jpg\" alt=\"\">\n</div>\n<div>\n <img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/701038a5346f4cdd91038961c1e97d371787477307238.jpg\" alt=\"\">\n</div>",
+            "detailMobileHtml": ""
+          },
+          "channelCode": "gaming_laptop",
+          "productAttributeList": [],
+          "productAttributeValueList": [],
+          "skuStockList": [
+            {
+              "id": 319,
+              "productId": 94,
+              "skuCode": "P2E162DA1E269342BCB5AA0018507BF443",
+              "price": 12399,
+              "originalPrice": 12599,
+              "stock": 0,
+              "lowStock": 0,
+              "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png",
+              "sale": 0,
+              "lockStock": 0,
+              "spData": "[]",
+              "skuName": "R9-8945HX 5060 天际灰",
+              "detailHtml": "<div>\n <img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/204a3e1bcdcc45a89bd52cd32e76a6051787470039010.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7590829ebe104d6684a43c06148610bb1787470039801.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1be16072d5bf4fe5852a9b82bfb32ab01787470040685.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/dbe32cc00b3041c79ea0ea7870645ced1787470041681.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/67518b976a4540d389b01dfb0340cb331787470042433.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d43403f8cb2e4969ac739cbd5a96e5641787470043044.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/cac911a4722d4af0912cbf2cf84e4dc01787470043694.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/0ebc89cb0c7f4de1b0001d4f583b44911787470044353.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/18f492277e1a48038425819a55d52d991787470044988.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1130b49cf0b84510b4304f6ee5494c1f1787470045405.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c8d0c089fe1045939360bcca3ede20e51787470046111.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1afbea5cf6474bbe80a5ce0d0e5d13c21787470046523.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/0f006bef516b446a86b1eeb706ac42a91787470046945.jpg\" alt=\"\"><img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/8fe035d35f854665823aad089729b5401787470047179.jpg\" alt=\"\">\n</div>\n<div>\n <img src=\"https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/701038a5346f4cdd91038961c1e97d371787477307238.jpg\" alt=\"\">\n</div>",
+              "detailMobileHtml": "",
+              "detailTextHtml": "",
+              "detailMobileTextHtml": "",
+              "carouselUrls": [
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1bc3e75a78c043deb1914aa0b14aad481787481806984.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/86f1231805ad41ce863c18f43625ec561787481810324.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d80b375a56474863b62b73b7d47250a11787481813468.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/26aa0b001e044e339d11eaf95868fe3b1787481816177.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/986abd227d6245fbbbd7931a5a4e0fa61788211522891.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/7f3c8cbfef024d28b51232d7ef30f6cd1788211525992.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/7ed6cc31782842f0bfebdf9bb1648e4e1788211532342.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/c34ca7077d2f48a88c98ef44d04b0df41788211538611.jpg",
+                "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/88a3e34b81014612be8246a5112194a41788211541827.jpg"
+              ],
+              "parameters": [
+                {
+                  "groupName": "参数",
+                  "title": "品牌",
+                  "value": "机械革命"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "商品编号",
+                  "value": "10229494684635"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "内存类型",
+                  "value": "DDR5"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "插槽数量",
+                  "value": "2个"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "能效网规格型号",
+                  "value": "机械革命苍龙18pro-1202C9S125"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "产品净重",
+                  "value": "2.2kg"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "认证型号",
+                  "value": "机械革命苍龙"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "无线网卡",
+                  "value": "双天线Wi-Fi 6"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "USB-C接口数量",
+                  "value": "1个"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "整机性能释放",
+                  "value": "180-240W"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "USB-A接口数",
+                  "value": "1个"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "屏幕色域",
+                  "value": "100%sRGB"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "键盘",
+                  "value": "RGB背光键盘"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "内存容量",
+                  "value": "定制容量"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "分辨率",
+                  "value": "2560*1600"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "蓝牙连接",
+                  "value": "支持蓝牙"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "CPU",
+                  "value": "R9-8945HX"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "屏幕尺寸",
+                  "value": "18英寸"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "屏幕刷新率",
+                  "value": "高刷新率(120Hz以上)"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "屏幕分辨率",
+                  "value": "高分辨率(2K以上)"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "处理器(CPU)",
+                  "value": "锐龙8000系"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "内存 容量",
+                  "value": "32GB"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "系统",
+                  "value": "Windows 11 不带Office"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "硬盘容量",
+                  "value": "2TB"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "接口支持",
+                  "value": "USB-C DP USB-A"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "扩展性",
+                  "value": "内存扩展 硬盘扩展"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "颜色",
+                  "value": "灰色"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "显卡",
+                  "value": "RTX5060"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "厚度",
+                  "value": "20.0mm以上"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "便利功能",
+                  "value": "数字小键盘 摄像头隐私开关"
+                },
+                {
+                  "groupName": "参数",
+                  "title": "包装清单",
+                  "value": "暂无"
+                }
+              ],
+              "educationDiscountAmount": 0,
+              "educationPrice": 12399,
+              "educationAuthStatus": "NOT_SUBMITTED",
+              "nationalSubsidyEligible": false,
+              "nationalSubsidyTestSimulation": false,
+              "purchaseLimit": {
+                "enabled": false
+              },
+              "gifts": []
+            }
+          ],
+          "couponList": [],
+          "freightPolicy": {
+            "policyType": 0,
+            "freightAmount": 0,
+            "regionNames": "全国"
+          },
+          "purchaseLimit": {
+            "enabled": false
+          },
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "afterSalesQa": [
+            {
+              "title": "厂家服务",
+              "content": "笔记本质保期周期2年质保、台式机质保期周期3年质保在此时间范围内可提交维修申请，具体请以厂家服务为准。\n您可以在机械革命官网查询本品牌在各地售后服务中心的联系方式。\n  品牌官方网站：http://www.mechrevo.com\n  售后服务电话：400-990-5898"
+            },
+            {
+              "title": "正品行货",
+              "content": "商城向您保证所售商品均为正品行货，自营商品开具电子发票。"
+            },
+            {
+              "title": "无忧退货",
+              "content": "客户购买商城自营商品7日内（含7日，自客户收到商品之日起计算），在保证商品完好的前提下（未激活状态），可无理由退货。（部分商品除外，详情请见各商品细则）"
+            }
+          ],
+          "pairingRecommendations": [],
+          "companionRecommendations": []
+        }
+      }
+    },
+    {
+      "url": "https://mall.mechrevo.com/portal-api/footer/social-platforms",
+      "data": {
+        "code": 200,
+        "message": "操作成功",
+        "data": [
+          {
+            "id": 7,
+            "platformName": "微信公众号",
+            "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/84285326978248599293f0943c17dfc71787455750749.png",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/df5b853c424141218b7bae16b1b6d4c21787455755168.png",
+            "sort": 1
+          },
+          {
+            "id": 8,
+            "platformName": "哔哩哔哩",
+            "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d0b5b4b45f864db7974d022241217e701787455767137.png",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/e12e36049e3e4522b9b8821a646748d21787455770786.png",
+            "sort": 2
+          },
+          {
+            "id": 9,
+            "platformName": "抖音",
+            "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d13d1410484a466e811b5c10894394521787455785326.png",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/9882566845af49a0a0f326cfc630db081787455788634.png",
+            "sort": 3
+          },
+          {
+            "id": 10,
+            "platformName": "微博",
+            "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/f376e0ef0a874153b9d34cc31db371811787455799871.png",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/21d02677ee3646b794aef7c12b2715391787455803630.png",
+            "sort": 4
+          },
+          {
+            "id": 11,
+            "platformName": "微信小程序",
+            "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/2e88b1c8cb5b453281900730a7a892c01787455813949.png",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a256ff83d99d439fb6b35f1250d9d64c1787455817907.jpeg",
+            "sort": 5
+          },
+          {
+            "id": 12,
+            "platformName": "小红书",
+            "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/5a822e2808714e9486dfd8352882fe891787455830537.png",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7c7e1359bcba4cfd8911ff22e61b21491787455834317.png",
+            "sort": 6
+          },
+          {
+            "id": -225,
+            "platformName": "机械革命教育服务",
+            "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260728/4b65e9ffba4f4ebc83a1fa26afa5dec21785230838737.jpg",
+            "sort": 1
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://track.mechrevo.com/sdk/config/mechrevo_official_mall.json",
+      "data": {
+        "appId": "mechrevo_official_mall",
+        "source": "official_mall",
+        "endpoint": "https://track.mechrevo.com/track/batch",
+        "sdkVersion": "0.1.0",
+        "autoIdentity": false,
+        "urlMode": "path",
+        "batchSize": 20,
+        "flushIntervalMs": 5000,
+        "maxQueueSize": 200,
+        "maxRetries": 2,
+        "retryDelaysMs": [
+          1000,
+          3000
+        ],
+        "sendTimeoutMs": 5000,
+        "collect": {
+          "pageView": true,
+          "routeChange": false,
+          "click": true,
+          "exposure": false,
+          "scrollDepth": true,
+          "pageLeave": true,
+          "jsError": false,
+          "performance": false
+        },
+        "sampling": {
+          "page_view": 1,
+          "route_change": 1,
+          "page_leave": 1,
+          "scroll_depth": 1,
+          "banner_click": 1,
+          "product_click": 1,
+          "add_to_cart_click": 1,
+          "submit_order_click": 1,
+          "pay_click": 1,
+          "search_submit": 1,
+          "universal_click": 1
+        },
+        "rules": []
+      }
+    }
+  ],
+  "prices": [
+    {
+      "text": "¥12,399.00",
+      "class": "",
+      "parent": "price-row"
+    },
+    {
+      "text": "¥12,599.00",
+      "class": "",
+      "parent": "price-row"
+    }
+  ]
+}

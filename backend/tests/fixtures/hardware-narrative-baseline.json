@@ -1,0 +1,21 @@
+[
+  {
+    "fixture": "core-i5-13420h.json",
+    "productId": "np-f0b4096e75cef9b6d242",
+    "queriedAt": "2026-11-01T07:32:12.673Z",
+    "sha256": "b0768575fa88be3432efdd2b040c8df79f943ac59139648374b7d2dcdf1dd337",
+    "generatorSha256": "7698fd9a257b3651763a8c0684644afe5cdfe46f5c295d8c2d112663987a6042"
+  },
+  {
+    "fixture": "ryzen-9-8945hx.json",
+    "productId": "np-2f271b787d9913fbf15d",
+    "queriedAt": "2026-11-01T07:28:16.959Z",
+    "sha256": "e6326caa77206bebca8dbba8404584b683e5c1b37440f0460a3529dcbbdb99be"
+  },
+  {
+    "fixture": "ultra-5-336h.notebookcheck.json",
+    "productId": "np-0ab4acffee16d2861b53",
+    "queriedAt": "2026-11-01T07:25:22.007Z",
+    "sha256": "53263ffe4ad4e00105b01c76fa8c796901d2004942d367fd5758ffaaa633fd25"
+  }
+]

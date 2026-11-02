@@ -1,0 +1,324 @@
+{
+  "mode": "REAL COMMERCE — controlled, no model requests",
+  "calls": [
+    {
+      "endpoint": "/portal-api/product/detail/94",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/search",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/search",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/fetch",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/fetch",
+      "status": 200
+    },
+    {
+      "endpoint": "/portal-api/home/content",
+      "status": 200
+    },
+    {
+      "endpoint": "/portal-api/product/detail/97",
+      "status": 200
+    },
+    {
+      "endpoint": "/portal-api/product/detail/96",
+      "status": 200
+    },
+    {
+      "endpoint": "/portal-api/product/detail/100",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/search",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/fetch",
+      "status": 200
+    },
+    {
+      "endpoint": "/v1/tools/search",
+      "status": 200
+    }
+  ],
+  "prices": {
+    "kind": "prices",
+    "productId": "np-2f271b787d9913fbf15d",
+    "queriedAt": "2026-10-30T08:26:38.780Z",
+    "quotes": [
+      {
+        "brand": "机械革命",
+        "name": "苍龙 18 Pro高端大屏游戏本",
+        "cpu": "R9-8945HX",
+        "gpu": "RTX5060",
+        "gpuType": "独立显卡",
+        "ramGb": 32,
+        "ssdGb": 2048,
+        "weightKg": 2.2,
+        "os": "Windows",
+        "price": 12399,
+        "priceEvidence": "官方公开SKU P2E162DA1E269342BCB5AA0018507BF443 price=12399；stock=0",
+        "priceType": "listed",
+        "multipleConfigurations": false,
+        "priceIssue": null,
+        "sourceUrl": "https://mall.mechrevo.com/products/94",
+        "sourceTitle": "苍龙 18 Pro高端大屏游戏本",
+        "queriedAt": "2026-10-30T08:26:38.963Z",
+        "excerpt": "苍龙 18 Pro高端大屏游戏本\nR9-8945HX 5060 天际灰\n品牌：机械革命\n商品编号：10229494684635\n内存类型：DDR5\n插槽数量：2个\n能效网规格型号：机械革命苍龙18pro-1202C9S125\n产品净重：2.2kg\n认证型号：机械革命苍龙\n无线网卡：双天线Wi-Fi 6\nUSB-C接口数量：1个\n整机性能释放：180-240W\nUSB-A接口数：1个\n屏幕色域：100%sRGB\n键盘：RGB背光键盘\n内存容量：定制容量\n分辨率：2560*1600\n蓝牙连接：支持蓝牙\nCPU：R9-8945HX\n屏幕尺寸：18英寸\n屏幕刷新率：高刷新率(120Hz以上)\n屏幕分辨率：高分辨率(2K以上)\n处理器(CPU)：锐龙8000系\n内存 容量：32GB\n系统：Windows 11 不带Office\n硬盘容量：2TB\n接口支持：USB-C DP USB-A\n扩展性：内存扩展 硬盘扩展\n颜色：灰色\n显卡：RTX5060\n厚度：20.0mm以上\n便利功能：数字小键盘 摄像头隐私开关\n包装清单：暂无\n销售价：12399元",
+        "category": "laptop",
+        "image": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png",
+        "skuCode": "P2E162DA1E269342BCB5AA0018507BF443",
+        "stock": 0,
+        "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/94",
+        "nationalSubsidyEligible": false,
+        "id": "5b3a8b270a6263f4",
+        "platform": "机械革命官网",
+        "match": {
+          "checks": {
+            "brand": true,
+            "model": true,
+            "cpu": true,
+            "gpu": true,
+            "ram": true,
+            "ssd": true
+          },
+          "comparable": true,
+          "status": "配置匹配",
+          "scope": "series",
+          "reason": "已核对数据库中已知的品牌、机型、CPU/GPU类别及容量；购买前仍核对订单SKU"
+        },
+        "eligibility": {
+          "status": "ineligible",
+          "evidence": [
+            "https://mall.mechrevo.com/portal-api/product/detail/94"
+          ],
+          "reason": "当前渠道对应SKU不参加补贴"
+        },
+        "conditions": "当前渠道暂时缺货，仅记录可见标价"
+      },
+      {
+        "brand": "机械革命",
+        "name": "机械革命（MECHREVO）苍龙16Pro/16Ultra/18Pro 旗舰50...【图片 价格 品牌 评论】-京东",
+        "cpu": "R9-9955HX",
+        "gpu": "RTX5090 \n",
+        "gpuType": "独立显卡",
+        "ramGb": null,
+        "ssdGb": null,
+        "weightKg": null,
+        "os": null,
+        "price": null,
+        "priceEvidence": null,
+        "priceType": "reference",
+        "multipleConfigurations": true,
+        "priceIssue": "未找到可读取的单一价格",
+        "sourceUrl": "https://item.m.jd.com/product/10159669494504.html?ad_od=1?lid=12129243921825719293%252525252525252525252525252525253FbrandId%252525253FbrandId",
+        "sourceTitle": "机械革命（MECHREVO）苍龙16Pro/16Ultra/18Pro 旗舰50...【图片 价格 品牌 评论】-京东",
+        "queriedAt": "2026-10-30T08:26:38.780Z",
+        "excerpt": "商品评价\n\nR9-9955HX 3D/5090/灰 64G-2T，1个\n\n¥3??99\n\n- 退出播放\n- 登录看更多商品信息\n\n滑动查看详情\n\n1/3\n\n款\n\n可选\n\n¥3??99\n\n20.1万人已预约\n\n¥3??99 登录查看价格\n\n选择门店后可确认该商品价格\n\n该价格为当前选择门店价格\n\n# 机械革命（MECHREVO）苍龙16Pro/16Ultra//18Pro 旗舰5...\n\n抢购中\n\n数量有限，先抢先得！\n\n预约\n\n抢购\n\n发货\n\n10月29日16:20 至 11月11日23:59\n\n省心定期购 超值享折扣\n\n1\n\n挑选定期购商品\n\n2\n\n填写定期购计划\n\n3\n\n京东按期配送\n\n免运费\n\n￥ 0 .00\n\n配送期数\n\n6 期起订 送2期\n\n配送次数\n\n3 次/周\n\n每期数量\n\n2 件起\n\n### 已选\nR9-9955HX 3D/5090/灰 64G-2T，1个\n送至\n\n北京朝阳区三环到四环之间\n\n无货\n\n发货仓\n\n大陆段\n\n境内转运仓\n\n跨境段\n\n运费\n\n包邮\n\n活动\n\n- 免费上门退换\n- 一年质保\n- 7天价保\n- 极速审核\n- 可配送港澳台及海外\n\n### 评价\n\n问答\n\n查看全部问答\n\n暂无提问信息，去提问\n\n这个机子到现在为止，你打游戏有没有遇到哪些情况\n共1个回答\n\n机械革命（MECHREVO）旗舰店\n\n4.8分\n\n100+商品 40万+关注\n\n品牌认证·甄选自营&官旗好物\n\n评价 9.70高\n\n物流 9.10高\n\n售后 8.70中\n\n咨询 9.00高\n\n进店逛逛\n\n全部商品\n\n### 高价回收\n\n旧品回收，免费估价，极速到账\n\n### 热门配件推荐 查看全部配件\n\n商品介绍\n\n售后保障\n\n登录看更多商品信息\n\n### 包装清单\n\n### 商品参数\n\n商品编号 | 10159669494504 \n---|---\n显卡 \n显卡型号 | RTX5090 \n内存 \n插槽数量 | 2个 \n内存类型 | DDR5 \n主体 \n能效网规格型号 | 机械革命苍龙16 Ultra \n产品净重 | 2.68kg \n产品尺寸 | 长356.6mm；宽254.7mm；厚",
+        "id": "8509e5318cd0adde",
+        "platform": "京东",
+        "match": {
+          "checks": {
+            "brand": true,
+            "model": false,
+            "cpu": false,
+            "gpu": false,
+            "ram": false,
+            "ssd": false
+          },
+          "comparable": false,
+          "status": "配置待确认",
+          "scope": "related",
+          "reason": "机型、CPU、GPU、内存、SSD尚未匹配；不参与最低价比较"
+        },
+        "eligibility": {
+          "status": "pending",
+          "evidence": [],
+          "reason": "能效、参与商家、杭州活动及个人资格需确认"
+        },
+        "conditions": "页面参考或起售价，不是已核实最终销售价"
+      },
+      {
+        "brand": "机械革命",
+        "name": "机械革命（MECHREVO）苍龙16Ultra//16Pro/18Pro 旗舰5060/70Ti蛟龙游戏本R9HX强芯16英寸学生电竞笔记本电脑 R9-9955HX 3D/5090/灰 64G-2T【图片 价格 品牌 评论】-京东",
+        "cpu": "R9-9955HX",
+        "gpu": "RTX5090 \n",
+        "gpuType": "独立显卡",
+        "ramGb": null,
+        "ssdGb": null,
+        "weightKg": null,
+        "os": null,
+        "price": null,
+        "priceEvidence": null,
+        "priceType": "reference",
+        "multipleConfigurations": true,
+        "priceIssue": "未找到可读取的单一价格",
+        "sourceUrl": "https://item.m.jd.com/product/10159669494504.html?ad_od=1?lid=10551144130354329094%2525253FbrandId&origin=5882%252525252525253ffrom",
+        "sourceTitle": "机械革命（MECHREVO）苍龙16Ultra//16Pro/18Pro 旗舰5060/70Ti蛟龙游戏本R9HX强芯16英寸学生电竞笔记本电脑 R9-9955HX 3D/5090/灰 64G-2T【图片 价格 品牌 评论】-京东",
+        "queriedAt": "2026-10-30T08:26:38.780Z",
+        "excerpt": "商品评价\n\nR9-9955HX 3D/5090/灰 64G-2T，1个\n\n¥3??99\n\n- 退出播放\n- 登录看更多商品信息\n\n滑动查看详情\n\n1/3\n\n款\n\n可选\n\n¥3??99\n\n20.1万人已预约\n\n¥3??99 登录查看价格\n\n选择门店后可确认该商品价格\n\n该价格为当前选择门店价格\n\n# 机械革命（MECHREVO）苍龙16Pro/16Ultra//18Pro 旗舰5...\n\n抢购中\n\n数量有限，先抢先得！\n\n预约\n\n抢购\n\n发货\n\n10月29日16:20 至 11月11日23:59\n\n省心定期购 超值享折扣\n\n1\n\n挑选定期购商品\n\n2\n\n填写定期购计划\n\n3\n\n京东按期配送\n\n免运费\n\n￥ 0 .00\n\n配送期数\n\n6 期起订 送2期\n\n配送次数\n\n3 次/周\n\n每期数量\n\n2 件起\n\n### 已选\nR9-9955HX 3D/5090/灰 64G-2T，1个\n送至\n\n北京朝阳区三环到四环之间\n\n无货\n\n发货仓\n\n大陆段\n\n境内转运仓\n\n跨境段\n\n运费\n\n包邮\n\n活动\n\n- 免费上门退换\n- 一年质保\n- 7天价保\n- 极速审核\n- 可配送港澳台及海外\n\n### 评价\n\n问答\n\n查看全部问答\n\n暂无提问信息，去提问\n\n这个机子到现在为止，你打游戏有没有遇到哪些情况\n共1个回答\n\n机械革命（MECHREVO）旗舰店\n\n4.8分\n\n100+商品 40万+关注\n\n品牌认证·甄选自营&官旗好物\n\n评价 9.70高\n\n物流 9.10高\n\n售后 8.70中\n\n咨询 9.00高\n\n进店逛逛\n\n全部商品\n\n### 高价回收\n\n旧品回收，免费估价，极速到账\n\n### 热门配件推荐 查看全部配件\n\n商品介绍\n\n售后保障\n\n登录看更多商品信息\n\n### 包装清单\n\n### 商品参数\n\n商品编号 | 10159669494504 \n---|---\n显卡 \n显卡型号 | RTX5090 \n内存 \n插槽数量 | 2个 \n内存类型 | DDR5 \n主体 \n能效网规格型号 | 机械革命苍龙16 Ultra \n产品净重 | 2.68kg \n产品尺寸 | 长356.6mm；宽254.7mm；厚",
+        "id": "8524818ffd415cae",
+        "platform": "京东",
+        "match": {
+          "checks": {
+            "brand": true,
+            "model": false,
+            "cpu": false,
+            "gpu": false,
+            "ram": false,
+            "ssd": false
+          },
+          "comparable": false,
+          "status": "配置待确认",
+          "scope": "related",
+          "reason": "机型、CPU、GPU、内存、SSD尚未匹配；不参与最低价比较"
+        },
+        "eligibility": {
+          "status": "pending",
+          "evidence": [],
+          "reason": "能效、参与商家、杭州活动及个人资格需确认"
+        },
+        "conditions": "页面参考或起售价，不是已核实最终销售价"
+      }
+    ],
+    "lowestComparablePrice": null,
+    "failures": [],
+    "counts": {
+      "search": 2,
+      "fetch": 2
+    },
+    "notice": "只比较匹配配置的可读报价；不代表实时成交或国补资格"
+  },
+  "discover": {
+    "kind": "discover",
+    "queriedAt": "2026-10-30T08:27:04.648Z",
+    "candidates": [
+      {
+        "brand": null,
+        "name": "蛟龙 16 Pro高性能游戏本",
+        "cpu": "R9-8945HX",
+        "gpu": null,
+        "gpuType": null,
+        "ramGb": null,
+        "ssdGb": null,
+        "weightKg": null,
+        "os": null,
+        "price": 15799,
+        "priceEvidence": "官方公开SKU P22177E4BAAE974154B0B346F527E3BF90 price=15799；stock=0",
+        "priceType": "listed",
+        "multipleConfigurations": false,
+        "priceIssue": null,
+        "sourceUrl": "https://mall.mechrevo.com/products/97",
+        "sourceTitle": "蛟龙 16 Pro高性能游戏本",
+        "queriedAt": "2026-10-30T08:27:05.057Z",
+        "excerpt": "蛟龙 16 Pro高性能游戏本\nR9-8945HX 5070Ti 苍岩灰\n\n销售价：15799元",
+        "category": "laptop",
+        "image": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/9d5cc588dd5d49219e9d310d734c97241788197473627.png",
+        "skuCode": "P22177E4BAAE974154B0B346F527E3BF90",
+        "stock": 0,
+        "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/97",
+        "nationalSubsidyEligible": false,
+        "id": "web-9832d758ee71a477",
+        "imageUsage": "©机械革命；仅个人非商业本机课程展示，素材不随项目分发",
+        "decision": {
+          "show": true,
+          "confirmed": false,
+          "missing": [
+            "当前渠道缺货"
+          ],
+          "status": "待确认候选"
+        },
+        "reason": "网页标价在预算内；当前渠道缺货需确认。用途匹配请结合已披露配置判断。"
+      },
+      {
+        "brand": "机械革命",
+        "name": "翼龙 16X",
+        "cpu": null,
+        "gpu": null,
+        "gpuType": null,
+        "ramGb": 16,
+        "ssdGb": null,
+        "weightKg": 2,
+        "os": "Windows",
+        "price": 11499,
+        "priceEvidence": "官方公开SKU P23FA281724D464F0E854EDA914F2733C5 price=11499；stock=0",
+        "priceType": "listed",
+        "multipleConfigurations": false,
+        "priceIssue": null,
+        "sourceUrl": "https://mall.mechrevo.com/products/96",
+        "sourceTitle": "翼龙 16X",
+        "queriedAt": "2026-10-30T08:27:05.101Z",
+        "excerpt": "翼龙 16X\nR 7 H 255 5060 墨影橙\n型号：机械革命翼龙16X\n认证型号：机械革命翼龙16X\n能效网规格型号：机械革命翼龙16X\n插槽数量：2个\n雷电/USB4接口：无雷电端口\nUSB-A接口数：3个\n有线网络RJ45：10/100/1000Mbps\n显示端口：HDMI 2.1接口\nUSB-C接口数量：2个\n键盘：RGB背光键盘\n指纹识别：不支持指纹识别\n蓝牙连接：支持蓝牙\n无线网卡：双天线Wi-Fi 6\n处理器加速频率：4.9GHz\n屏幕色域：100% DCI-P3\n屏幕特性：高色域(100%sRGB) 高分辨率(2K以上)\n机身材质：金属+复合材质\n系统：Windows 11\n便利功能：数字小键盘\n内存容量：16GB\n产品净重：>2kg\n能效等级：一级能效\n处理器(CPU)：锐龙200系列\n包装清单：笔记本电脑×1、电源适配器×1、电源线×1\n销售价：11499元",
+        "category": "laptop",
+        "image": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/23ab00ec1a714f7db0bd820a80c6744c1787470385651.jpg",
+        "skuCode": "P23FA281724D464F0E854EDA914F2733C5",
+        "stock": 0,
+        "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/96",
+        "nationalSubsidyEligible": false,
+        "id": "web-849a357cef80148a",
+        "imageUsage": "©机械革命；仅个人非商业本机课程展示，素材不随项目分发",
+        "decision": {
+          "show": true,
+          "confirmed": false,
+          "missing": [
+            "当前渠道缺货"
+          ],
+          "status": "待确认候选"
+        },
+        "reason": "网页标价在预算内；当前渠道缺货需确认。用途匹配请结合已披露配置判断。"
+      },
+      {
+        "brand": "机械革命",
+        "name": "星耀 15先锋轻薄本",
+        "cpu": null,
+        "gpu": "AMD核显",
+        "gpuType": null,
+        "ramGb": 32,
+        "ssdGb": 1024,
+        "weightKg": null,
+        "os": "Windows",
+        "price": 7499,
+        "priceEvidence": "官方公开SKU P2FC283A9DFA564FBEBC43E547DF5277B8 price=7499；stock=0",
+        "priceType": "listed",
+        "multipleConfigurations": false,
+        "priceIssue": null,
+        "sourceUrl": "https://mall.mechrevo.com/products/100",
+        "sourceTitle": "星耀 15先锋轻薄本",
+        "queriedAt": "2026-10-30T08:27:05.142Z",
+        "excerpt": "星耀 15先锋轻薄本\nAI 9 H 365/32/1TB/2.5K OLED/FP/白\n型号：机械革命星耀15\n能效网规格型号：机械革命 星耀15-9CC5U\n认证型号：机械革命 星耀15\n内存频率：8000MHz\n最大支持容量：32GB\n有线网络RJ45：无\n显示端口：HDMI 2.1接口\nUSB-C接口数量：2个\nUSB-A接口数：2个\n雷电/USB4接口：2个\n键盘：单色背光键盘\n摄像头类型：高清摄像头\n指纹识别：电源键指纹识别\n电池容量：90Wh\n线程数：20线程\n无线网卡：双天线Wi-Fi 6\n蓝牙连接：支持蓝牙\n屏幕类型：OLED\n屏幕色域：100% DCI-P3\n屏幕分辨率：2560*1600\n屏幕尺寸：15.3英寸\n屏幕刷新率：165Hz\n处理器(CPU)：锐龙AI300系列\n屏幕比例：16:10\n厚度：14-18mm\n内存容量：32GB\n便利功能：指纹解锁 摄像头隐私开关 多扬声器\n硬盘容量：1TB\n显卡：AMD核显\n系统：Windows 11\n包装清单：主机+电源线+适配器+说明书(含保修卡)\n销售价：7499元",
+        "category": "laptop",
+        "image": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/9ef358b000d8482e9374e03c5541abb81787041235843.jpg",
+        "skuCode": "P2FC283A9DFA564FBEBC43E547DF5277B8",
+        "stock": 0,
+        "apiSource": "https://mall.mechrevo.com/portal-api/product/detail/100",
+        "nationalSubsidyEligible": false,
+        "id": "web-c12209eb612e28ee",
+        "imageUsage": "©机械革命；仅个人非商业本机课程展示，素材不随项目分发",
+        "decision": {
+          "show": true,
+          "confirmed": false,
+          "missing": [
+            "当前渠道缺货"
+          ],
+          "status": "待确认候选"
+        },
+        "reason": "网页标价在预算内；当前渠道缺货需确认。用途匹配请结合已披露配置判断。"
+      }
+    ],
+    "failures": [],
+    "counts": {
+      "search": 2,
+      "fetch": 1
+    },
+    "notice": "独立联网发现，不加入78条数据库或替换本地前三；待确认项不宣称完全符合需求"
+  }
+}

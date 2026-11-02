@@ -1,0 +1,7 @@
+{
+  "mode": "REAL DEEPSEEK",
+  "calls": 1,
+  "status": "failed",
+  "httpStatus": 502,
+  "error": "INVALID_ANSWER"
+}

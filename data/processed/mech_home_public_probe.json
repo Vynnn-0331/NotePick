@@ -1,0 +1,2701 @@
+[
+  {
+    "url": "https://mall.mechrevo.com/portal-api/search/hotWord/list?limit=10",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "id": 1,
+          "keyword": "翼龙 16X",
+          "sort": 100,
+          "status": 1,
+          "clickCount": 159,
+          "createTime": "2026-07-10T03:18:59.000+00:00",
+          "updateTime": "2026-10-30T06:36:13.000+00:00"
+        },
+        {
+          "id": 2,
+          "keyword": "耀世 16 Ultra",
+          "sort": 90,
+          "status": 1,
+          "clickCount": 189,
+          "createTime": "2026-07-10T03:18:59.000+00:00",
+          "updateTime": "2026-10-30T06:13:28.000+00:00"
+        },
+        {
+          "id": 3,
+          "keyword": "星耀 15",
+          "sort": 80,
+          "status": 1,
+          "clickCount": 104,
+          "createTime": "2026-07-10T03:18:59.000+00:00",
+          "updateTime": "2026-10-30T06:13:25.000+00:00"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/navigation/items",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "code": "gaming_laptop",
+          "label": "游戏本",
+          "path": "/game",
+          "visible": true,
+          "sort": 1
+        },
+        {
+          "code": "thin_laptop",
+          "label": "轻薄本",
+          "path": "/game?category=light",
+          "visible": true,
+          "sort": 2
+        },
+        {
+          "code": "subsidy_zone",
+          "label": "国补专区",
+          "path": "/subsidy-zone",
+          "visible": true,
+          "sort": 3
+        },
+        {
+          "code": "retail_desktop",
+          "label": "零售台式机",
+          "path": "/game?category=desktop",
+          "visible": true,
+          "sort": 4
+        },
+        {
+          "code": "accessories",
+          "label": "周边配件",
+          "path": "/accessories",
+          "visible": true,
+          "sort": 5
+        },
+        {
+          "code": "service_products",
+          "label": "服务产品",
+          "path": "/service-products",
+          "visible": true,
+          "sort": 6
+        },
+        {
+          "code": "education",
+          "label": "教育优惠",
+          "path": "/education",
+          "visible": false,
+          "sort": 7
+        },
+        {
+          "code": "bto",
+          "label": "BTO定制",
+          "path": "https://bto.mechrevo.com/",
+          "visible": true,
+          "sort": 8
+        },
+        {
+          "code": "enterprise",
+          "label": "企业购",
+          "path": "/enterprise",
+          "visible": false,
+          "sort": 9
+        },
+        {
+          "code": "benefits_mall",
+          "label": "权益商城",
+          "path": "/benefits-mall",
+          "visible": false,
+          "sort": 10
+        },
+        {
+          "code": "trade_in",
+          "label": "以旧换新",
+          "path": "/trade-in",
+          "visible": false,
+          "sort": 11
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/product/channel/subsidy_zone/display-context",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/home/notice",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": {
+        "serverTime": 1793348235698,
+        "nextChangeTime": null,
+        "notice": null
+      }
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/footer/navigation",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "configKey": "service_driver_download",
+          "displayGroup": "服务支持",
+          "displayName": "驱动程序下载",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/downloads",
+          "openMode": "NEW",
+          "sort": 1
+        },
+        {
+          "configKey": "service_store_locator",
+          "displayGroup": "服务支持",
+          "displayName": "线下门店查询",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/stores",
+          "openMode": "NEW",
+          "sort": 3
+        },
+        {
+          "configKey": "service_center",
+          "displayGroup": "服务支持",
+          "displayName": "服务中心查询",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/outlets",
+          "openMode": "NEW",
+          "sort": 4
+        },
+        {
+          "configKey": "service_policy",
+          "displayGroup": "服务支持",
+          "displayName": "服务政策条款",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/policy",
+          "openMode": "NEW",
+          "sort": 5
+        },
+        {
+          "configKey": "service_online_support",
+          "displayGroup": "服务支持",
+          "displayName": "在线客服支持",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://800.mechrevo.com/visitors-ui/h5?channelId=6&channelName=H5",
+          "openMode": "NEW",
+          "sort": 6
+        },
+        {
+          "configKey": "brand_about",
+          "displayGroup": "机械革命",
+          "displayName": "关于我们",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/story/",
+          "openMode": "NEW",
+          "sort": 7
+        },
+        {
+          "configKey": "legal_privacy",
+          "displayGroup": "底部服务",
+          "displayName": "隐私政策",
+          "configType": "RICH_TEXT",
+          "richText": "<h1>机械革命官方网站隐私政策</h1>\n<div>\n 制定主体：智通智能技术（苏州）有限公司\n</div>\n<h2><span>一、总则</span></h2>\n<p>智通智能技术（苏州）有限公司（以下简称\"我们\"或\"机械革命\"）是机械革命官方网站（网址：www.mechrevo.com，以下简称\"本网站\"）的运营主体。我们深知个人信息对用户（以下简称\"您\"）的重要性，严格遵守《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律法规，坚持\"合法、正当、必要、诚信\"原则处理您的个人信息，致力于保障您的信息安全与合法权益。</p>\n<p>本隐私政策旨在明确我们收集、使用您个人信息的范围、方式及目的，同时说明您享有的个人信息权利及行使路径。请您在访问、使用本网站前，仔细阅读并理解本政策全部内容；若您不同意本政策，应立即停止访问或使用本网站。您访问、使用本网站的行为，视为已接受本政策的约束。</p>\n<h2><span>二、适用范围</span></h2>\n<p>本政策仅适用于我们通过本网站收集、处理您个人信息的行为，包括您访问浏览本网站、注册账号、使用售后报修/活动报名/产品咨询等服务时产生的信息交互。</p>\n<p>本网站可能包含第三方平台链接（如电商旗舰店、售后服务合作方网站、社交媒体账号等），您访问第三方平台时，其信息处理规则由第三方自主制定，需遵循第三方的隐私政策。我们不对第三方的信息收集、使用行为承担责任，也不对此类行为提供担保。</p>\n<h2><span>三、我们收集的个人信息及收集方式</span></h2>\n<p>我们遵循\"最小必要\"原则收集个人信息，仅收集为实现本网站功能、提供服务所必需的信息，不收集与服务无关的信息。具体收集范围及方式如下：</p>\n<h3>（一）访问、浏览本网站时自动收集的信息</h3>\n<p>您无需注册账号即可访问本网站公开内容，在此过程中，我们会自动收集非身份识别信息，用于优化网站体验、保障服务稳定性，具体包括：</p>\n<p><strong>设备信息</strong>：设备型号（如电脑/手机品牌及型号）、操作系统版本（如Windows 11、iOS 17）、浏览器类型及版本（如Chrome 120.0）、设备唯一标识符（如IMEI、MAC地址，仅用于识别异常设备）、设备网络状态（如IP地址、Wi-Fi/移动网络类型、运营商信息）；</p>\n<p><strong>使用行为信息</strong>：访问时间、浏览的页面路径（如\"首页-游戏本系列-极光Pro型号\"）、页面滚动位置；</p>\n<p>上述信息为匿名化或去标识化数据，不直接关联您的真实身份。</p>\n<h3>（二）注册、使用特定服务时主动提供的信息</h3>\n<p>当您注册本网站账号、使用个性化服务（如售后报修、活动报名、产品咨询）时，需根据页面提示主动提供以下个人信息，若您不提供，可能无法使用对应服务：</p>\n<h4>账号注册信息：</h4>\n<p><strong>身份识别信息</strong>：姓名、手机号码（用于账号验证、身份核验，如短信验证码）；</p>\n<p><strong>账户基础信息</strong>：账号名称。</p>\n<h4>售后报修服务信息：</h4>\n<p><strong>产品信息</strong>：机械革命产品序列号（用于验证产品归属及保修期）、购买凭证（如订单编号、发票照片/扫描件，用于核验购买渠道）；</p>\n<p><strong>服务需求信息</strong>：故障描述（文字/图片）、故障发生时间、期望维修方式（上门/寄修）；</p>\n<p><strong>物流信息</strong>：寄修地址、收件人姓名、联系电话（用于维修后产品寄回）。</p>\n<h4>活动参与服务信息：</h4>\n<p>若您参与新品试用、抽奖、线下体验等活动，需提供姓名、手机号码、收货地址（用于活动资格核验、奖品发放/试用产品寄送）；</p>\n<p>若活动需实名认证（如高价值奖品发放），需提供身份证号码（仅用于合规核验，不用于其他目的）。</p>\n<h4>产品咨询服务信息：</h4>\n<p><strong>咨询内容</strong>：产品型号、咨询问题描述（如\"极光Pro是否支持独显直连\"）；</p>\n<p><strong>沟通信息</strong>：若通过在线客服沟通，会留存聊天记录（用于后续问题跟进及服务质量优化）。</p>\n<h3>（三）从第三方获取的信息</h3>\n<p>在符合法律法规及第三方平台规则的前提下，我们可能从合法授权的第三方获取您的个人信息，具体包括：</p>\n<p><strong>电商平台订单信息</strong>：若您通过第三方电商平台（如京东、天猫机械革命旗舰店）购买产品后，在本网站申请售后，我们可能从合作电商平台获取您的订单信息（如购买产品型号、订单时间、支付金额），用于核验售后资格，无需您重复提交；</p>\n<p><strong>物流服务商信息</strong>：若您选择寄修服务，我们会从合作物流服务商（如顺丰、京东物流）获取您的寄修包裹物流状态（如已签收、维修中、已寄出），用于同步售后进度。</p>\n<p>我们仅在获得您明确授权（如第三方账号登录时您点击\"同意授权\"）或符合法律规定的情况下，从第三方获取您的个人信息，并对第三方提供信息的合法性进行核实，确保信息来源合规。</p>\n<h2><span>四、个人信息的使用目的</span></h2>\n<p>我们收集您的个人信息，仅用于以下合法、明确的目的，若超出以下范围使用，将另行获得您的授权：</p>\n<p><strong>保障本网站正常运行</strong>：通过设备信息维护服务器稳定，排查技术故障（如页面加载失败、账号登录异常），确保您能正常访问、浏览本网站；</p>\n<p><strong>提供并优化服务</strong>：</p>\n<ul>\n <li>基于您的手机号，发送账号验证信息、服务通知（如售后进度提醒、活动资格确认、订单状态更新）；</li>\n <li>基于用户使用习惯数据（匿名化处理），优化网站页面设计（如调整热门功能入口位置）、提升加载速度，改善使用体验；</li>\n <li>处理售后及咨询需求：根据您提供的售后信息、咨询内容，为您提供故障排查、维修安排、问题解答等服务，留存聊天记录用于后续跟进；</li>\n <li>开展营销活动：在您同意的前提下，向您推送机械革命新品信息、优惠活动（如促销折扣、限时抢购），推送方式包括短信、邮箱、站内信；若您不想接收此类信息，可通过本政策\"六、您的权利\"中说明的方式取消授权；</li>\n <li>保障信息安全与合规：通过分析设备信息、登录行为，识别异常访问（如异地登录、多次密码错误、批量请求），采取账号冻结、安全提醒等措施，保护您的账号及个人信息安全；</li>\n <li>遵守法律法规要求：根据行政机关、司法机关的合法要求（如法院传票、监管部门指令），提供您的个人信息，配合调查取证或履行法定义务。</li>\n</ul>\n<h2><span>五、个人信息的存储与保护</span></h2>\n<h3>（一）存储方式与期限</h3>\n<p><strong>存储地点</strong>：我们将您的个人信息存储在中华人民共和国境内（不含港澳台地区）的阿里云服务器上，不将个人信息传输至境外。若未来因业务需求需向境外传输，将按照《个人信息保护法》要求，提前获得您的明确授权，并通过数据出境安全评估、签署标准合同等合规方式，保障信息传输安全；</p>\n<p><strong>存储期限</strong>：我们仅在实现本政策所述使用目的的必要期限内存储您的个人信息，超出期限后，将按照法律法规要求，采取删除、匿名化处理（去除身份标识，使其无法关联到具体个人）等方式处理，具体期限如下：</p>\n<ul>\n <li><strong>账号信息</strong>：若您未注销账号，将持续存储账号名称、手机号/邮箱，直至您主动注销账号；</li>\n <li><strong>售后信息</strong>：维修记录、故障描述、寄修地址等，存储至产品保修期结束后1年（用于后续售后查询及纠纷处理）；</li>\n <li><strong>活动信息</strong>：活动参与记录、奖品发放信息，存储至活动结束后3个月（用于应对可能的活动纠纷）；</li>\n <li><strong>咨询记录</strong>：在线客服聊天记录，存储至问题解决后3个月（用于服务质量回溯）；</li>\n <li><strong>匿名化信息</strong>：设备信息、浏览行为等匿名化后的数据，可用于长期分析用户习惯，不受上述期限限制。</li>\n</ul>\n<h3>（二）安全保护措施</h3>\n<p>我们已建立完善的个人信息安全管理制度，采取技术、管理双重措施，保障您的个人信息安全，请您注意：网络传输存在一定安全风险（如第三方非法拦截、设备感染恶意程序），我们无法保证信息传输的绝对安全。请您妥善保管账号密码，不向他人泄露，不使用公共设备登录账号，以降低信息泄露风险；若您发现账号异常，应立即联系我们处理。</p>\n<h2><span>六、个人信息的共享、转让与披露</span></h2>\n<p>我们严格限制个人信息的共享、转让与披露，仅在符合以下条件时进行，且确保每一项处理行为均合法合规：</p>\n<h3>（一）个人信息的共享</h3>\n<p>我们不会向未关联的第三方共享您的个人信息，仅在以下情况下，与合作第三方共享，且会对第三方的信息处理行为进行监督：</p>\n<p><strong>为提供服务所需</strong>：</p>\n<ul>\n <li><strong>物流服务商</strong>：若您参与活动需领取奖品、售后需寄修产品，我们会向物流服务商（如顺丰、京东物流）共享您的姓名、收货地址、联系电话，仅用于物流配送；</li>\n <li><strong>支付机构</strong>：若本网站开通直接支付功能（如购买配件），我们会向合作支付机构（如微信支付、支付宝）共享您的订单金额、支付账号信息，仅用于支付验证及订单结算；</li>\n <li><strong>客服外包服务商</strong>：若委托第三方提供客服服务，会向其共享您的咨询记录、售后信息，仅用于为您提供问题解答及服务跟进。</li>\n</ul>\n<p><strong>为履行法定义务</strong>：根据行政机关、司法机关的合法要求（如法院传票、市场监管部门调查指令），向相关部门共享您的个人信息，且会对要求的合法性进行核验。</p>\n<p><strong>获得您明确授权</strong>：在您同意的前提下，向第三方共享您的个人信息（如您授权我们将咨询需求同步给线下门店，由门店为您提供一对一服务）。</p>\n<p>我们会与共享信息的第三方签订《数据处理协议》，明确其信息使用范围、安全保护义务，要求第三方仅在约定范围内使用您的个人信息，不得超出范围处理；同时定期核查第三方的履行情况，若第三方违反约定，立即终止合作，并要求其删除已获取的个人信息。</p>\n<h3>（二）个人信息的转让</h3>\n<p>我们不会将您的个人信息转让给任何第三方，除非发生以下情况，且转让行为符合法律法规要求：</p>\n<p>发生企业合并、分立、收购、重组、破产清算等情形，您的个人信息将随业务资产一并转让给新主体，我们会在转让前通过本网站公告、站内信等方式通知您，新主体将继续履行本政策约定的信息保护义务；</p>\n<p>获得您的明确书面授权，且受让方承诺遵守与我们相同的信息保护标准。</p>\n<h3>（三）个人信息的披露</h3>\n<p>我们不会披露您的个人信息，除非符合以下条件：</p>\n<p>获得您的明确同意（如您同意将您的产品试用评价及昵称公开展示在本网站\"用户评价\"板块，不披露姓名、手机号等隐私信息）；</p>\n<p>为保护公共利益、他人合法权益或自身合法权益，在合理范围内公开（如曝光通过作弊手段参与活动的用户账号，以维护活动公平性，仅公开账号名称，不公开身份信息）；</p>\n<p>披露的信息已进行匿名化处理，无法关联到具体个人（如发布《机械革命用户使用习惯报告》，仅展示\"85%的游戏本用户关注显卡性能\"等统计数据）。</p>\n<h2><span>七、未成年人信息保护</span></h2>\n<p>我们高度重视未成年人个人信息保护，若您为未满18周岁的未成年人（以下简称\"未成年人\"），需在法定监护人（以下简称\"监护人\"）的陪同下使用本网站，并由监护人协助阅读本政策。</p>\n<h2><span>八、隐私政策的更新与通知</span></h2>\n<p>我们有权根据法律法规更新、监管要求调整、业务发展需求，不定期修订本政策。修订后的政策将通过以下方式通知您：</p>\n<p><strong>公示</strong>：在本网站首页\"隐私政策\"板块更新修订后的内容；</p>\n<p><strong>通知</strong>：若修订内容涉及用户核心权益（如个人信息收集范围扩大、共享规则变更），将额外通过站内信（针对已注册用户）、客服电话短信提醒等方式告知您，确保您知晓修订内容。</p>\n<p>修订后的政策自发布起生效，若您继续使用本网站，视为接受修订后的政策；若您不接受，应立即停止使用本网站。我们建议您定期查阅本政策（如每3个月查阅1次），了解最新的信息保护规则。</p>\n<h2><span>九、联系方式</span></h2>\n<p>若您对本政策有任何疑问，或需要行使个人信息权利、投诉举报，可通过以下方式联系我们：</p>\n<p><strong>客服电话</strong>：400-990-5898（服务时间：周一至周日9:00-21:00，法定节假日除外）；</p>\n<p><strong>在线客服</strong>：登录本网站，点击右下角\"在线客服\"图标，即可实时沟通；</p>\n<p>我们将认真对待您的反馈，及时为您解决问题，保障您的个人信息权益。</p>",
+          "sort": 16
+        },
+        {
+          "configKey": "legal_terms",
+          "displayGroup": "底部服务",
+          "displayName": "使用条款",
+          "configType": "RICH_TEXT",
+          "richText": "<h1>机械革命官方网站使用条款</h1>\n<h2>总则</h2>\n<p><strong>适用范围</strong>：本条款适用于所有访问、浏览、使用机械革命官方网站（www.mechrevo.com，以下简称\"本网站\"）的用户（包括个人及组织，以下简称\"用户\"）。本网站由智通智能技术（苏州）有限公司旗下机械革命品牌运营管理。</p>\n<p><strong>协议生效</strong>：用户使用本网站任何功能或服务，即视为已充分阅读、理解并接受本条款全部内容，以及本网站发布的隐私政策、活动规则等配套文件，与机械革命构成合法有效的合同关系。若用户不同意本条款，应立即停止使用本网站。</p>\n<p><strong>条款变更</strong>：机械革命有权根据法律法规更新、业务发展需求不定期修订本条款，修订后的内容将通过本网站首页公告公示。用户继续使用本网站的，视为接受变更后的条款；若不接受，应终止使用本网站。</p>\n<h2>网站使用规范</h2>\n<h3>用户行为准则</h3>\n<p>用户应遵守《网络安全法》《数据安全法》《个人信息保护法》等法律法规，不得利用本网站从事任何违法活动，包括但不限于：</p>\n<ul>\n <li>发布危害国家安全、泄露国家秘密、破坏民族团结的信息；</li>\n <li>传播淫秽、暴力、赌博等违法或违背公序良俗的内容；</li>\n <li>侮辱、诽谤他人，侵犯第三方名誉权、隐私权、知识产权等合法权益；</li>\n <li>实施任何介入、侵入或损害网络系统及资源、干扰本网站正常运行或窃取他人账户信息等行为。</li>\n</ul>\n<p>您知悉本服务的部份内容可能系由第三方网站所提供，且本服务将可能引导您至第三方网站的服务或网站。您将自行决定是否使用第三方网站的服务或网站，并同意接受其服务或网站所制定的条款与约定，包括但不限于商品价格、商品数量订购确认机制、订购数量上限、商品交付及付款方式等条款。您知悉且同意，您与第三方网站间的所有约定及第三方网站所提供的服务或网站内容概与机械革命无涉。</p>\n<p>禁止使用\"网页爬虫\"\"机器人程序\"等自动工具访问、采集本网站内容，不得实施\"深层链接\"等本网站未授权的访问行为。</p>\n<p>参与本网站活动时，不得提供虚假信息、冒用他人身份，或通过作弊、刷量等不正当手段获取权益，此类行为将导致资格取消。</p>\n<h3>账号使用规则</h3>\n<p>需注册账号使用的服务，用户应提供真实、准确、完整的个人信息，并及时更新。因信息虚假或过时导致的损失，由用户自行承担。</p>\n<p>用户应对账号密码的安全性负责，不得转借、出租账号，否则机械革命有权暂停账号使用以保障安全。</p>\n<h2>知识产权与内容规范</h2>\n<p><strong>机械革命知识产权</strong>：本网站所有内容（包括但不限于文字、图片、视频、产品参数、商标、软件代码等）的知识产权均归机械革命或相关授权方所有。\"机械革命\"及图形商标为智通智能技术（苏州）有限公司注册商标，受法律保护。</p>\n<p><strong>内容使用限制</strong>：用户可下载本网站产品信息用于个人非商业目的，但必须保留完整的版权声明；未经机械革命书面授权，不得用于商业用途，不得修改、传播或二次创作网站内容。</p>\n<p><strong>用户内容授权</strong>：用户上传至本网站的评价、图片等内容，视为授权机械革命及其关联企业在全球范围内无偿、非独占使用，可用于品牌推广、产品宣传等用途，且有权转授权第三方。</p>\n<p><strong>侵权处理</strong>：若用户认为本网站内容涉嫌侵权，可联系机械革命客服提交书面通知，机械革命核实无误后将依法采取删除、断开链接等处理措施；若内容上传者认为不构成侵权，可提交反通知，机械革命将依法复核。</p>\n<h2>产品信息与服务说明</h2>\n<p><strong>信息准确性</strong>：本网站发布的产品参数、功能描述、服务政策等信息，均基于产品发布时的技术标准制作。因产品迭代、地区政策、网络平台差异，本网站发布的产品参数、功能描述、服务政策等信息与实际销售产品可能与网站产品指向的第三方电商平台链接中的产品内容存在差异，具体以实物、销售合同或第三方电商平台链接中的产品内容为准。</p>\n<p><strong>服务可用性</strong>：机械革命尽力保障本网站24小时稳定运行，但不对服务的持续性、无中断性作出明示或默示保证。因系统维护、技术故障、第三方攻击等原因导致服务暂停的，机械革命将及时公告，但不承担赔偿责任。</p>\n<p><strong>第三方链接</strong>：本网站可能包含第三方平台（如电商旗舰店、售后服务合作方）的链接，此类链接仅为用户提供便利。机械革命不对第三方网站的内容、安全性及服务质量负责，用户访问第三方网站的风险自行承担。且本网站发布的产品参数、功能描述可能与第三方电商平台链接中的产品内容存在差异，具体以您进行购买行为的第三方电商平台的产品内容为准。</p>\n<h2>隐私保护</h2>\n<p>机械革命尊重用户隐私，将按照《机械革命隐私政策》处理用户个人信息，包括收集、使用、存储及披露等行为。</p>\n<p>请注意，用户与本网站之间的数据传输存在被拦截的可能性，机械革命无法完全保证网络传输的绝对安全，用户需自行承担相应风险。</p>\n<h2>责任限制与免责</h2>\n<p>本网站以\"现状\"提供服务，机械革命不保证内容的绝对准确、完整，不对用户因使用本网站信息导致的决策失误承担责任。</p>\n<p>因不可抗力（如自然灾害、政府行为）、公共服务故障（如电力、网络中断）或第三方原因导致的服务异常，机械革命不承担违约责任。</p>\n<p>机械革命对用户的全部责任，不超过用户因使用付费服务产生的实际费用总额。不对间接损失（如利润、数据丢失）承担赔偿责任，法律法规另有规定的除外。</p>\n<h2>协议终止</h2>\n<p>用户违反本条款的，机械革命有权在不事先通知的情况下，终止其账号使用权限、屏蔽访问，并追究法律责任。</p>\n<p>机械革命可根据业务调整，提前30日通过网站公告终止部分或全部服务，终止后将停止收集用户信息，并按规定处理已存储数据。</p>\n<h2>法律适用与争议解决</h2>\n<p>本条款适用中华人民共和国法律（不含港澳台地区法律）。</p>\n<p>因本条款产生的争议，双方应友好协商解决；协商不成的，任何一方可向本网站运营地（北京市海淀区）有管辖权的人民法院提起诉讼。</p>\n<h2>其他</h2>\n<p>本条款中的标题仅为阅读便利，不影响条款含义的解释。</p>\n<p>本条款的任何条款被认定为无效或不可执行的，不影响其余条款的效力。</p>\n<p>机械革命的联系方式：客服电话 400-990-5898。</p>",
+          "sort": 17
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/footer/social-platforms",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "id": 7,
+          "platformName": "微信公众号",
+          "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/84285326978248599293f0943c17dfc71787455750749.png",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/df5b853c424141218b7bae16b1b6d4c21787455755168.png",
+          "sort": 1
+        },
+        {
+          "id": 8,
+          "platformName": "哔哩哔哩",
+          "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d0b5b4b45f864db7974d022241217e701787455767137.png",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/e12e36049e3e4522b9b8821a646748d21787455770786.png",
+          "sort": 2
+        },
+        {
+          "id": 9,
+          "platformName": "抖音",
+          "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d13d1410484a466e811b5c10894394521787455785326.png",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/9882566845af49a0a0f326cfc630db081787455788634.png",
+          "sort": 3
+        },
+        {
+          "id": 10,
+          "platformName": "微博",
+          "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/f376e0ef0a874153b9d34cc31db371811787455799871.png",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/21d02677ee3646b794aef7c12b2715391787455803630.png",
+          "sort": 4
+        },
+        {
+          "id": 11,
+          "platformName": "微信小程序",
+          "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/2e88b1c8cb5b453281900730a7a892c01787455813949.png",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a256ff83d99d439fb6b35f1250d9d64c1787455817907.jpeg",
+          "sort": 5
+        },
+        {
+          "id": 12,
+          "platformName": "小红书",
+          "logoUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/5a822e2808714e9486dfd8352882fe891787455830537.png",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7c7e1359bcba4cfd8911ff22e61b21491787455834317.png",
+          "sort": 6
+        },
+        {
+          "id": -225,
+          "platformName": "机械革命教育服务",
+          "qrCodeUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260728/4b65e9ffba4f4ebc83a1fa26afa5dec21785230838737.jpg",
+          "sort": 1
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/navigation/items",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "code": "gaming_laptop",
+          "label": "游戏本",
+          "path": "/game",
+          "visible": true,
+          "sort": 1
+        },
+        {
+          "code": "thin_laptop",
+          "label": "轻薄本",
+          "path": "/game?category=light",
+          "visible": true,
+          "sort": 2
+        },
+        {
+          "code": "subsidy_zone",
+          "label": "国补专区",
+          "path": "/subsidy-zone",
+          "visible": true,
+          "sort": 3
+        },
+        {
+          "code": "retail_desktop",
+          "label": "零售台式机",
+          "path": "/game?category=desktop",
+          "visible": true,
+          "sort": 4
+        },
+        {
+          "code": "accessories",
+          "label": "周边配件",
+          "path": "/accessories",
+          "visible": true,
+          "sort": 5
+        },
+        {
+          "code": "service_products",
+          "label": "服务产品",
+          "path": "/service-products",
+          "visible": true,
+          "sort": 6
+        },
+        {
+          "code": "education",
+          "label": "教育优惠",
+          "path": "/education",
+          "visible": false,
+          "sort": 7
+        },
+        {
+          "code": "bto",
+          "label": "BTO定制",
+          "path": "https://bto.mechrevo.com/",
+          "visible": true,
+          "sort": 8
+        },
+        {
+          "code": "enterprise",
+          "label": "企业购",
+          "path": "/enterprise",
+          "visible": false,
+          "sort": 9
+        },
+        {
+          "code": "benefits_mall",
+          "label": "权益商城",
+          "path": "/benefits-mall",
+          "visible": false,
+          "sort": 10
+        },
+        {
+          "code": "trade_in",
+          "label": "以旧换新",
+          "path": "/trade-in",
+          "visible": false,
+          "sort": 11
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/home/content",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": {
+        "publishedConfigId": 271,
+        "versionNo": 270,
+        "buttonColor": "#FF475D",
+        "tagColor": "#5E5AE4",
+        "publishedTime": "2026-10-23T01:40:38.000+00:00",
+        "modules": [
+          {
+            "moduleCode": "HOME_HERO_BANNER",
+            "position": 1,
+            "moduleType": "MEDIA",
+            "visualType": "NONE",
+            "openMode": "CURRENT",
+            "target": {
+              "type": "NONE"
+            },
+            "media": [
+              {
+                "id": 4470,
+                "landingPageId": 3647,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261015/355c8a94010f4fba83e3984dde061cf31792061221580.jpg",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260911/3d1868b1ac294018ac1e7a5ea09b0e1e1789117392696.png",
+                "landingPageDesktopImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261023/a8372e79d4f8440b874162e2b8bb00ff1792719635578.jpg",
+                "landingPageMobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260914/03a5369b348245a486426d820b59a0481789364789588.jpg",
+                "sort": 1,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "LANDING_PAGE"
+                }
+              },
+              {
+                "id": 4472,
+                "landingPageId": 3649,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260910/5e49c5e81e704d769080e73915df86041789028124841.png",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260908/9bcd88f265a7478ea6104cbf1313ce7e1788854848513.png",
+                "sort": 3,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "PRODUCT",
+                  "productId": 131
+                }
+              },
+              {
+                "id": 4473,
+                "landingPageId": 3650,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/a4b7488826914498b8aca118c3b7ae7f1787563342654.png",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/da3304b264ed49d085bb2aa7a3a11e721787563352439.png",
+                "sort": 4,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "PRODUCT",
+                  "productId": 90
+                }
+              },
+              {
+                "id": 4474,
+                "landingPageId": 3651,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/9a329ab48a0a40f8a1bdfb2814753aa31787563916230.png",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/e7df4c93f0144690ad48b74c7bdd41511787563921658.png",
+                "sort": 5,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "PRODUCT",
+                  "productId": 87
+                }
+              },
+              {
+                "id": 4475,
+                "landingPageId": 3652,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/621cac8f336d4e26a6e977567271e3371787563885259.png",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/67f309bf120345a1822b3c066ec33cdc1787563890690.png",
+                "sort": 6,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "PRODUCT",
+                  "productId": 105
+                }
+              },
+              {
+                "id": 4477,
+                "landingPageId": 3654,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/8a2f1e044f2d45d0a182251bac67e38f1787565387530.png",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260824/97ef79f3da3b49fd868708c5a9b7f1491787565390514.png",
+                "sort": 8,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "PRODUCT",
+                  "productId": 101
+                }
+              }
+            ],
+            "products": [],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_SERIES_CONFIG",
+            "position": 2,
+            "moduleType": "SERIES",
+            "visualType": "NONE",
+            "openMode": "CURRENT",
+            "target": {
+              "type": "NONE"
+            },
+            "media": [],
+            "products": [],
+            "series": [
+              {
+                "channelId": 1,
+                "channelCode": "gaming_laptop",
+                "channelName": "游戏本",
+                "productCategoryId": 68,
+                "productCategoryName": "耀世系列",
+                "seriesName": "耀世系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/311e262c20f24712abde82b7054ffa4d1784447833836.png",
+                "sort": 0
+              },
+              {
+                "channelId": 1,
+                "channelCode": "gaming_laptop",
+                "channelName": "游戏本",
+                "productCategoryId": 67,
+                "productCategoryName": "苍龙系列",
+                "seriesName": "苍龙系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/07320c7569c8484c80db57ebbf1a78c41784447832294.png",
+                "sort": 1
+              },
+              {
+                "channelId": 1,
+                "channelCode": "gaming_laptop",
+                "channelName": "游戏本",
+                "productCategoryId": 64,
+                "productCategoryName": "蛟龙系列",
+                "seriesName": "蛟龙系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/e7e2460e5cd546e2a9f476f92e6353501787916580088.png",
+                "sort": 2
+              },
+              {
+                "channelId": 1,
+                "channelCode": "gaming_laptop",
+                "channelName": "游戏本",
+                "productCategoryId": 63,
+                "productCategoryName": "旷世系列",
+                "seriesName": "旷世系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/bec9cb2d229c41ab86d567fb179e585b1784447833484.png",
+                "sort": 3
+              },
+              {
+                "channelId": 2,
+                "channelCode": "thin_laptop",
+                "channelName": "轻薄本",
+                "productCategoryId": 84,
+                "productCategoryName": "星耀系列",
+                "seriesName": "星耀系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260820/c01855fbc4bf4089825404bf9c2b96761787193397597.png",
+                "sort": 4
+              },
+              {
+                "channelId": 2,
+                "channelCode": "thin_laptop",
+                "channelName": "轻薄本",
+                "productCategoryId": 70,
+                "productCategoryName": "无界系列",
+                "seriesName": "无界系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260820/9fe53edffa214ee4901adad3552d5ac21787193405111.png",
+                "sort": 5
+              },
+              {
+                "channelId": 3,
+                "channelCode": "retail_desktop",
+                "channelName": "零售台式机",
+                "productCategoryId": 88,
+                "productCategoryName": "imini系列",
+                "seriesName": "imini系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/637cb846048847f1a9c41c575077fd5b1787456514694.png",
+                "sort": 6
+              },
+              {
+                "channelId": 3,
+                "channelCode": "retail_desktop",
+                "channelName": "零售台式机",
+                "productCategoryId": 89,
+                "productCategoryName": "无界系列",
+                "seriesName": "无界系列",
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/5258ed45bde74d0dba4e14536105f54d1787456520507.png",
+                "sort": 7
+              }
+            ],
+            "quickNavSchemaVersion": 3,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": [
+              {
+                "channelId": 1,
+                "channelCode": "gaming_laptop",
+                "channelName": "游戏本",
+                "sort": 1,
+                "series": [
+                  {
+                    "productCategoryId": 67,
+                    "productCategoryName": "苍龙系列",
+                    "seriesName": "苍龙系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/07320c7569c8484c80db57ebbf1a78c41784447832294.png",
+                    "sort": 0,
+                    "products": [
+                      {
+                        "productId": 94,
+                        "productName": "苍龙 18 Pro高端大屏游戏本",
+                        "productSn": "P505F8301CC5748D0B8",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a8bbc5b184554184837e463e9c8166241787282047769.png",
+                        "price": 12399,
+                        "originalPrice": 12599,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 95,
+                        "productName": "苍龙 16 Ultra旗舰游戏本",
+                        "productSn": "P3758A9D8827A475EA7",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/67bdf39f2d6941b993b9cdb5929e63831787281195509.png",
+                        "price": 17999,
+                        "originalPrice": 18999,
+                        "stock": 1,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 68,
+                    "productCategoryName": "耀世系列",
+                    "seriesName": "耀世系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/311e262c20f24712abde82b7054ffa4d1784447833836.png",
+                    "sort": 1,
+                    "products": [
+                      {
+                        "productId": 87,
+                        "productName": "耀世 18 Pro高端大屏游戏本",
+                        "productSn": "P5E79716C63D74A0997",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/50654e539b8c405db99e26fb9c4d69461787282186464.png",
+                        "price": 12199,
+                        "originalPrice": 13999,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 89,
+                        "productName": "耀世 16 Ultra旗舰游戏本",
+                        "productSn": "P7C14A1211CE64601A5",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/f6908e5dc3b149e6ba07998ac2e459f91787280961946.png",
+                        "price": 17499,
+                        "originalPrice": 18499,
+                        "stock": 1,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 90,
+                        "productName": "耀世 15 Air轻薄游戏本",
+                        "productSn": "P5AF89718E73245FE8B",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a1994c69e6324d11a16864c3c60968f51787281013046.png",
+                        "price": 13499,
+                        "originalPrice": 14499,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 66,
+                    "productCategoryName": "翼龙系列",
+                    "seriesName": "翼龙系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/c975f8313e944340a2958a4dc130372a1784447668277.png",
+                    "sort": 2,
+                    "products": [
+                      {
+                        "productId": 96,
+                        "productName": "翼龙 16X",
+                        "productSn": "P63946639E0EF4F07A1",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/832d3769d4b847cabb08ab1b7403b7901787281212777.png",
+                        "price": 11499,
+                        "originalPrice": 11999,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 64,
+                    "productCategoryName": "蛟龙系列",
+                    "seriesName": "蛟龙系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/e7e2460e5cd546e2a9f476f92e6353501787916580088.png",
+                    "sort": 4,
+                    "products": [
+                      {
+                        "productId": 97,
+                        "productName": "蛟龙 16 Pro高性能游戏本",
+                        "productSn": "PEA177C0CF0C946558B",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/27208ee850dc4a4bb0e92b4ca237d2041787281236197.png",
+                        "price": 15799,
+                        "originalPrice": 16799,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 63,
+                    "productCategoryName": "旷世系列",
+                    "seriesName": "旷世系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260719/bec9cb2d229c41ab86d567fb179e585b1784447833484.png",
+                    "sort": 5,
+                    "products": [
+                      {
+                        "productId": 92,
+                        "productName": "旷世 X高性能游戏本",
+                        "productSn": "P68AD8826DBF740EA99",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/c472bd10d71949d09574dc6d8763ee661787281132281.png",
+                        "price": 11799,
+                        "originalPrice": 12799,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "channelId": 2,
+                "channelCode": "thin_laptop",
+                "channelName": "轻薄本",
+                "sort": 2,
+                "series": [
+                  {
+                    "productCategoryId": 84,
+                    "productCategoryName": "星耀系列",
+                    "seriesName": "星耀系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260820/c01855fbc4bf4089825404bf9c2b96761787193397597.png",
+                    "sort": 0,
+                    "products": [
+                      {
+                        "productId": 100,
+                        "productName": "星耀 15先锋轻薄本",
+                        "productSn": "P6B450E8884BC481CB7",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/fcab1f0601ce4c1492d2088f5c0e01d51787281276693.png",
+                        "price": 7499,
+                        "originalPrice": 7999,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 101,
+                        "productName": "星耀 14高颜值轻薄本",
+                        "productSn": "P6496F47A36454BE08D",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/340526370f05411b8b5a7fa511f3e8161787281295571.png",
+                        "price": 6999,
+                        "originalPrice": 7999,
+                        "stock": 2,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 70,
+                    "productCategoryName": "无界系列",
+                    "seriesName": "无界系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260820/9fe53edffa214ee4901adad3552d5ac21787193405111.png",
+                    "sort": 1,
+                    "products": [
+                      {
+                        "productId": 105,
+                        "productName": "无界 14高性能轻薄本",
+                        "productSn": "P0FA1FA6A35E247EFB5",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/9a731cb754144dcfa40a4921f843f0c41788234706901.png",
+                        "price": 5199,
+                        "originalPrice": 5299,
+                        "stock": 10,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 106,
+                        "productName": "无界 14 SE双通道轻薄本",
+                        "productSn": "P26AA58D410214516A0",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/8566fdb883c84000b5a5c351a67af2841787281608482.png",
+                        "price": 3999,
+                        "originalPrice": 4999,
+                        "stock": 10,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 98,
+                    "productCategoryName": "恒悦系列",
+                    "seriesName": "恒悦系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261026/3c42587dd0c54811aa0d13aadcf626af1793002612744.png",
+                    "sort": 2,
+                    "products": [
+                      {
+                        "productId": 142,
+                        "productName": "恒悦E14G2",
+                        "productSn": "P1AE34D19B90F422F8C",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261026/39c4ff0307a44200a8c2e7422fc9b0121793002665639.png",
+                        "price": 5999,
+                        "originalPrice": 6999,
+                        "stock": 12,
+                        "sort": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "channelId": 3,
+                "channelCode": "retail_desktop",
+                "channelName": "零售台式机",
+                "sort": 3,
+                "series": [
+                  {
+                    "productCategoryId": 88,
+                    "productCategoryName": "imini系列",
+                    "seriesName": "imini系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/637cb846048847f1a9c41c575077fd5b1787456514694.png",
+                    "sort": 0,
+                    "products": [
+                      {
+                        "productId": 110,
+                        "productName": "imini E300迷你商用主机",
+                        "productSn": "P5278A636145C49989B",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7b34428afea84995a48ccead5330fd661787451758567.png",
+                        "price": 4199,
+                        "originalPrice": 4299,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 89,
+                    "productCategoryName": "无界系列",
+                    "seriesName": "无界系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/5258ed45bde74d0dba4e14536105f54d1787456520507.png",
+                    "sort": 1,
+                    "products": [
+                      {
+                        "productId": 113,
+                        "productName": "无界 S500e商用台式机",
+                        "productSn": "P0CDEABC993624B7292",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1c8e909a250e4cbeab8c2d310ffcb57f1787453178237.png",
+                        "price": 3699,
+                        "originalPrice": 4000,
+                        "stock": 1,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 99,
+                    "productCategoryName": "极光系列",
+                    "seriesName": "极光系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261010/26f6a5f572e54ce8b39c65dc7244cddb1791623684404.png",
+                    "sort": 2,
+                    "products": [
+                      {
+                        "productId": 143,
+                        "productName": "极光 G505电竞游戏主机",
+                        "productSn": "P06A25F7B9694455BB5",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261010/44eba96f063947329c6d8c7432dde28f1791623646678.png",
+                        "price": 10999,
+                        "originalPrice": 11999,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 100,
+                    "productCategoryName": "苍龙系列",
+                    "seriesName": "苍龙系列",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261012/6f1d02c20c0f40d6a24ee8d791e0db661791795809874.png",
+                    "sort": 3,
+                    "products": [
+                      {
+                        "productId": 144,
+                        "productName": "苍龙G705高端电竞主机",
+                        "productSn": "PE33B78E7C2FD44DFB4",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261012/354c49c4e7fc4492b3e407020a9dc22a1791795837492.png",
+                        "price": 24999,
+                        "originalPrice": 25999,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "channelId": 4,
+                "channelCode": "accessories",
+                "channelName": "周边配件",
+                "sort": 4,
+                "series": [
+                  {
+                    "productCategoryId": 90,
+                    "productCategoryName": "显示器",
+                    "seriesName": "显示器",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7b999032f6e541988215c7521e5c37341787475107814.png",
+                    "sort": 0,
+                    "products": [
+                      {
+                        "productId": 117,
+                        "productName": "液晶固定款VA屏显示器",
+                        "productSn": "P19988C7B4C44481B88",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261027/7876474fc56741c9a1634ea6f2f7a0881793068492178.png",
+                        "price": 399,
+                        "originalPrice": 449,
+                        "stock": 1,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 120,
+                        "productName": "机械革命27英寸2K 275Hz高刷FastIPS液晶屏游戏电脑显示器",
+                        "productSn": "P41F4001B939846198E",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/dec13712c8dd4c89be9c0a0f0d9e5ce41787454633174.jpg",
+                        "price": 999,
+                        "originalPrice": 1199,
+                        "stock": 1,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 91,
+                    "productCategoryName": "适配器",
+                    "seriesName": "适配器",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/ad4d03e2e4fe4da1883125553fcdb9231787468653389.png",
+                    "sort": 1,
+                    "products": [
+                      {
+                        "productId": 121,
+                        "productName": "适配器",
+                        "productSn": "P37A47CE30EE04317BA",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a89d76a5bd50489da938d4f6b15a20461787468502982.png",
+                        "price": 169,
+                        "originalPrice": 199,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 92,
+                    "productCategoryName": "水冷机",
+                    "seriesName": "水冷机",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/75c175aad17d4e7eb1d8cc0a65153d8b1787468668058.png",
+                    "sort": 2,
+                    "products": [
+                      {
+                        "productId": 122,
+                        "productName": "机械革命冰河水冷机2025款",
+                        "productSn": "P0F3B9A730FB641A496",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a3c830ef4c794f1f8d4f30276c5e62b41787468785328.png",
+                        "price": 699,
+                        "originalPrice": 999,
+                        "stock": 12,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 93,
+                    "productCategoryName": "电脑支架",
+                    "seriesName": "电脑支架",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/8bd24ddf192d4e77b173050a407929761787886377160.png",
+                    "sort": 3,
+                    "products": [
+                      {
+                        "productId": 125,
+                        "productName": "JG1Z Pro电脑支架",
+                        "productSn": "P90B278C29BE442E784",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/531ef985b8fb40bda101d4be0f7ba3d01787882665920.png",
+                        "price": 69.9,
+                        "originalPrice": 79.9,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 126,
+                        "productName": "JG1Z电脑支架",
+                        "productSn": "P02400A55839647C4B5",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/844498d6b48642dd9bd2220f768539891787900117089.png",
+                        "price": 59.9,
+                        "originalPrice": 69.9,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 128,
+                        "productName": "JG10X电脑支架",
+                        "productSn": "PA8E2C9C7022744C29D",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/d8db70639a164489b05475068ce5746f1787913290965.png",
+                        "price": 39.9,
+                        "originalPrice": 49.9,
+                        "stock": 2,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 94,
+                    "productCategoryName": "散热风扇",
+                    "seriesName": "散热风扇",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/b27a0565dc7e4222b53fe307df184e331787901714160.png",
+                    "sort": 4,
+                    "products": [
+                      {
+                        "productId": 127,
+                        "productName": "JG10F散热风扇",
+                        "productSn": "P7C1A90F141464FB9B1",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/c35ed78a18b942f1a37343551bbdb8061787901430308.png",
+                        "price": 69.9,
+                        "originalPrice": 79.9,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 129,
+                        "productName": "JG16F散热风扇",
+                        "productSn": "P200EEBC5E3B44BABB3",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/74e55506b3a74fd591f16dffc81476db1787913696522.png",
+                        "price": 159,
+                        "originalPrice": 169,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 137,
+                        "productName": "JG20F笔记本散热器",
+                        "productSn": "PA4AE4252231D4DE5BE",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260930/cced9c3229e049449bd225f2f2e92b031790751404805.jpg",
+                        "price": 199,
+                        "originalPrice": 229,
+                        "stock": 2,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 145,
+                        "productName": "JG12F散热风扇",
+                        "productSn": "P57E8050ED3924B078C",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261021/5dd45be2e2474a81a813ab5d7ec4b01b1792551798042.png",
+                        "price": 99,
+                        "originalPrice": 129,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 78,
+                    "productCategoryName": "游戏鼠标",
+                    "seriesName": "游戏鼠标",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260930/103cf14f776b4ddbaa72fe70b79f10d81790756549406.png",
+                    "sort": 5,
+                    "products": [
+                      {
+                        "productId": 138,
+                        "productName": "JG01M/JG01M Pro 游戏鼠标",
+                        "productSn": "PB29F4D25B6444321A8",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260930/dcc3d3d934b34da78b8ec3eab44e8d581790756604489.png",
+                        "price": 79.9,
+                        "originalPrice": 99.9,
+                        "stock": 39,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 139,
+                        "productName": "JG02M/JG02M Pro电竞鼠标",
+                        "productSn": "PC9E4DFA73E884D0990",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260930/5fa7b9ef962e440da8acfc5a16f1c6bf1790758263421.png",
+                        "price": 79.9,
+                        "originalPrice": 99.9,
+                        "stock": 58,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 140,
+                        "productName": "JG03M/JG03M Pro",
+                        "productSn": "PCFB3F9BDD3E5465483",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261027/d253aabd23ef4f05854188336a9176261793068235262.png",
+                        "price": 89.9,
+                        "originalPrice": 99.9,
+                        "stock": 38,
+                        "sort": 0
+                      }
+                    ]
+                  },
+                  {
+                    "productCategoryId": 97,
+                    "productCategoryName": "电竞耳机",
+                    "seriesName": "电竞耳机",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260930/cd9c8f11dc394af8b1fecc0c9a15dbdc1790761395975.png",
+                    "sort": 6,
+                    "products": [
+                      {
+                        "productId": 141,
+                        "productName": "JG01G/JG01G Pro",
+                        "productSn": "P804022782FF3465B87",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260930/7598f771b3f34fabb9f27316736c0f4b1790761633129.png",
+                        "price": 149,
+                        "originalPrice": 169,
+                        "stock": 0,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 146,
+                        "productName": "JG02G",
+                        "productSn": "PBB20D9567990499B81",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261021/e993455e3115427abcb885ae9ba589c41792553049841.png",
+                        "price": 199,
+                        "originalPrice": 229,
+                        "stock": 0,
+                        "sort": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "channelId": 5,
+                "channelCode": "service_products",
+                "channelName": "服务产品",
+                "sort": 5,
+                "series": [
+                  {
+                    "productCategoryId": 96,
+                    "productCategoryName": "延保",
+                    "seriesName": "延保",
+                    "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/0ea191ad606f4c40b34be338cab277b11787912587473.png",
+                    "sort": 0,
+                    "products": [
+                      {
+                        "productId": 130,
+                        "productName": "延保一年（轻薄本）",
+                        "productSn": "P8B48A5750626454788",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/62992ba5fe8a428a83f1a99c5e74718d1787912477694.png",
+                        "price": 299,
+                        "originalPrice": 399,
+                        "stock": 199,
+                        "sort": 0
+                      },
+                      {
+                        "productId": 131,
+                        "productName": "延保一年（游戏本）",
+                        "productSn": "P3F9DA63D1C664D0FA0",
+                        "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/d3cf77dd84b448a9b8479abb55d0f1361787912518389.png",
+                        "price": 429,
+                        "originalPrice": 599,
+                        "stock": 151,
+                        "sort": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "moduleCode": "HOME_RECOMMENDED_PRODUCTS",
+            "position": 4,
+            "moduleType": "PRODUCTS",
+            "displayTitle": "机革精选",
+            "visualType": "NONE",
+            "openMode": "CURRENT",
+            "target": {
+              "type": "NONE"
+            },
+            "media": [],
+            "products": [
+              {
+                "productId": 89,
+                "productName": "耀世 16 Ultra旗舰游戏本",
+                "productSn": "P7C14A1211CE64601A5",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/f6908e5dc3b149e6ba07998ac2e459f91787280961946.png",
+                "subTitle": "Ultra 9 290 HX Plus | RTX 5070Ti | 16英寸",
+                "recommendCardSubTitle": "· Intel Core Ultra 9 290 HX Plus · RTX 5070Ti · 16英寸",
+                "standardCardRichText": "<p>Ultra 9 290 HX Plus | RTX 5070Ti | 16英寸</p>",
+                "recommendCardRichText": "<p><strong>·</strong> Intel Core Ultra 9 290 HX Plus</p>\n<p><strong>· </strong>RTX 5070Ti</p>\n<p><strong>· </strong>16英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 17499,
+                "originalPrice": 18499,
+                "stock": 1,
+                "sort": 1
+              },
+              {
+                "productId": 95,
+                "productName": "苍龙 16 Ultra旗舰游戏本",
+                "productSn": "P3758A9D8827A475EA7",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/67bdf39f2d6941b993b9cdb5929e63831787281195509.png",
+                "subTitle": "至高 AMD Ryzen 9 9955HX3D | RTX 5070Ti | 16英寸",
+                "recommendCardSubTitle": "· 至高 AMD Ryzen 9 9955HX3D · RTX 5070Ti · 16英寸",
+                "standardCardRichText": "<p>至高 AMD Ryzen 9 9955HX3D | RTX 5070Ti | 16英寸</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 9955HX3D&nbsp;</p>\n<p><strong>·</strong> RTX 5070Ti&nbsp;</p>\n<p><strong>·</strong> 16英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 17999,
+                "originalPrice": 18999,
+                "stock": 1,
+                "sort": 2
+              },
+              {
+                "productId": 105,
+                "productName": "无界 14高性能轻薄本",
+                "productSn": "P0FA1FA6A35E247EFB5",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/9a731cb754144dcfa40a4921f843f0c41788234706901.png",
+                "subTitle": "至高 Intel Core 5 226V | 14英寸",
+                "recommendCardSubTitle": "· 至高 Intel Core 7 226V · 14英寸",
+                "standardCardRichText": "<p>至高 Intel Core 5 226V | 14英寸</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 Intel Core 7 226V&nbsp;</p>\n<p><strong>·</strong> 14英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "国补",
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 5199,
+                "originalPrice": 5299,
+                "stock": 10,
+                "sort": 3
+              },
+              {
+                "productId": 106,
+                "productName": "无界 14 SE双通道轻薄本",
+                "productSn": "P26AA58D410214516A0",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/8566fdb883c84000b5a5c351a67af2841787281608482.png",
+                "subTitle": "至高 i5-13420H | 14英寸",
+                "recommendCardSubTitle": "· 至高i5-13420H · 12G/500 · 65W/灰",
+                "standardCardRichText": "<p>至高 i5-13420H | 14英寸</p>",
+                "recommendCardRichText": "<p><strong>·</strong> 至高i5-13420H</p>\n<p><strong>· </strong>12G/500</p>\n<p><strong>· </strong>65W/灰</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 3999,
+                "originalPrice": 4999,
+                "stock": 10,
+                "sort": 4
+              },
+              {
+                "productId": 90,
+                "productName": "耀世 15 Air轻薄游戏本",
+                "productSn": "P5AF89718E73245FE8B",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a1994c69e6324d11a16864c3c60968f51787281013046.png",
+                "subTitle": "至高酷睿U7-356H | 32G |1T | RTX5060",
+                "recommendCardSubTitle": "· 至高酷睿U7-356H · 32G 1T · RTX5060",
+                "standardCardRichText": "<p>至高酷睿U7-356H | 32G |1T | RTX5060</p>",
+                "recommendCardRichText": "<p><strong>· 至高</strong>酷睿U7-356H</p>\n<p><strong>· </strong>32G 1T&nbsp;</p>\n<p><strong>· </strong>RTX5060</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 13499,
+                "originalPrice": 14499,
+                "stock": 0,
+                "sort": 5
+              }
+            ],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_CAMPAIGN_IMAGES",
+            "position": 5,
+            "moduleType": "MEDIA",
+            "displayTitle": "精彩活动",
+            "visualType": "NONE",
+            "openMode": "CURRENT",
+            "target": {
+              "type": "NONE"
+            },
+            "media": [
+              {
+                "id": 4455,
+                "landingPageId": 3720,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261021/c4a1feef12fb4a1cbef89d10709667a71792554531805.jpg",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260907/df977a028b124b4898c2e2f3bf13072f1788764989577.png",
+                "landingPageDesktopImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261021/23e97808a1574a58bb849517d7216c4d1792554553849.jpg",
+                "landingPageMobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260917/a9e62bb174eb40739f97d7de5e0440c31789628442686.png",
+                "sort": 1,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "LANDING_PAGE"
+                }
+              },
+              {
+                "id": 4456,
+                "landingPageId": 3721,
+                "imageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261011/0f59630e09da4039aa105aaec4e090e81791711590993.jpg",
+                "mobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260907/cf196b60b984448e8ea45f1eff5310d41788765000561.png",
+                "landingPageDesktopImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261011/7cccd992e0bf4e1b8786e89e87f05a6a1791711593972.png",
+                "landingPageMobileImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260917/4a3036c9449644c9a09074add3a60ca71789628455726.png",
+                "sort": 2,
+                "openMode": "CURRENT",
+                "target": {
+                  "type": "LANDING_PAGE"
+                }
+              }
+            ],
+            "products": [],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_PRODUCT_FLOOR_1",
+            "position": 6,
+            "moduleType": "PRODUCT_FLOOR",
+            "displayTitle": "游戏本",
+            "miniappDisplayStatus": 1,
+            "visualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260826/c9ca775196724765a59a8505f454a04a1787713280504.png",
+            "visualType": "LONG",
+            "mobileVisualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260826/c9ca775196724765a59a8505f454a04a1787713280504.png",
+            "mobileVisualType": "LONG",
+            "sourceCategoryId": 56,
+            "openMode": "CURRENT",
+            "target": {
+              "type": "PRODUCT",
+              "productId": 89
+            },
+            "media": [],
+            "products": [
+              {
+                "productId": 87,
+                "productName": "耀世 18 Pro高端大屏游戏本",
+                "productSn": "P5E79716C63D74A0997",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/50654e539b8c405db99e26fb9c4d69461787282186464.png",
+                "subTitle": "至高Intel Core i7-14650HX",
+                "recommendCardSubTitle": "· 至高 Intel i7-14650HX · RTX 5060 · 18英寸",
+                "standardCardRichText": "<p>至高Intel Core i7-14650HX</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 Intel i7-14650HX&nbsp;</p>\n<p><strong>· </strong>RTX 5060&nbsp;</p>\n<p><strong>· </strong>18英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 12199,
+                "originalPrice": 13999,
+                "stock": 0,
+                "sort": 1
+              },
+              {
+                "productId": 95,
+                "productName": "苍龙 16 Ultra旗舰游戏本",
+                "productSn": "P3758A9D8827A475EA7",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/67bdf39f2d6941b993b9cdb5929e63831787281195509.png",
+                "subTitle": "至高 AMD Ryzen 9 9955HX3D | RTX 5070Ti | 16英寸",
+                "recommendCardSubTitle": "· 至高 AMD Ryzen 9 9955HX3D · RTX 5070Ti · 16英寸",
+                "standardCardRichText": "<p>至高 AMD Ryzen 9 9955HX3D | RTX 5070Ti | 16英寸</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 9955HX3D&nbsp;</p>\n<p><strong>·</strong> RTX 5070Ti&nbsp;</p>\n<p><strong>·</strong> 16英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 17999,
+                "originalPrice": 18999,
+                "stock": 1,
+                "sort": 2
+              },
+              {
+                "productId": 94,
+                "productName": "苍龙 18 Pro高端大屏游戏本",
+                "productSn": "P505F8301CC5748D0B8",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a8bbc5b184554184837e463e9c8166241787282047769.png",
+                "subTitle": "至高 AMD Ryzen 9 8945HX | RTX 5060 | 18英寸",
+                "recommendCardSubTitle": "· 至高 AMD Ryzen 9 8945HX · RTX 5060 · 18英寸",
+                "standardCardRichText": "<p>至高 AMD Ryzen 9 8945HX | RTX 5060 | 18英寸</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 8945HX&nbsp;</p>\n<p><strong>· </strong>RTX 5060&nbsp;</p>\n<p><strong>·</strong> 18英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 12399,
+                "originalPrice": 12599,
+                "stock": 0,
+                "sort": 3
+              },
+              {
+                "productId": 97,
+                "productName": "蛟龙 16 Pro高性能游戏本",
+                "productSn": "PEA177C0CF0C946558B",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/27208ee850dc4a4bb0e92b4ca237d2041787281236197.png",
+                "subTitle": "至高 AMD Ryzen 9 8945HX | RTX5070Ti | 16英寸",
+                "recommendCardSubTitle": "· 至高 AMD Ryzen 9 8945HX · RTX5070Ti · 16英寸",
+                "standardCardRichText": "<p>至高 AMD Ryzen 9 8945HX | RTX5070Ti | 16英寸</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 8945HX<br><strong>· </strong>RTX5070Ti&nbsp;<br><strong>· </strong>16英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 15799,
+                "originalPrice": 16799,
+                "stock": 0,
+                "sort": 4
+              },
+              {
+                "productId": 96,
+                "productName": "翼龙 16X",
+                "productSn": "P63946639E0EF4F07A1",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/832d3769d4b847cabb08ab1b7403b7901787281212777.png",
+                "subTitle": "至高 AMD Ryzen 7 | RTX 5060 | 16英寸",
+                "recommendCardSubTitle": "至高 AMD Ryzen 7 | RTX 5060 | 16英寸",
+                "standardCardRichText": "<p>至高 AMD Ryzen 7 | RTX 5060 | 16英寸</p>",
+                "recommendCardRichText": "<p>至高 AMD Ryzen 7 | RTX 5060 | 16英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时"
+                ],
+                "price": 11499,
+                "originalPrice": 11999,
+                "stock": 0,
+                "sort": 5
+              },
+              {
+                "productId": 90,
+                "productName": "耀世 15 Air轻薄游戏本",
+                "productSn": "P5AF89718E73245FE8B",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a1994c69e6324d11a16864c3c60968f51787281013046.png",
+                "subTitle": "至高酷睿U7-356H | 32G |1T | RTX5060",
+                "recommendCardSubTitle": "· 至高酷睿U7-356H · 32G 1T · RTX5060",
+                "standardCardRichText": "<p>至高酷睿U7-356H | 32G |1T | RTX5060</p>",
+                "recommendCardRichText": "<p><strong>· 至高</strong>酷睿U7-356H</p>\n<p><strong>· </strong>32G 1T&nbsp;</p>\n<p><strong>· </strong>RTX5060</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 13499,
+                "originalPrice": 14499,
+                "stock": 0,
+                "sort": 6
+              },
+              {
+                "productId": 89,
+                "productName": "耀世 16 Ultra旗舰游戏本",
+                "productSn": "P7C14A1211CE64601A5",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/f6908e5dc3b149e6ba07998ac2e459f91787280961946.png",
+                "subTitle": "Ultra 9 290 HX Plus | RTX 5070Ti | 16英寸",
+                "recommendCardSubTitle": "· Intel Core Ultra 9 290 HX Plus · RTX 5070Ti · 16英寸",
+                "standardCardRichText": "<p>Ultra 9 290 HX Plus | RTX 5070Ti | 16英寸</p>",
+                "recommendCardRichText": "<p><strong>·</strong> Intel Core Ultra 9 290 HX Plus</p>\n<p><strong>· </strong>RTX 5070Ti</p>\n<p><strong>· </strong>16英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 17499,
+                "originalPrice": 18499,
+                "stock": 1,
+                "sort": 7
+              }
+            ],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_PRODUCT_FLOOR_2",
+            "position": 7,
+            "moduleType": "PRODUCT_FLOOR",
+            "displayTitle": "轻薄本",
+            "miniappDisplayStatus": 1,
+            "visualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/b1194facc2044233a99c1b373b39e8981788212931132.jpg",
+            "visualType": "SHORT",
+            "mobileVisualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/b1194facc2044233a99c1b373b39e8981788212931132.jpg",
+            "mobileVisualType": "SHORT",
+            "sourceCategoryId": 57,
+            "openMode": "NEW",
+            "target": {
+              "type": "PRODUCT",
+              "productId": 101
+            },
+            "media": [],
+            "products": [
+              {
+                "productId": 106,
+                "productName": "无界 14 SE双通道轻薄本",
+                "productSn": "P26AA58D410214516A0",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/8566fdb883c84000b5a5c351a67af2841787281608482.png",
+                "subTitle": "至高 i5-13420H | 14英寸",
+                "recommendCardSubTitle": "· 至高i5-13420H · 12G/500 · 65W/灰",
+                "standardCardRichText": "<p>至高 i5-13420H | 14英寸</p>",
+                "recommendCardRichText": "<p><strong>·</strong> 至高i5-13420H</p>\n<p><strong>· </strong>12G/500</p>\n<p><strong>· </strong>65W/灰</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 3999,
+                "originalPrice": 4999,
+                "stock": 10,
+                "sort": 1
+              },
+              {
+                "productId": 105,
+                "productName": "无界 14高性能轻薄本",
+                "productSn": "P0FA1FA6A35E247EFB5",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/9a731cb754144dcfa40a4921f843f0c41788234706901.png",
+                "subTitle": "至高 Intel Core 5 226V | 14英寸",
+                "recommendCardSubTitle": "· 至高 Intel Core 7 226V · 14英寸",
+                "standardCardRichText": "<p>至高 Intel Core 5 226V | 14英寸</p>",
+                "recommendCardRichText": "<p><strong>· </strong>至高 Intel Core 7 226V&nbsp;</p>\n<p><strong>·</strong> 14英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "国补",
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 5199,
+                "originalPrice": 5299,
+                "stock": 10,
+                "sort": 2
+              },
+              {
+                "productId": 100,
+                "productName": "星耀 15先锋轻薄本",
+                "productSn": "P6B450E8884BC481CB7",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/fcab1f0601ce4c1492d2088f5c0e01d51787281276693.png",
+                "subTitle": "至高 AI 9H 365 | 15英寸",
+                "recommendCardSubTitle": "AI 9H 365 32G 1T 2.5K OLED 165Hz 100%DCI-P3",
+                "standardCardRichText": "<p>至高 AI 9H 365 | 15英寸</p>",
+                "recommendCardRichText": "<p>AI 9H 365 32G 1T 2.5K OLED 165Hz 100%DCI-P3</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 7499,
+                "originalPrice": 7999,
+                "stock": 0,
+                "sort": 3
+              },
+              {
+                "productId": 101,
+                "productName": "星耀 14高颜值轻薄本",
+                "productSn": "P6496F47A36454BE08D",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/340526370f05411b8b5a7fa511f3e8161787281295571.png",
+                "subTitle": "至高 AI 9 H 365 | 14英寸",
+                "recommendCardSubTitle": "至高 AI 9 H 365 | 14英寸",
+                "standardCardRichText": "<p>至高 AI 9 H 365 | 14英寸</p>",
+                "recommendCardRichText": "<p>至高 AI 9 H 365 | 14英寸</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "国补",
+                  "限时",
+                  "赠送延保"
+                ],
+                "price": 6999,
+                "originalPrice": 7999,
+                "stock": 2,
+                "sort": 4
+              }
+            ],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_PRODUCT_FLOOR_3",
+            "position": 8,
+            "moduleType": "PRODUCT_FLOOR",
+            "displayTitle": "零售台式机",
+            "miniappDisplayStatus": 1,
+            "visualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260921/a5d5813f31af4326b5f404bad3ef843a1789974956418.jpg",
+            "visualType": "SHORT",
+            "mobileVisualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260921/a5d5813f31af4326b5f404bad3ef843a1789974956418.jpg",
+            "mobileVisualType": "SHORT",
+            "sourceCategoryId": 58,
+            "openMode": "CURRENT",
+            "target": {
+              "type": "PRODUCT",
+              "productId": 113
+            },
+            "media": [],
+            "products": [
+              {
+                "productId": 113,
+                "productName": "无界 S500e商用台式机",
+                "productSn": "P0CDEABC993624B7292",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1c8e909a250e4cbeab8c2d310ffcb57f1787453178237.png",
+                "subTitle": "13420H/16G/512G",
+                "recommendCardSubTitle": "13420H/16G/512G",
+                "standardCardRichText": "<p>13420H/16G/512G</p>",
+                "recommendCardRichText": "<p>13420H/16G/512G</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时"
+                ],
+                "price": 3699,
+                "originalPrice": 4000,
+                "stock": 1,
+                "sort": 1
+              },
+              {
+                "productId": 110,
+                "productName": "imini E300迷你商用主机",
+                "productSn": "P5278A636145C49989B",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7b34428afea84995a48ccead5330fd661787451758567.png",
+                "subTitle": "E300-71110-7445H/16G/1T SSD/wifi6E",
+                "recommendCardSubTitle": "E300-71110-7445H/16G/1T SSD/wifi6E",
+                "standardCardRichText": "<p>E300-71110-7445H/16G/1T SSD/wifi6E<span><br></span></p>",
+                "recommendCardRichText": "<p>E300-71110-7445H/16G/1T SSD/wifi6E</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时"
+                ],
+                "price": 4199,
+                "originalPrice": 4299,
+                "stock": 0,
+                "sort": 2
+              },
+              {
+                "productId": 143,
+                "productName": "极光 G505电竞游戏主机",
+                "productSn": "P06A25F7B9694455BB5",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261010/44eba96f063947329c6d8c7432dde28f1791623646678.png",
+                "subTitle": "酷睿i7-14650HX 16G DDR5 1T SSD RTX5060Ti WiFi6E",
+                "recommendCardSubTitle": "· 酷睿i7-14650HX · 16G DDR5 1T SSD · RTX5060Ti",
+                "standardCardRichText": "<p>酷睿i7-14650HX 16G DDR5 1T SSD RTX5060Ti WiFi6E</p>",
+                "recommendCardRichText": "<p><strong>· </strong>酷睿i7-14650HX</p>\n<p><strong>· </strong>16G DDR5 1T SSD</p>\n<p><strong>· </strong>RTX5060Ti</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [],
+                "price": 10999,
+                "originalPrice": 11999,
+                "stock": 0,
+                "sort": 3
+              }
+            ],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_PRODUCT_FLOOR_4",
+            "position": 10,
+            "moduleType": "PRODUCT_FLOOR",
+            "displayTitle": "服务产品",
+            "miniappDisplayStatus": 1,
+            "visualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260917/151ecb08f1d74a159942ca58d799ba131789634001440.png",
+            "visualType": "SHORT",
+            "mobileVisualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260917/151ecb08f1d74a159942ca58d799ba131789634001440.png",
+            "mobileVisualType": "SHORT",
+            "sourceCategoryId": 96,
+            "openMode": "CURRENT",
+            "target": {
+              "type": "PRODUCT",
+              "productId": 131
+            },
+            "media": [],
+            "products": [
+              {
+                "productId": 131,
+                "productName": "延保一年（游戏本）",
+                "productSn": "P3F9DA63D1C664D0FA0",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/d3cf77dd84b448a9b8479abb55d0f1361787912518389.png",
+                "subTitle": "延保一年",
+                "recommendCardSubTitle": "· 延保一年",
+                "standardCardRichText": "<p>延保一年</p>",
+                "recommendCardRichText": "<p><strong>· </strong>延保一年</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [],
+                "price": 429,
+                "originalPrice": 599,
+                "stock": 151,
+                "sort": 1
+              },
+              {
+                "productId": 130,
+                "productName": "延保一年（轻薄本）",
+                "productSn": "P8B48A5750626454788",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/62992ba5fe8a428a83f1a99c5e74718d1787912477694.png",
+                "subTitle": "延保一年",
+                "recommendCardSubTitle": "· 延保一年",
+                "standardCardRichText": "<p>延保一年</p>",
+                "recommendCardRichText": "<p><strong>· </strong>延保一年</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [],
+                "price": 299,
+                "originalPrice": 399,
+                "stock": 199,
+                "sort": 2
+              }
+            ],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          },
+          {
+            "moduleCode": "HOME_PRODUCT_FLOOR_5",
+            "position": 11,
+            "moduleType": "PRODUCT_FLOOR",
+            "displayTitle": "周边配件",
+            "miniappDisplayStatus": 1,
+            "visualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260922/b2484daae0f34ed6b62d8d79e76303401790058108112.jpg",
+            "visualType": "SHORT",
+            "mobileVisualImageUrl": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260922/b2484daae0f34ed6b62d8d79e76303401790058108112.jpg",
+            "mobileVisualType": "SHORT",
+            "sourceCategoryId": 59,
+            "openMode": "NEW",
+            "target": {
+              "type": "CHANNEL",
+              "channelId": 4,
+              "channelCode": "accessories"
+            },
+            "media": [],
+            "products": [
+              {
+                "productId": 121,
+                "productName": "适配器",
+                "productSn": "P37A47CE30EE04317BA",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a89d76a5bd50489da938d4f6b15a20461787468502982.png",
+                "subTitle": "支持机械革命140W私有PD快充协议 | 支持多协议充电",
+                "recommendCardSubTitle": "支持机械革命140W私有PD快充协议 | 支持多协议充电",
+                "standardCardRichText": "<p>支持机械革命140W私有PD快充协议 | 支持多协议充电</p>",
+                "recommendCardRichText": "<p>支持机械革命140W私有PD快充协议 | 支持多协议充电</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "满减"
+                ],
+                "price": 169,
+                "originalPrice": 199,
+                "stock": 0,
+                "sort": 1
+              },
+              {
+                "productId": 122,
+                "productName": "机械革命冰河水冷机2025款",
+                "productSn": "P0F3B9A730FB641A496",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a3c830ef4c794f1f8d4f30276c5e62b41787468785328.png",
+                "subTitle": "机械革命耀世冰河水冷机2025款黑",
+                "standardCardRichText": "<p>机械革命耀世冰河水冷机2025款黑</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": false,
+                "tagNames": [
+                  "限时",
+                  "满减"
+                ],
+                "price": 699,
+                "originalPrice": 999,
+                "stock": 12,
+                "sort": 2
+              },
+              {
+                "productId": 128,
+                "productName": "JG10X电脑支架",
+                "productSn": "PA8E2C9C7022744C29D",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/d8db70639a164489b05475068ce5746f1787913290965.png",
+                "subTitle": "雪橇款笔记本散热支架",
+                "recommendCardSubTitle": "· 雪橇款笔记本散热支架",
+                "standardCardRichText": "<p>雪橇款笔记本散热支架</p>",
+                "recommendCardRichText": "<p><strong>· </strong>雪橇款笔记本散热支架</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [],
+                "price": 39.9,
+                "originalPrice": 49.9,
+                "stock": 2,
+                "sort": 3
+              },
+              {
+                "productId": 117,
+                "productName": "液晶固定款VA屏显示器",
+                "productSn": "P19988C7B4C44481B88",
+                "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261027/7876474fc56741c9a1634ea6f2f7a0881793068492178.png",
+                "subTitle": "23.8英寸 FHD VA 120Hz 固定底座",
+                "recommendCardSubTitle": "23.8英寸 FHD VA 120Hz 固定底座",
+                "standardCardRichText": "<p>23.8英寸 FHD VA 120Hz 固定底座</p>",
+                "recommendCardRichText": "<p>23.8英寸 FHD VA 120Hz 固定底座</p>",
+                "standardCardMarketing": true,
+                "recommendCardMarketing": true,
+                "tagNames": [
+                  "限时",
+                  "满减"
+                ],
+                "price": 399,
+                "originalPrice": 449,
+                "stock": 1,
+                "sort": 4
+              }
+            ],
+            "series": [],
+            "quickNavSchemaVersion": 1,
+            "quickNavigationSeries": [],
+            "quickNavigationChannels": []
+          }
+        ]
+      }
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/footer/navigation",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "configKey": "service_driver_download",
+          "displayGroup": "服务支持",
+          "displayName": "驱动程序下载",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/downloads",
+          "openMode": "NEW",
+          "sort": 1
+        },
+        {
+          "configKey": "service_store_locator",
+          "displayGroup": "服务支持",
+          "displayName": "线下门店查询",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/stores",
+          "openMode": "NEW",
+          "sort": 3
+        },
+        {
+          "configKey": "service_center",
+          "displayGroup": "服务支持",
+          "displayName": "服务中心查询",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/outlets",
+          "openMode": "NEW",
+          "sort": 4
+        },
+        {
+          "configKey": "service_policy",
+          "displayGroup": "服务支持",
+          "displayName": "服务政策条款",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/policy",
+          "openMode": "NEW",
+          "sort": 5
+        },
+        {
+          "configKey": "service_online_support",
+          "displayGroup": "服务支持",
+          "displayName": "在线客服支持",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://800.mechrevo.com/visitors-ui/h5?channelId=6&channelName=H5",
+          "openMode": "NEW",
+          "sort": 6
+        },
+        {
+          "configKey": "brand_about",
+          "displayGroup": "机械革命",
+          "displayName": "关于我们",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/story/",
+          "openMode": "NEW",
+          "sort": 7
+        },
+        {
+          "configKey": "legal_privacy",
+          "displayGroup": "底部服务",
+          "displayName": "隐私政策",
+          "configType": "RICH_TEXT",
+          "richText": "<h1>机械革命官方网站隐私政策</h1>\n<div>\n 制定主体：智通智能技术（苏州）有限公司\n</div>\n<h2><span>一、总则</span></h2>\n<p>智通智能技术（苏州）有限公司（以下简称\"我们\"或\"机械革命\"）是机械革命官方网站（网址：www.mechrevo.com，以下简称\"本网站\"）的运营主体。我们深知个人信息对用户（以下简称\"您\"）的重要性，严格遵守《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律法规，坚持\"合法、正当、必要、诚信\"原则处理您的个人信息，致力于保障您的信息安全与合法权益。</p>\n<p>本隐私政策旨在明确我们收集、使用您个人信息的范围、方式及目的，同时说明您享有的个人信息权利及行使路径。请您在访问、使用本网站前，仔细阅读并理解本政策全部内容；若您不同意本政策，应立即停止访问或使用本网站。您访问、使用本网站的行为，视为已接受本政策的约束。</p>\n<h2><span>二、适用范围</span></h2>\n<p>本政策仅适用于我们通过本网站收集、处理您个人信息的行为，包括您访问浏览本网站、注册账号、使用售后报修/活动报名/产品咨询等服务时产生的信息交互。</p>\n<p>本网站可能包含第三方平台链接（如电商旗舰店、售后服务合作方网站、社交媒体账号等），您访问第三方平台时，其信息处理规则由第三方自主制定，需遵循第三方的隐私政策。我们不对第三方的信息收集、使用行为承担责任，也不对此类行为提供担保。</p>\n<h2><span>三、我们收集的个人信息及收集方式</span></h2>\n<p>我们遵循\"最小必要\"原则收集个人信息，仅收集为实现本网站功能、提供服务所必需的信息，不收集与服务无关的信息。具体收集范围及方式如下：</p>\n<h3>（一）访问、浏览本网站时自动收集的信息</h3>\n<p>您无需注册账号即可访问本网站公开内容，在此过程中，我们会自动收集非身份识别信息，用于优化网站体验、保障服务稳定性，具体包括：</p>\n<p><strong>设备信息</strong>：设备型号（如电脑/手机品牌及型号）、操作系统版本（如Windows 11、iOS 17）、浏览器类型及版本（如Chrome 120.0）、设备唯一标识符（如IMEI、MAC地址，仅用于识别异常设备）、设备网络状态（如IP地址、Wi-Fi/移动网络类型、运营商信息）；</p>\n<p><strong>使用行为信息</strong>：访问时间、浏览的页面路径（如\"首页-游戏本系列-极光Pro型号\"）、页面滚动位置；</p>\n<p>上述信息为匿名化或去标识化数据，不直接关联您的真实身份。</p>\n<h3>（二）注册、使用特定服务时主动提供的信息</h3>\n<p>当您注册本网站账号、使用个性化服务（如售后报修、活动报名、产品咨询）时，需根据页面提示主动提供以下个人信息，若您不提供，可能无法使用对应服务：</p>\n<h4>账号注册信息：</h4>\n<p><strong>身份识别信息</strong>：姓名、手机号码（用于账号验证、身份核验，如短信验证码）；</p>\n<p><strong>账户基础信息</strong>：账号名称。</p>\n<h4>售后报修服务信息：</h4>\n<p><strong>产品信息</strong>：机械革命产品序列号（用于验证产品归属及保修期）、购买凭证（如订单编号、发票照片/扫描件，用于核验购买渠道）；</p>\n<p><strong>服务需求信息</strong>：故障描述（文字/图片）、故障发生时间、期望维修方式（上门/寄修）；</p>\n<p><strong>物流信息</strong>：寄修地址、收件人姓名、联系电话（用于维修后产品寄回）。</p>\n<h4>活动参与服务信息：</h4>\n<p>若您参与新品试用、抽奖、线下体验等活动，需提供姓名、手机号码、收货地址（用于活动资格核验、奖品发放/试用产品寄送）；</p>\n<p>若活动需实名认证（如高价值奖品发放），需提供身份证号码（仅用于合规核验，不用于其他目的）。</p>\n<h4>产品咨询服务信息：</h4>\n<p><strong>咨询内容</strong>：产品型号、咨询问题描述（如\"极光Pro是否支持独显直连\"）；</p>\n<p><strong>沟通信息</strong>：若通过在线客服沟通，会留存聊天记录（用于后续问题跟进及服务质量优化）。</p>\n<h3>（三）从第三方获取的信息</h3>\n<p>在符合法律法规及第三方平台规则的前提下，我们可能从合法授权的第三方获取您的个人信息，具体包括：</p>\n<p><strong>电商平台订单信息</strong>：若您通过第三方电商平台（如京东、天猫机械革命旗舰店）购买产品后，在本网站申请售后，我们可能从合作电商平台获取您的订单信息（如购买产品型号、订单时间、支付金额），用于核验售后资格，无需您重复提交；</p>\n<p><strong>物流服务商信息</strong>：若您选择寄修服务，我们会从合作物流服务商（如顺丰、京东物流）获取您的寄修包裹物流状态（如已签收、维修中、已寄出），用于同步售后进度。</p>\n<p>我们仅在获得您明确授权（如第三方账号登录时您点击\"同意授权\"）或符合法律规定的情况下，从第三方获取您的个人信息，并对第三方提供信息的合法性进行核实，确保信息来源合规。</p>\n<h2><span>四、个人信息的使用目的</span></h2>\n<p>我们收集您的个人信息，仅用于以下合法、明确的目的，若超出以下范围使用，将另行获得您的授权：</p>\n<p><strong>保障本网站正常运行</strong>：通过设备信息维护服务器稳定，排查技术故障（如页面加载失败、账号登录异常），确保您能正常访问、浏览本网站；</p>\n<p><strong>提供并优化服务</strong>：</p>\n<ul>\n <li>基于您的手机号，发送账号验证信息、服务通知（如售后进度提醒、活动资格确认、订单状态更新）；</li>\n <li>基于用户使用习惯数据（匿名化处理），优化网站页面设计（如调整热门功能入口位置）、提升加载速度，改善使用体验；</li>\n <li>处理售后及咨询需求：根据您提供的售后信息、咨询内容，为您提供故障排查、维修安排、问题解答等服务，留存聊天记录用于后续跟进；</li>\n <li>开展营销活动：在您同意的前提下，向您推送机械革命新品信息、优惠活动（如促销折扣、限时抢购），推送方式包括短信、邮箱、站内信；若您不想接收此类信息，可通过本政策\"六、您的权利\"中说明的方式取消授权；</li>\n <li>保障信息安全与合规：通过分析设备信息、登录行为，识别异常访问（如异地登录、多次密码错误、批量请求），采取账号冻结、安全提醒等措施，保护您的账号及个人信息安全；</li>\n <li>遵守法律法规要求：根据行政机关、司法机关的合法要求（如法院传票、监管部门指令），提供您的个人信息，配合调查取证或履行法定义务。</li>\n</ul>\n<h2><span>五、个人信息的存储与保护</span></h2>\n<h3>（一）存储方式与期限</h3>\n<p><strong>存储地点</strong>：我们将您的个人信息存储在中华人民共和国境内（不含港澳台地区）的阿里云服务器上，不将个人信息传输至境外。若未来因业务需求需向境外传输，将按照《个人信息保护法》要求，提前获得您的明确授权，并通过数据出境安全评估、签署标准合同等合规方式，保障信息传输安全；</p>\n<p><strong>存储期限</strong>：我们仅在实现本政策所述使用目的的必要期限内存储您的个人信息，超出期限后，将按照法律法规要求，采取删除、匿名化处理（去除身份标识，使其无法关联到具体个人）等方式处理，具体期限如下：</p>\n<ul>\n <li><strong>账号信息</strong>：若您未注销账号，将持续存储账号名称、手机号/邮箱，直至您主动注销账号；</li>\n <li><strong>售后信息</strong>：维修记录、故障描述、寄修地址等，存储至产品保修期结束后1年（用于后续售后查询及纠纷处理）；</li>\n <li><strong>活动信息</strong>：活动参与记录、奖品发放信息，存储至活动结束后3个月（用于应对可能的活动纠纷）；</li>\n <li><strong>咨询记录</strong>：在线客服聊天记录，存储至问题解决后3个月（用于服务质量回溯）；</li>\n <li><strong>匿名化信息</strong>：设备信息、浏览行为等匿名化后的数据，可用于长期分析用户习惯，不受上述期限限制。</li>\n</ul>\n<h3>（二）安全保护措施</h3>\n<p>我们已建立完善的个人信息安全管理制度，采取技术、管理双重措施，保障您的个人信息安全，请您注意：网络传输存在一定安全风险（如第三方非法拦截、设备感染恶意程序），我们无法保证信息传输的绝对安全。请您妥善保管账号密码，不向他人泄露，不使用公共设备登录账号，以降低信息泄露风险；若您发现账号异常，应立即联系我们处理。</p>\n<h2><span>六、个人信息的共享、转让与披露</span></h2>\n<p>我们严格限制个人信息的共享、转让与披露，仅在符合以下条件时进行，且确保每一项处理行为均合法合规：</p>\n<h3>（一）个人信息的共享</h3>\n<p>我们不会向未关联的第三方共享您的个人信息，仅在以下情况下，与合作第三方共享，且会对第三方的信息处理行为进行监督：</p>\n<p><strong>为提供服务所需</strong>：</p>\n<ul>\n <li><strong>物流服务商</strong>：若您参与活动需领取奖品、售后需寄修产品，我们会向物流服务商（如顺丰、京东物流）共享您的姓名、收货地址、联系电话，仅用于物流配送；</li>\n <li><strong>支付机构</strong>：若本网站开通直接支付功能（如购买配件），我们会向合作支付机构（如微信支付、支付宝）共享您的订单金额、支付账号信息，仅用于支付验证及订单结算；</li>\n <li><strong>客服外包服务商</strong>：若委托第三方提供客服服务，会向其共享您的咨询记录、售后信息，仅用于为您提供问题解答及服务跟进。</li>\n</ul>\n<p><strong>为履行法定义务</strong>：根据行政机关、司法机关的合法要求（如法院传票、市场监管部门调查指令），向相关部门共享您的个人信息，且会对要求的合法性进行核验。</p>\n<p><strong>获得您明确授权</strong>：在您同意的前提下，向第三方共享您的个人信息（如您授权我们将咨询需求同步给线下门店，由门店为您提供一对一服务）。</p>\n<p>我们会与共享信息的第三方签订《数据处理协议》，明确其信息使用范围、安全保护义务，要求第三方仅在约定范围内使用您的个人信息，不得超出范围处理；同时定期核查第三方的履行情况，若第三方违反约定，立即终止合作，并要求其删除已获取的个人信息。</p>\n<h3>（二）个人信息的转让</h3>\n<p>我们不会将您的个人信息转让给任何第三方，除非发生以下情况，且转让行为符合法律法规要求：</p>\n<p>发生企业合并、分立、收购、重组、破产清算等情形，您的个人信息将随业务资产一并转让给新主体，我们会在转让前通过本网站公告、站内信等方式通知您，新主体将继续履行本政策约定的信息保护义务；</p>\n<p>获得您的明确书面授权，且受让方承诺遵守与我们相同的信息保护标准。</p>\n<h3>（三）个人信息的披露</h3>\n<p>我们不会披露您的个人信息，除非符合以下条件：</p>\n<p>获得您的明确同意（如您同意将您的产品试用评价及昵称公开展示在本网站\"用户评价\"板块，不披露姓名、手机号等隐私信息）；</p>\n<p>为保护公共利益、他人合法权益或自身合法权益，在合理范围内公开（如曝光通过作弊手段参与活动的用户账号，以维护活动公平性，仅公开账号名称，不公开身份信息）；</p>\n<p>披露的信息已进行匿名化处理，无法关联到具体个人（如发布《机械革命用户使用习惯报告》，仅展示\"85%的游戏本用户关注显卡性能\"等统计数据）。</p>\n<h2><span>七、未成年人信息保护</span></h2>\n<p>我们高度重视未成年人个人信息保护，若您为未满18周岁的未成年人（以下简称\"未成年人\"），需在法定监护人（以下简称\"监护人\"）的陪同下使用本网站，并由监护人协助阅读本政策。</p>\n<h2><span>八、隐私政策的更新与通知</span></h2>\n<p>我们有权根据法律法规更新、监管要求调整、业务发展需求，不定期修订本政策。修订后的政策将通过以下方式通知您：</p>\n<p><strong>公示</strong>：在本网站首页\"隐私政策\"板块更新修订后的内容；</p>\n<p><strong>通知</strong>：若修订内容涉及用户核心权益（如个人信息收集范围扩大、共享规则变更），将额外通过站内信（针对已注册用户）、客服电话短信提醒等方式告知您，确保您知晓修订内容。</p>\n<p>修订后的政策自发布起生效，若您继续使用本网站，视为接受修订后的政策；若您不接受，应立即停止使用本网站。我们建议您定期查阅本政策（如每3个月查阅1次），了解最新的信息保护规则。</p>\n<h2><span>九、联系方式</span></h2>\n<p>若您对本政策有任何疑问，或需要行使个人信息权利、投诉举报，可通过以下方式联系我们：</p>\n<p><strong>客服电话</strong>：400-990-5898（服务时间：周一至周日9:00-21:00，法定节假日除外）；</p>\n<p><strong>在线客服</strong>：登录本网站，点击右下角\"在线客服\"图标，即可实时沟通；</p>\n<p>我们将认真对待您的反馈，及时为您解决问题，保障您的个人信息权益。</p>",
+          "sort": 16
+        },
+        {
+          "configKey": "legal_terms",
+          "displayGroup": "底部服务",
+          "displayName": "使用条款",
+          "configType": "RICH_TEXT",
+          "richText": "<h1>机械革命官方网站使用条款</h1>\n<h2>总则</h2>\n<p><strong>适用范围</strong>：本条款适用于所有访问、浏览、使用机械革命官方网站（www.mechrevo.com，以下简称\"本网站\"）的用户（包括个人及组织，以下简称\"用户\"）。本网站由智通智能技术（苏州）有限公司旗下机械革命品牌运营管理。</p>\n<p><strong>协议生效</strong>：用户使用本网站任何功能或服务，即视为已充分阅读、理解并接受本条款全部内容，以及本网站发布的隐私政策、活动规则等配套文件，与机械革命构成合法有效的合同关系。若用户不同意本条款，应立即停止使用本网站。</p>\n<p><strong>条款变更</strong>：机械革命有权根据法律法规更新、业务发展需求不定期修订本条款，修订后的内容将通过本网站首页公告公示。用户继续使用本网站的，视为接受变更后的条款；若不接受，应终止使用本网站。</p>\n<h2>网站使用规范</h2>\n<h3>用户行为准则</h3>\n<p>用户应遵守《网络安全法》《数据安全法》《个人信息保护法》等法律法规，不得利用本网站从事任何违法活动，包括但不限于：</p>\n<ul>\n <li>发布危害国家安全、泄露国家秘密、破坏民族团结的信息；</li>\n <li>传播淫秽、暴力、赌博等违法或违背公序良俗的内容；</li>\n <li>侮辱、诽谤他人，侵犯第三方名誉权、隐私权、知识产权等合法权益；</li>\n <li>实施任何介入、侵入或损害网络系统及资源、干扰本网站正常运行或窃取他人账户信息等行为。</li>\n</ul>\n<p>您知悉本服务的部份内容可能系由第三方网站所提供，且本服务将可能引导您至第三方网站的服务或网站。您将自行决定是否使用第三方网站的服务或网站，并同意接受其服务或网站所制定的条款与约定，包括但不限于商品价格、商品数量订购确认机制、订购数量上限、商品交付及付款方式等条款。您知悉且同意，您与第三方网站间的所有约定及第三方网站所提供的服务或网站内容概与机械革命无涉。</p>\n<p>禁止使用\"网页爬虫\"\"机器人程序\"等自动工具访问、采集本网站内容，不得实施\"深层链接\"等本网站未授权的访问行为。</p>\n<p>参与本网站活动时，不得提供虚假信息、冒用他人身份，或通过作弊、刷量等不正当手段获取权益，此类行为将导致资格取消。</p>\n<h3>账号使用规则</h3>\n<p>需注册账号使用的服务，用户应提供真实、准确、完整的个人信息，并及时更新。因信息虚假或过时导致的损失，由用户自行承担。</p>\n<p>用户应对账号密码的安全性负责，不得转借、出租账号，否则机械革命有权暂停账号使用以保障安全。</p>\n<h2>知识产权与内容规范</h2>\n<p><strong>机械革命知识产权</strong>：本网站所有内容（包括但不限于文字、图片、视频、产品参数、商标、软件代码等）的知识产权均归机械革命或相关授权方所有。\"机械革命\"及图形商标为智通智能技术（苏州）有限公司注册商标，受法律保护。</p>\n<p><strong>内容使用限制</strong>：用户可下载本网站产品信息用于个人非商业目的，但必须保留完整的版权声明；未经机械革命书面授权，不得用于商业用途，不得修改、传播或二次创作网站内容。</p>\n<p><strong>用户内容授权</strong>：用户上传至本网站的评价、图片等内容，视为授权机械革命及其关联企业在全球范围内无偿、非独占使用，可用于品牌推广、产品宣传等用途，且有权转授权第三方。</p>\n<p><strong>侵权处理</strong>：若用户认为本网站内容涉嫌侵权，可联系机械革命客服提交书面通知，机械革命核实无误后将依法采取删除、断开链接等处理措施；若内容上传者认为不构成侵权，可提交反通知，机械革命将依法复核。</p>\n<h2>产品信息与服务说明</h2>\n<p><strong>信息准确性</strong>：本网站发布的产品参数、功能描述、服务政策等信息，均基于产品发布时的技术标准制作。因产品迭代、地区政策、网络平台差异，本网站发布的产品参数、功能描述、服务政策等信息与实际销售产品可能与网站产品指向的第三方电商平台链接中的产品内容存在差异，具体以实物、销售合同或第三方电商平台链接中的产品内容为准。</p>\n<p><strong>服务可用性</strong>：机械革命尽力保障本网站24小时稳定运行，但不对服务的持续性、无中断性作出明示或默示保证。因系统维护、技术故障、第三方攻击等原因导致服务暂停的，机械革命将及时公告，但不承担赔偿责任。</p>\n<p><strong>第三方链接</strong>：本网站可能包含第三方平台（如电商旗舰店、售后服务合作方）的链接，此类链接仅为用户提供便利。机械革命不对第三方网站的内容、安全性及服务质量负责，用户访问第三方网站的风险自行承担。且本网站发布的产品参数、功能描述可能与第三方电商平台链接中的产品内容存在差异，具体以您进行购买行为的第三方电商平台的产品内容为准。</p>\n<h2>隐私保护</h2>\n<p>机械革命尊重用户隐私，将按照《机械革命隐私政策》处理用户个人信息，包括收集、使用、存储及披露等行为。</p>\n<p>请注意，用户与本网站之间的数据传输存在被拦截的可能性，机械革命无法完全保证网络传输的绝对安全，用户需自行承担相应风险。</p>\n<h2>责任限制与免责</h2>\n<p>本网站以\"现状\"提供服务，机械革命不保证内容的绝对准确、完整，不对用户因使用本网站信息导致的决策失误承担责任。</p>\n<p>因不可抗力（如自然灾害、政府行为）、公共服务故障（如电力、网络中断）或第三方原因导致的服务异常，机械革命不承担违约责任。</p>\n<p>机械革命对用户的全部责任，不超过用户因使用付费服务产生的实际费用总额。不对间接损失（如利润、数据丢失）承担赔偿责任，法律法规另有规定的除外。</p>\n<h2>协议终止</h2>\n<p>用户违反本条款的，机械革命有权在不事先通知的情况下，终止其账号使用权限、屏蔽访问，并追究法律责任。</p>\n<p>机械革命可根据业务调整，提前30日通过网站公告终止部分或全部服务，终止后将停止收集用户信息，并按规定处理已存储数据。</p>\n<h2>法律适用与争议解决</h2>\n<p>本条款适用中华人民共和国法律（不含港澳台地区法律）。</p>\n<p>因本条款产生的争议，双方应友好协商解决；协商不成的，任何一方可向本网站运营地（北京市海淀区）有管辖权的人民法院提起诉讼。</p>\n<h2>其他</h2>\n<p>本条款中的标题仅为阅读便利，不影响条款含义的解释。</p>\n<p>本条款的任何条款被认定为无效或不可执行的，不影响其余条款的效力。</p>\n<p>机械革命的联系方式：客服电话 400-990-5898。</p>",
+          "sort": 17
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/product/batch?ids=89&ids=95&ids=105&ids=106&ids=90&ids=87&ids=94&ids=97&ids=96&ids=100&ids=101&ids=113&ids=110&ids=143&ids=131&ids=130&ids=121&ids=122&ids=128&ids=117",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "addressRequired": 1,
+          "id": 89,
+          "productCategoryId": 68,
+          "feightTemplateId": 1,
+          "name": "耀世 16 Ultra旗舰游戏本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/f6908e5dc3b149e6ba07998ac2e459f91787280961946.png",
+          "productSn": "P7C14A1211CE64601A5",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 17499,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "Ultra 9 290 HX Plus | RTX 5070Ti | 16英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· Intel Core Ultra 9 290 HX Plus · RTX 5070Ti · 16英寸",
+          "standardCardRichText": "<p>Ultra 9 290 HX Plus | RTX 5070Ti | 16英寸</p>",
+          "recommendCardRichText": "<p><strong>·</strong> Intel Core Ultra 9 290 HX Plus</p>\n<p><strong>· </strong>RTX 5070Ti</p>\n<p><strong>· </strong>16英寸</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 18499,
+          "stock": 1,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c2a45260721f4ddcbc5e249fc943bfdb1787478803359.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/4ba006a8e9c54926b5b0570f3d163cdd1787478820532.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/adc9f57073e74747a8191fdf75897aff1787478828413.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/865d668180244c23affa0b4fe79519551787478831975.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a9f90105f684417694d92637b66d52731787478835445.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/72a481a211584f3c852d3ddf09b1948d1787478838916.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/3a7f5613b76d4cb5b829c87944c871961787478843206.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 95,
+          "productCategoryId": 67,
+          "feightTemplateId": 1,
+          "name": "苍龙 16 Ultra旗舰游戏本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/67bdf39f2d6941b993b9cdb5929e63831787281195509.png",
+          "productSn": "P3758A9D8827A475EA7",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 17999,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 AMD Ryzen 9 9955HX3D | RTX 5070Ti | 16英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高 AMD Ryzen 9 9955HX3D · RTX 5070Ti · 16英寸",
+          "standardCardRichText": "<p>至高 AMD Ryzen 9 9955HX3D | RTX 5070Ti | 16英寸</p>",
+          "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 9955HX3D&nbsp;</p>\n<p><strong>·</strong> RTX 5070Ti&nbsp;</p>\n<p><strong>·</strong> 16英寸</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 18999,
+          "stock": 1,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/8dcb7fd305bc4c1aab75afb4e7407a801787037712868.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/3ce2e420a08a40aa9f40fc2878405d221787037929989.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/3d193feb9fbf4b0eb47b9ced6c78ae241787037933397.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/70fb2356f31643f7ae7672d45d8736e21787037936521.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/aa76e073dcad4c479f02d4acd81ef1ed1787037941662.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260818/6935ceba747f484782d23239421c00c31787037945352.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 105,
+          "productCategoryId": 70,
+          "feightTemplateId": 1,
+          "name": "无界 14高性能轻薄本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260901/9a731cb754144dcfa40a4921f843f0c41788234706901.png",
+          "productSn": "P0FA1FA6A35E247EFB5",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 5199,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 Intel Core 5 226V | 14英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高 Intel Core 7 226V · 14英寸",
+          "standardCardRichText": "<p>至高 Intel Core 5 226V | 14英寸</p>",
+          "recommendCardRichText": "<p><strong>· </strong>至高 Intel Core 7 226V&nbsp;</p>\n<p><strong>·</strong> 14英寸</p>",
+          "tagNames": [
+            "国补",
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 5299,
+          "stock": 10,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/5af8406be27447cba65734b02faabd831787104412553.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/1d1b16bba17a4887838733642d19ba751787104417495.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/05e910bb793e4976bc47c4641e0a39741787104421052.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/8ac9f6ced4eb49daa186f2f33bb383931787104424728.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/cc7e6b68869d404e8855ad0bfeebbf8a1787104428686.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/f9d3f215aaec4259b0bceea54d4da3061787104432540.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/27134a57e84c468ba49dcf44bb93997f1787104436125.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260820/d10ce497aa224602b60c587bea263a8a1787188214547.png",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 106,
+          "productCategoryId": 70,
+          "feightTemplateId": 1,
+          "name": "无界 14 SE双通道轻薄本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/8566fdb883c84000b5a5c351a67af2841787281608482.png",
+          "productSn": "P26AA58D410214516A0",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 3999,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 i5-13420H | 14英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高i5-13420H · 12G/500 · 65W/灰",
+          "standardCardRichText": "<p>至高 i5-13420H | 14英寸</p>",
+          "recommendCardRichText": "<p><strong>·</strong> 至高i5-13420H</p>\n<p><strong>· </strong>12G/500</p>\n<p><strong>· </strong>65W/灰</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 4999,
+          "stock": 10,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/a3256814647f4e8b87de1d1fce469a221787106272723.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/f6bbd3ccce4f4acba1ce9bb62c123dc31787106276341.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/8331ce5281c6444b8fccf55f0eb11a841787106280494.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/bdacddda580c4519952dad4470d9a05d1787106289158.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/fdd813c771c14f3aabb1e926bff57d6c1787106293213.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/f6181843e31c4909b418c042609cf33f1787106298042.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/814e4d3c2793445c93f8e85001a601171787106302030.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/f155d210278e443499b948e89b45fdc21787106306173.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/9e1b27478e3e41d19dc2f745f8cde6c51787106310129.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260819/08d6fc6354c744f39b8ef3dda665847b1787106260147.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 90,
+          "productCategoryId": 68,
+          "feightTemplateId": 1,
+          "name": "耀世 15 Air轻薄游戏本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a1994c69e6324d11a16864c3c60968f51787281013046.png",
+          "productSn": "P5AF89718E73245FE8B",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 13499,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高酷睿U7-356H | 32G |1T | RTX5060",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高酷睿U7-356H · 32G 1T · RTX5060",
+          "standardCardRichText": "<p>至高酷睿U7-356H | 32G |1T | RTX5060</p>",
+          "recommendCardRichText": "<p><strong>· 至高</strong>酷睿U7-356H</p>\n<p><strong>· </strong>32G 1T&nbsp;</p>\n<p><strong>· </strong>RTX5060</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 14499,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c60185d479ae4588bf525e5bae7a79001787476780919.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/fc1e61eafd8f426cac22919700612ae91787476792049.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/9dfa266a8c08471fae71e1f51ea7b93c1787476795438.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/04786cf4d68b4da8aab3cab94b6287bd1787476798427.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a762b5a8388f47b183c90f26f245a1b61787476801369.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 87,
+          "productCategoryId": 68,
+          "feightTemplateId": 1,
+          "name": "耀世 18 Pro高端大屏游戏本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/50654e539b8c405db99e26fb9c4d69461787282186464.png",
+          "productSn": "P5E79716C63D74A0997",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 12199,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高Intel Core i7-14650HX",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高 Intel i7-14650HX · RTX 5060 · 18英寸",
+          "standardCardRichText": "<p>至高Intel Core i7-14650HX</p>",
+          "recommendCardRichText": "<p><strong>· </strong>至高 Intel i7-14650HX&nbsp;</p>\n<p><strong>· </strong>RTX 5060&nbsp;</p>\n<p><strong>· </strong>18英寸</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 13999,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/6ceb08cb9c594a9d8543b204e24e465a1787467154521.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d0fec8fec6294670a55c4010f9139f091787467230341.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/097cdf2c31964cfa8f097bec45664d251787467232913.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/5364b675099c4b9a8a3833f007feb7461787467236074.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/b3f3454885cd4840b687dad7a1184f711787467239152.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/efe005bc6b7b4673a93479a74d8470701787467242528.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/f06348988f9b4fdaab92d910f79015cc1787467245776.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bed12c4926f347f88be01775da063b411787467248643.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/9b23f42258b6497388c9e15b8241f62b1787467251625.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 94,
+          "productCategoryId": 67,
+          "feightTemplateId": 1,
+          "name": "苍龙 18 Pro高端大屏游戏本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/a8bbc5b184554184837e463e9c8166241787282047769.png",
+          "productSn": "P505F8301CC5748D0B8",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 12399,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 AMD Ryzen 9 8945HX | RTX 5060 | 18英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高 AMD Ryzen 9 8945HX · RTX 5060 · 18英寸",
+          "standardCardRichText": "<p>至高 AMD Ryzen 9 8945HX | RTX 5060 | 18英寸</p>",
+          "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 8945HX&nbsp;</p>\n<p><strong>· </strong>RTX 5060&nbsp;</p>\n<p><strong>·</strong> 18英寸</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 12599,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/bb475499a9b74e88a1bc450eb232c0131787481763170.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1bc3e75a78c043deb1914aa0b14aad481787481806984.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/86f1231805ad41ce863c18f43625ec561787481810324.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d80b375a56474863b62b73b7d47250a11787481813468.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/26aa0b001e044e339d11eaf95868fe3b1787481816177.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 97,
+          "productCategoryId": 64,
+          "feightTemplateId": 1,
+          "name": "蛟龙 16 Pro高性能游戏本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/27208ee850dc4a4bb0e92b4ca237d2041787281236197.png",
+          "productSn": "PEA177C0CF0C946558B",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 15799,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 AMD Ryzen 9 8945HX | RTX5070Ti | 16英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 至高 AMD Ryzen 9 8945HX · RTX5070Ti · 16英寸",
+          "standardCardRichText": "<p>至高 AMD Ryzen 9 8945HX | RTX5070Ti | 16英寸</p>",
+          "recommendCardRichText": "<p><strong>· </strong>至高 AMD Ryzen 9 8945HX<br><strong>· </strong>RTX5070Ti&nbsp;<br><strong>· </strong>16英寸</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 16799,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/db7a9ffdedd44aed96c659d9b8d898bb1787482082326.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/e3208ab842ab49feb9c231753d6f245b1787482092172.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/ea5f5866f0d24489a4cf96d31c07f96d1787482095616.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/794afc8dbf3e43888ec93b297ab339e31787482098994.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d87b125d52c04b58907647443c305f1b1787482102135.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/810a525f32ab4727be704bdcadb06ad11787482105049.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/703b611a4792401bb92ec6e8fb692e541787482108569.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 96,
+          "productCategoryId": 66,
+          "feightTemplateId": 1,
+          "name": "翼龙 16X",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/832d3769d4b847cabb08ab1b7403b7901787281212777.png",
+          "productSn": "P63946639E0EF4F07A1",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 11499,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 AMD Ryzen 7 | RTX 5060 | 16英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "至高 AMD Ryzen 7 | RTX 5060 | 16英寸",
+          "standardCardRichText": "<p>至高 AMD Ryzen 7 | RTX 5060 | 16英寸</p>",
+          "recommendCardRichText": "<p>至高 AMD Ryzen 7 | RTX 5060 | 16英寸</p>",
+          "tagNames": [
+            "限时"
+          ],
+          "originalPrice": 11999,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 100,
+          "productCategoryId": 84,
+          "feightTemplateId": 1,
+          "name": "星耀 15先锋轻薄本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/fcab1f0601ce4c1492d2088f5c0e01d51787281276693.png",
+          "productSn": "P6B450E8884BC481CB7",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 7499,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 AI 9H 365 | 15英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "AI 9H 365 32G 1T 2.5K OLED 165Hz 100%DCI-P3",
+          "standardCardRichText": "<p>至高 AI 9H 365 | 15英寸</p>",
+          "recommendCardRichText": "<p>AI 9H 365 32G 1T 2.5K OLED 165Hz 100%DCI-P3</p>",
+          "tagNames": [
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 7999,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 101,
+          "productCategoryId": 84,
+          "feightTemplateId": 1,
+          "name": "星耀 14高颜值轻薄本",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260821/340526370f05411b8b5a7fa511f3e8161787281295571.png",
+          "productSn": "P6496F47A36454BE08D",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 6999,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "至高 AI 9 H 365 | 14英寸",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "至高 AI 9 H 365 | 14英寸",
+          "standardCardRichText": "<p>至高 AI 9 H 365 | 14英寸</p>",
+          "recommendCardRichText": "<p>至高 AI 9 H 365 | 14英寸</p>",
+          "tagNames": [
+            "国补",
+            "限时",
+            "赠送延保"
+          ],
+          "originalPrice": 7999,
+          "stock": 2,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 113,
+          "productCategoryId": 89,
+          "feightTemplateId": 1,
+          "name": "无界 S500e商用台式机",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1c8e909a250e4cbeab8c2d310ffcb57f1787453178237.png",
+          "productSn": "P0CDEABC993624B7292",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 3699,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "13420H/16G/512G",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "13420H/16G/512G",
+          "standardCardRichText": "<p>13420H/16G/512G</p>",
+          "recommendCardRichText": "<p>13420H/16G/512G</p>",
+          "tagNames": [
+            "限时"
+          ],
+          "originalPrice": 4000,
+          "stock": 1,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d9e4479f338040b28ef0e10159662c611787473052329.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/1807981f21fa480e961f4590f53ac5d11787473094362.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/718b7a45f45c4d019f38e54c9cc498661787473099569.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c73a1d29bcc14da8ad5c6fdee8bc3f521787473104742.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/2e28d57f27b145968492d98cb258f6be1787473109361.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/61db5d8a5b4d4749bb824579d80356621787473112973.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/f6db4315afed4932bddd5d87361d81081787473118207.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7b2251a96d0045c385f6df729b96596e1787473123524.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 110,
+          "productCategoryId": 88,
+          "feightTemplateId": 1,
+          "name": "imini E300迷你商用主机",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7b34428afea84995a48ccead5330fd661787451758567.png",
+          "productSn": "P5278A636145C49989B",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 4199,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "E300-71110-7445H/16G/1T SSD/wifi6E",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "E300-71110-7445H/16G/1T SSD/wifi6E",
+          "standardCardRichText": "<p>E300-71110-7445H/16G/1T SSD/wifi6E<span><br></span></p>",
+          "recommendCardRichText": "<p>E300-71110-7445H/16G/1T SSD/wifi6E</p>",
+          "tagNames": [
+            "限时"
+          ],
+          "originalPrice": 4299,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/6e94df00135349c59d73e47627603da71787472921115.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/d0694b8d23f94eceb37adc0a31cd23b11787472942378.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7dff63bb28cc44fd8c5523a0d878320f1787472948333.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/f4d9a88f8a634d73b0429e8976a46e851787472952410.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/7f929ab9cdc142bdbee7d503cab4ef471787472956149.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a62e88249f944adc9949009922ee90a01787472960127.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/e2f439fdc94644d88c59333430dde8951787472963619.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/581992f050144bf8a9ec16bae3d605411787472966886.jpg,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/af07a4c8d2e044e1a45a36a19921cad01787472969941.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 143,
+          "productCategoryId": 99,
+          "feightTemplateId": 1,
+          "name": "极光 G505电竞游戏主机",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261010/44eba96f063947329c6d8c7432dde28f1791623646678.png",
+          "productSn": "P06A25F7B9694455BB5",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 10999,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "酷睿i7-14650HX 16G DDR5 1T SSD RTX5060Ti WiFi6E",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 酷睿i7-14650HX · 16G DDR5 1T SSD · RTX5060Ti",
+          "standardCardRichText": "<p>酷睿i7-14650HX 16G DDR5 1T SSD RTX5060Ti WiFi6E</p>",
+          "recommendCardRichText": "<p><strong>· </strong>酷睿i7-14650HX</p>\n<p><strong>· </strong>16G DDR5 1T SSD</p>\n<p><strong>· </strong>RTX5060Ti</p>",
+          "tagNames": [],
+          "originalPrice": 11999,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 131,
+          "productCategoryId": 96,
+          "feightTemplateId": 1,
+          "name": "延保一年（游戏本）",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/d3cf77dd84b448a9b8479abb55d0f1361787912518389.png",
+          "productSn": "P3F9DA63D1C664D0FA0",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 429,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "延保一年",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 延保一年",
+          "standardCardRichText": "<p>延保一年</p>",
+          "recommendCardRichText": "<p><strong>· </strong>延保一年</p>",
+          "tagNames": [],
+          "originalPrice": 599,
+          "stock": 151,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 130,
+          "productCategoryId": 96,
+          "feightTemplateId": 1,
+          "name": "延保一年（轻薄本）",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/62992ba5fe8a428a83f1a99c5e74718d1787912477694.png",
+          "productSn": "P8B48A5750626454788",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 299,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "延保一年",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 延保一年",
+          "standardCardRichText": "<p>延保一年</p>",
+          "recommendCardRichText": "<p><strong>· </strong>延保一年</p>",
+          "tagNames": [],
+          "originalPrice": 399,
+          "stock": 199,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 121,
+          "productCategoryId": 91,
+          "feightTemplateId": 1,
+          "name": "适配器",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a89d76a5bd50489da938d4f6b15a20461787468502982.png",
+          "productSn": "P37A47CE30EE04317BA",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 169,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "支持机械革命140W私有PD快充协议 | 支持多协议充电",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "支持机械革命140W私有PD快充协议 | 支持多协议充电",
+          "standardCardRichText": "<p>支持机械革命140W私有PD快充协议 | 支持多协议充电</p>",
+          "recommendCardRichText": "<p>支持机械革命140W私有PD快充协议 | 支持多协议充电</p>",
+          "tagNames": [
+            "限时",
+            "满减"
+          ],
+          "originalPrice": 199,
+          "stock": 0,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 122,
+          "productCategoryId": 92,
+          "feightTemplateId": 1,
+          "name": "机械革命冰河水冷机2025款",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/a3c830ef4c794f1f8d4f30276c5e62b41787468785328.png",
+          "productSn": "P0F3B9A730FB641A496",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 699,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "机械革命耀世冰河水冷机2025款黑",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": false,
+          "standardCardRichText": "<p>机械革命耀世冰河水冷机2025款黑</p>",
+          "tagNames": [
+            "限时",
+            "满减"
+          ],
+          "originalPrice": 999,
+          "stock": 12,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/c65a760e82254dc699e2a9b76e31ac781787468778158.jpg",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 128,
+          "productCategoryId": 93,
+          "feightTemplateId": 1,
+          "name": "JG10X电脑支架",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260828/d8db70639a164489b05475068ce5746f1787913290965.png",
+          "productSn": "PA8E2C9C7022744C29D",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 39.9,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "雪橇款笔记本散热支架",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "· 雪橇款笔记本散热支架",
+          "standardCardRichText": "<p>雪橇款笔记本散热支架</p>",
+          "recommendCardRichText": "<p><strong>· </strong>雪橇款笔记本散热支架</p>",
+          "tagNames": [],
+          "originalPrice": 49.9,
+          "stock": 2,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "",
+          "promotionType": 0
+        },
+        {
+          "addressRequired": 1,
+          "id": 117,
+          "productCategoryId": 90,
+          "feightTemplateId": 1,
+          "name": "液晶固定款VA屏显示器",
+          "pic": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20261027/7876474fc56741c9a1634ea6f2f7a0881793068492178.png",
+          "productSn": "P19988C7B4C44481B88",
+          "deleteStatus": 0,
+          "publishStatus": 1,
+          "newStatus": 0,
+          "recommandStatus": 0,
+          "verifyStatus": 0,
+          "sort": 0,
+          "sale": 0,
+          "price": 399,
+          "giftGrowth": 0,
+          "giftPoint": 0,
+          "usePointLimit": 0,
+          "subTitle": "23.8英寸 FHD VA 120Hz 固定底座",
+          "standardCardMarketing": true,
+          "recommendCardMarketing": true,
+          "recommendCardSubTitle": "23.8英寸 FHD VA 120Hz 固定底座",
+          "standardCardRichText": "<p>23.8英寸 FHD VA 120Hz 固定底座</p>",
+          "recommendCardRichText": "<p>23.8英寸 FHD VA 120Hz 固定底座</p>",
+          "tagNames": [
+            "限时",
+            "满减"
+          ],
+          "originalPrice": 449,
+          "stock": 1,
+          "lowStock": 0,
+          "previewStatus": 0,
+          "albumPics": "https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/55c85ae953b3432faa9aab2f13df00af1787454360559.png,https://wjcc.mechrevo.com/bucket-daa2/storage/mall/20260823/b274c02641a94cb2bc2ab7f49563d10a1787472401275.png",
+          "promotionType": 0
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://mall.mechrevo.com/portal-api/footer/navigation",
+    "data": {
+      "code": 200,
+      "message": "操作成功",
+      "data": [
+        {
+          "configKey": "service_driver_download",
+          "displayGroup": "服务支持",
+          "displayName": "驱动程序下载",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/downloads",
+          "openMode": "NEW",
+          "sort": 1
+        },
+        {
+          "configKey": "service_store_locator",
+          "displayGroup": "服务支持",
+          "displayName": "线下门店查询",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/stores",
+          "openMode": "NEW",
+          "sort": 3
+        },
+        {
+          "configKey": "service_center",
+          "displayGroup": "服务支持",
+          "displayName": "服务中心查询",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/outlets",
+          "openMode": "NEW",
+          "sort": 4
+        },
+        {
+          "configKey": "service_policy",
+          "displayGroup": "服务支持",
+          "displayName": "服务政策条款",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/policy",
+          "openMode": "NEW",
+          "sort": 5
+        },
+        {
+          "configKey": "service_online_support",
+          "displayGroup": "服务支持",
+          "displayName": "在线客服支持",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://800.mechrevo.com/visitors-ui/h5?channelId=6&channelName=H5",
+          "openMode": "NEW",
+          "sort": 6
+        },
+        {
+          "configKey": "brand_about",
+          "displayGroup": "机械革命",
+          "displayName": "关于我们",
+          "configType": "LINK",
+          "linkType": "EXTERNAL",
+          "linkUrl": "https://www.mechrevo.com/cn/story/",
+          "openMode": "NEW",
+          "sort": 7
+        },
+        {
+          "configKey": "legal_privacy",
+          "displayGroup": "底部服务",
+          "displayName": "隐私政策",
+          "configType": "RICH_TEXT",
+          "richText": "<h1>机械革命官方网站隐私政策</h1>\n<div>\n 制定主体：智通智能技术（苏州）有限公司\n</div>\n<h2><span>一、总则</span></h2>\n<p>智通智能技术（苏州）有限公司（以下简称\"我们\"或\"机械革命\"）是机械革命官方网站（网址：www.mechrevo.com，以下简称\"本网站\"）的运营主体。我们深知个人信息对用户（以下简称\"您\"）的重要性，严格遵守《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律法规，坚持\"合法、正当、必要、诚信\"原则处理您的个人信息，致力于保障您的信息安全与合法权益。</p>\n<p>本隐私政策旨在明确我们收集、使用您个人信息的范围、方式及目的，同时说明您享有的个人信息权利及行使路径。请您在访问、使用本网站前，仔细阅读并理解本政策全部内容；若您不同意本政策，应立即停止访问或使用本网站。您访问、使用本网站的行为，视为已接受本政策的约束。</p>\n<h2><span>二、适用范围</span></h2>\n<p>本政策仅适用于我们通过本网站收集、处理您个人信息的行为，包括您访问浏览本网站、注册账号、使用售后报修/活动报名/产品咨询等服务时产生的信息交互。</p>\n<p>本网站可能包含第三方平台链接（如电商旗舰店、售后服务合作方网站、社交媒体账号等），您访问第三方平台时，其信息处理规则由第三方自主制定，需遵循第三方的隐私政策。我们不对第三方的信息收集、使用行为承担责任，也不对此类行为提供担保。</p>\n<h2><span>三、我们收集的个人信息及收集方式</span></h2>\n<p>我们遵循\"最小必要\"原则收集个人信息，仅收集为实现本网站功能、提供服务所必需的信息，不收集与服务无关的信息。具体收集范围及方式如下：</p>\n<h3>（一）访问、浏览本网站时自动收集的信息</h3>\n<p>您无需注册账号即可访问本网站公开内容，在此过程中，我们会自动收集非身份识别信息，用于优化网站体验、保障服务稳定性，具体包括：</p>\n<p><strong>设备信息</strong>：设备型号（如电脑/手机品牌及型号）、操作系统版本（如Windows 11、iOS 17）、浏览器类型及版本（如Chrome 120.0）、设备唯一标识符（如IMEI、MAC地址，仅用于识别异常设备）、设备网络状态（如IP地址、Wi-Fi/移动网络类型、运营商信息）；</p>\n<p><strong>使用行为信息</strong>：访问时间、浏览的页面路径（如\"首页-游戏本系列-极光Pro型号\"）、页面滚动位置；</p>\n<p>上述信息为匿名化或去标识化数据，不直接关联您的真实身份。</p>\n<h3>（二）注册、使用特定服务时主动提供的信息</h3>\n<p>当您注册本网站账号、使用个性化服务（如售后报修、活动报名、产品咨询）时，需根据页面提示主动提供以下个人信息，若您不提供，可能无法使用对应服务：</p>\n<h4>账号注册信息：</h4>\n<p><strong>身份识别信息</strong>：姓名、手机号码（用于账号验证、身份核验，如短信验证码）；</p>\n<p><strong>账户基础信息</strong>：账号名称。</p>\n<h4>售后报修服务信息：</h4>\n<p><strong>产品信息</strong>：机械革命产品序列号（用于验证产品归属及保修期）、购买凭证（如订单编号、发票照片/扫描件，用于核验购买渠道）；</p>\n<p><strong>服务需求信息</strong>：故障描述（文字/图片）、故障发生时间、期望维修方式（上门/寄修）；</p>\n<p><strong>物流信息</strong>：寄修地址、收件人姓名、联系电话（用于维修后产品寄回）。</p>\n<h4>活动参与服务信息：</h4>\n<p>若您参与新品试用、抽奖、线下体验等活动，需提供姓名、手机号码、收货地址（用于活动资格核验、奖品发放/试用产品寄送）；</p>\n<p>若活动需实名认证（如高价值奖品发放），需提供身份证号码（仅用于合规核验，不用于其他目的）。</p>\n<h4>产品咨询服务信息：</h4>\n<p><strong>咨询内容</strong>：产品型号、咨询问题描述（如\"极光Pro是否支持独显直连\"）；</p>\n<p><strong>沟通信息</strong>：若通过在线客服沟通，会留存聊天记录（用于后续问题跟进及服务质量优化）。</p>\n<h3>（三）从第三方获取的信息</h3>\n<p>在符合法律法规及第三方平台规则的前提下，我们可能从合法授权的第三方获取您的个人信息，具体包括：</p>\n<p><strong>电商平台订单信息</strong>：若您通过第三方电商平台（如京东、天猫机械革命旗舰店）购买产品后，在本网站申请售后，我们可能从合作电商平台获取您的订单信息（如购买产品型号、订单时间、支付金额），用于核验售后资格，无需您重复提交；</p>\n<p><strong>物流服务商信息</strong>：若您选择寄修服务，我们会从合作物流服务商（如顺丰、京东物流）获取您的寄修包裹物流状态（如已签收、维修中、已寄出），用于同步售后进度。</p>\n<p>我们仅在获得您明确授权（如第三方账号登录时您点击\"同意授权\"）或符合法律规定的情况下，从第三方获取您的个人信息，并对第三方提供信息的合法性进行核实，确保信息来源合规。</p>\n<h2><span>四、个人信息的使用目的</span></h2>\n<p>我们收集您的个人信息，仅用于以下合法、明确的目的，若超出以下范围使用，将另行获得您的授权：</p>\n<p><strong>保障本网站正常运行</strong>：通过设备信息维护服务器稳定，排查技术故障（如页面加载失败、账号登录异常），确保您能正常访问、浏览本网站；</p>\n<p><strong>提供并优化服务</strong>：</p>\n<ul>\n <li>基于您的手机号，发送账号验证信息、服务通知（如售后进度提醒、活动资格确认、订单状态更新）；</li>\n <li>基于用户使用习惯数据（匿名化处理），优化网站页面设计（如调整热门功能入口位置）、提升加载速度，改善使用体验；</li>\n <li>处理售后及咨询需求：根据您提供的售后信息、咨询内容，为您提供故障排查、维修安排、问题解答等服务，留存聊天记录用于后续跟进；</li>\n <li>开展营销活动：在您同意的前提下，向您推送机械革命新品信息、优惠活动（如促销折扣、限时抢购），推送方式包括短信、邮箱、站内信；若您不想接收此类信息，可通过本政策\"六、您的权利\"中说明的方式取消授权；</li>\n <li>保障信息安全与合规：通过分析设备信息、登录行为，识别异常访问（如异地登录、多次密码错误、批量请求），采取账号冻结、安全提醒等措施，保护您的账号及个人信息安全；</li>\n <li>遵守法律法规要求：根据行政机关、司法机关的合法要求（如法院传票、监管部门指令），提供您的个人信息，配合调查取证或履行法定义务。</li>\n</ul>\n<h2><span>五、个人信息的存储与保护</span></h2>\n<h3>（一）存储方式与期限</h3>\n<p><strong>存储地点</strong>：我们将您的个人信息存储在中华人民共和国境内（不含港澳台地区）的阿里云服务器上，不将个人信息传输至境外。若未来因业务需求需向境外传输，将按照《个人信息保护法》要求，提前获得您的明确授权，并通过数据出境安全评估、签署标准合同等合规方式，保障信息传输安全；</p>\n<p><strong>存储期限</strong>：我们仅在实现本政策所述使用目的的必要期限内存储您的个人信息，超出期限后，将按照法律法规要求，采取删除、匿名化处理（去除身份标识，使其无法关联到具体个人）等方式处理，具体期限如下：</p>\n<ul>\n <li><strong>账号信息</strong>：若您未注销账号，将持续存储账号名称、手机号/邮箱，直至您主动注销账号；</li>\n <li><strong>售后信息</strong>：维修记录、故障描述、寄修地址等，存储至产品保修期结束后1年（用于后续售后查询及纠纷处理）；</li>\n <li><strong>活动信息</strong>：活动参与记录、奖品发放信息，存储至活动结束后3个月（用于应对可能的活动纠纷）；</li>\n <li><strong>咨询记录</strong>：在线客服聊天记录，存储至问题解决后3个月（用于服务质量回溯）；</li>\n <li><strong>匿名化信息</strong>：设备信息、浏览行为等匿名化后的数据，可用于长期分析用户习惯，不受上述期限限制。</li>\n</ul>\n<h3>（二）安全保护措施</h3>\n<p>我们已建立完善的个人信息安全管理制度，采取技术、管理双重措施，保障您的个人信息安全，请您注意：网络传输存在一定安全风险（如第三方非法拦截、设备感染恶意程序），我们无法保证信息传输的绝对安全。请您妥善保管账号密码，不向他人泄露，不使用公共设备登录账号，以降低信息泄露风险；若您发现账号异常，应立即联系我们处理。</p>\n<h2><span>六、个人信息的共享、转让与披露</span></h2>\n<p>我们严格限制个人信息的共享、转让与披露，仅在符合以下条件时进行，且确保每一项处理行为均合法合规：</p>\n<h3>（一）个人信息的共享</h3>\n<p>我们不会向未关联的第三方共享您的个人信息，仅在以下情况下，与合作第三方共享，且会对第三方的信息处理行为进行监督：</p>\n<p><strong>为提供服务所需</strong>：</p>\n<ul>\n <li><strong>物流服务商</strong>：若您参与活动需领取奖品、售后需寄修产品，我们会向物流服务商（如顺丰、京东物流）共享您的姓名、收货地址、联系电话，仅用于物流配送；</li>\n <li><strong>支付机构</strong>：若本网站开通直接支付功能（如购买配件），我们会向合作支付机构（如微信支付、支付宝）共享您的订单金额、支付账号信息，仅用于支付验证及订单结算；</li>\n <li><strong>客服外包服务商</strong>：若委托第三方提供客服服务，会向其共享您的咨询记录、售后信息，仅用于为您提供问题解答及服务跟进。</li>\n</ul>\n<p><strong>为履行法定义务</strong>：根据行政机关、司法机关的合法要求（如法院传票、市场监管部门调查指令），向相关部门共享您的个人信息，且会对要求的合法性进行核验。</p>\n<p><strong>获得您明确授权</strong>：在您同意的前提下，向第三方共享您的个人信息（如您授权我们将咨询需求同步给线下门店，由门店为您提供一对一服务）。</p>\n<p>我们会与共享信息的第三方签订《数据处理协议》，明确其信息使用范围、安全保护义务，要求第三方仅在约定范围内使用您的个人信息，不得超出范围处理；同时定期核查第三方的履行情况，若第三方违反约定，立即终止合作，并要求其删除已获取的个人信息。</p>\n<h3>（二）个人信息的转让</h3>\n<p>我们不会将您的个人信息转让给任何第三方，除非发生以下情况，且转让行为符合法律法规要求：</p>\n<p>发生企业合并、分立、收购、重组、破产清算等情形，您的个人信息将随业务资产一并转让给新主体，我们会在转让前通过本网站公告、站内信等方式通知您，新主体将继续履行本政策约定的信息保护义务；</p>\n<p>获得您的明确书面授权，且受让方承诺遵守与我们相同的信息保护标准。</p>\n<h3>（三）个人信息的披露</h3>\n<p>我们不会披露您的个人信息，除非符合以下条件：</p>\n<p>获得您的明确同意（如您同意将您的产品试用评价及昵称公开展示在本网站\"用户评价\"板块，不披露姓名、手机号等隐私信息）；</p>\n<p>为保护公共利益、他人合法权益或自身合法权益，在合理范围内公开（如曝光通过作弊手段参与活动的用户账号，以维护活动公平性，仅公开账号名称，不公开身份信息）；</p>\n<p>披露的信息已进行匿名化处理，无法关联到具体个人（如发布《机械革命用户使用习惯报告》，仅展示\"85%的游戏本用户关注显卡性能\"等统计数据）。</p>\n<h2><span>七、未成年人信息保护</span></h2>\n<p>我们高度重视未成年人个人信息保护，若您为未满18周岁的未成年人（以下简称\"未成年人\"），需在法定监护人（以下简称\"监护人\"）的陪同下使用本网站，并由监护人协助阅读本政策。</p>\n<h2><span>八、隐私政策的更新与通知</span></h2>\n<p>我们有权根据法律法规更新、监管要求调整、业务发展需求，不定期修订本政策。修订后的政策将通过以下方式通知您：</p>\n<p><strong>公示</strong>：在本网站首页\"隐私政策\"板块更新修订后的内容；</p>\n<p><strong>通知</strong>：若修订内容涉及用户核心权益（如个人信息收集范围扩大、共享规则变更），将额外通过站内信（针对已注册用户）、客服电话短信提醒等方式告知您，确保您知晓修订内容。</p>\n<p>修订后的政策自发布起生效，若您继续使用本网站，视为接受修订后的政策；若您不接受，应立即停止使用本网站。我们建议您定期查阅本政策（如每3个月查阅1次），了解最新的信息保护规则。</p>\n<h2><span>九、联系方式</span></h2>\n<p>若您对本政策有任何疑问，或需要行使个人信息权利、投诉举报，可通过以下方式联系我们：</p>\n<p><strong>客服电话</strong>：400-990-5898（服务时间：周一至周日9:00-21:00，法定节假日除外）；</p>\n<p><strong>在线客服</strong>：登录本网站，点击右下角\"在线客服\"图标，即可实时沟通；</p>\n<p>我们将认真对待您的反馈，及时为您解决问题，保障您的个人信息权益。</p>",
+          "sort": 16
+        },
+        {
+          "configKey": "legal_terms",
+          "displayGroup": "底部服务",
+          "displayName": "使用条款",
+          "configType": "RICH_TEXT",
+          "richText": "<h1>机械革命官方网站使用条款</h1>\n<h2>总则</h2>\n<p><strong>适用范围</strong>：本条款适用于所有访问、浏览、使用机械革命官方网站（www.mechrevo.com，以下简称\"本网站\"）的用户（包括个人及组织，以下简称\"用户\"）。本网站由智通智能技术（苏州）有限公司旗下机械革命品牌运营管理。</p>\n<p><strong>协议生效</strong>：用户使用本网站任何功能或服务，即视为已充分阅读、理解并接受本条款全部内容，以及本网站发布的隐私政策、活动规则等配套文件，与机械革命构成合法有效的合同关系。若用户不同意本条款，应立即停止使用本网站。</p>\n<p><strong>条款变更</strong>：机械革命有权根据法律法规更新、业务发展需求不定期修订本条款，修订后的内容将通过本网站首页公告公示。用户继续使用本网站的，视为接受变更后的条款；若不接受，应终止使用本网站。</p>\n<h2>网站使用规范</h2>\n<h3>用户行为准则</h3>\n<p>用户应遵守《网络安全法》《数据安全法》《个人信息保护法》等法律法规，不得利用本网站从事任何违法活动，包括但不限于：</p>\n<ul>\n <li>发布危害国家安全、泄露国家秘密、破坏民族团结的信息；</li>\n <li>传播淫秽、暴力、赌博等违法或违背公序良俗的内容；</li>\n <li>侮辱、诽谤他人，侵犯第三方名誉权、隐私权、知识产权等合法权益；</li>\n <li>实施任何介入、侵入或损害网络系统及资源、干扰本网站正常运行或窃取他人账户信息等行为。</li>\n</ul>\n<p>您知悉本服务的部份内容可能系由第三方网站所提供，且本服务将可能引导您至第三方网站的服务或网站。您将自行决定是否使用第三方网站的服务或网站，并同意接受其服务或网站所制定的条款与约定，包括但不限于商品价格、商品数量订购确认机制、订购数量上限、商品交付及付款方式等条款。您知悉且同意，您与第三方网站间的所有约定及第三方网站所提供的服务或网站内容概与机械革命无涉。</p>\n<p>禁止使用\"网页爬虫\"\"机器人程序\"等自动工具访问、采集本网站内容，不得实施\"深层链接\"等本网站未授权的访问行为。</p>\n<p>参与本网站活动时，不得提供虚假信息、冒用他人身份，或通过作弊、刷量等不正当手段获取权益，此类行为将导致资格取消。</p>\n<h3>账号使用规则</h3>\n<p>需注册账号使用的服务，用户应提供真实、准确、完整的个人信息，并及时更新。因信息虚假或过时导致的损失，由用户自行承担。</p>\n<p>用户应对账号密码的安全性负责，不得转借、出租账号，否则机械革命有权暂停账号使用以保障安全。</p>\n<h2>知识产权与内容规范</h2>\n<p><strong>机械革命知识产权</strong>：本网站所有内容（包括但不限于文字、图片、视频、产品参数、商标、软件代码等）的知识产权均归机械革命或相关授权方所有。\"机械革命\"及图形商标为智通智能技术（苏州）有限公司注册商标，受法律保护。</p>\n<p><strong>内容使用限制</strong>：用户可下载本网站产品信息用于个人非商业目的，但必须保留完整的版权声明；未经机械革命书面授权，不得用于商业用途，不得修改、传播或二次创作网站内容。</p>\n<p><strong>用户内容授权</strong>：用户上传至本网站的评价、图片等内容，视为授权机械革命及其关联企业在全球范围内无偿、非独占使用，可用于品牌推广、产品宣传等用途，且有权转授权第三方。</p>\n<p><strong>侵权处理</strong>：若用户认为本网站内容涉嫌侵权，可联系机械革命客服提交书面通知，机械革命核实无误后将依法采取删除、断开链接等处理措施；若内容上传者认为不构成侵权，可提交反通知，机械革命将依法复核。</p>\n<h2>产品信息与服务说明</h2>\n<p><strong>信息准确性</strong>：本网站发布的产品参数、功能描述、服务政策等信息，均基于产品发布时的技术标准制作。因产品迭代、地区政策、网络平台差异，本网站发布的产品参数、功能描述、服务政策等信息与实际销售产品可能与网站产品指向的第三方电商平台链接中的产品内容存在差异，具体以实物、销售合同或第三方电商平台链接中的产品内容为准。</p>\n<p><strong>服务可用性</strong>：机械革命尽力保障本网站24小时稳定运行，但不对服务的持续性、无中断性作出明示或默示保证。因系统维护、技术故障、第三方攻击等原因导致服务暂停的，机械革命将及时公告，但不承担赔偿责任。</p>\n<p><strong>第三方链接</strong>：本网站可能包含第三方平台（如电商旗舰店、售后服务合作方）的链接，此类链接仅为用户提供便利。机械革命不对第三方网站的内容、安全性及服务质量负责，用户访问第三方网站的风险自行承担。且本网站发布的产品参数、功能描述可能与第三方电商平台链接中的产品内容存在差异，具体以您进行购买行为的第三方电商平台的产品内容为准。</p>\n<h2>隐私保护</h2>\n<p>机械革命尊重用户隐私，将按照《机械革命隐私政策》处理用户个人信息，包括收集、使用、存储及披露等行为。</p>\n<p>请注意，用户与本网站之间的数据传输存在被拦截的可能性，机械革命无法完全保证网络传输的绝对安全，用户需自行承担相应风险。</p>\n<h2>责任限制与免责</h2>\n<p>本网站以\"现状\"提供服务，机械革命不保证内容的绝对准确、完整，不对用户因使用本网站信息导致的决策失误承担责任。</p>\n<p>因不可抗力（如自然灾害、政府行为）、公共服务故障（如电力、网络中断）或第三方原因导致的服务异常，机械革命不承担违约责任。</p>\n<p>机械革命对用户的全部责任，不超过用户因使用付费服务产生的实际费用总额。不对间接损失（如利润、数据丢失）承担赔偿责任，法律法规另有规定的除外。</p>\n<h2>协议终止</h2>\n<p>用户违反本条款的，机械革命有权在不事先通知的情况下，终止其账号使用权限、屏蔽访问，并追究法律责任。</p>\n<p>机械革命可根据业务调整，提前30日通过网站公告终止部分或全部服务，终止后将停止收集用户信息，并按规定处理已存储数据。</p>\n<h2>法律适用与争议解决</h2>\n<p>本条款适用中华人民共和国法律（不含港澳台地区法律）。</p>\n<p>因本条款产生的争议，双方应友好协商解决；协商不成的，任何一方可向本网站运营地（北京市海淀区）有管辖权的人民法院提起诉讼。</p>\n<h2>其他</h2>\n<p>本条款中的标题仅为阅读便利，不影响条款含义的解释。</p>\n<p>本条款的任何条款被认定为无效或不可执行的，不影响其余条款的效力。</p>\n<p>机械革命的联系方式：客服电话 400-990-5898。</p>",
+          "sort": 17
+        }
+      ]
+    }
+  }
+]

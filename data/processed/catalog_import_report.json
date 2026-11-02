@@ -1,0 +1,851 @@
+{
+  "source": "../data/电脑数据.xlsx",
+  "source_sha256": "bbca679a063d289631752fb05b99e0ed85b6734baf0de25dc5c9ebebcbd674b3",
+  "source_unchanged": true,
+  "mapping": {
+    "brand": "brand",
+    "series": "series",
+    "model": "model",
+    "CPU_model": "cpu_model",
+    "GPU_model": "gpu_model",
+    "GPU_Type": "gpu_type",
+    "ram_gb": "ram_gb",
+    "ssd_gb": "ssd_gb",
+    "screen_inches": "screen_inches",
+    "weight_kg": "weight_kg",
+    "official_price": "official_price_cny",
+    "url": "source_url",
+    "os": "os"
+  },
+  "sheets": [
+    {
+      "sheet": "Sheet1",
+      "status": "imported",
+      "headers": [
+        "brand",
+        "series",
+        "model",
+        "os",
+        "CPU_model",
+        "GPU_model",
+        "GPU_Type",
+        "ram_gb",
+        "ssd_gb",
+        "screen_inches",
+        "weight_kg",
+        "official_price",
+        "url"
+      ]
+    },
+    {
+      "sheet": "Sheet2",
+      "status": "empty"
+    },
+    {
+      "sheet": "Sheet3",
+      "status": "empty"
+    }
+  ],
+  "input_rows": 78,
+  "imported_records": 78,
+  "brands": {
+    "Apple": 16,
+    "联想": 15,
+    "华硕": 14,
+    "惠普": 14,
+    "华为": 4,
+    "戴尔": 6,
+    "机械革命": 9
+  },
+  "source_types": {
+    "brand": {
+      "str": 78
+    },
+    "series": {
+      "str": 76,
+      "int": 2
+    },
+    "model": {
+      "str": 78
+    },
+    "os": {
+      "str": 78
+    },
+    "CPU_model": {
+      "str": 78
+    },
+    "GPU_model": {
+      "str": 38,
+      "NoneType": 40
+    },
+    "GPU_Type": {
+      "str": 78
+    },
+    "ram_gb": {
+      "int": 78
+    },
+    "ssd_gb": {
+      "int": 78
+    },
+    "screen_inches": {
+      "int": 68,
+      "float": 10
+    },
+    "weight_kg": {
+      "float": 74,
+      "int": 4
+    },
+    "official_price": {
+      "int": 72,
+      "float": 6
+    },
+    "url": {
+      "str": 78
+    }
+  },
+  "missing_source_fields": {
+    "brand": 0,
+    "series": 0,
+    "model": 0,
+    "CPU_model": 0,
+    "GPU_model": 40,
+    "GPU_Type": 0,
+    "ram_gb": 0,
+    "ssd_gb": 0,
+    "screen_inches": 0,
+    "weight_kg": 0,
+    "official_price": 0,
+    "url": 0,
+    "os": 0
+  },
+  "os_statistics": {
+    "macOS": 16,
+    "Windows": 62
+  },
+  "absent_optional_fields": [
+    "image",
+    "battery_wh",
+    "price_observed_at"
+  ],
+  "duplicates": [],
+  "conflicts": [],
+  "shared_urls_different_models": [
+    {
+      "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?",
+      "models": [
+        "MacBook Air 13英寸 (M5)",
+        "MacBook Air 15英寸 (M5)"
+      ],
+      "rows": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?",
+      "models": [
+        "MacBook Pro 14英寸（M5 Max）",
+        "MacBook Pro 14英寸（M5 Pro）",
+        "MacBook Pro 14英寸（M6）"
+      ],
+      "rows": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com",
+      "models": [
+        "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+        "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+        "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+        "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+        "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+        "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+        "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+        "小新Air 13.3英寸轻薄笔记本电脑",
+        "小新Air 14英寸轻薄笔记本电脑",
+        "小新Pro 16英寸轻薄笔记本电脑",
+        "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+        "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+        "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑"
+      ],
+      "rows": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971",
+      "models": [
+        "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+        "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑"
+      ],
+      "rows": [
+        44,
+        45
+      ]
+    }
+  ],
+  "issues_by_kind": {
+    "series_page_not_configuration": 17,
+    "shared_url_different_models": 31,
+    "homepage_not_configuration": 15,
+    "insufficient_model_specificity": 2,
+    "corrected_classification": 2,
+    "possible_typo_preserved": 1
+  },
+  "row_issues": [
+    {
+      "id": "np-821de32e4bdd2ada742c",
+      "row": 2,
+      "model": "MacBook Air 13英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-e33a73323a54ac6711ee",
+      "row": 3,
+      "model": "MacBook Air 13英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-f4c1ee85188ec90baf1e",
+      "row": 4,
+      "model": "MacBook Air 13英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-4fd99de1823c181fcdce",
+      "row": 5,
+      "model": "MacBook Air 15英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-d2535e3311d688e48e40",
+      "row": 6,
+      "model": "MacBook Air 15英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-7352ceda9ac3465452e3",
+      "row": 7,
+      "model": "MacBook Air 15英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-526eb2abeaf716bae560",
+      "row": 8,
+      "model": "MacBook Air 15英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-7d2080c7744b051063f3",
+      "row": 9,
+      "model": "MacBook Air 13英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-d0e1ba60a922d9c18614",
+      "row": 10,
+      "model": "MacBook Air 13英寸 (M5)",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air?"
+        }
+      ]
+    },
+    {
+      "id": "np-c69717951e2fb376a117",
+      "row": 11,
+      "model": "MacBook Neo",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?"
+        }
+      ]
+    },
+    {
+      "id": "np-95eb7db0f6efc8f033ed",
+      "row": 12,
+      "model": "MacBook Neo",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-neo?"
+        }
+      ]
+    },
+    {
+      "id": "np-899d475a72ffb8a996fa",
+      "row": 13,
+      "model": "MacBook Pro 14英寸（M6）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      ]
+    },
+    {
+      "id": "np-151ad5be2205fbe7dbdf",
+      "row": 14,
+      "model": "MacBook Pro 14英寸（M6）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      ]
+    },
+    {
+      "id": "np-be4d94c12a1eb6f88647",
+      "row": 15,
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      ]
+    },
+    {
+      "id": "np-4ebeb761e90f948e9fcf",
+      "row": 16,
+      "model": "MacBook Pro 14英寸（M5 Pro）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      ]
+    },
+    {
+      "id": "np-08c2daecd6ee8dc6a5b8",
+      "row": 17,
+      "model": "MacBook Pro 14英寸（M5 Max）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.apple.com.cn/shop/buy-mac/macbook-pro?"
+        }
+      ]
+    },
+    {
+      "id": "np-d3e1e31773cf48110768",
+      "row": 18,
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-c4220c0135ddfa2bb409",
+      "row": 19,
+      "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-c52208f4c76c092d9074",
+      "row": 20,
+      "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-c2382313968cb80e850c",
+      "row": 21,
+      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-34bc20704c65751cacbe",
+      "row": 22,
+      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-0ab4acffee16d2861b53",
+      "row": 23,
+      "model": "小新Pro 16英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-64f4c6c4151cb692c493",
+      "row": 24,
+      "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-98a879d503c2ee705543",
+      "row": 25,
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-76ec5b7767d02d3791e4",
+      "row": 26,
+      "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-c621bace4974a1e6ed5d",
+      "row": 27,
+      "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-df72b0734f62fba28a26",
+      "row": 28,
+      "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-beea8ad82fe3a0577ae4",
+      "row": 29,
+      "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-35041149e93a8cac19f0",
+      "row": 30,
+      "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-5a16d391c12872a7ebb2",
+      "row": 31,
+      "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-cef7acfb325f51bb6719",
+      "row": 32,
+      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "homepage_not_configuration",
+          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        },
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
+        }
+      ]
+    },
+    {
+      "id": "np-604a8ba4b571b4c0f23f",
+      "row": 44,
+      "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971"
+        }
+      ]
+    },
+    {
+      "id": "np-589358c4159defd0a248",
+      "row": 45,
+      "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://store.asus.com.cn/store/goods/detail?productId=42272526120971"
+        }
+      ]
+    },
+    {
+      "id": "np-e59d270febadb8180cb5",
+      "row": 46,
+      "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "cpu_model",
+          "kind": "insufficient_model_specificity",
+          "raw": "骁龙X"
+        }
+      ]
+    },
+    {
+      "id": "np-7a935669073161c610e3",
+      "row": 48,
+      "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "source_url",
+          "kind": "series_page_not_configuration",
+          "raw": "https://www.hpstore.cn/laptops-tablets/personal-laptops/omnibook-x-laptops.html"
+        }
+      ]
+    },
+    {
+      "id": "np-0e287e2ffa259909da00",
+      "row": 52,
+      "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "gpu_type",
+          "kind": "corrected_classification",
+          "raw": "独显",
+          "value": "集成显卡",
+          "evidence": "https://psref.lenovo.com/Detail/ThinkBook_14_G8_IAL?M=21SJ0070VN",
+          "note": "只修正JSON；原始Excel及raw内容保留"
+        }
+      ]
+    },
+    {
+      "id": "np-f6618cb4586314bdef52",
+      "row": 54,
+      "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "gpu_type",
+          "kind": "corrected_classification",
+          "raw": "独显",
+          "value": "集成显卡",
+          "evidence": "https://www.intel.com/content/www/us/en/support/articles/000007420/processors.html",
+          "note": "只修正JSON；原始Excel及raw内容保留"
+        }
+      ]
+    },
+    {
+      "id": "np-3624f9018abd6ce52c0a",
+      "row": 70,
+      "model": "Alienware 外星人 18 Area-51 游戏笔记本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "series",
+          "kind": "possible_typo_preserved",
+          "raw": "Aliencware"
+        }
+      ]
+    },
+    {
+      "id": "np-8baa60b1844621f0ab04",
+      "row": 76,
+      "model": "苍龙 16 Ultra旗舰游戏本",
+      "missing_fields": [],
+      "issues": [
+        {
+          "field": "cpu_model",
+          "kind": "insufficient_model_specificity",
+          "raw": "锐龙 9000HX"
+        }
+      ]
+    }
+  ],
+  "note": "仅用户工作簿导入，不代表重新核验官网价格或销售状态；不包含推荐计算。"
+}

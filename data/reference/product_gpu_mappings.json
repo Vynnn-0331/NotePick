@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "mappings": [
+    {
+      "productId": "np-58030f969a49c68c4ce8",
+      "expectedCpuId": "cpu-ryzen99955hx",
+      "expectedGpuId": "gpu-rtx5060-unspecified",
+      "resolvedGpuId": "gpu-rtx5060-laptop",
+      "status": "confirmed_mobile_identity",
+      "sourceIds": [
+        "rog814"
+      ],
+      "basis": "同型号ROG魔霸10Plus、9955HX、16GB、1TB、18英寸；G814FM9955明确5060笔记本GPU；不确认商城SKU编号和价格。",
+      "skuVerified": false,
+      "gpuIdentityVerified": true,
+      "expectedCatalogFields": {
+        "model": "ROG魔霸10 Plus 锐龙9HX 18英寸游戏本笔记本电脑",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 18
+      }
+    },
+    {
+      "productId": "np-1d12de8f38fb438b7a8d",
+      "expectedCpuId": "cpu-ryzenai9h465",
+      "expectedGpuId": "gpu-rtx5060-unspecified",
+      "resolvedGpuId": "gpu-rtx5060-laptop",
+      "status": "confirmed_mobile_identity",
+      "sourceIds": [
+        "asusair",
+        "asusairlist"
+      ],
+      "basis": "天选Air2026 FA401GM、H465、32GB、1TB、14英寸；官方明确5060笔记本GPU；不确认价格。",
+      "skuVerified": false,
+      "gpuIdentityVerified": true,
+      "expectedCatalogFields": {
+        "model": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    }
+  ]
+}

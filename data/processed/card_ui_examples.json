@@ -1,0 +1,126 @@
+{
+  "input": {
+    "schemaVersion": 2,
+    "budget": [
+      5000,
+      20000
+    ],
+    "os": "不限",
+    "scenarios": [
+      "mainstream-games"
+    ],
+    "priorities": [
+      "gpu-power"
+    ],
+    "hardConstraints": {
+      "minRamGb": null,
+      "minSsdGb": null,
+      "maxWeightKg": null,
+      "discreteGpu": false
+    },
+    "unavailableSelections": []
+  },
+  "cards": [
+    {
+      "id": "np-2f271b787d9913fbf15d",
+      "name": "苍龙 18 Pro高端大屏游戏本",
+      "price": 12599,
+      "configuration": {
+        "cpu": "R9-8945HX",
+        "gpu": "RTX5060",
+        "gpuType": "独立显卡",
+        "ram": 32,
+        "ssd": 2048,
+        "screen": 18,
+        "weight": 2.2
+      },
+      "description": "符合已设硬性条件。游戏用途可先核对具体游戏、系统与图形支持，再比较日常使用取舍。",
+      "advantages": [
+        {
+          "kind": "price",
+          "title": "更低的购机支出",
+          "description": "官网参考价12,599元，低于本次其他推荐项。希望把购机支出控制得更低时，可以将这项价格差别纳入取舍。",
+          "basis": {
+            "kind": "price",
+            "field": "official_price_cny",
+            "value": 12599,
+            "otherProductIds": [
+              "np-1d12de8f38fb438b7a8d",
+              "np-673622640e5e11f3f23a"
+            ],
+            "text": "官网参考价12,599元，比本次其他推荐项更低。",
+            "basis": "strict_known_values_only"
+          }
+        },
+        {
+          "kind": "storage",
+          "title": "更大的存储空间",
+          "description": "配备2TB SSD，在本次推荐项中存储容量更大。经常保存多个游戏与更新文件时，可多留一些文件存放空间。",
+          "basis": {
+            "kind": "storage",
+            "field": "ssd_gb",
+            "value": 2048,
+            "otherProductIds": [
+              "np-1d12de8f38fb438b7a8d",
+              "np-673622640e5e11f3f23a"
+            ],
+            "text": "SSD2TB，比本次其他推荐项容量更大。",
+            "basis": "strict_known_values_only"
+          }
+        }
+      ],
+      "neutral": null
+    },
+    {
+      "id": "np-1d12de8f38fb438b7a8d",
+      "name": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+      "price": 14799,
+      "configuration": {
+        "cpu": "锐龙 AI 9 H 465",
+        "gpu": "RTX5060",
+        "gpuType": "独立显卡",
+        "ram": 32,
+        "ssd": 1024,
+        "screen": 14,
+        "weight": 1.46
+      },
+      "description": "符合已设硬性条件。游戏用途可先核对具体游戏、系统与图形支持，再比较日常使用取舍。",
+      "advantages": [
+        {
+          "kind": "weight",
+          "title": "更轻便的机身",
+          "description": "重量1.46kg，在本次推荐项中更轻。如果需要跨地点使用，机身重量是值得考虑的取舍因素。",
+          "basis": {
+            "kind": "weight",
+            "field": "weight_kg",
+            "value": 1.46,
+            "otherProductIds": [
+              "np-2f271b787d9913fbf15d",
+              "np-673622640e5e11f3f23a"
+            ],
+            "text": "重量1.46kg，比本次其他推荐项更轻。",
+            "basis": "strict_known_values_only"
+          }
+        }
+      ],
+      "neutral": null
+    },
+    {
+      "id": "np-673622640e5e11f3f23a",
+      "name": "耀世 18 Pro高端大屏游戏本",
+      "price": 13999,
+      "configuration": {
+        "cpu": "酷睿 i7-14650HX",
+        "gpu": "RTX5060",
+        "gpuType": "独立显卡",
+        "ram": 16,
+        "ssd": 1024,
+        "screen": 18,
+        "weight": 2.8
+      },
+      "description": "符合已设硬性条件。游戏用途可先核对具体游戏、系统与图形支持，再比较日常使用取舍。",
+      "advantages": [],
+      "neutral": "暂无可确认的独有优势，可结合使用需求与基础配置继续比较。"
+    }
+  ]
+}

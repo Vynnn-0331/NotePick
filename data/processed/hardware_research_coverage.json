@@ -1,0 +1,26 @@
+{
+  "denominator": 78,
+  "definition": "每条商品每种硬件只计一次；comparable=完整型号有同口径数值依据，GPU须明确版本/核数；qualitative不充当实测。CPU聚合基准不等于整机实测，含来源允许的混合提交；跨测试/平台不自动排名。",
+  "baseline": {
+    "cpuComparable": 35,
+    "gpuComparable": 0,
+    "gpuConditional": 18
+  },
+  "cpu": {
+    "comparable": 69,
+    "qualitative_only": 3,
+    "identity_only": 0,
+    "unknown": 6,
+    "missing_model_allowed": 0
+  },
+  "gpu": {
+    "comparable": 17,
+    "qualitative_only": 18,
+    "identity_only": 1,
+    "unknown": 2,
+    "missing_model_allowed": 40
+  },
+  "externalComparableCpuModels": 33,
+  "externalComparableGpuModels": 11,
+  "confirmedRtxMobileProducts": 2
+}

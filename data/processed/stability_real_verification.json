@@ -1,0 +1,17 @@
+{
+  "mode": "REAL DEEPSEEK; two explicit browser actions; backend retries bounded",
+  "maxCalls": 2,
+  "calls": 2,
+  "targetProductId": "np-413c27d11a0df17c7146",
+  "initialDisplayed": true,
+  "followupDisplayed": true,
+  "initialHttpStatus": 200,
+  "initialTextLength": 1368,
+  "followupHttpStatus": 200,
+  "followupTextLength": 179,
+  "status": "passed",
+  "observedInitialModelAttempts": 2,
+  "observedFollowupModelAttempts": 1,
+  "initialResearchStatus": "offline_after_rejected_web_answer",
+  "followupResearchStatus": "searched (reused session sources)"
+}

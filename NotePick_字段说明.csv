@@ -1,0 +1,41 @@
+﻿字段名,中文说明,填写示例,优先级,填写规则
+variant_id,本地唯一配置ID,LAP-0001,必填,不同CPU/内存/硬盘组合分别编号
+brand,品牌,Apple,必填,统一英文或中文品牌名
+series,产品系列,MacBook Air,必填,例如ThinkPad X1 Carbon
+model,产品完整名称,MacBook Air 13英寸,必填,来自官网
+model_code,官方型号/货号,,建议,没有则留空
+record_level,记录粒度,sku,必填,sku或series；只有sku参加精确推荐
+release_year,推出年份,2026,选填,不确定留空
+category,机型类别,轻薄本,建议,轻薄本/全能本/游戏本/移动工作站/其他
+os,操作系统,macOS,建议,Windows/macOS/Linux/其他
+cpu_brand,芯片品牌,Apple,建议,Intel/AMD/Apple/Qualcomm/其他
+cpu_model,CPU或SoC完整型号,Apple M系列具体型号,必填,不可只写i7或M系列
+cpu_cores,CPU核心数,,选填,整数；查不到留空
+gpu_model,GPU完整型号,Apple集成GPU,必填,集显也记录具体类型
+gpu_type,显卡类型,集成,建议,集成/独立/混合/未知
+gpu_cores,GPU核心数,,选填,主要用于部分Apple配置
+ram_gb,内存容量（GB）,16,必填,数字，如16或32
+memory_type,内存类型,统一内存,选填,DDR5/LPDDR5X/统一内存等
+ssd_gb,SSD容量（GB）,512,必填,1TB统一写1024
+screen_inches,屏幕尺寸（英寸）,13.6,必填,数字
+resolution_width,水平分辨率（像素）,2560,建议,数字
+resolution_height,垂直分辨率（像素）,1664,建议,数字
+refresh_hz,刷新率（Hz）,60,建议,数字
+panel_type,屏幕类型,IPS,选填,OLED/IPS/mini-LED等
+weight_kg,重量（kg）,1.24,建议,数字；没有查到留空
+battery_wh,电池容量（Wh）,,选填,数字；不要把续航小时数填到这里
+thickness_mm,厚度（mm）,,选填,数字
+ports,接口说明,USB-C;HDMI,选填,多个值用英文分号分隔
+wifi_version,Wi-Fi版本,Wi-Fi 6E,选填,按官网
+touchscreen,触控屏,否,选填,是/否/未知
+configuration_type,配置类型,标准配置,建议,标准配置/定制配置/未知
+official_price_cny,官网价格（人民币）,6999,重要,仅具体SKU有准确对应价格时填写数字
+price_type,官网价格口径,官网公开售价,重要,建议零售价/官网公开售价/系列起售价/未知；系列起售价不用于SKU推荐
+price_url,官方价格来源链接,https://example.com/price,重要,真实商品URL
+spec_url,官方规格来源链接,https://example.com/spec,必填,真实规格URL
+image_url,官方商品图链接,,选填,网页展示用
+availability_status,官网销售状态,在售,选填,在售/无货/停售/未知
+collected_at,抓取时间（ISO 8601）,2026-10-28T12:00:00+08:00,必填,带时区；实际运行时填写
+collection_method,采集方式,crawler,必填,crawler/export/manual
+verification_status,核验状态,待核实,必填,待核实/已核实/有冲突
+notes,备注,,选填,配置歧义、来源不一致等

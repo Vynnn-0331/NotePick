@@ -1,0 +1,23 @@
+{
+  "source": "实际旧开发终端输出；原回答正文未保存，不能还原语境",
+  "records": [
+    {
+      "requestId": "2059ed4e-5bfb-4ccf-b3fe-d73fdb3267c1",
+      "outcome": "AI_BUSY",
+      "durationMs": 20
+    },
+    {
+      "requestId": "418bcdae-e721-4ff5-b699-64bdff5ce00b",
+      "outcome": "INVALID_ANSWER",
+      "validationStage": "fact_validation",
+      "validationReason": "unverified_quantity",
+      "validationField": "decision",
+      "factUnit": "英寸",
+      "factValue": 16,
+      "modelAttempts": 2,
+      "modelHttpStatus": 200,
+      "finishReason": "stop",
+      "durationMs": 26330
+    }
+  ]
+}

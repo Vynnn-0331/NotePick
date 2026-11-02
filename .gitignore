@@ -1,0 +1,41 @@
+# Dependencies and generated builds (any level)
+node_modules/
+dist/
+.vite/
+coverage/
+# Real environments and local credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+# Local state, profiles, logs and caches
+.run/
+.private/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.tools/
+artifacts/
+logs/
+test-results/
+*.log
+*.tmp
+*.bak
+*.tsbuildinfo
+# OS/editor/workspace metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.code-workspace

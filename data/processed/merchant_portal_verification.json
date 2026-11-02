@@ -1,0 +1,37 @@
+[
+  {
+    "brand": "Apple",
+    "url": "https://www.apple.com.cn/store",
+    "status": 200,
+    "finalUrl": "https://www.apple.com.cn/store",
+    "title": "Apple Store 在线商店 - Apple (中国大陆)"
+  },
+  {
+    "brand": "华硕",
+    "url": "https://www.asus.com.cn/store/",
+    "status": 403,
+    "finalUrl": "https://www.asus.com.cn/store/",
+    "title": "万根WAF"
+  },
+  {
+    "brand": "惠普",
+    "url": "https://www.hpstore.cn/",
+    "status": 200,
+    "finalUrl": "https://www.hpstore.cn/",
+    "title": "HP惠普 - 中国惠普官方商城"
+  },
+  {
+    "brand": "华为",
+    "url": "https://www.vmall.com/",
+    "status": 200,
+    "finalUrl": "https://www.vmall.com/",
+    "title": "华为商城VMALL"
+  },
+  {
+    "brand": "戴尔",
+    "url": "https://www.dell.com/zh-cn/shop",
+    "status": 403,
+    "finalUrl": "https://www.dell.com/zh-cn/shop",
+    "title": "Access Denied"
+  }
+]

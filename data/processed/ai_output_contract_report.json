@@ -1,0 +1,58 @@
+{
+  "rootCause": {
+    "requestProductCount": 1,
+    "responseProductCount": 3,
+    "oldRule": "out.products.length === context.products.length",
+    "stage": "field_validation",
+    "reason": "single-product instructions conflicted with multi-product system schema and recommendation background",
+    "jsonParsed": true,
+    "finishReason": "stop",
+    "httpStatus": 200,
+    "responseLengthsWithinOldLimits": true
+  },
+  "changes": [
+    "separate single_product.product and multi_product.products output contracts",
+    "single allowed target ID explicit; recommendation background not analysis targets",
+    "canonical normalization to existing frontend products array",
+    "safe support for whole analysis wrapper, string/paragraph lists, optional empty/null caution/check lists",
+    "larger bounded text and token budgets; never truncate to pass",
+    "exact product ID/order/name and facts still checked; CPU model protection added",
+    "safe failure rule plus field path logging"
+  ],
+  "realCalls": 3,
+  "realDiagnosticCalls": 1,
+  "realFinalDisplayCalls": 2,
+  "realBrowser": {
+    "mode": "REAL DEEPSEEK, no retries",
+    "maxCalls": 2,
+    "calls": 2,
+    "targetProductId": "np-0ab4acffee16d2861b53",
+    "initialDisplayed": true,
+    "followupDisplayed": true,
+    "initialHttpStatus": 200,
+    "initialTextLength": 1511,
+    "followupHttpStatus": 200,
+    "followupTextLength": 318,
+    "status": "passed"
+  },
+  "tests": {
+    "backend": 24,
+    "frontend": 102,
+    "build": "passed",
+    "detailMock": "passed",
+    "legacyMock": "passed",
+    "rankingRegressionCases": 111
+  },
+  "changedFiles": [
+    "backend/prompt.mjs",
+    "backend/deepseek.mjs",
+    "backend/server.mjs",
+    "backend/tests/deepseek.test.mjs",
+    "backend/tests/output-contract.test.mjs",
+    "frontend/tests/recommendationCardCopy.test.js",
+    "frontend/scripts/verify-real-ai.mjs",
+    "frontend/DEEPSEEK_INTEGRATION.md"
+  ],
+  "noRawRequestsOrAnswersLogged": true,
+  "noKeyLogged": true
+}

@@ -1,0 +1,50 @@
+{
+  "status": "implementation_and_mock_verified_real_display_not_verified",
+  "sections": [
+    "一句话结论",
+    "为什么适合你",
+    "你需要权衡什么",
+    "最终选购建议"
+  ],
+  "writingTargetHan": "350-550 (not a rejection threshold)",
+  "factsAndIdsChecked": true,
+  "tests": {
+    "backend": 29,
+    "frontend": 103,
+    "productionBuild": "passed",
+    "frozenRankingCases": 111,
+    "adviceBrowserCases": 5,
+    "followupMock": "passed",
+    "detailRegression": "passed",
+    "legacyMultiMock": "passed",
+    "widths": [
+      390,
+      768,
+      1366
+    ]
+  },
+  "real": {
+    "calls": 1,
+    "displayed": false,
+    "errorStage": "field_validation",
+    "reason": "unexpected_field",
+    "field": "response",
+    "afterwards": "added safe aliases/name metadata/titled list compatibility; verified with mocks only; no additional paid calls",
+    "exactUnexpectedField": "not captured, cannot determine"
+  },
+  "examples": "data/processed/ai_advice_examples.md (5 complete editorial mock examples, not model generated)",
+  "changedFiles": [
+    "backend/prompt.mjs",
+    "backend/deepseek.mjs",
+    "backend/tests/advice-fixtures.mjs",
+    "backend/tests/advice-quality.test.mjs",
+    "backend/tests/output-contract.test.mjs",
+    "frontend/src/components/DeepSeekAnalysis.jsx",
+    "frontend/src/services/aiClient.js",
+    "frontend/tests/aiClient.test.js",
+    "frontend/tests/recommendationCardCopy.test.js",
+    "frontend/scripts/advice-quality-smoke.mjs",
+    "frontend/DEEPSEEK_INTEGRATION.md"
+  ],
+  "noAlgorithmDataKeyOrLayoutChanges": true
+}

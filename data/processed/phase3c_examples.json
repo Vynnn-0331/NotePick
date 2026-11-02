@@ -1,0 +1,910 @@
+{
+  "stage": "3C presentation only",
+  "unchanged": "3B数量、ID、顺序完全沿用；不调用推荐API或重新评分",
+  "cases": [
+    {
+      "name": "办公 · 经济实惠",
+      "input": {
+        "schemaVersion": 2,
+        "budget": [
+          5000,
+          20000
+        ],
+        "os": "不限",
+        "scenarios": [
+          "documents"
+        ],
+        "priorities": [
+          "value"
+        ],
+        "hardConstraints": {
+          "minRamGb": null,
+          "minSsdGb": null,
+          "maxWeightKg": null,
+          "discreteGpu": false
+        },
+        "unavailableSelections": []
+      },
+      "ids": [
+        "np-828ebbc340c18ec14814",
+        "np-64f4c6c4151cb692c493",
+        "np-34bc20704c65751cacbe"
+      ],
+      "products": [
+        {
+          "id": "np-828ebbc340c18ec14814",
+          "name": "无界 14高性能轻薄本",
+          "configuration": {
+            "cpu": "酷睿 5 226",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 5299,
+            "ram": 16,
+            "ssd": 1024,
+            "weight": 1,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。16GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [],
+          "cautions": [
+            "其他推荐项有官网参考价更低的选择，可按你重视的方面取舍。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": "未发现可明确标出的相对优势，不强行分配不同角色；不代表性能较差。",
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对文档办公，结合已知容量、可比用途证据与个人偏好",
+            "16GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "结合用途容量参考比较官网参考价5299元，不以最低价替代适配",
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "集显具体型号未记录，保持空值，不从CPU推断"
+          ],
+          "originalWarnings": [
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "文档软件版本与系统兼容性需核验"
+          ]
+        },
+        {
+          "id": "np-64f4c6c4151cb692c493",
+          "name": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
+          "configuration": {
+            "cpu": "酷睿 5 320",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 5199,
+            "ram": 12,
+            "ssd": 1024,
+            "weight": 0.99,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。12GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": "希望控制购机支出时，可先比较这款的价格。",
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "price",
+              "field": "official_price_cny",
+              "value": 5199,
+              "otherProductIds": [
+                "np-828ebbc340c18ec14814",
+                "np-34bc20704c65751cacbe"
+              ],
+              "text": "官网参考价5,199元，比本次其他推荐项更低。",
+              "basis": "strict_known_values_only"
+            },
+            {
+              "kind": "weight",
+              "field": "weight_kg",
+              "value": 0.99,
+              "otherProductIds": [
+                "np-828ebbc340c18ec14814",
+                "np-34bc20704c65751cacbe"
+              ],
+              "text": "重量0.99kg，比本次其他推荐项更轻。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "容量低于本次用途的规划参考，请确认具体任务是否够用；这不是新增硬门槛。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对文档办公，结合已知容量、可比用途证据与个人偏好",
+            "12GB内存、1024GB SSD，容量或资料需结合任务规模核验；这是软参考，不是软件运行保证",
+            "结合用途容量参考比较官网参考价5199元，不以最低价替代适配",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "文档软件版本与系统兼容性需核验"
+          ],
+          "originalWarnings": [
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "文档软件版本与系统兼容性需核验",
+            "内存低于本次用途软参考；仅提示，不额外排除",
+            "部分性能资料样本较少或可信程度低，仅作有限参考，不据微小差异宣称领先"
+          ]
+        },
+        {
+          "id": "np-34bc20704c65751cacbe",
+          "name": "小新Air 13.3英寸轻薄笔记本电脑",
+          "configuration": {
+            "cpu": "酷睿 5 320",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 5499,
+            "ram": 16,
+            "ssd": 512,
+            "weight": 1.1,
+            "screen": 13.3,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。16GB内存、512GB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [],
+          "cautions": [
+            "其他推荐项有官网参考价更低的选择，可按你重视的方面取舍。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": "未发现可明确标出的相对优势，不强行分配不同角色；不代表性能较差。",
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对文档办公，结合已知容量、可比用途证据与个人偏好",
+            "16GB内存、512GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "结合用途容量参考比较官网参考价5499元，不以最低价替代适配",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "文档软件版本与系统兼容性需核验"
+          ],
+          "originalWarnings": [
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "文档软件版本与系统兼容性需核验",
+            "部分性能资料样本较少或可信程度低，仅作有限参考，不据微小差异宣称领先"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大型项目编程 · 多开流畅",
+      "input": {
+        "schemaVersion": 2,
+        "budget": [
+          5000,
+          20000
+        ],
+        "os": "不限",
+        "scenarios": [
+          "large-projects"
+        ],
+        "priorities": [
+          "memory"
+        ],
+        "hardConstraints": {
+          "minRamGb": null,
+          "minSsdGb": null,
+          "maxWeightKg": null,
+          "discreteGpu": false
+        },
+        "unavailableSelections": []
+      },
+      "ids": [
+        "np-2f271b787d9913fbf15d",
+        "np-413c27d11a0df17c7146",
+        "np-35041149e93a8cac19f0"
+      ],
+      "products": [
+        {
+          "id": "np-2f271b787d9913fbf15d",
+          "name": "苍龙 18 Pro高端大屏游戏本",
+          "configuration": {
+            "cpu": "R9-8945HX",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 12599,
+            "ram": 32,
+            "ssd": 2048,
+            "weight": 2.2,
+            "screen": 18,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、2TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "storage",
+              "field": "ssd_gb",
+              "value": 2048,
+              "otherProductIds": [
+                "np-413c27d11a0df17c7146",
+                "np-35041149e93a8cac19f0"
+              ],
+              "text": "SSD2TB，比本次其他推荐项容量更大。",
+              "basis": "strict_known_values_only"
+            },
+            {
+              "kind": "screen",
+              "field": "screen_inches",
+              "value": 18,
+              "otherProductIds": [
+                "np-413c27d11a0df17c7146",
+                "np-35041149e93a8cac19f0"
+              ],
+              "text": "屏幕18英寸，比本次其他推荐项尺寸更大。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对大型项目开发，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、2048GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "RTX桌面/移动版本未确认，不套用Laptop基准"
+          ],
+          "originalWarnings": [
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "RTX桌面/移动版本未确认，不套用Laptop基准",
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证"
+          ]
+        },
+        {
+          "id": "np-413c27d11a0df17c7146",
+          "name": "星耀 14高颜值轻薄本",
+          "configuration": {
+            "cpu": "锐龙 AI 9 H 365",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 7999,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 1,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "price",
+              "field": "official_price_cny",
+              "value": 7999,
+              "otherProductIds": [
+                "np-2f271b787d9913fbf15d",
+                "np-35041149e93a8cac19f0"
+              ],
+              "text": "官网参考价7,999元，比本次其他推荐项更低。",
+              "basis": "strict_known_values_only"
+            },
+            {
+              "kind": "weight",
+              "field": "weight_kg",
+              "value": 1,
+              "otherProductIds": [
+                "np-2f271b787d9913fbf15d",
+                "np-35041149e93a8cac19f0"
+              ],
+              "text": "重量1kg，比本次其他推荐项更轻。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对大型项目开发，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "集显具体型号未记录，保持空值，不从CPU推断"
+          ],
+          "originalWarnings": [
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证"
+          ]
+        },
+        {
+          "id": "np-35041149e93a8cac19f0",
+          "name": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
+          "configuration": {
+            "cpu": "酷睿 Ultra 9 290HX Plus",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 18999,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 2.1,
+            "screen": 16,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [],
+          "cautions": [
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": "未发现可明确标出的相对优势，不强行分配不同角色；不代表性能较差。",
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对大型项目开发，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "RTX桌面/移动版本未确认，不套用Laptop基准"
+          ],
+          "originalWarnings": [
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "RTX桌面/移动版本未确认，不套用Laptop基准",
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3D建模 · 轻薄便携",
+      "input": {
+        "schemaVersion": 2,
+        "budget": [
+          5000,
+          20000
+        ],
+        "os": "不限",
+        "scenarios": [
+          "modeling-3d"
+        ],
+        "priorities": [
+          "portable"
+        ],
+        "hardConstraints": {
+          "minRamGb": null,
+          "minSsdGb": null,
+          "maxWeightKg": null,
+          "discreteGpu": false
+        },
+        "unavailableSelections": []
+      },
+      "ids": [
+        "np-413c27d11a0df17c7146",
+        "np-98a879d503c2ee705543",
+        "np-828ebbc340c18ec14814"
+      ],
+      "products": [
+        {
+          "id": "np-413c27d11a0df17c7146",
+          "name": "星耀 14高颜值轻薄本",
+          "configuration": {
+            "cpu": "锐龙 AI 9 H 365",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 7999,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 1,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储、重量1kg，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "其他推荐项有重量更轻的选择，可按你重视的方面取舍。"
+          ],
+          "neutral": "未发现可明确标出的相对优势，不强行分配不同角色；不代表性能较差。",
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对3D建模与渲染，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "实际重量1kg，用于比较便携性",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "显存/统一内存可用量、目标框架或渲染后端未确认，不能保证运行指定模型或项目",
+            "GPU图形资料不足，保留候选且不虚构性能值"
+          ],
+          "originalWarnings": [
+            "显存/统一内存可用量、目标框架或渲染后端未确认，不能保证运行指定模型或项目",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "显存、渲染后端、模型规模未确认；通用3D测试只作图形代理，不代表渲染速度"
+          ]
+        },
+        {
+          "id": "np-98a879d503c2ee705543",
+          "name": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+          "configuration": {
+            "cpu": "酷睿 Ultra 5 338H",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 14999,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 0.975,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储、重量0.975kg，可按常用软件和文件量判断是否够用。",
+          "fitDescription": "重视随身携带时，可先看这款的重量差别。",
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "weight",
+              "field": "weight_kg",
+              "value": 0.975,
+              "otherProductIds": [
+                "np-413c27d11a0df17c7146",
+                "np-828ebbc340c18ec14814"
+              ],
+              "text": "重量0.975kg，比本次其他推荐项更轻。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对3D建模与渲染，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "实际重量0.975kg，用于比较便携性",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "显存/统一内存可用量、目标框架或渲染后端未确认，不能保证运行指定模型或项目",
+            "GPU图形资料不足，保留候选且不虚构性能值"
+          ],
+          "originalWarnings": [
+            "显存/统一内存可用量、目标框架或渲染后端未确认，不能保证运行指定模型或项目",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "显存、渲染后端、模型规模未确认；通用3D测试只作图形代理，不代表渲染速度"
+          ]
+        },
+        {
+          "id": "np-828ebbc340c18ec14814",
+          "name": "无界 14高性能轻薄本",
+          "configuration": {
+            "cpu": "酷睿 5 226",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 5299,
+            "ram": 16,
+            "ssd": 1024,
+            "weight": 1,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。16GB内存、1TB存储、重量1kg，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "price",
+              "field": "official_price_cny",
+              "value": 5299,
+              "otherProductIds": [
+                "np-413c27d11a0df17c7146",
+                "np-98a879d503c2ee705543"
+              ],
+              "text": "官网参考价5,299元，比本次其他推荐项更低。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "其他推荐项有重量更轻的选择，可按你重视的方面取舍。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对3D建模与渲染，结合已知容量、可比用途证据与个人偏好",
+            "16GB内存、1024GB SSD，容量或资料需结合任务规模核验；这是软参考，不是软件运行保证",
+            "实际重量1kg，用于比较便携性",
+            "显存/统一内存可用量、目标框架或渲染后端未确认，不能保证运行指定模型或项目",
+            "CPU多核资料不足，不据此判定持续性能较差"
+          ],
+          "originalWarnings": [
+            "显存/统一内存可用量、目标框架或渲染后端未确认，不能保证运行指定模型或项目",
+            "CPU多核资料不足，不据此判定持续性能较差",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "显存、渲染后端、模型规模未确认；通用3D测试只作图形代理，不代表渲染速度",
+            "内存低于本次用途软参考；仅提示，不额外排除"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "主流游戏 · 游戏畅玩",
+      "input": {
+        "schemaVersion": 2,
+        "budget": [
+          5000,
+          20000
+        ],
+        "os": "不限",
+        "scenarios": [
+          "mainstream-games"
+        ],
+        "priorities": [
+          "gpu-power"
+        ],
+        "hardConstraints": {
+          "minRamGb": null,
+          "minSsdGb": null,
+          "maxWeightKg": null,
+          "discreteGpu": false
+        },
+        "unavailableSelections": []
+      },
+      "ids": [
+        "np-2f271b787d9913fbf15d",
+        "np-1d12de8f38fb438b7a8d",
+        "np-673622640e5e11f3f23a"
+      ],
+      "products": [
+        {
+          "id": "np-2f271b787d9913fbf15d",
+          "name": "苍龙 18 Pro高端大屏游戏本",
+          "configuration": {
+            "cpu": "R9-8945HX",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 12599,
+            "ram": 32,
+            "ssd": 2048,
+            "weight": 2.2,
+            "screen": 18,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、2TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "price",
+              "field": "official_price_cny",
+              "value": 12599,
+              "otherProductIds": [
+                "np-1d12de8f38fb438b7a8d",
+                "np-673622640e5e11f3f23a"
+              ],
+              "text": "官网参考价12,599元，比本次其他推荐项更低。",
+              "basis": "strict_known_values_only"
+            },
+            {
+              "kind": "storage",
+              "field": "ssd_gb",
+              "value": 2048,
+              "otherProductIds": [
+                "np-1d12de8f38fb438b7a8d",
+                "np-673622640e5e11f3f23a"
+              ],
+              "text": "SSD2TB，比本次其他推荐项容量更大。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对主流游戏，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、2048GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "图形资料不足，游戏畅玩偏好不虚构GPU性能",
+            "图形与目标游戏支持须核验；无共同实测时独显仅作有限用途方向，低价不代表游戏适配",
+            "独显仅作重图形用途的考察方向，不表示一定胜过所有核显",
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "GPU图形资料不足，保留候选且不虚构性能值"
+          ],
+          "originalWarnings": [
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "RTX桌面/移动版本未确认，不套用Laptop基准",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率"
+          ]
+        },
+        {
+          "id": "np-1d12de8f38fb438b7a8d",
+          "name": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+          "configuration": {
+            "cpu": "锐龙 AI 9 H 465",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 14799,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 1.46,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "weight",
+              "field": "weight_kg",
+              "value": 1.46,
+              "otherProductIds": [
+                "np-2f271b787d9913fbf15d",
+                "np-673622640e5e11f3f23a"
+              ],
+              "text": "重量1.46kg，比本次其他推荐项更轻。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "图形参考不等于当前整机实测，仍需核验目标软件、显存及功耗。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对主流游戏，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "游戏畅玩偏好只参考同口径图形资料，不保证游戏帧率或专业计算速度",
+            "图形与目标游戏支持须核验；无共同实测时独显仅作有限用途方向，低价不代表游戏适配",
+            "独显仅作重图形用途的考察方向，不表示一定胜过所有核显",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率",
+            "部分性能资料样本较少或可信程度低，仅作有限参考，不据微小差异宣称领先"
+          ],
+          "originalWarnings": [
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率",
+            "部分性能资料样本较少或可信程度低，仅作有限参考，不据微小差异宣称领先"
+          ]
+        },
+        {
+          "id": "np-673622640e5e11f3f23a",
+          "name": "耀世 18 Pro高端大屏游戏本",
+          "configuration": {
+            "cpu": "酷睿 i7-14650HX",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 13999,
+            "ram": 16,
+            "ssd": 1024,
+            "weight": 2.8,
+            "screen": 18,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。16GB内存、1TB存储，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": "未发现可明确标出的相对优势，不强行分配不同角色；不代表性能较差。",
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对主流游戏，结合已知容量、可比用途证据与个人偏好",
+            "16GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "图形资料不足，游戏畅玩偏好不虚构GPU性能",
+            "图形与目标游戏支持须核验；无共同实测时独显仅作有限用途方向，低价不代表游戏适配",
+            "独显仅作重图形用途的考察方向，不表示一定胜过所有核显",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "RTX桌面/移动版本未确认，不套用Laptop基准"
+          ],
+          "originalWarnings": [
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "RTX桌面/移动版本未确认，不套用Laptop基准",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率",
+            "部分性能资料样本较少或可信程度低，仅作有限参考，不据微小差异宣称领先"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大型开发＋主流游戏 · 便携和内存",
+      "input": {
+        "schemaVersion": 2,
+        "budget": [
+          5000,
+          20000
+        ],
+        "os": "不限",
+        "scenarios": [
+          "large-projects",
+          "mainstream-games"
+        ],
+        "priorities": [
+          "portable",
+          "memory"
+        ],
+        "hardConstraints": {
+          "minRamGb": null,
+          "minSsdGb": null,
+          "maxWeightKg": null,
+          "discreteGpu": false
+        },
+        "unavailableSelections": []
+      },
+      "ids": [
+        "np-1d12de8f38fb438b7a8d",
+        "np-98a879d503c2ee705543",
+        "np-c413653373ddd512ed37"
+      ],
+      "products": [
+        {
+          "id": "np-1d12de8f38fb438b7a8d",
+          "name": "天选Air 2026 14英寸AI全能电竞游戏笔记本电脑",
+          "configuration": {
+            "cpu": "锐龙 AI 9 H 465",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 14799,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 1.46,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储、重量1.46kg，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [],
+          "cautions": [
+            "图形参考不等于当前整机实测，仍需核验目标软件、显存及功耗。",
+            "其他推荐项有重量更轻的选择，可按你重视的方面取舍。"
+          ],
+          "neutral": "未发现可明确标出的相对优势，不强行分配不同角色；不代表性能较差。",
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对大型项目开发、主流游戏，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+            "实际重量1.46kg，用于比较便携性",
+            "图形与目标游戏支持须核验；无共同实测时独显仅作有限用途方向，低价不代表游戏适配",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "独显仅作重图形用途的考察方向，不表示一定胜过所有核显",
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率"
+          ],
+          "originalWarnings": [
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率",
+            "部分性能资料样本较少或可信程度低，仅作有限参考，不据微小差异宣称领先"
+          ]
+        },
+        {
+          "id": "np-98a879d503c2ee705543",
+          "name": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
+          "configuration": {
+            "cpu": "酷睿 Ultra 5 338H",
+            "gpu": null,
+            "gpuType": "集成显卡",
+            "price": 14999,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 0.975,
+            "screen": 14,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储、重量0.975kg，可按常用软件和文件量判断是否够用。",
+          "fitDescription": "重视随身携带时，可先看这款的重量差别。",
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "weight",
+              "field": "weight_kg",
+              "value": 0.975,
+              "otherProductIds": [
+                "np-1d12de8f38fb438b7a8d",
+                "np-c413653373ddd512ed37"
+              ],
+              "text": "重量0.975kg，比本次其他推荐项更轻。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "官网参考价来自导入资料，不代表实时成交价。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对大型项目开发、主流游戏，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+            "实际重量0.975kg，用于比较便携性",
+            "图形与目标游戏支持须核验；无共同实测时独显仅作有限用途方向，低价不代表游戏适配",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "集显具体型号未记录，保持空值，不从CPU推断"
+          ],
+          "originalWarnings": [
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "集显具体型号未记录，保持空值，不从CPU推断",
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率"
+          ]
+        },
+        {
+          "id": "np-c413653373ddd512ed37",
+          "name": "耀世 15 Air轻薄游戏本",
+          "configuration": {
+            "cpu": "酷睿 U7-356H",
+            "gpu": "RTX5060",
+            "gpuType": "独立显卡",
+            "price": 14499,
+            "ram": 32,
+            "ssd": 1024,
+            "weight": 1.6,
+            "screen": 15.3,
+            "os": "Windows"
+          },
+          "summary": "符合已设硬性条件。32GB内存、1TB存储、重量1.6kg，可按常用软件和文件量判断是否够用。",
+          "fitDescription": null,
+          "canCompare": true,
+          "advantages": [
+            {
+              "kind": "price",
+              "field": "official_price_cny",
+              "value": 14499,
+              "otherProductIds": [
+                "np-1d12de8f38fb438b7a8d",
+                "np-98a879d503c2ee705543"
+              ],
+              "text": "官网参考价14,499元，比本次其他推荐项更低。",
+              "basis": "strict_known_values_only"
+            },
+            {
+              "kind": "screen",
+              "field": "screen_inches",
+              "value": 15.3,
+              "otherProductIds": [
+                "np-1d12de8f38fb438b7a8d",
+                "np-98a879d503c2ee705543"
+              ],
+              "text": "屏幕15.3英寸，比本次其他推荐项尺寸更大。",
+              "basis": "strict_known_values_only"
+            }
+          ],
+          "cautions": [
+            "显卡具体版本或实际游戏、渲染表现仍需进一步确认。",
+            "其他推荐项有重量更轻的选择，可按你重视的方面取舍。"
+          ],
+          "neutral": null,
+          "originalReasons": [
+            "符合已设硬性条件",
+            "针对大型项目开发、主流游戏，结合已知容量、可比用途证据与个人偏好",
+            "32GB内存、1024GB SSD，达到本次用途的容量参考；这是软参考，不是软件运行保证",
+            "以32GB内存比较多任务容量余量，不保证所有软件同时流畅",
+            "实际重量1.6kg，用于比较便携性",
+            "图形与目标游戏支持须核验；无共同实测时独显仅作有限用途方向，低价不代表游戏适配",
+            "CPU多核测试可作参考，实际持续表现仍受软件、功耗和散热影响",
+            "独显仅作重图形用途的考察方向，不表示一定胜过所有核显",
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "GPU图形资料不足，保留候选且不虚构性能值"
+          ],
+          "originalWarnings": [
+            "CPU单核资料不足，不据此判定响应性能较差",
+            "GPU图形资料不足，保留候选且不虚构性能值",
+            "RTX桌面/移动版本未确认，不套用Laptop基准",
+            "编译速度取决于项目、工具链、持续功耗与散热，不作时间保证",
+            "需核验具体游戏、显存、驱动与整机功耗，不保证帧率"
+          ]
+        }
+      ]
+    }
+  ]
+}
