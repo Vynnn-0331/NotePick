@@ -1,13 +1,45 @@
 {
-  "generatedAt": "2026-11-01T03:25:28.432Z",
-  "files": 61,
-  "matched": 77,
-  "total": 78,
+  "generatedAt": "2026-11-03T14:25:34.815Z",
+  "files": 97,
+  "matched": 113,
+  "total": 118,
   "missing": [
     {
-      "id": "np-cef7acfb325f51bb6719",
-      "brand": "联想",
-      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
+      "id": "np-f7ce5b14b9cb9ead88a6",
+      "brand": "戴尔",
+      "model": "Dell Latitude 7455 (7455_reg_01)",
+      "screen": 14,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-ff3cbeea7fde43071d02",
+      "brand": "机械革命",
+      "model": "星耀 15先锋轻薄本",
+      "screen": 15.3,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-d8905ac6a4e7a74ea517",
+      "brand": "机械革命",
+      "model": "翼龙 16X",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-d480e11590c0f4eca5b1",
+      "brand": "机械革命",
+      "model": "蛟龙 16 Pro高性能游戏本",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-ba9e81115de4991b9896",
+      "brand": "机械革命",
+      "model": "旷世 X高性能游戏本",
       "screen": 16,
       "image": null,
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
@@ -146,6 +178,46 @@
       "matchRule": "MacBook型号+屏幕尺寸"
     },
     {
+      "id": "np-a4549eb9c95098e0a39d",
+      "brand": "联想",
+      "model": "拯救者Y7000P 2026（LEGION Y7000P IAX10；定制款，16GB/2TB，碳晶黑）",
+      "screen": 16,
+      "image": "拯救者Y7000P 2026（LEGION Y7000P IAX10）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-d20257b34937e2f81963",
+      "brand": "联想",
+      "model": "拯救者R9000X 2026（Legion R9000X ASH11；星烁紫）",
+      "screen": 15.3,
+      "image": "拯救者R9000X 2026（Legion R9000X ASH11）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-1892745f42270288b06d",
+      "brand": "联想",
+      "model": "小新Pro14 锐龙版（小新Pro 14c AHP10R；深灰色）",
+      "screen": 14,
+      "image": "小新Pro14 锐龙版（小新Pro 14c AHP10R）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-53bffe0003242b1076e9",
+      "brand": "联想",
+      "model": "小新Pro14 GT（小新Pro 14GT IPH11；冠军白）",
+      "screen": 14,
+      "image": "小新Pro14 GT（小新Pro 14GT IPH11）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-33b90090a46533c11f65",
+      "brand": "联想",
+      "model": "小新Pro16 GT（小新Pro 16GT IPH11；赛道灰）",
+      "screen": 16,
+      "image": "小新Pro16 GT（小新Pro 16GT IPH11）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
       "id": "np-d3e1e31773cf48110768",
       "brand": "联想",
       "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
@@ -170,17 +242,17 @@
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     },
     {
-      "id": "np-c2382313968cb80e850c",
+      "id": "np-d26ebb620fa7d8d0bc93",
       "brand": "联想",
-      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "model": "小新Air14 14英寸轻薄笔记本电脑",
       "screen": 14,
       "image": "小新Air14 14英寸轻薄笔记本电脑.jpg",
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     },
     {
-      "id": "np-34bc20704c65751cacbe",
+      "id": "np-1543f88bd62550026f29",
       "brand": "联想",
-      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "model": "小新Air13 13.3英寸轻薄笔记本电脑",
       "screen": 13.3,
       "image": "小新Air13 13.3英寸轻薄笔记本电脑.jpg",
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
@@ -258,11 +330,27 @@
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     },
     {
-      "id": "np-cef7acfb325f51bb6719",
+      "id": "np-5687e5a1db5d40df8305",
       "brand": "联想",
-      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
-      "screen": 16,
-      "image": null,
+      "model": "ThinkPad X9-15 Aura Ultra 5 228V AI元启版（TT-2502426）",
+      "screen": 15.3,
+      "image": "ThinkPad X9-15 Aura Ultra 5 228V AI元启版（TT-2502426）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-d38e0d5b23e773e5ace9",
+      "brand": "联想",
+      "model": "ThinkPadX9 15 Aura 2025 Ultra 9 288V 04CD（21Q6A004CD）",
+      "screen": 15,
+      "image": "ThinkPadX9 15 Aura 2025 Ultra 9 288V 04CD（21Q6A004CD）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-a51c2ea3a3a0c915a551",
+      "brand": "联想",
+      "model": "ThinkPad X1 Carbon AI 2024 Ultra 7 155H 00CD（TT-2312025）",
+      "screen": 14,
+      "image": "ThinkPad X1 Carbon AI 2024 Ultra 7 155H 00CD（TT-2312025）.jpg",
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     },
     {
@@ -306,7 +394,7 @@
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     },
     {
-      "id": "np-bffbd2f59ef537c7450a",
+      "id": "np-f0918b129b55c6bd02ab",
       "brand": "华硕",
       "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
       "screen": 18,
@@ -570,6 +658,54 @@
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     },
     {
+      "id": "np-da610ea0bea3fe41a04e",
+      "brand": "戴尔",
+      "model": "P714260",
+      "screen": 14,
+      "image": "Dell Pro 7 P714260.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-9d6db371ee69f1517831",
+      "brand": "戴尔",
+      "model": "PW516261",
+      "screen": 16,
+      "image": "Dell Pro Precision 5 PW516261.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-f90ad12e32cd4e9adaca",
+      "brand": "戴尔",
+      "model": "PV15261",
+      "screen": 15.3,
+      "image": "Dell Pro Essential 15 PV15261.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-6581d9c8cb99d1e4079a",
+      "brand": "戴尔",
+      "model": "PC14255",
+      "screen": 14,
+      "image": "Dell Pro 14 PC14255.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-335d294cf09196aae962",
+      "brand": "戴尔",
+      "model": "DA15265",
+      "screen": 15.3,
+      "image": "Alienware 15 DA15265.avif",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-f7ce5b14b9cb9ead88a6",
+      "brand": "戴尔",
+      "model": "Dell Latitude 7455 (7455_reg_01)",
+      "screen": 14,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
       "id": "np-940310f173ec86e6650b",
       "brand": "机械革命",
       "model": "耀世 16 Ultra旗舰游戏本",
@@ -640,9 +776,230 @@
       "screen": 14,
       "image": "恒悦E14G2.png",
       "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-ff3cbeea7fde43071d02",
+      "brand": "机械革命",
+      "model": "星耀 15先锋轻薄本",
+      "screen": 15.3,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-d8905ac6a4e7a74ea517",
+      "brand": "机械革命",
+      "model": "翼龙 16X",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-d480e11590c0f4eca5b1",
+      "brand": "机械革命",
+      "model": "蛟龙 16 Pro高性能游戏本",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-ba9e81115de4991b9896",
+      "brand": "机械革命",
+      "model": "旷世 X高性能游戏本",
+      "screen": 16,
+      "image": null,
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-af523320b061f4b4dc36",
+      "brand": "荣耀",
+      "model": "WIN H7 2026 焕新版 i7-14650HX/RTX5070",
+      "screen": 16,
+      "image": "WIN H7 2026 焕新版.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-3fa403310bbf218c2679",
+      "brand": "荣耀",
+      "model": "MagicBook Pro 16 2025 极客版 Ultra 5 125H",
+      "screen": 16,
+      "image": "MagicBook Pro 16 2025 极客版 Ultra 5 125H.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-0c415fbec473c670235b",
+      "brand": "荣耀",
+      "model": "MagicBook Pro 14 2026 焕新版 Ultra 5 338H",
+      "screen": 14.6,
+      "image": "MagicBook Pro 14 2026 焕新版 Ultra 5 338H.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-8f9de27c0933f173d728",
+      "brand": "荣耀",
+      "model": "MagicBook Pro 16 2026 焕新版 Ultra 5 338H",
+      "screen": 16,
+      "image": "MagicBook Pro 16 2026 焕新版 Ultra 5 338H.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-b7a629b793c875beccb0",
+      "brand": "荣耀",
+      "model": "X16 2026 战斗版 i5-13420H",
+      "screen": 16,
+      "image": "X16 2026 战斗版 i5-13420H.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-e19f7f9a6ea636865eef",
+      "brand": "荣耀",
+      "model": "X14 Plus 2026 战斗版 Core 5 315/16GB/512GB",
+      "screen": 14,
+      "image": "X14 Plus 2026 战斗版 Core 5 315.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-1c131e49048594e23819",
+      "brand": "荣耀",
+      "model": "X14 Plus 2026 Ultra 5 325/16GB/512GB",
+      "screen": 14,
+      "image": "X14 Plus 2026 Ultra 5 325.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-b265e38451c4f104ef95",
+      "brand": "Xiaomi",
+      "model": "16 2027（基础版）",
+      "screen": 16,
+      "image": "REDMI Book 16 2027（基础版）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c2324a6c8b7b233de8fa",
+      "brand": "Xiaomi",
+      "model": "16 2027（高配版）",
+      "screen": 16,
+      "image": "REDMI Book 16 2027（高配版）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-512d8e308dc5bb336ccd",
+      "brand": "Xiaomi",
+      "model": "14 2027（基础版）",
+      "screen": 14,
+      "image": "REDMI Book 14 2027（基础版）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-94d84e72a008de41d8ff",
+      "brand": "Xiaomi",
+      "model": "14 2027（高配版）",
+      "screen": 14,
+      "image": "REDMI Book 14 2027（高配版）.jpg",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-4f29df9c7bd5dbff57e6",
+      "brand": "Xiaomi",
+      "model": "14 2026（基础版）",
+      "screen": 14.6,
+      "image": "Xiaomi Book Pro 14 2026（基础版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-e4001cf14cf7fa72ca7f",
+      "brand": "Xiaomi",
+      "model": "14 2026（中配版）",
+      "screen": 14.6,
+      "image": "Xiaomi Book Pro 14 2026（中配版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-a2dab036076828ea09a0",
+      "brand": "Xiaomi",
+      "model": "14 2026（高配版）",
+      "screen": 14.6,
+      "image": "Xiaomi Book Pro 14 2026（高配版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-207dd4783a6133841769",
+      "brand": "Xiaomi",
+      "model": "14 2025（16GB版）",
+      "screen": 14,
+      "image": "REDMI Book Pro 14 2025（16GB版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-67a75f79ce24923bc043",
+      "brand": "Xiaomi",
+      "model": "14 2025（32GB版）",
+      "screen": 14,
+      "image": "REDMI Book Pro 14 2025（32GB版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-e7675b0d9d46bde00677",
+      "brand": "Xiaomi",
+      "model": "14 2025（Ultra 7版）",
+      "screen": 14,
+      "image": "REDMI Book Pro 14 2025（Ultra 7版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-7e3e4fa0949b581f0bfc",
+      "brand": "Xiaomi",
+      "model": "16 2026（基础版）",
+      "screen": 16,
+      "image": "REDMI Book Pro 16 2026（基础版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-c0d33e0ab529eaedbd91",
+      "brand": "Xiaomi",
+      "model": "16 2026（中配版）",
+      "screen": 16,
+      "image": "REDMI Book Pro 16 2026（中配版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-684641db5b0b6ab60168",
+      "brand": "Xiaomi",
+      "model": "16 2026（高配版）",
+      "screen": 16,
+      "image": "REDMI Book Pro 16 2026（高配版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-96ef75cbd55debc7a0a4",
+      "brand": "Xiaomi",
+      "model": "14 2026（基础版）",
+      "screen": 14,
+      "image": "REDMI Book Pro 14 2026（基础版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-a035ffbe95b994931018",
+      "brand": "Xiaomi",
+      "model": "14 2026（中配版）",
+      "screen": 14,
+      "image": "REDMI Book Pro 14 2026（中配版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
+    },
+    {
+      "id": "np-ec863c8ecaf74056f572",
+      "brand": "Xiaomi",
+      "model": "14 2026（高配版）",
+      "screen": 14,
+      "image": "REDMI Book Pro 14 2026（高配版）.png",
+      "matchRule": "规范化完整名称（明确Air13/Air14别名）"
     }
   ],
   "assets": [
+    {
+      "file": "Alienware 15 DA15265.avif",
+      "bytes": 265711,
+      "sha256": "a8c7206bfb6c8580b9ee22d5fea588b7481b883e04651b627cad0048b011d8cb"
+    },
     {
       "file": "Alienware 外星人 18 Area-51 游戏笔记本.avif",
       "bytes": 32037,
@@ -667,6 +1024,26 @@
       "file": "Dell 16S 笔记本.avif",
       "bytes": 19441,
       "sha256": "023c968badc3286a38653ab8e82281ca6dcee54743203e1c4605dbe6b96714da"
+    },
+    {
+      "file": "Dell Pro 14 PC14255.avif",
+      "bytes": 40379,
+      "sha256": "e460a5dc4dfc8c76037165a4135f16b32b392fe414f8f0d7faa17515e77c8db1"
+    },
+    {
+      "file": "Dell Pro 7 P714260.avif",
+      "bytes": 1280955,
+      "sha256": "91c1fd9dbacc353ff89cc901375b101a31f80a5e60bf95026c160db3c28b1bfb"
+    },
+    {
+      "file": "Dell Pro Essential 15 PV15261.avif",
+      "bytes": 82186,
+      "sha256": "4ef24f26566e3c5a0d50af381fed1da9ae14e2122b1beac544a1e11693e06f90"
+    },
+    {
+      "file": "Dell Pro Precision 5 PW516261.avif",
+      "bytes": 289246,
+      "sha256": "0f73aafcdde22e2c33c189470d1e4ec4aa1023902c03f0be345e09a3c76695a5"
     },
     {
       "file": "Hi MateBook 14 酷睿 Ultra 5 24GB 1TB 圆键盘 晨曦金.png",
@@ -714,6 +1091,86 @@
       "sha256": "05f4d2dc5b6cea1f782e141de4cd1af8165b1a1c38bd9c002fd60ef29df4530b"
     },
     {
+      "file": "MagicBook Pro 14 2026 焕新版 Ultra 5 338H.png",
+      "bytes": 455327,
+      "sha256": "459011a4222e9d4977db764d6d78e0169ad6902eb7e39b959951dd3ba28aabe6"
+    },
+    {
+      "file": "MagicBook Pro 16 2025 极客版 Ultra 5 125H.png",
+      "bytes": 399271,
+      "sha256": "af23973ae47abf25926cfc088bc47def06e53809e22f48f908e780750c93c0ed"
+    },
+    {
+      "file": "MagicBook Pro 16 2026 焕新版 Ultra 5 338H.png",
+      "bytes": 418737,
+      "sha256": "fdc1febed4c4c16900c8e0f5c7f88360dba4aa52deb9ad6de2c4b69dc60469eb"
+    },
+    {
+      "file": "REDMI Book 14 2027（基础版）.jpg",
+      "bytes": 108703,
+      "sha256": "99dd25cfbc385a4370fad056f64e1a23a46666115103be127c77a90c4d299261"
+    },
+    {
+      "file": "REDMI Book 14 2027（高配版）.jpg",
+      "bytes": 99734,
+      "sha256": "aded0174a10808c530c064e5474e834d65ed5f31ffcbb0736401977534977007"
+    },
+    {
+      "file": "REDMI Book 16 2027（基础版）.jpg",
+      "bytes": 98175,
+      "sha256": "d81a15e9353f296ea97fae79de06ca65bdfae12d5b92b1c404f45a4185c04794"
+    },
+    {
+      "file": "REDMI Book 16 2027（高配版）.jpg",
+      "bytes": 97183,
+      "sha256": "6ab1a27a0f4d589488783ec953c6e5e1cb54876dff867381150d398fee55a7f1"
+    },
+    {
+      "file": "REDMI Book Pro 14 2025（16GB版）.png",
+      "bytes": 306985,
+      "sha256": "f22e594efc1b26294f3d6e01b5dd0b42d5f4c9537bafadf2b1bd7ec44ce0b2e8"
+    },
+    {
+      "file": "REDMI Book Pro 14 2025（32GB版）.png",
+      "bytes": 306985,
+      "sha256": "f22e594efc1b26294f3d6e01b5dd0b42d5f4c9537bafadf2b1bd7ec44ce0b2e8"
+    },
+    {
+      "file": "REDMI Book Pro 14 2025（Ultra 7版）.png",
+      "bytes": 306985,
+      "sha256": "f22e594efc1b26294f3d6e01b5dd0b42d5f4c9537bafadf2b1bd7ec44ce0b2e8"
+    },
+    {
+      "file": "REDMI Book Pro 14 2026（中配版）.png",
+      "bytes": 325758,
+      "sha256": "168fbb1655ace1aa1599f27c55851492e08c1d80d149450d327e4830ca021dea"
+    },
+    {
+      "file": "REDMI Book Pro 14 2026（基础版）.png",
+      "bytes": 325758,
+      "sha256": "168fbb1655ace1aa1599f27c55851492e08c1d80d149450d327e4830ca021dea"
+    },
+    {
+      "file": "REDMI Book Pro 14 2026（高配版）.png",
+      "bytes": 325758,
+      "sha256": "168fbb1655ace1aa1599f27c55851492e08c1d80d149450d327e4830ca021dea"
+    },
+    {
+      "file": "REDMI Book Pro 16 2026（中配版）.png",
+      "bytes": 295552,
+      "sha256": "ab22f7e34f5f8a5ed609c38d2cb0bc835a862d4153ddea201c83664fb567f8e6"
+    },
+    {
+      "file": "REDMI Book Pro 16 2026（基础版）.png",
+      "bytes": 295552,
+      "sha256": "ab22f7e34f5f8a5ed609c38d2cb0bc835a862d4153ddea201c83664fb567f8e6"
+    },
+    {
+      "file": "REDMI Book Pro 16 2026（高配版）.png",
+      "bytes": 295552,
+      "sha256": "ab22f7e34f5f8a5ed609c38d2cb0bc835a862d4153ddea201c83664fb567f8e6"
+    },
+    {
       "file": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑.png",
       "bytes": 302499,
       "sha256": "86027039e374facd9c0e24255575ccdc8f70780539fe4537ed3c929e88a8ddda"
@@ -742,6 +1199,56 @@
       "file": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本.jpg",
       "bytes": 163612,
       "sha256": "20f748cadf2b01c0d04de527e1edcbe8117008c6286d291e33de187bd8b66422"
+    },
+    {
+      "file": "ThinkPad X1 Carbon AI 2024 Ultra 7 155H 00CD（TT-2312025）.jpg",
+      "bytes": 212517,
+      "sha256": "cd75869b7461592363c8288e79df8b98db6077061d149b16e9b57ab42647838a"
+    },
+    {
+      "file": "ThinkPad X9-15 Aura Ultra 5 228V AI元启版（TT-2502426）.jpg",
+      "bytes": 201911,
+      "sha256": "a5734c327d6753eda57c644b5985b9352d516e151b75aa14b30d33fc2d5942d4"
+    },
+    {
+      "file": "ThinkPadX9 15 Aura 2025 Ultra 9 288V 04CD（21Q6A004CD）.jpg",
+      "bytes": 75639,
+      "sha256": "ae86721aa1ac90a6b06b2a64c8f1192f4ceb8eaef8c43c3325d27f6969b50160"
+    },
+    {
+      "file": "WIN H7 2026 焕新版.png",
+      "bytes": 427926,
+      "sha256": "0f8894a72b8e3c37f9ac4bf0455194e8ac7c4c38f5321d425760938d59ee06e1"
+    },
+    {
+      "file": "X14 Plus 2026 Ultra 5 325.png",
+      "bytes": 366435,
+      "sha256": "77182814dc2e715cc9f7e20ae0837b1e51252921eb0f8ea4b1ff8c0cdc595818"
+    },
+    {
+      "file": "X14 Plus 2026 战斗版 Core 5 315.png",
+      "bytes": 383054,
+      "sha256": "56a4f8e597d6c2006131f853573d5a1820558894ec159250253ec166a5a3912c"
+    },
+    {
+      "file": "X16 2026 战斗版 i5-13420H.png",
+      "bytes": 438026,
+      "sha256": "79efd6f3c043ef850f9237a24855c214ca0a6f38209483b544619eecf8e94111"
+    },
+    {
+      "file": "Xiaomi Book Pro 14 2026（中配版）.png",
+      "bytes": 200537,
+      "sha256": "0dd64faa7963fb87a9fa9eca6d1243acf032a522dca708a060f7699af82fb3ff"
+    },
+    {
+      "file": "Xiaomi Book Pro 14 2026（基础版）.png",
+      "bytes": 200537,
+      "sha256": "0dd64faa7963fb87a9fa9eca6d1243acf032a522dca708a060f7699af82fb3ff"
+    },
+    {
+      "file": "Xiaomi Book Pro 14 2026（高配版）.png",
+      "bytes": 200537,
+      "sha256": "0dd64faa7963fb87a9fa9eca6d1243acf032a522dca708a060f7699af82fb3ff"
     },
     {
       "file": "XPS 13 笔记本电脑.avif",
@@ -802,6 +1309,21 @@
       "file": "小新Pro 16英寸轻薄笔记本电脑.jpg",
       "bytes": 89788,
       "sha256": "7d18e965ed36a8806ceabe0493b9bd45bc558c2f78b3a9cd881d8e7e6e618e3e"
+    },
+    {
+      "file": "小新Pro14 GT（小新Pro 14GT IPH11）.jpg",
+      "bytes": 260622,
+      "sha256": "d860f8118c0a79c0e162d424fb131d5baa3c32f5eda02f108ebd130efff07405"
+    },
+    {
+      "file": "小新Pro14 锐龙版（小新Pro 14c AHP10R）.jpg",
+      "bytes": 197237,
+      "sha256": "a9cc7ceb91203d53a506af719e19ae4e81912b4b8166f5afbb88fbe4729dc140"
+    },
+    {
+      "file": "小新Pro16 GT（小新Pro 16GT IPH11）.jpg",
+      "bytes": 276223,
+      "sha256": "fbdd086c99da6abbd2e9e2b3bb06257d472137441865c6de3ead238783e6c725"
     },
     {
       "file": "恒悦E14G2.png",
@@ -867,6 +1389,16 @@
       "file": "惠普(HP) 战X 16英寸商务笔记本电脑.png",
       "bytes": 265865,
       "sha256": "df77a220007718e61ba88a6c6b14c781f6a7c5483763492fa75205bfa3b278a0"
+    },
+    {
+      "file": "拯救者R9000X 2026（Legion R9000X ASH11）.png",
+      "bytes": 678506,
+      "sha256": "8312ddd232cbf27bed619bac53a74e2dcaacd231777ff79afd798e0e5d0c27db"
+    },
+    {
+      "file": "拯救者Y7000P 2026（LEGION Y7000P IAX10）.jpg",
+      "bytes": 186207,
+      "sha256": "14cce190f8b8c813b8138f3aa7ea3c374c572a0c2cbe011f0e5bf43f8ca85884"
     },
     {
       "file": "拯救者Y7000X 15.3英寸电竞游戏本电脑.jpg",

@@ -1,6 +1,6 @@
 {
   "source": "../data/电脑数据.xlsx",
-  "source_sha256": "bbca679a063d289631752fb05b99e0ed85b6734baf0de25dc5c9ebebcbd674b3",
+  "source_sha256": "d531f161faabe3835e56ca27f86db0818ee276749ea7f45e76c0c59d940a6e9f",
   "source_unchanged": true,
   "mapping": {
     "brand": "brand",
@@ -34,7 +34,12 @@
         "screen_inches",
         "weight_kg",
         "official_price",
-        "url"
+        "url",
+        null,
+        null,
+        null,
+        null,
+        null
       ]
     },
     {
@@ -46,61 +51,66 @@
       "status": "empty"
     }
   ],
-  "input_rows": 78,
-  "imported_records": 78,
+  "input_rows": 118,
+  "imported_records": 118,
   "brands": {
     "Apple": 16,
-    "联想": 15,
+    "联想": 22,
     "华硕": 14,
     "惠普": 14,
     "华为": 4,
-    "戴尔": 6,
-    "机械革命": 9
+    "戴尔": 12,
+    "机械革命": 13,
+    "荣耀": 7,
+    "Xiaomi": 16
   },
   "source_types": {
     "brand": {
-      "str": 78
+      "str": 118
     },
     "series": {
-      "str": 76,
+      "str": 116,
       "int": 2
     },
     "model": {
-      "str": 78
+      "str": 118
     },
     "os": {
-      "str": 78
+      "str": 118
     },
     "CPU_model": {
-      "str": 78
+      "str": 118
     },
     "GPU_model": {
-      "str": 38,
-      "NoneType": 40
+      "str": 43,
+      "NoneType": 75
     },
     "GPU_Type": {
-      "str": 78
+      "str": 118
     },
     "ram_gb": {
-      "int": 78
+      "int": 118
     },
     "ssd_gb": {
-      "int": 78
+      "int": 118
     },
     "screen_inches": {
-      "int": 68,
-      "float": 10
+      "int": 99,
+      "float": 19
     },
     "weight_kg": {
-      "float": 74,
+      "float": 114,
       "int": 4
     },
     "official_price": {
-      "int": 72,
-      "float": 6
+      "int": 106,
+      "float": 12
     },
     "url": {
-      "str": 78
+      "str": 118
+    },
+    "null": {
+      "NoneType": 118
     }
   },
   "missing_source_fields": {
@@ -108,7 +118,7 @@
     "series": 0,
     "model": 0,
     "CPU_model": 0,
-    "GPU_model": 40,
+    "GPU_model": 75,
     "GPU_Type": 0,
     "ram_gb": 0,
     "ssd_gb": 0,
@@ -120,7 +130,7 @@
   },
   "os_statistics": {
     "macOS": 16,
-    "Windows": 62
+    "Windows": 102
   },
   "absent_optional_fields": [
     "image",
@@ -169,23 +179,17 @@
         "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
         "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
         "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
-        "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
         "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
         "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
         "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
-        "小新Air 13.3英寸轻薄笔记本电脑",
-        "小新Air 14英寸轻薄笔记本电脑",
+        "小新Air13 13.3英寸轻薄笔记本电脑",
+        "小新Air14 14英寸轻薄笔记本电脑",
         "小新Pro 16英寸轻薄笔记本电脑",
         "拯救者Y7000X 15.3英寸电竞游戏本电脑",
         "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
         "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑"
       ],
       "rows": [
-        18,
-        19,
-        20,
-        21,
-        22,
         23,
         24,
         25,
@@ -195,7 +199,11 @@
         29,
         30,
         31,
-        32
+        32,
+        33,
+        34,
+        35,
+        36
       ]
     },
     {
@@ -205,15 +213,89 @@
         "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑"
       ],
       "rows": [
-        44,
-        45
+        51,
+        52
+      ]
+    },
+    {
+      "url": "https://www.mi.com/shop/buy/detail?product_id=25796",
+      "models": [
+        "16 2027（基础版）",
+        "16 2027（高配版）"
+      ],
+      "rows": [
+        104,
+        105
+      ]
+    },
+    {
+      "url": "https://www.mi.com/shop/buy/detail?product_id=25795",
+      "models": [
+        "14 2027（基础版）",
+        "14 2027（高配版）"
+      ],
+      "rows": [
+        106,
+        107
+      ]
+    },
+    {
+      "url": "https://www.mi.com/shop/buy/detail?product_id=23472",
+      "models": [
+        "14 2026（中配版）",
+        "14 2026（基础版）",
+        "14 2026（高配版）"
+      ],
+      "rows": [
+        108,
+        109,
+        110
+      ]
+    },
+    {
+      "url": "https://www.mi.com/shop/buy/detail?product_id=20992",
+      "models": [
+        "14 2025（16GB版）",
+        "14 2025（32GB版）",
+        "14 2025（Ultra 7版）"
+      ],
+      "rows": [
+        111,
+        112,
+        113
+      ]
+    },
+    {
+      "url": "https://www.mi.com/shop/buy/detail?product_id=24037",
+      "models": [
+        "16 2026（中配版）",
+        "16 2026（基础版）",
+        "16 2026（高配版）"
+      ],
+      "rows": [
+        114,
+        115,
+        116
+      ]
+    },
+    {
+      "url": "https://www.mi.com/shop/buy/detail?product_id=24035",
+      "models": [
+        "14 2026（中配版）",
+        "14 2026（基础版）",
+        "14 2026（高配版）"
+      ],
+      "rows": [
+        117,
+        118,
+        119
       ]
     }
   ],
   "issues_by_kind": {
     "series_page_not_configuration": 17,
-    "shared_url_different_models": 31,
-    "homepage_not_configuration": 15,
+    "shared_url_different_models": 46,
+    "homepage_not_configuration": 14,
     "insufficient_model_specificity": 2,
     "corrected_classification": 2,
     "possible_typo_preserved": 1
@@ -485,7 +567,7 @@
     },
     {
       "id": "np-d3e1e31773cf48110768",
-      "row": 18,
+      "row": 23,
       "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
       "missing_fields": [],
       "issues": [
@@ -502,7 +584,7 @@
     },
     {
       "id": "np-c4220c0135ddfa2bb409",
-      "row": 19,
+      "row": 24,
       "model": "拯救者Y7000X 15.3英寸电竞游戏本电脑",
       "missing_fields": [],
       "issues": [
@@ -519,7 +601,7 @@
     },
     {
       "id": "np-c52208f4c76c092d9074",
-      "row": 20,
+      "row": 25,
       "model": "拯救者Y9000P 16英寸电竞游戏本笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -535,9 +617,9 @@
       ]
     },
     {
-      "id": "np-c2382313968cb80e850c",
-      "row": 21,
-      "model": "小新Air 14英寸轻薄笔记本电脑",
+      "id": "np-d26ebb620fa7d8d0bc93",
+      "row": 26,
+      "model": "小新Air14 14英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
         {
@@ -552,9 +634,9 @@
       ]
     },
     {
-      "id": "np-34bc20704c65751cacbe",
-      "row": 22,
-      "model": "小新Air 13.3英寸轻薄笔记本电脑",
+      "id": "np-1543f88bd62550026f29",
+      "row": 27,
+      "model": "小新Air13 13.3英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
         {
@@ -570,7 +652,7 @@
     },
     {
       "id": "np-0ab4acffee16d2861b53",
-      "row": 23,
+      "row": 28,
       "model": "小新Pro 16英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -587,7 +669,7 @@
     },
     {
       "id": "np-64f4c6c4151cb692c493",
-      "row": 24,
+      "row": 29,
       "model": "来酷Lecoo Air14酷睿版14英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -604,7 +686,7 @@
     },
     {
       "id": "np-98a879d503c2ee705543",
-      "row": 25,
+      "row": 30,
       "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -621,7 +703,7 @@
     },
     {
       "id": "np-76ec5b7767d02d3791e4",
-      "row": 26,
+      "row": 31,
       "model": "YOGA Pro 16 Ultra Aura 16英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -638,7 +720,7 @@
     },
     {
       "id": "np-c621bace4974a1e6ed5d",
-      "row": 27,
+      "row": 32,
       "model": "YOGA Air 14 Ultra Aura 2026 14英寸轻薄笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -655,7 +737,7 @@
     },
     {
       "id": "np-df72b0734f62fba28a26",
-      "row": 28,
+      "row": 33,
       "model": "ThinkBook 14+ 2026 酷睿Ultra X7 AI 全能本",
       "missing_fields": [],
       "issues": [
@@ -672,7 +754,7 @@
     },
     {
       "id": "np-beea8ad82fe3a0577ae4",
-      "row": 29,
+      "row": 34,
       "model": "ThinkBook 16+ 2026 酷睿Ultra X7 AI 全能本",
       "missing_fields": [],
       "issues": [
@@ -689,7 +771,7 @@
     },
     {
       "id": "np-35041149e93a8cac19f0",
-      "row": 30,
+      "row": 35,
       "model": "ThinkBook 16p 2026 酷睿Ultra 9 高性能创作本",
       "missing_fields": [],
       "issues": [
@@ -706,7 +788,7 @@
     },
     {
       "id": "np-5a16d391c12872a7ebb2",
-      "row": 31,
+      "row": 36,
       "model": "ThinkPad T14p 2026 酷睿Ultra X9  高性能工程师本",
       "missing_fields": [],
       "issues": [
@@ -722,25 +804,8 @@
       ]
     },
     {
-      "id": "np-cef7acfb325f51bb6719",
-      "row": 32,
-      "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
-      "missing_fields": [],
-      "issues": [
-        {
-          "field": "source_url",
-          "kind": "homepage_not_configuration",
-          "raw": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
-        },
-        {
-          "kind": "shared_url_different_models",
-          "url": "https://shop.lenovo.com.cn/?utm_source=chatgpt.com"
-        }
-      ]
-    },
-    {
       "id": "np-604a8ba4b571b4c0f23f",
-      "row": 44,
+      "row": 51,
       "model": "灵耀14 Air 2026 1100nits 超轻薄AI笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -752,7 +817,7 @@
     },
     {
       "id": "np-589358c4159defd0a248",
-      "row": 45,
+      "row": 52,
       "model": "灵耀16 Air 2026 锐龙AI9 2.8K 1100nits 超薄笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -764,7 +829,7 @@
     },
     {
       "id": "np-e59d270febadb8180cb5",
-      "row": 46,
+      "row": 53,
       "model": "华硕灵耀14 2026 骁龙版 14英寸AI超轻薄本",
       "missing_fields": [],
       "issues": [
@@ -777,7 +842,7 @@
     },
     {
       "id": "np-7a935669073161c610e3",
-      "row": 48,
+      "row": 55,
       "model": "惠普 (HP) 星Book X 360 14英寸 AI 翻转笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -790,7 +855,7 @@
     },
     {
       "id": "np-0e287e2ffa259909da00",
-      "row": 52,
+      "row": 59,
       "model": "惠普 (HP) 星Book Pro Air 14英寸 AI 笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -806,7 +871,7 @@
     },
     {
       "id": "np-f6618cb4586314bdef52",
-      "row": 54,
+      "row": 61,
       "model": "惠普 (HP) 星Book Pro 16英寸 AI 笔记本电脑",
       "missing_fields": [],
       "issues": [
@@ -822,7 +887,7 @@
     },
     {
       "id": "np-3624f9018abd6ce52c0a",
-      "row": 70,
+      "row": 77,
       "model": "Alienware 外星人 18 Area-51 游戏笔记本",
       "missing_fields": [],
       "issues": [
@@ -835,7 +900,7 @@
     },
     {
       "id": "np-8baa60b1844621f0ab04",
-      "row": 76,
+      "row": 89,
       "model": "苍龙 16 Ultra旗舰游戏本",
       "missing_fields": [],
       "issues": [
@@ -843,6 +908,198 @@
           "field": "cpu_model",
           "kind": "insufficient_model_specificity",
           "raw": "锐龙 9000HX"
+        }
+      ]
+    },
+    {
+      "id": "np-b265e38451c4f104ef95",
+      "row": 104,
+      "model": "16 2027（基础版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=25796"
+        }
+      ]
+    },
+    {
+      "id": "np-c2324a6c8b7b233de8fa",
+      "row": 105,
+      "model": "16 2027（高配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=25796"
+        }
+      ]
+    },
+    {
+      "id": "np-512d8e308dc5bb336ccd",
+      "row": 106,
+      "model": "14 2027（基础版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=25795"
+        }
+      ]
+    },
+    {
+      "id": "np-94d84e72a008de41d8ff",
+      "row": 107,
+      "model": "14 2027（高配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=25795"
+        }
+      ]
+    },
+    {
+      "id": "np-4f29df9c7bd5dbff57e6",
+      "row": 108,
+      "model": "14 2026（基础版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=23472"
+        }
+      ]
+    },
+    {
+      "id": "np-e4001cf14cf7fa72ca7f",
+      "row": 109,
+      "model": "14 2026（中配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=23472"
+        }
+      ]
+    },
+    {
+      "id": "np-a2dab036076828ea09a0",
+      "row": 110,
+      "model": "14 2026（高配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=23472"
+        }
+      ]
+    },
+    {
+      "id": "np-207dd4783a6133841769",
+      "row": 111,
+      "model": "14 2025（16GB版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=20992"
+        }
+      ]
+    },
+    {
+      "id": "np-67a75f79ce24923bc043",
+      "row": 112,
+      "model": "14 2025（32GB版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=20992"
+        }
+      ]
+    },
+    {
+      "id": "np-e7675b0d9d46bde00677",
+      "row": 113,
+      "model": "14 2025（Ultra 7版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=20992"
+        }
+      ]
+    },
+    {
+      "id": "np-7e3e4fa0949b581f0bfc",
+      "row": 114,
+      "model": "16 2026（基础版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=24037"
+        }
+      ]
+    },
+    {
+      "id": "np-c0d33e0ab529eaedbd91",
+      "row": 115,
+      "model": "16 2026（中配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=24037"
+        }
+      ]
+    },
+    {
+      "id": "np-684641db5b0b6ab60168",
+      "row": 116,
+      "model": "16 2026（高配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=24037"
+        }
+      ]
+    },
+    {
+      "id": "np-96ef75cbd55debc7a0a4",
+      "row": 117,
+      "model": "14 2026（基础版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=24035"
+        }
+      ]
+    },
+    {
+      "id": "np-a035ffbe95b994931018",
+      "row": 118,
+      "model": "14 2026（中配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=24035"
+        }
+      ]
+    },
+    {
+      "id": "np-ec863c8ecaf74056f572",
+      "row": 119,
+      "model": "14 2026（高配版）",
+      "missing_fields": [],
+      "issues": [
+        {
+          "kind": "shared_url_different_models",
+          "url": "https://www.mi.com/shop/buy/detail?product_id=24035"
         }
       ]
     }

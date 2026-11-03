@@ -2572,6 +2572,86 @@
         "screen_inches": 14
       }
     },
+    "np-a4549eb9c95098e0a39d": {
+      "productId": "np-a4549eb9c95098e0a39d",
+      "cpuId": "cpu-coreultra7251hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "拯救者Y7000P 2026（LEGION Y7000P IAX10；定制款，16GB/2TB，碳晶黑）",
+        "cpu_model": "酷睿 Ultra 7 251HX",
+        "gpu_model": "RTX5060",
+        "gpu_type": "独立显卡",
+        "ram_gb": 16,
+        "ssd_gb": 2048,
+        "screen_inches": 16
+      }
+    },
+    "np-d20257b34937e2f81963": {
+      "productId": "np-d20257b34937e2f81963",
+      "cpuId": "cpu-ryzenaimax392",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "拯救者R9000X 2026（Legion R9000X ASH11；星烁紫）",
+        "cpu_model": "AMD Ryzen AI Max+ 392",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 64,
+        "ssd_gb": 1024,
+        "screen_inches": 15.3
+      }
+    },
+    "np-1892745f42270288b06d": {
+      "productId": "np-1892745f42270288b06d",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "小新Pro14 锐龙版（小新Pro 14c AHP10R；深灰色）",
+        "cpu_model": "锐龙 7 H 255",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 24,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-53bffe0003242b1076e9": {
+      "productId": "np-53bffe0003242b1076e9",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "小新Pro14 GT（小新Pro 14GT IPH11；冠军白）",
+        "cpu_model": "酷睿 Ultra X7 358H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-33b90090a46533c11f65": {
+      "productId": "np-33b90090a46533c11f65",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "小新Pro16 GT（小新Pro 16GT IPH11；赛道灰）",
+        "cpu_model": "酷睿 Ultra 5 338H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
     "np-d3e1e31773cf48110768": {
       "productId": "np-d3e1e31773cf48110768",
       "cpuId": "cpu-coreultra7251hx",
@@ -2620,14 +2700,14 @@
         "screen_inches": 16
       }
     },
-    "np-c2382313968cb80e850c": {
-      "productId": "np-c2382313968cb80e850c",
+    "np-d26ebb620fa7d8d0bc93": {
+      "productId": "np-d26ebb620fa7d8d0bc93",
       "cpuId": "cpu-coreultra5226v",
       "gpuId": null,
       "resolvedGpuId": null,
       "gpuIdentityMapping": null,
       "signature": {
-        "model": "小新Air 14英寸轻薄笔记本电脑",
+        "model": "小新Air14 14英寸轻薄笔记本电脑",
         "cpu_model": "酷睿 Ultra 5 226V",
         "gpu_model": null,
         "gpu_type": "集成显卡",
@@ -2636,14 +2716,14 @@
         "screen_inches": 14
       }
     },
-    "np-34bc20704c65751cacbe": {
-      "productId": "np-34bc20704c65751cacbe",
+    "np-1543f88bd62550026f29": {
+      "productId": "np-1543f88bd62550026f29",
       "cpuId": "cpu-core5320",
       "gpuId": null,
       "resolvedGpuId": null,
       "gpuIdentityMapping": null,
       "signature": {
-        "model": "小新Air 13.3英寸轻薄笔记本电脑",
+        "model": "小新Air13 13.3英寸轻薄笔记本电脑",
         "cpu_model": "酷睿 5 320",
         "gpu_model": null,
         "gpu_type": "集成显卡",
@@ -2796,20 +2876,52 @@
         "screen_inches": 14.5
       }
     },
-    "np-cef7acfb325f51bb6719": {
-      "productId": "np-cef7acfb325f51bb6719",
-      "cpuId": "cpu-coreultra7251h",
-      "gpuId": "gpu-rtxpro2000blackwell-unspecified",
-      "resolvedGpuId": "gpu-rtxpro2000blackwell-unspecified",
+    "np-5687e5a1db5d40df8305": {
+      "productId": "np-5687e5a1db5d40df8305",
+      "cpuId": "cpu-coreultra5228v",
+      "gpuId": null,
+      "resolvedGpuId": null,
       "gpuIdentityMapping": null,
       "signature": {
-        "model": "ThinkPad P16v 2026 酷睿Ultra 7 轻薄移动图形AI工作站",
-        "cpu_model": "酷睿 Ultra 7 251H",
-        "gpu_model": "RTX Pro 2000 Blackwell",
-        "gpu_type": "独立显卡",
+        "model": "ThinkPad X9-15 Aura Ultra 5 228V AI元启版（TT-2502426）",
+        "cpu_model": "酷睿 Ultra 5 228V",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
         "ram_gb": 32,
         "ssd_gb": 1024,
-        "screen_inches": 16
+        "screen_inches": 15.3
+      }
+    },
+    "np-d38e0d5b23e773e5ace9": {
+      "productId": "np-d38e0d5b23e773e5ace9",
+      "cpuId": "cpu-coreultra9288v",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "ThinkPadX9 15 Aura 2025 Ultra 9 288V 04CD（21Q6A004CD）",
+        "cpu_model": "酷睿 Ultra 9 288V",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 15
+      }
+    },
+    "np-a51c2ea3a3a0c915a551": {
+      "productId": "np-a51c2ea3a3a0c915a551",
+      "cpuId": "cpu-coreultra7155h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "ThinkPad X1 Carbon AI 2024 Ultra 7 155H 00CD（TT-2312025）",
+        "cpu_model": "酷睿 Ultra 7 155H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14
       }
     },
     "np-8381329b5f5bb128230b": {
@@ -2910,16 +3022,16 @@
         "screen_inches": 18
       }
     },
-    "np-bffbd2f59ef537c7450a": {
-      "productId": "np-bffbd2f59ef537c7450a",
+    "np-f0918b129b55c6bd02ab": {
+      "productId": "np-f0918b129b55c6bd02ab",
       "cpuId": "cpu-coreultra9290hxplus",
       "gpuId": "gpu-rtx5070ti-unspecified",
-      "resolvedGpuId": "gpu-rtx5070ti-unspecified",
+      "resolvedGpuId": null,
       "gpuIdentityMapping": null,
       "signature": {
         "model": "ROG枪神10 Plus 酷睿U9 18英寸游戏本笔记本电脑",
         "cpu_model": "酷睿 U9-290HX Plus",
-        "gpu_model": "RTX5070Ti",
+        "gpu_model": "RTX5070 Ti",
         "gpu_type": "独立显卡",
         "ram_gb": 32,
         "ssd_gb": 1024,
@@ -3457,6 +3569,102 @@
         "screen_inches": 18
       }
     },
+    "np-da610ea0bea3fe41a04e": {
+      "productId": "np-da610ea0bea3fe41a04e",
+      "cpuId": "cpu-coreultra5335",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "P714260",
+        "cpu_model": "酷睿 Ultra 5 335",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 14
+      }
+    },
+    "np-9d6db371ee69f1517831": {
+      "productId": "np-9d6db371ee69f1517831",
+      "cpuId": "cpu-coreultra7366h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "PW516261",
+        "cpu_model": "酷睿 Ultra 7 366H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 512,
+        "screen_inches": 16
+      }
+    },
+    "np-f90ad12e32cd4e9adaca": {
+      "productId": "np-f90ad12e32cd4e9adaca",
+      "cpuId": "cpu-core3304",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "PV15261",
+        "cpu_model": "酷睿 3 304",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 8,
+        "ssd_gb": 256,
+        "screen_inches": 15.3
+      }
+    },
+    "np-6581d9c8cb99d1e4079a": {
+      "productId": "np-6581d9c8cb99d1e4079a",
+      "cpuId": "cpu-ryzen5220",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "PC14255",
+        "cpu_model": "锐龙 5 220",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 14
+      }
+    },
+    "np-335d294cf09196aae962": {
+      "productId": "np-335d294cf09196aae962",
+      "cpuId": "cpu-ryzen7260",
+      "gpuId": "gpu-rtx5050-unspecified",
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "DA15265",
+        "cpu_model": "锐龙 7 260",
+        "gpu_model": "RTX5050",
+        "gpu_type": "独立显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 15.3
+      }
+    },
+    "np-f7ce5b14b9cb9ead88a6": {
+      "productId": "np-f7ce5b14b9cb9ead88a6",
+      "cpuId": "cpu-qualcommsnapdragonxplusx1p64100",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "Dell Latitude 7455 (7455_reg_01)",
+        "cpu_model": "Qualcomm Snapdragon X Plus X1P-64-100",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 256,
+        "screen_inches": 14
+      }
+    },
     "np-940310f173ec86e6650b": {
       "productId": "np-940310f173ec86e6650b",
       "cpuId": "cpu-coreultra9290hxplus",
@@ -3598,6 +3806,438 @@
         "gpu_type": "集成显卡",
         "ram_gb": 16,
         "ssd_gb": 512,
+        "screen_inches": 14
+      }
+    },
+    "np-ff3cbeea7fde43071d02": {
+      "productId": "np-ff3cbeea7fde43071d02",
+      "cpuId": "cpu-ryzenai300",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "星耀 15先锋轻薄本",
+        "cpu_model": "锐龙AI300",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 15.3
+      }
+    },
+    "np-d8905ac6a4e7a74ea517": {
+      "productId": "np-d8905ac6a4e7a74ea517",
+      "cpuId": "cpu-ryzen7h255",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "翼龙 16X",
+        "cpu_model": "锐龙 7 H 255",
+        "gpu_model": "RTX5060",
+        "gpu_type": "独立显卡",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-d480e11590c0f4eca5b1": {
+      "productId": "np-d480e11590c0f4eca5b1",
+      "cpuId": "cpu-ryzen98945hx",
+      "gpuId": "gpu-rtx5070ti-unspecified",
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "蛟龙 16 Pro高性能游戏本",
+        "cpu_model": "锐龙 9 8945HX",
+        "gpu_model": "RTX5070 Ti",
+        "gpu_type": "独立显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-ba9e81115de4991b9896": {
+      "productId": "np-ba9e81115de4991b9896",
+      "cpuId": "cpu-corec7245hx",
+      "gpuId": "gpu-rtx5060-unspecified",
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "旷世 X高性能游戏本",
+        "cpu_model": "酷睿 C7-245HX",
+        "gpu_model": "RTX5060",
+        "gpu_type": "独立显卡",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-af523320b061f4b4dc36": {
+      "productId": "np-af523320b061f4b4dc36",
+      "cpuId": "cpu-corei714650hx",
+      "gpuId": "gpu-rtx5070ti-unspecified",
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "WIN H7 2026 焕新版 i7-14650HX/RTX5070",
+        "cpu_model": "酷睿 i7-14650HX",
+        "gpu_model": "RTX5070 Ti",
+        "gpu_type": "独立显卡",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-3fa403310bbf218c2679": {
+      "productId": "np-3fa403310bbf218c2679",
+      "cpuId": "cpu-coreultra5125h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "MagicBook Pro 16 2025 极客版 Ultra 5 125H",
+        "cpu_model": "酷睿 Ultra 5 125H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 16
+      }
+    },
+    "np-0c415fbec473c670235b": {
+      "productId": "np-0c415fbec473c670235b",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "MagicBook Pro 14 2026 焕新版 Ultra 5 338H",
+        "cpu_model": "酷睿 Ultra 5 338H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14.6
+      }
+    },
+    "np-8f9de27c0933f173d728": {
+      "productId": "np-8f9de27c0933f173d728",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "MagicBook Pro 16 2026 焕新版 Ultra 5 338H",
+        "cpu_model": "酷睿 Ultra 5 338H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-b7a629b793c875beccb0": {
+      "productId": "np-b7a629b793c875beccb0",
+      "cpuId": "cpu-corei513420h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "X16 2026 战斗版 i5-13420H",
+        "cpu_model": "酷睿 i5-13420H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 16
+      }
+    },
+    "np-e19f7f9a6ea636865eef": {
+      "productId": "np-e19f7f9a6ea636865eef",
+      "cpuId": "cpu-core5315",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "X14 Plus 2026 战斗版 Core 5 315/16GB/512GB",
+        "cpu_model": "酷睿 5 315",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 14
+      }
+    },
+    "np-1c131e49048594e23819": {
+      "productId": "np-1c131e49048594e23819",
+      "cpuId": "cpu-coreultra5325",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "X14 Plus 2026 Ultra 5 325/16GB/512GB",
+        "cpu_model": "酷睿 Ultra 5 325",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 14
+      }
+    },
+    "np-b265e38451c4f104ef95": {
+      "productId": "np-b265e38451c4f104ef95",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "16 2027（基础版）",
+        "cpu_model": "酷睿 5 320",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 16
+      }
+    },
+    "np-c2324a6c8b7b233de8fa": {
+      "productId": "np-c2324a6c8b7b233de8fa",
+      "cpuId": "cpu-core7350",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "16 2027（高配版）",
+        "cpu_model": "酷睿 7 350",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-512d8e308dc5bb336ccd": {
+      "productId": "np-512d8e308dc5bb336ccd",
+      "cpuId": "cpu-core5320",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2027（基础版）",
+        "cpu_model": "酷睿 5 320",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 512,
+        "screen_inches": 14
+      }
+    },
+    "np-94d84e72a008de41d8ff": {
+      "productId": "np-94d84e72a008de41d8ff",
+      "cpuId": "cpu-core7350",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2027（高配版）",
+        "cpu_model": "酷睿 7 350",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-4f29df9c7bd5dbff57e6": {
+      "productId": "np-4f29df9c7bd5dbff57e6",
+      "cpuId": "cpu-coreultra5325",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2026（基础版）",
+        "cpu_model": "酷睿 Ultra 5 325",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 24,
+        "ssd_gb": 1024,
+        "screen_inches": 14.6
+      }
+    },
+    "np-e4001cf14cf7fa72ca7f": {
+      "productId": "np-e4001cf14cf7fa72ca7f",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2026（中配版）",
+        "cpu_model": "酷睿 Ultra 5 338H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14.6
+      }
+    },
+    "np-a2dab036076828ea09a0": {
+      "productId": "np-a2dab036076828ea09a0",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2026（高配版）",
+        "cpu_model": "酷睿 Ultra X7 358H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14.6
+      }
+    },
+    "np-207dd4783a6133841769": {
+      "productId": "np-207dd4783a6133841769",
+      "cpuId": "cpu-coreultra5225h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2025（16GB版）",
+        "cpu_model": "酷睿 Ultra 5 225H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 16,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-67a75f79ce24923bc043": {
+      "productId": "np-67a75f79ce24923bc043",
+      "cpuId": "cpu-coreultra5225h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2025（32GB版）",
+        "cpu_model": "酷睿 Ultra 5 225H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-e7675b0d9d46bde00677": {
+      "productId": "np-e7675b0d9d46bde00677",
+      "cpuId": "cpu-coreultra7255h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2025（Ultra 7版）",
+        "cpu_model": "酷睿 Ultra 7 255H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-7e3e4fa0949b581f0bfc": {
+      "productId": "np-7e3e4fa0949b581f0bfc",
+      "cpuId": "cpu-coreultra5325",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "16 2026（基础版）",
+        "cpu_model": "酷睿 Ultra 5 325",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 24,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-c0d33e0ab529eaedbd91": {
+      "productId": "np-c0d33e0ab529eaedbd91",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "16 2026（中配版）",
+        "cpu_model": "酷睿 Ultra 5 338H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-684641db5b0b6ab60168": {
+      "productId": "np-684641db5b0b6ab60168",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "16 2026（高配版）",
+        "cpu_model": "酷睿 Ultra X7 358H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 16
+      }
+    },
+    "np-96ef75cbd55debc7a0a4": {
+      "productId": "np-96ef75cbd55debc7a0a4",
+      "cpuId": "cpu-coreultra5325",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2026（基础版）",
+        "cpu_model": "酷睿 Ultra 5 325",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 24,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-a035ffbe95b994931018": {
+      "productId": "np-a035ffbe95b994931018",
+      "cpuId": "cpu-coreultra5338h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2026（中配版）",
+        "cpu_model": "酷睿 Ultra 5 338H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
+        "screen_inches": 14
+      }
+    },
+    "np-ec863c8ecaf74056f572": {
+      "productId": "np-ec863c8ecaf74056f572",
+      "cpuId": "cpu-coreultrax7358h",
+      "gpuId": null,
+      "resolvedGpuId": null,
+      "gpuIdentityMapping": null,
+      "signature": {
+        "model": "14 2026（高配版）",
+        "cpu_model": "酷睿 Ultra X7 358H",
+        "gpu_model": null,
+        "gpu_type": "集成显卡",
+        "ram_gb": 32,
+        "ssd_gb": 1024,
         "screen_inches": 14
       }
     }
@@ -5414,5 +6054,5 @@
     "40条无GPU型号的集显合法保留，不从CPU规格反填GPU。",
     "manufacturer_position和identity_only不计为数值性能覆盖。"
   ],
-  "sourceSha256": "27d62d2a7871e69c59e65e651682360af8eef0eef5e6406053b41d7fda42380a"
+  "sourceSha256": "436a1f98030dea9af29275d637f19a3a390949cfafa3632f13cae5e46fc87358"
 }

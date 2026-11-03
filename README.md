@@ -82,7 +82,7 @@ python -m pip install -r requirements.txt
 python -m unittest discover -s tests
 ```
 
-已知数据基线差异：原始Excel当前77条、Windows61/macOS16，与旧版78条、Windows62及旧Excel哈希的冻结期望不一致。对应历史检查可能失败；不要为让旧基线通过而修改数据或测试期望。
+当前Excel与运行数据包含118条记录，113条有本地图片，其余使用占位显示。部分历史测试固定要求78条、旧Excel哈希或旧候选排序，在更新数据集后不再匹配；这些测试尚未迁移，不能将完整历史测试视为全部通过。新增`frontend/tests/catalog-update.test.js`验证映射完整性和12种用途排序的确定性。
 
 浏览器smoke脚本需要另外安装Playwright及浏览器，不是网站运行依赖。可能实际访问付费API的人工验证脚本不应默认执行。
 

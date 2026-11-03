@@ -97,7 +97,7 @@ def convert(source):
             if not any(v is not None for v in header):
                 sheets.append({'sheet': sheet.title, 'status': 'empty'})
                 continue
-            if len(header) != len(set(header)) or not (set(MAPPING) - {'os'}).issubset(header):
+            if len([h for h in header if h is not None]) != len(set(h for h in header if h is not None)) or not (set(MAPPING) - {'os'}).issubset(header):
                 raise ValueError(f'{sheet.title}: 实际表头与已确认映射不符，停止；实际={header}')
             sheets.append({'sheet': sheet.title, 'status': 'imported', 'headers': header})
             for index, values_row in enumerate(values, 2):
